@@ -1,0 +1,22 @@
+{ "class" : "Weapon",
+  "name" : "Electrocute",
+  
+  "enchantments" : [
+    "entity.addStandaloneDamageBonus('Electrical', 2, 8);"
+  ],
+  
+  "type" : "Weapon",
+  "weaponType" : "Melee",
+  "handed" : "Light",
+  "defaultQuality" : "Good",
+  "baseWeapon" : "Unarmed",
+  "threatensAoOs" : true,
+  "minRange" : 1,
+  "maxRange" : 1,
+  "damageType" : "Slashing",
+  "minDamage" : 1,
+  "maxDamage" : 3,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800
+}

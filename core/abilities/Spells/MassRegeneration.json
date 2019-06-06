@@ -1,0 +1,26 @@
+{
+  "name" : "Mass Regeneration",
+  "type" : "Restoration",
+  "icon" : {
+    "sprite" : "icons/massRegeneration"
+  },
+  "description" : "Mass Regeneration upgrades your Regeneration spell.  All allies within 4 hexes of the caster are now affected.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40,
+    "actionType" : "Heal",
+    "groupType" : "Multiple",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "MassCure", "Regeneration"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

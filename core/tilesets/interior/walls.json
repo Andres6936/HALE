@@ -1,0 +1,11 @@
+{
+  "source" : "walls",
+  "images" : {
+    "wall-wood-n" : [ 0, 0, 100, 140 ],
+    "wall-wood-n-ne" : [ 100, 0, 100, 140 ],
+    "wall-wood-nw-n" : [ 200, 0, 100, 140 ],
+    "wall-wood-nw-n-ne" : [ 0, 140, 100, 140 ],
+    "wall-wood-ne" : [ 100, 140, 100, 140 ],
+    "wall-wood-nw" : [ 200, 140, 100, 140 ]
+  }
+}

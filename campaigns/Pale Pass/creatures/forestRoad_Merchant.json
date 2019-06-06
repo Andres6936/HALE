@@ -1,0 +1,39 @@
+{
+  "name" : "Traveling Merchant",
+  "gender" : "Male",
+  "race" : "Dwarf",
+  "portrait" : "Dwarf/explorer",
+  "conversation" : "conversations/forestRoad_Merchant",
+  "icon" : {
+    "sprite" : "creatures/dwarf05",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 11,
+    "constitution" : 12,
+    "intelligence" : 13,
+    "wisdom" : 13,
+    "charisma" : 11
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Artisan" : 3
+  },
+  "inventory" : {
+    "equipped" : {
+      "Armor" : {
+        "id" : "armor_clothes"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true
+}

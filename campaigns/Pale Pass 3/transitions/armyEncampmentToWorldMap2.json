@@ -1,0 +1,27 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : false,
+  "worldMapLocation" : "Master's Army",
+  "from" : {
+    "area" : "Army Encampment",
+    "x" : 48,
+    "y" : 46,
+    "partyPositions" : [
+      
+    ]
+  },
+  "to" : {
+    "worldMap" : true
+  }
+}

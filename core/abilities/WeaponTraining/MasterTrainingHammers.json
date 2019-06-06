@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBaseWeaponBonus('Light Hammer', 'CriticalMultiplier', 1); effect.getBonuses().addBaseWeaponBonus('Warhammer', 'CriticalMultiplier', 1); effect.getBonuses().addBaseWeaponBonus('Maul', 'CriticalMultiplier', 1); parent.applyEffect(effect); }",
+  "name" : "Master Training, Hammers",
+  "type" : "Weapon Training",
+  "icon" : {
+    "sprite" : "icons/masterHammers"
+  },
+  "description" : "You do an additional 1x damage on critical hits with light hammers, warhammers, and mauls.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "ExpertTrainingHammers"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 60
+      }
+    ]
+  }
+}

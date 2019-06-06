@@ -1,0 +1,10 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addWeaponAttackBonus('Slashing', 'Stackable', 10); parent.applyEffect(effect); }",
+  "name" : "Slashing Weapons Training",
+  "type" : "Weapon Training",
+  "icon" : {
+    "sprite" : "icons/trainingSlashing"
+  },
+  "description" : "You gain an additional +10 to attack with all Slashing weapons, including large swords and axes.",
+  "isActivateable" : false
+}

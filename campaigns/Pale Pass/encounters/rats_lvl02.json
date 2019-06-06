@@ -1,0 +1,46 @@
+{
+  "respawnTime" : 24,
+  "radius" : 3,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 5,
+  "maxRandomCreatures" : 7,
+  "creatures" : [
+    {
+      "id" : "rat",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "rat",
+      "x" : -3,
+      "y" : -2
+    }, {
+      "id" : "rat",
+      "x" : -1,
+      "y" : -2
+    }, {
+      "id" : "rat",
+      "x" : 1,
+      "y" : -2
+    }, {
+      "id" : "rat",
+      "x" : 3,
+      "y" : 0
+    }, {
+      "id" : "rat",
+      "x" : -1,
+      "y" : 2
+    }, {
+      "id" : "rat",
+      "x" : -3,
+      "y" : 1
+    }, {
+      "id" : "rat",
+      "x" : -2,
+      "y" : 0
+    }, {
+      "id" : "rat",
+      "x" : -1,
+      "y" : 0
+    }
+  ]
+}

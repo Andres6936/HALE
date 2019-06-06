@@ -1,0 +1,41 @@
+{
+  "name" : "Bard",
+  "icon" : {
+    "sprite" : "icons/bard"
+  },
+  "isPlayer" : true,
+  "isBase" : false,
+  "stats" : {
+    "hpPerLevel" : 3,
+    "damageBonusPerLevel" : 3,
+    "attackBonusPerLevel" : 3,
+    "skillPointsPerLevel" : 15,
+    "maximumLevel" : 10
+  },
+  "prereqs" : {
+    "abilities" : [
+      "SmoothTalker"
+    ],
+    "roles" : [
+      {
+        "id" : "Adept",
+        "level" : 8
+      }, {
+        "id" : "Rogue",
+        "level" : 8
+      }, {
+	    "id" : "Monk",
+		"level" : 8
+	  }
+    ]
+  },
+  "abilitiesAdded" : {
+    "Bardsong" : 1
+  },
+  "abilitySelectionsFromList" : {
+    "Bard" : [
+      1, 3, 4, 6, 7, 9, 10
+    ],
+	"General" : [ 2, 5, 8 ]
+  }
+}

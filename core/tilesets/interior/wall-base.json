@@ -1,0 +1,6 @@
+{
+  "source" : "wall-base",
+  "images" : {
+    "wall" : [ 0, 0, 72, 72 ]
+  }
+}

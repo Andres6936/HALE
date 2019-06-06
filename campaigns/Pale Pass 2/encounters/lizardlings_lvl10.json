@@ -1,0 +1,54 @@
+{
+  "respawnTime" : 24,
+  "radius" : 2,
+  "faction" : "Lizardlings",
+  "minRandomCreatures" : 5,
+  "maxRandomCreatures" : 6,
+  "creatures" : [
+    {
+      "id" : "lizardling",
+      "x" : -2,
+      "y" : -1
+    }, {
+      "id" : "lizardling",
+      "x" : -1,
+      "y" : -2
+    }, {
+      "id" : "lizardlingArcher",
+      "x" : 1,
+      "y" : -2
+    }, {
+      "id" : "lizardlingArcher",
+      "x" : 0,
+      "y" : -2
+    }, {
+      "id" : "lizardlingArcher",
+      "x" : 0,
+      "y" : -1
+    }, {
+      "id" : "lizardlingWarrior",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "lizardlingWarrior",
+      "x" : -2,
+      "y" : 0
+    }, {
+      "id" : "lizardlingWarrior",
+      "x" : -1,
+      "y" : 0
+    }, {
+      "id" : "lizardlingShaman",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "lizardlingShaman02",
+      "x" : 1,
+      "y" : -1
+    }, {
+      "id" : "lizardlingWarrior",
+      "x" : -2,
+      "y" : 1
+    }
+  ]
+}

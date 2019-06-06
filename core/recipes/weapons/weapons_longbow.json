@@ -1,0 +1,43 @@
+{
+  "name" : "Longbow",
+  "description" : "Creates a longbow. The quality is dependant on your Craft Weapons skill.",
+  "skill" : "CraftWeapons",
+  "skillRankRequirement" : 35,
+  "ingredients" : {
+    "bar_iron" : 1,
+    "bar_wood" : 2,
+    "coal" : 3,
+    "wire" : 3
+  },
+  "result" : {
+    "id" : "longbow",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 30
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 50
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 70
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 90
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 110
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 130
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 145
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 165
+      }
+    ]
+  }
+}

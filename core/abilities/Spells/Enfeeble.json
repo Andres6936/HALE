@@ -1,0 +1,26 @@
+{
+  "name" : "Enfeeble",
+  "type" : "Enchantment",
+  "icon" : {
+    "sprite" : "icons/enfeeble"
+  },
+  "description" : "Enfeeble upgrades your Curse spell.  Your curse now affects the target's attributes, applying a 1 plus 1 per 6 caster level penalty to Dexterity and Constitution.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 20,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Curse"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 4
+      }
+    ]
+  }
+}

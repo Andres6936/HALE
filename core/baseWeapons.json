@@ -1,0 +1,37 @@
+{ "comment" : "Unarmed is the default value",
+
+  "baseWeapons" : [
+	"Unarmed",
+	
+	"Dagger",
+	"Short Sword",
+	"Longsword",
+	"Greatsword",
+	
+	"Mace",
+	"Morningstar",
+	"Light Hammer",
+	"Warhammer",
+	"Maul",
+	
+	"Javelin",
+	"Short Spear",
+	"Long Spear",
+	
+	"Longbow",
+	"Shortbow",
+	
+	"Handaxe",
+	"Battleaxe",
+	"Greataxe",
+	
+	"Quarterstaff",
+	"Sling",
+	"Club",
+	"Crossbow",
+	
+	"Bastard Sword",
+	"Flail",
+	"Waraxe"
+  ]
+}

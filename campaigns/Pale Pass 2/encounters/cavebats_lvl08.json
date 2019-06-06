@@ -1,0 +1,22 @@
+{
+  "respawnTime" : 24,
+  "radius" : 2,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 5,
+  "maxRandomCreatures" : 6,
+  "creatures" : [
+    {
+      "id" : "bat_cave",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "bat_cave",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "bat_cave",
+      "x" : 0,
+      "y" : -1
+    }
+  ]
+}

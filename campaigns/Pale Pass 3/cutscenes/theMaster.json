@@ -1,0 +1,22 @@
+{
+  "textAreaWidth" : 700,
+  "textAreaHeight" : 130,
+
+  "callbackScript" : "ai/theMaster",
+  "callbackFunction" : "cutsceneFinished",
+  
+  "frames" : [
+    {
+	  "background" : "theMaster1",
+	  "textFile" : "theMaster1.html"
+    },
+	{
+	  "background" : "theMaster2",
+	  "textFile" : "theMaster2.html"
+    },
+	{
+	  "background" : "loadingscreen",
+	  "textFile" : "theMaster3.html"
+    }
+  ]
+}

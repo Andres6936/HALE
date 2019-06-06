@@ -1,0 +1,23 @@
+{
+  "name" : "Plate Boots",
+  "description" : "Boots made of solid steel plates provide excellent protection for the wearer's feet.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/A_Shoes05",
+    "color" : "#ffffffff"
+  },
+  "value" : 18500,
+  "weight" : 1500,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Boots",
+  "subIcon" : {
+    "sprite" : "subIcons/boots-06",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Heavy",
+  "armorClass" : 4,
+  "armorPenalty" : 4,
+  "movementPenalty" : 3
+}

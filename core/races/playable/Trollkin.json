@@ -1,0 +1,90 @@
+{
+  "name" : "Trollkin",
+  "icon" : "icons/trollkin",
+  "baseMovementCost" : 1100,
+  "defaultWeapon" : "unarmedLarge",
+  "playerSelectable" : true,
+  
+  "baseAttributes" : [ 12, 9, 11, 8, 10, 9 ],
+  
+  "racialTypes" : [
+    "Humanoid", "Beast"
+  ],
+  
+  "subIconRaceString" : "Large",
+  
+  "icons" : {
+    "maleForeground" : "creatures/trollkin-fg",
+	"maleBackground" : "creatures/trollkin-bg",
+	"femaleForeground" : "creatures/trollkin-fg",
+	"femaleBackground" : "creatures/trollkin-bg",
+	"maleClothes" : "creatures/trollkin-clothes",
+	"femaleClothes" : "creatures/trollkin-clothes",
+	"maleEars" : "subIcons/earsTrollkin",
+	"femaleEars" : "subIcons/earsTrollkin",
+  },
+  
+  "iconOffsets" : {
+    "Cloak" : [ 16, 15 ],
+	"Quiver" : [ 16, 7 ],
+	"Torso" : [ 16, 16 ],
+	"Gloves" : [ 16, 15 ],
+	"Head" : [ 18, -3 ],
+	"Ears" : [ 18, -1 ],
+	"Hair" : [ 17, -4 ],
+	"Beard" : [ 16, -3 ],
+	"Shield" : [ 23, 14 ],
+	"Boots" : [ 16, 26 ],
+	"MainHandWeapon" : [ 1, 10 ],
+	"OffHandWeapon" : [ 25, 10 ]
+  },
+  
+  "hasBeard" : false,
+  "selectableHairIndices" : [ 1, 4, 5, 6, 7, 8, 9, 11, 12, 13, 16 ],
+  
+  "hairAndBeardColors" : [
+		"#FFFFFFFF", "#FFC0C0C0", "#FF808080", "#FF545454",
+		"#FF545454", "#FF000000", "#FFEEE685", "#FFFFFF00", 
+		"#FFCC9900", "#FFD98719", "#FFFFA500", "#FFEE7600",
+		"#FFFF0000", "#FFC00000", "#FF800000", "#FFCD853F",
+		"#FF8B5A2B", "#FF8B5A00", "#FF8B4513", "#FF5C3317"
+  ],
+	
+  "skinColors" : [
+		"#FFA8A8A8", "#FF747F73", "#FF586b56", "#FF616153",
+		"#FF2F5161", "#FFF6D39B", "#FFF6D39B", "#FFEDAE67",
+		"#FFCE9452", "#FF734A29", "#FFD48661", "#FF80412B"
+  ],
+  
+  "defaultHairIndex" : 1,
+  "defaultBeardIndex" : 1,
+  "defaultHairColor" : "#FF8B4513",
+  "defaultBeardColor" : "#FF8B4513",
+  "defaultSkinColor" : "#FF747F73",
+  
+  "abilitySelectionsFromList" : {
+
+  },
+  
+  "randomMaleNames" : [ 'Ditid','Quivilt','Mohanlal','Sollix','Equinus','Gamjee','Matuna','Kurzol','Erodjan','Alwan','Anje',
+  'Azibo','Ajin','Ekon','Erasto','Haijen','Hamedi','Hokima','Jaafan','Jabir','Jalai','Javyn','Jijel','Juma','Jumoke',
+  'Kaijin','Kazko','Maalik','Makas','Malak','Nyabingi','Rahjin','Rakash','Rashi','Razi','Reji','Rujabu','Rujin',
+  'Seji','Senwe','Seshi','Teshi','Tzane','Tzuljin','Voyambi','Vuzashi','Vuzembi','Yamike','Yavo','Yawan','Zaejin',
+  'Zallah','Zebajin','Zelaji','Zevrij','Zinjo','Zufem','Alzim','Ayagi','Ayargajin','Dorkuraz','Hakalai','Halasuwa','Hokajin',
+  'Hoodah','Hyptu','Jaryaya','Jayunya','Jinjin','Jojin','Kelraz','Kuroji','Lakjin','Laojin','Melkree','Mezilkree','Napokue',
+  'Nuenvan','Paikei','Rapshider','Rhazin','Shaktilar','Shengis','Sligo','Tanjin','Tazingo','Tedar','Trezzahn','Trolgar',
+  'Ttarmek','Ugoki','Vekuzz','Venjo','Vulzal','Wanjin','Wonjin','Xukundi','Yetu','Zengu','Zoljin','Zulabar','Zulbaljin',
+  'Zulgeteb','Zulkaz','Zulkis','Zulrajas','Zulyafi','Zunabar' ],
+  
+  "randomFemaleNames" : [ 'Gilta','Vitchen','Tirezi','Fefeya','Aradya','Nepita','Damari','Meenah','Kenaya','Vriska','Ajia',
+  'Aketa','Altoa','Aszea','Atae','Azra','Ecia','Ejie','Eleja','Esha','Illa','Kea','Keja','Kina','Kiya','Kizi','Moza','Oyana',
+  'Raca','Rasha','Seshia','Suja','Suli','Talisa','Tasiya','Tayo','Teja','Teza','Tezzi','Tizali','Xia','Yaci','Yajdna','Yashi','Yera',
+  'Yeree','Yesha','Yishi','Zara','Zashi','Zea','Zelea','Zesa','Zeti','Zola','Zoti','Zujia','Zyra','Alunja','Anji','Arany','Bajin','Baliaja',
+  'Benni','Bie','Boonoo','Bunjin','Csini','Feylin','Girisha','Hailith','Ithra','Javilla','Javinda','Jezemalu','Jinthaiya','Jiranty',
+  'Jozala','Jubukraa','Juljin','Kanjin','Katanja','Katzine','Khelynn','Khijazi','Khuwei','Kululu','Lujin','Makali','Mandula','Meimei',
+  'Melelea','Nelina','Prerrahar','Pujati','Rangi','Renjai','Renji','Ronjaty','Saedmara','Saonji','Segawa','Senzala','Shadrala',
+  'Shakawatha','Shaktila','Shamra','Sharimara','Shubre','Soniya','Sonja','Suliya','Sulynn','Titamor','Tsaijo','Usitutie','Valja',
+  'Vanjin','Venmara','Vinji','Vinjin','Vonjai','Vujii','Vulzala','Watu','Yuhai','Zalma','Zalmea','Zenma','Zhonya','Zhoumai','Ziataaman',
+  'Ziataima','Ziataja','Ziatajie','Ziatakraa','Zonraja','Zulja','Zulja','Zuljah','Zuljin','Zulkraa','Zulmara','Zulraja','Zulrea','Zulwatha' ]
+  
+}

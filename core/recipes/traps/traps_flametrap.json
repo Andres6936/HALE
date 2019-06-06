@@ -1,0 +1,42 @@
+{
+  "name" : "Flame Trap",
+  "description" : "Creates a burning flame trap.  The quality of the trap is dependant on your Traps skill.",
+  "skill" : "Traps",
+  "skillRankRequirement" : 30,
+  "ingredients" : {
+    "wire" : 2,
+    "pressure_plate" : 1,
+    "oilFlamable" : 2
+  },
+  "result" : {
+    "id" : "flameTrap",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 15
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 40
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 60
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 80
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 100
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 120
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 140
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 160
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "source" : "items",
+  "gridSize" : 34,
+  "images" : {
+    
+    "I_Chains" : [ 0, 0 ],
+    "I_Flask" : [ 1, 0 ],
+    "I_torch" : [ 2, 0 ],
+    "I_torchoff" : [ 3, 0 ],
+    "I_Key07" : [ 4, 0 ],
+    "I_Key06" : [ 5, 0 ],
+    "I_Key05" : [ 6, 0 ],
+    "I_Key04" : [ 7, 0 ],
+    "I_Key03" : [ 8, 0 ],
+    "I_Key02" : [ 9, 0 ],
+    "I_Key01" : [ 10, 0 ],
+    "I_Scroll01" : [ 11, 0 ],
+    "I_Scroll02" : [ 12, 0 ],    
+    "I_Bag" : [ 13, 0 ],
+    
+    "I_Spyglass" : [ 0, 1 ],
+    "I_Mirror" : [ 1, 1 ],
+    "I_Skull" : [ 2, 1 ],
+    "I_Note" : [ 3, 1 ],
+	"I_Map" : [ 4, 1 ],
+	"W_OpenBook" : [ 5, 1 ],
+	"W_Book01" : [ 6, 1 ],    
+    "W_Book02" : [ 7, 1 ],
+    "W_Book03" : [ 8, 1 ],
+    "W_Book04" : [ 9, 1 ],
+    "W_Book05" : [ 10, 1 ],
+    "W_Book06" : [ 11, 1 ],
+    "W_Book07" : [ 12, 1 ],
+    "W_CasketClose" : [ 13, 1 ],
+    "W_CasketOpen" : [ 14, 1 ]	
+  }
+}

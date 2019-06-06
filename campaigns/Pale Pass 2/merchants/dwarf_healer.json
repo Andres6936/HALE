@@ -1,0 +1,24 @@
+{
+  "name" : "Healer",
+  "usesSpeechSkill" : true,
+  "confirmOnExit" : false,
+  "respawnHours" : 24,
+  "buyValuePercentage" : 42,
+  "sellValuePercentage" : 165,
+  "items" : [
+    {
+      "id" : "PotionsFine",
+      "probability" : {
+        "value" : 80,
+        "mode" : "PerItem"
+      }
+    },
+	{
+	  "id" : "LootMagicFine",
+	  "probability" : {
+	    "value" : 50,
+		"mode" : "PerItem"
+	  }
+	}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "Bolts",
+  "description" : "Creates 20 crossbow bolts.",
+  "skill" : "CraftWeapons",
+  "skillRankRequirement" : 10,
+  "ingredients" : {
+    "bar_iron" : 2,
+    "coal" : 4
+  },
+  "result" : {
+    "id" : "bolt",
+    "quantity" : 20
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "externalScript" : "abilities/dualStrike",
+  "name" : "Dual Strike",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/dualStrike"
+  },
+  "description" : "You deliver a single, combined blow with both of your melee weapons simultaneously.  The attack is delivered at your main hand attack bonus +20 and with a +40 damage bonus.  The damage of both weapons is delivered together as a single attack.",
+  "upgrades" : [
+      { "ability" : "DualCritical",
+        "description" : "With Dual Critical, your Dual Strike is made with a +90 bonus to Critical Chance, and a +1 bonus to Critical Multiplier." }
+  ],
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "cooldown" : 4,
+  "actionPointCost" : "Same as an attack",
+  "ai" : {
+    "power" : 20,
+    "priority" : 5,
+    "actionType" : "Damage",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "DualWielding"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 20
+      }
+    ]
+  }
+}

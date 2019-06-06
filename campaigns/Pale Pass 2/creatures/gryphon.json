@@ -1,0 +1,44 @@
+{
+  "name" : "Gryphon",
+  "gender" : "Male",
+  "race" : "MediumAnimal",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/gryphon",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 17,
+    "dexterity" : 18,
+    "constitution" : 14,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor5",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Monster" : 7
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedLarge",
+        "quality" : "Exceptional"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    2000, 4000
+  ]
+}

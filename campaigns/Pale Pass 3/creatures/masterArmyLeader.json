@@ -1,0 +1,83 @@
+{
+  "name" : "General",
+  "gender" : "Male",
+  "race" : "Human",
+  "portrait" : "Human/lieutenant",
+  "conversation" : "conversations/masterArmyLeader",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ff4c4343",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      
+    ]
+  },
+  "attributes" : {
+    "strength" : 20,
+    "dexterity" : 13,
+    "constitution" : 17,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Search" : 60
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 19,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "greatsword",
+        "quality" : "Superb"
+      },
+      "Armor" : {
+        "id" : "armor_plate_base",
+        "quality" : "Superb"
+      },
+      "Gloves" : {
+        "id" : "gloves_mail_base",
+        "quality" : "Superb"
+      },
+      "Cloak" : {
+        "id" : "cloak"
+      },
+      "Boots" : {
+        "id" : "boots_mail_base",
+        "quality" : "Superb"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    15000, 28000
+  ],
+  "loot" : [
+    {
+      "id" : "LootPotionsFine",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootMagicFine",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

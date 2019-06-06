@@ -1,0 +1,35 @@
+{
+  "items" : [
+    {
+      "id" : "potionHealing",
+      "quality" : "Mediocre",
+      "quantity" : 20
+    }, {
+      "id" : "herb_medicinal",
+      "quantity" : 10
+    }, {
+      "id" : "spikeTrap",
+      "quality" : "Mediocre",
+      "quantity" : 14
+    }, {
+      "id" : "empty_bottle",
+      "quantity" : 10
+    }, {
+      "id" : "potionStrength",
+      "quality" : "Mediocre",
+      "quantity" : 6
+    }, {
+      "id" : "potionDex",
+      "quality" : "Mediocre",
+      "quantity" : 6
+    }, {
+      "id" : "rockTrap",
+      "quality" : "Mediocre",
+      "quantity" : 8
+    }, {
+      "id" : "flameTrap",
+      "quality" : "Mediocre",
+      "quantity" : 3
+    }
+  ]
+}

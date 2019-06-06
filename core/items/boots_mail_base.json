@@ -1,0 +1,23 @@
+{
+  "name" : "Mail Boots",
+  "description" : "Boots made of interlocking metal rings provide good protection for the wearer's feet.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/A_Shoes03",
+    "color" : "#ffffffff"
+  },
+  "value" : 5600,
+  "weight" : 1100,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Boots",
+  "subIcon" : {
+    "sprite" : "subIcons/boots-01",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Medium",
+  "armorClass" : 3,
+  "armorPenalty" : 2,
+  "movementPenalty" : 2
+}

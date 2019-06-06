@@ -1,0 +1,32 @@
+{
+  "externalScript" : "spells/crush",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : true,
+  "spellLevel" : 1,
+  "name" : "Crush",
+  "type" : "Evocation",
+  "icon" : {
+    "sprite" : "icons/crush"
+  },
+  "description" : "Bits of Earth and stone fly at a target up to 4 hexes away from the caster, doing 7 to 14 blunt damage plus one per caster level.",
+  "upgrades" : [
+      { "ability" : "MassCrush",
+        "description" : "With Mass Crush, your Crush spell now affects all hostile targets within 3 hexes of the caster.",
+        "override" : true
+      }
+  ],
+  "isActivateable" : true,
+  "quickbarGroup" : "Evocation",
+  "isFixed" : true,
+  "cooldown" : 8,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 10,
+    "priority" : 2,
+    "actionType" : "Damage",
+    "groupType" : "Single",
+    "rangeType" : "Short"
+  }
+}

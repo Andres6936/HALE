@@ -1,0 +1,27 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "worldMapLocation" : "Sonorin Desert",
+  "from" : {
+    "area" : "Sonorin Desert",
+    "x" : 71,
+    "y" : 1,
+    "partyPositions" : [
+      [ -1, 1 ], [ -1, 0 ], [ 0, 1 ], [ 0, 0 ]
+    ]
+  },
+  "to" : {
+    "worldMap" : true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "externalScript" : "abilities/chargeAttack",
+  "name" : "Charge Attack",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/chargeAttack"
+  },
+  "description" : "You select a target that must be at least 3 hexes and no more than 8 hexes away, and charge at them, following the charge with a powerful attack.  The attack is made with a +40 attack bonus and a +100 damage bonus, and costs only as much as a standard attack - there is no AP cost for the movement.  The charge can only be performed in a straight line path, and you must have sufficient AP to perform the attack.  You must have a melee weapon equipped to use this ability.  If the charge is interrupted for any reason (such as an attack of opportunity or stepping on a trap), the attack is not completed.",
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : false,
+  "isCancelable" : false,
+  "cooldown" : 6,
+  "actionPointCost" : "Same as Attack",
+  "ai" : {
+    "power" : 30,
+    "priority" : 10,
+    "actionType" : "Damage",
+    "groupType" : "Single",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "MightyBlow"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 30
+      }
+    ]
+  }
+}

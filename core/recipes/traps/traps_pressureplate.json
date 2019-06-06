@@ -1,0 +1,14 @@
+{
+  "name" : "Pressure Plate",
+  "description" : "Creates a pressure plate for use in trap making.",
+  "skill" : "Traps",
+  "skillRankRequirement" : 5,
+  "ingredients" : {
+    "bar_iron" : 1,
+    "wire" : 2
+  },
+  "result" : {
+    "id" : "pressure_plate",
+    "quantity" : 1
+  }
+}

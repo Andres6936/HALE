@@ -1,0 +1,119 @@
+{
+  "name" : "Dracona",
+  "icon" : "icons/dracona",
+  "baseMovementCost" : 1000,
+  "defaultWeapon" : "unarmedLarge",
+  "playerSelectable" : true,
+  
+  "baseAttributes" : [ 11, 8, 10, 12, 9, 10 ],
+  
+  "racialTypes" : [
+    "Humanoid", "Beast"
+  ],
+  
+  "subIconRaceString" : "Large",
+  
+  "icons" : {
+    "maleForeground" : "creatures/dracona-fg",
+	"maleBackground" : "creatures/dracona-bg",
+	"femaleForeground" : "creatures/dracona-fg",
+	"femaleBackground" : "creatures/dracona-bg",
+	"maleClothes" : "creatures/dracona-clothes",
+	"femaleClothes" : "creatures/dracona-clothes",
+  },
+  
+  "iconOffsets" : {
+    "Cloak" : [ 16, 15 ],
+	"Quiver" : [ 16, 7 ],
+	"Torso" : [ 16, 16 ],
+	"Gloves" : [ 16, 15 ],
+	"Head" : [ 18, -3 ],
+	"Ears" : [ 18, -1 ],
+	"Hair" : [ 17, -4 ],
+	"Beard" : [ 16, -3 ],
+	"Shield" : [ 23, 14 ],
+	"Boots" : [ 16, 26 ],
+	"MainHandWeapon" : [ 1, 10 ],
+	"OffHandWeapon" : [ 25, 10 ]
+  },
+  
+  "hasBeard" : false,
+  "selectableHairIndices" : [ 1, 17, 18, 19, 20, 21, 22, 23, 24 ],
+  
+  "hairAndBeardColors" : [
+		"#FFC0C0C0", "#FF808080", "#FF545454", 
+		"#FFCC9900", "#FFD98719", "#FFFFA500", "#FFEE7600",
+		"#FFFF0000", "#FFC00000", "#FF800000", "#FFCD853F",
+		"#FF8B5A2B", "#FF8B5A00", "#FF8B4513", "#FF5C3317",
+		"#FFDB9B24", "#FF976B22", "#FFFDE9F1", "#FFC09AB9",
+		
+  ],
+	
+  "skinColors" : [
+		"#FFA8A8A8", "#FF747F73", "#FF5E8B55", "#FF3F6939",
+		"#FF1A3321", "#FF586b56", "#FF616153",
+		"#FF2F5161", "#FFEDAE67",
+		"#FFCE9452", "#FF734A29", "#FFD48661", "#FF80412B",
+		"#FF756E3A", "#FF6A6336", "#FFC30074", "#FF8C0051",
+		"#FF690039", "#FFFF861A", "#FFED2200"
+  ],
+  
+  "defaultHairIndex" : 1,
+  "defaultBeardIndex" : 1,
+  "defaultHairColor" : "#FF545454",
+  "defaultBeardColor" : "#FF545454",
+  "defaultSkinColor" : "#FF3F6939",
+  
+  "abilitySelectionsFromList" : {
+  },
+  
+  "restrictedSlots" : [ "Helmet" ],
+  
+  "randomMaleNames" : [ 'Stiria','Mirianth','Venia','Gawaine','Loivissa','Slytha','Garuga','Erisdar','Tharos','Avantador',
+    'Leomaris','Xalanth','Valstrath','Erfolg','Vita','Igirre','Rthyin','Cithyth','Nighith','Baliarth','Bassilth','Bayorth',
+	'Bazzalth','Bedelth','Benarth','Bessonth','Bevurth','Birroth','Bredolth','Brynioth','Cadreinth','Camroth','Carinth',
+	'Carith','Carolth','Caydranth','Cennuth','Cenolth','Cerioth','Chelianth','Chenth','Cheselth','Ciamath','Cinolth',
+	'Colrath','Cordath','Cordenth','Corduth','Corinth','Culdranth','Culdreth','Daganth','Dalbinth','Dallarth','Dammath',
+	'Darilth','Darlath','Darmith','Dazenth','Deneth','Dennenth','Derolth','Deventh','Doranth','Dulanth','Emelth','Feranth',
+	'Ferreth','Firroth','Gavarenth','Ginarth','Heralth','Herinth','Honeth','Inilth','Inioth','Iraneth','Ith','Jeruth','Jevith',
+	'Jevrath','Jielarth','Jielith','Kaleth','Kalinth','Kalurth','Kamirth','Kayelinth','Kayerith','Kelarth','Keleth','Kelirth',
+	'Kelorth','Kementh','Kemoth','Kenith','Kennioth','Keselth','Kevalth','Kilarth','Kimerth','Kindralth','Kisenth','Kovinth',
+	'Kyloth','Leneth','Lennalth','Liorenth','Lioth','Lissoth','Loganth','Lusarth','Lusolth','Lyrroth','Lyth','Malirth',
+	'Malliath','Marganth','Maylanth','Medolth','Medreth','Mekarth','Mersorth','Mersoth','Mesanth','Mesarth','Meseth','Mesianth',
+	'Messenth','Mianth','Miath','Milenth','Milorth','Mirelth','Mirroth','Mirsoth','Mnerolth','Mneventh','Morelth','Morenth',
+	'Mylanth','Naloth','Narolth','Nelarth','Nerroth','Nesenth','Nessonth','Nevalth','Nevith','Nilanth','Ninarth','Niruth',
+	'Norlanth','Norruth','Parath','Parinath','Peddrenth','Perenth','Perrath','Porath','Porrelth','Quenth','Quinarth','Quoloth',
+	'Ralarth','Rallinth','Rasenth','Razeth','Resalth','Rhodrolth','Rhosalth','Rinnenth','Roluth','Ronnuth','Rugarth','Rumalth',
+	'Rusorth','Rylarth','Ryluth','Salanth','Seddrinth','Seralth','Serelath','Shalerth','Shamilth','Shevorth','Shorolth',
+	'Shuvirth','Sirath','Sivath','Sonneth','Soreth','Sorrilth','Sorth','Sorventh','Stevarth','Sudreth','Sunnulth','Syralth',
+	'Syrilth','Syrreth','Syrriolth','Taenth','Taevarth','Talath','Talurth','Tamenth','Tamolth','Tanulth','Tavorth','Tavreth',
+	'Tavrinth','Tavurth','Tebinth','Teminth','Tenelth','Teovanth','Tesselth','Tessith','Tezoth','Tielenth','Tiemeth','Tiolth',
+	'Tobalth','Tuelonth','Tuesirth','Tyrath','Vanlith','Vellath','Verath','Verioth','Vezoth','Vinarth','Visalth','Vollenth',
+	'Vorlianth','Zerelth','Zinnath','Zoralth','Jura','Hirador','Fundor','Galzra','Briam','Ohen','Gretiem','Beroan','Roslarb',
+	'Saphira','Raziel','Daenerys','Barioth','Livjatan','Lagiocrus','Avrae','Rhaegos','Barroth','Umbaroth','Ohm','Hudraer',
+	'Nveryll','Nveryioth','Apophis','Askook','Ator','Favnir','Tulvir','Franae','Niadhogr' ],
+  
+  "randomFemaleNames" : [ 'Stiria','Mirianth','Venia','Gawaine','Loivissa','Slytha','Garuga','Erisdar','Tharos','Avantador',
+    'Leomaris','Xalanth','Valstrath','Erfolg','Vita','Igirre','Rthyin','Cithyth','Nighith','Baliarth','Bassilth','Bayorth',
+	'Bazzalth','Bedelth','Benarth','Bessonth','Bevurth','Birroth','Bredolth','Brynioth','Cadreinth','Camroth','Carinth',
+	'Carith','Carolth','Caydranth','Cennuth','Cenolth','Cerioth','Chelianth','Chenth','Cheselth','Ciamath','Cinolth',
+	'Colrath','Cordath','Cordenth','Corduth','Corinth','Culdranth','Culdreth','Daganth','Dalbinth','Dallarth','Dammath',
+	'Darilth','Darlath','Darmith','Dazenth','Deneth','Dennenth','Derolth','Deventh','Doranth','Dulanth','Emelth','Feranth',
+	'Ferreth','Firroth','Gavarenth','Ginarth','Heralth','Herinth','Honeth','Inilth','Inioth','Iraneth','Ith','Jeruth','Jevith',
+	'Jevrath','Jielarth','Jielith','Kaleth','Kalinth','Kalurth','Kamirth','Kayelinth','Kayerith','Kelarth','Keleth','Kelirth',
+	'Kelorth','Kementh','Kemoth','Kenith','Kennioth','Keselth','Kevalth','Kilarth','Kimerth','Kindralth','Kisenth','Kovinth',
+	'Kyloth','Leneth','Lennalth','Liorenth','Lioth','Lissoth','Loganth','Lusarth','Lusolth','Lyrroth','Lyth','Malirth',
+	'Malliath','Marganth','Maylanth','Medolth','Medreth','Mekarth','Mersorth','Mersoth','Mesanth','Mesarth','Meseth','Mesianth',
+	'Messenth','Mianth','Miath','Milenth','Milorth','Mirelth','Mirroth','Mirsoth','Mnerolth','Mneventh','Morelth','Morenth',
+	'Mylanth','Naloth','Narolth','Nelarth','Nerroth','Nesenth','Nessonth','Nevalth','Nevith','Nilanth','Ninarth','Niruth',
+	'Norlanth','Norruth','Parath','Parinath','Peddrenth','Perenth','Perrath','Porath','Porrelth','Quenth','Quinarth','Quoloth',
+	'Ralarth','Rallinth','Rasenth','Razeth','Resalth','Rhodrolth','Rhosalth','Rinnenth','Roluth','Ronnuth','Rugarth','Rumalth',
+	'Rusorth','Rylarth','Ryluth','Salanth','Seddrinth','Seralth','Serelath','Shalerth','Shamilth','Shevorth','Shorolth',
+	'Shuvirth','Sirath','Sivath','Sonneth','Soreth','Sorrilth','Sorth','Sorventh','Stevarth','Sudreth','Sunnulth','Syralth',
+	'Syrilth','Syrreth','Syrriolth','Taenth','Taevarth','Talath','Talurth','Tamenth','Tamolth','Tanulth','Tavorth','Tavreth',
+	'Tavrinth','Tavurth','Tebinth','Teminth','Tenelth','Teovanth','Tesselth','Tessith','Tezoth','Tielenth','Tiemeth','Tiolth',
+	'Tobalth','Tuelonth','Tuesirth','Tyrath','Vanlith','Vellath','Verath','Verioth','Vezoth','Vinarth','Visalth','Vollenth',
+	'Vorlianth','Zerelth','Zinnath','Zoralth','Jura','Hirador','Fundor','Galzra','Briam','Ohen','Gretiem','Beroan','Roslarb',
+	'Saphira','Raziel','Daenerys','Barioth','Livjatan','Lagiocrus','Avrae','Rhaegos','Barroth','Umbaroth','Ohm','Hudraer',
+	'Nveryll','Nveryioth','Apophis','Askook','Ator','Favnir','Tulvir','Franae','Niadhogr' ],
+}

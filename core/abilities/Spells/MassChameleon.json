@@ -1,0 +1,26 @@
+{
+  "name" : "Mass Chameleon",
+  "type" : "Alteration",
+  "icon" : {
+    "sprite" : "icons/massChameleon"
+  },
+  "description" : "Mass Chameleon upgrades Chameleon, causing your spell to now affect all friendly targets within 3 hexes of the caster.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40,
+    "actionType" : "Buff",
+    "groupType" : "Multiple",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Chameleon"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

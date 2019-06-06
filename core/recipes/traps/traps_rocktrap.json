@@ -1,0 +1,42 @@
+{
+  "name" : "Rock Trap",
+  "description" : "Creates a crushing rock trap.  The quality of the trap is dependant on your Traps skill.",
+  "skill" : "Traps",
+  "skillRankRequirement" : 20,
+  "ingredients" : {
+    "wire" : 2,
+    "pressure_plate" : 1,
+    "stone" : 5
+  },
+  "result" : {
+    "id" : "rockTrap",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 5
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 30
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 50
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 70
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 90
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 110
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 130
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 150
+      }
+    ]
+  }
+}

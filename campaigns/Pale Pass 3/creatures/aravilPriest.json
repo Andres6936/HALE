@@ -1,0 +1,38 @@
+{
+  "name" : "Priest",
+  "gender" : "Male",
+  "race" : "Human",
+  "portrait" : "Human/mage-light",
+  "conversation" : "conversations/aravilPriest",
+  "icon" : {
+    "sprite" : "creatures/human05",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 11,
+    "dexterity" : 10,
+    "constitution" : 13,
+    "intelligence" : 10,
+    "wisdom" : 17,
+    "charisma" : 14
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Priest" : 13,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true
+}

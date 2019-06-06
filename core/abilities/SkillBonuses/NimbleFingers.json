@@ -1,0 +1,17 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addSkillBonus('Locks', 'Stackable', 10); effect.getBonuses().addSkillBonus('Traps', 'Stackable', 10); parent.applyEffect(effect); }",
+  "name" : "Nimble Fingers",
+  "type" : "Skill Bonuses",
+  "icon" : {
+    "sprite" : "icons/nimbleFingers"
+  },
+  "description" : "You are very good at dealing with delicate mechanical systems. You gain +10 to all Locks and Traps checks.",
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Rogue",
+        "level" : 1
+      }
+    ]
+  }
+}

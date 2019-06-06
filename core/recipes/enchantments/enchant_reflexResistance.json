@@ -1,0 +1,52 @@
+{
+  "name" : "Enhance Reflex Resistance",
+  "description" : "Enchants an item with a bonus to Reflex Resistance.  The amount of the bonus is dependant on your Enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 20,
+  "ingredients" : {
+    "foxtail" : 2,
+    "bar_silver" : 1
+  },
+  "result" : {
+    "postfix" : " of Reflex Resistance",
+    "ingredientItemTypes" : [ "Armor", "Gloves", "Boots", "Cloak" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_reflex"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 25,
+		"valueModifier" : 150,
+        "enchantment" : "entity.addBonus('ReflexResistance', 4);"
+      }, {
+        "skillRankRequirement" : 45,
+		"valueModifier" : 170,
+        "enchantment" : "entity.addBonus('ReflexResistance', 8);"
+      }, {
+        "skillRankRequirement" : 65,
+		"valueModifier" : 180,
+        "enchantment" : "entity.addBonus('ReflexResistance', 12);"
+      }, {
+        "skillRankRequirement" : 80,
+		"valueModifier" : 190,
+        "enchantment" : "entity.addBonus('ReflexResistance', 16);"
+      }, {
+        "skillRankRequirement" : 100,
+		"valueModifier" : 200,
+        "enchantment" : "entity.addBonus('ReflexResistance', 20);"
+      }, {
+        "skillRankRequirement" : 120,
+		"valueModifier" : 210,
+        "enchantment" : "entity.addBonus('ReflexResistance', 24);"
+      }, {
+        "skillRankRequirement" : 140,
+		"valueModifier" : 220,
+        "enchantment" : "entity.addBonus('ReflexResistance', 28);"
+      }, {
+        "skillRankRequirement" : 160,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addBonus('ReflexResistance', 32);"
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "name" : "Deep Dwarf",
+  "gender" : "Male",
+  "race" : "Dwarf",
+  "portrait" : "Human/halberdier",
+  "conversation" : "conversations/dwarvenCityEntrance",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ff433f22",
+    "clothingColor" : "#ffff0000",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair014",
+        "color" : "#ff2651ab"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 14,
+    "dexterity" : 9,
+    "constitution" : 13,
+    "intelligence" : 11,
+    "wisdom" : 15,
+    "charisma" : 9
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "Enfeeble",
+      "levelObtained" : 1
+    }, {
+      "id" : "Curse",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCurse",
+      "levelObtained" : 1
+    }, {
+      "id" : "FlamingWeapon",
+      "levelObtained" : 1
+    }, {
+      "id" : "ImproveWeapon",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor10",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 9,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "mace",
+        "quality" : "Good"
+      },
+      "OffHand" : {
+        "id" : "shield_heavy_base",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_mail_base",
+        "quality" : "Good"
+      },
+      "Helmet" : {
+        "id" : "helmet_plate_base",
+        "quality" : "Good"
+      },
+      "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Fine"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    5000, 10000
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

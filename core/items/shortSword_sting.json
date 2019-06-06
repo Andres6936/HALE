@@ -1,0 +1,34 @@
+{
+  "name" : "Sting",
+  "description" : "A masterfully crafted short sword, this weapon inflicts critical hits much more frequently than an ordinary blade.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Sword010",
+    "color" : "#ffffffff"
+  },
+  "value" : 190000,
+  "weight" : 900,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-sword02",
+    "color" : "#ffffffff"
+  },
+  "enchantments" : [
+    "entity.addBonus('WeaponCriticalChance', 10); entity.addBonus('WeaponAttack', 40);"
+  ],
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "Light",
+  "baseWeapon" : "Short Sword",
+  "threatensAoOs" : true,
+  "damageType" : "Piercing",
+  "minDamage" : 2,
+  "maxDamage" : 9,
+  "criticalThreat" : 91,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

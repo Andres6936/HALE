@@ -1,0 +1,37 @@
+{
+  "externalScript" : "spells/divineBurst",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : true,
+  "spellLevel" : 3,
+  "name" : "Divine Burst",
+  "type" : "Enchantment",
+  "icon" : {
+    "sprite" : "icons/divineBurst"
+  },
+  "description" : "All hostile creatures within 4 hexes of the caster must succeed at a mental resistance check or be stunned for 1 round.  In addition, any undead creature within range suffers 1 to 8 plus 1 per caster level Divine damage.",
+  "isActivateable" : true,
+  "quickbarGroup" : "Enchantment",
+  "isFixed" : true,
+  "cooldown" : 10,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 30,
+    "priority" : 5,
+    "actionType" : "Debuff",
+    "groupType" : "Multiple",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "DivineLuck"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

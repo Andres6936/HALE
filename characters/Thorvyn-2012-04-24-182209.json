@@ -1,0 +1,61 @@
+{
+  "name" : "Thorvyn",
+  "isPregenerated" : true,
+  "gender" : "Male",
+  "race" : "Dwarf",
+  "portrait" : "Dwarf/burin",
+  "icon" : {
+    "skinColor" : "#ffffc794",
+    "clothingColor" : "#ff00ffff",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair016",
+        "color" : "#ff8b4513"
+      },
+	  {
+	    "type" : "Beard",
+		"sprite" : "subIcons/beard002",
+		"color" : "#ff8b4513"
+	  }
+    ]
+  },
+  "attributes" : {
+    "strength" : 18,
+    "dexterity" : 12,
+    "constitution" : 15,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 9
+  },
+  "skills" : {
+    "CraftArmor" : 5
+  },
+  "abilities" : [
+    {
+      "id" : "MightyBlow",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 1,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "Armor" : {
+        "id" : "armor_clothes"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "experiencePoints" : 0,
+  "unspentSkillPoints" : 0,
+  "quickbar" : {
+    "slots" : {
+
+    }
+  }
+}

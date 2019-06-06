@@ -1,0 +1,52 @@
+{
+  "name" : "Enhance Search Skill",
+  "description" : "Adds a search skill enchantment to an item.  The amount of the bonus depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 20,
+  "ingredients" : {
+    "gem09" : 2,
+    "paper" : 2
+  },
+  "result" : {
+    "postfix" : " of Search",
+    "ingredientItemTypes" : [ "Helmet", "Ring", "Belt" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_search"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 15,
+		"valueModifier" : 130,
+        "enchantment" : "entity.addSkillBonus('Search',  5);"
+      }, {
+        "skillRankRequirement" : 35,
+		"valueModifier" : 150,
+        "enchantment" : "entity.addSkillBonus('Search',  10);"
+      }, {
+        "skillRankRequirement" : 55,
+		"valueModifier" : 170,
+        "enchantment" : "entity.addSkillBonus('Search',  15);"
+      }, {
+        "skillRankRequirement" : 75,
+		"valueModifier" : 185,
+        "enchantment" : "entity.addSkillBonus('Search',  20);"
+      }, {
+        "skillRankRequirement" : 95,
+		"valueModifier" : 200,
+        "enchantment" : "entity.addSkillBonus('Search',  25);"
+      }, {
+        "skillRankRequirement" : 115,
+		"valueModifier" : 210,
+        "enchantment" : "entity.addSkillBonus('Search',  30);"
+      }, {
+        "skillRankRequirement" : 135,
+		"valueModifier" : 220,
+        "enchantment" : "entity.addSkillBonus('Search',  35);"
+      }, {
+        "skillRankRequirement" : 155,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addSkillBonus('Search',  40);"
+      }
+    ]
+  }
+}

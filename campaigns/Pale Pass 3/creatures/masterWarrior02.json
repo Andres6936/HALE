@@ -1,0 +1,85 @@
+{
+  "name" : "Warrior",
+  "gender" : "Male",
+  "race" : "Human",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ff40363b",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      
+    ]
+  },
+  "attributes" : {
+    "strength" : 18,
+    "dexterity" : 13,
+    "constitution" : 14,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Search" : 60
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 16,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "morningstar",
+        "quality" : "Superb"
+      },
+      "OffHand" : {
+        "id" : "shield_heavy_base",
+        "quality" : "Superb"
+      },
+      "Armor" : {
+        "id" : "armor_plate_base",
+        "quality" : "Superb"
+      },
+      "Gloves" : {
+        "id" : "gloves_mail_base",
+        "quality" : "Superb"
+      },
+      "Cloak" : {
+        "id" : "cloak"
+      },
+      "Boots" : {
+        "id" : "boots_mail_base",
+        "quality" : "Superb"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    10000, 20000
+  ],
+  "loot" : [
+    {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsFine",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootMagicFine",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

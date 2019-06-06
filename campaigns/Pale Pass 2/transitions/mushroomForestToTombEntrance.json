@@ -1,0 +1,31 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "from" : {
+    "area" : "Mushroom Forest",
+    "x" : 1,
+    "y" : 8,
+    "partyPositions" : [
+      [ 2, 0 ], [ 1, -1 ], [ 1, 0 ], [ 0, 0 ]
+    ]
+  },
+  "to" : {
+    "area" : "Tomb Entrance",
+    "x" : 38,
+    "y" : 10,
+    "partyPositions" : [
+      [ -2, 0 ], [ -1, -1 ], [ -1, 0 ], [ 0, 0 ]
+    ]
+  }
+}

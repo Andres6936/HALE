@@ -1,0 +1,172 @@
+{
+  "name" : "Weapons",
+  "abilities" : {
+    "TrainingSlashing" : {
+      "x" : 0.5,
+      "y" : 0.0
+    },
+    "TrainingPiercing" : {
+      "x" : 3.0,
+      "y" : 0.0
+    },
+    "TrainingBlunt" : {
+      "x" : 5.5,
+      "y" : 0.0
+    },
+    "AdvancedTrainingAxes" : {
+      "x" : 0.0,
+      "y" : 1.0
+    },
+    "AdvancedTrainingLargeSwords" : {
+      "x" : 1.0,
+      "y" : 1.0
+    },
+    "AdvancedTrainingSmallSwords" : {
+      "x" : 2.0,
+      "y" : 1.0
+    },
+    "AdvancedTrainingSpears" : {
+      "x" : 3.0,
+      "y" : 1.0
+    },
+    "AdvancedTrainingBows" : {
+      "x" : 4.0,
+      "y" : 1.0
+    },
+    "AdvancedTrainingMaces" : {
+      "x" : 5.0,
+      "y" : 1.0
+    },
+    "AdvancedTrainingHammers" : {
+      "x" : 6.0,
+      "y" : 1.0
+    },
+    "ExpertTrainingAxes" : {
+      "x" : 0.0,
+      "y" : 2.0
+    },
+    "ExpertTrainingLargeSwords" : {
+      "x" : 1.0,
+      "y" : 2.0
+    },
+    "ExpertTrainingSmallSwords" : {
+      "x" : 2.0,
+      "y" : 2.0
+    },
+    "ExpertTrainingSpears" : {
+      "x" : 3.0,
+      "y" : 2.0
+    },
+    "ExpertTrainingBows" : {
+      "x" : 4.0,
+      "y" : 2.0
+    },
+    "ExpertTrainingMaces" : {
+      "x" : 5.0,
+      "y" : 2.0
+    },
+    "ExpertTrainingHammers" : {
+      "x" : 6.0,
+      "y" : 2.0
+    },
+    "MasterTrainingAxes" : {
+      "x" : 0.0,
+      "y" : 3.0
+    },
+    "MasterTrainingLargeSwords" : {
+      "x" : 1.0,
+      "y" : 3.0
+    },
+    "MasterTrainingSmallSwords" : {
+      "x" : 2.0,
+      "y" : 3.0
+    },
+    "MasterTrainingSpears" : {
+      "x" : 3.0,
+      "y" : 3.0
+    },
+    "MasterTrainingBows" : {
+      "x" : 4.0,
+      "y" : 3.0
+    },
+    "MasterTrainingMaces" : {
+      "x" : 5.0,
+      "y" : 3.0
+    },
+    "MasterTrainingHammers" : {
+      "x" : 6.0,
+      "y" : 3.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "TwoDown",
+      "x" : 0.5,
+      "y" : 0.0
+    }, {
+      "type" : "ThreeDown",
+      "x" : 3.0,
+      "y" : 0.0
+    }, {
+      "type" : "TwoDown",
+      "x" : 5.5,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 5.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 6.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 5.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 6.0,
+      "y" : 2.0
+    }
+  ]
+}

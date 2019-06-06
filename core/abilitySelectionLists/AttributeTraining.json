@@ -1,0 +1,128 @@
+{
+  "name" : "Attribute Training",
+  "abilities" : {
+    "StrengthTraining1" : {
+      "x" : 0.0,
+      "y" : 0.0
+    },
+    "DexterityTraining1" : {
+      "x" : 1.0,
+      "y" : 0.0
+    },
+    "ConstitutionTraining1" : {
+      "x" : 2.0,
+      "y" : 0.0
+    },
+    "IntelligenceTraining1" : {
+      "x" : 3.0,
+      "y" : 0.0
+    },
+    "WisdomTraining1" : {
+      "x" : 4.0,
+      "y" : 0.0
+    },
+    "CharismaTraining1" : {
+      "x" : 5.0,
+      "y" : 0.0
+    },
+    "StrengthTraining2" : {
+      "x" : 0.0,
+      "y" : 1.0
+    },
+    "DexterityTraining2" : {
+      "x" : 1.0,
+      "y" : 1.0
+    },
+    "ConstitutionTraining2" : {
+      "x" : 2.0,
+      "y" : 1.0
+    },
+    "IntelligenceTraining2" : {
+      "x" : 3.0,
+      "y" : 1.0
+    },
+    "WisdomTraining2" : {
+      "x" : 4.0,
+      "y" : 1.0
+    },
+    "CharismaTraining2" : {
+      "x" : 5.0,
+      "y" : 1.0
+    },
+    "StrengthTraining3" : {
+      "x" : 0.0,
+      "y" : 2.0
+    },
+    "DexterityTraining3" : {
+      "x" : 1.0,
+      "y" : 2.0
+    },
+    "ConstitutionTraining3" : {
+      "x" : 2.0,
+      "y" : 2.0
+    },
+    "IntelligenceTraining3" : {
+      "x" : 3.0,
+      "y" : 2.0
+    },
+    "WisdomTraining3" : {
+      "x" : 4.0,
+      "y" : 2.0
+    },
+    "CharismaTraining3" : {
+      "x" : 5.0,
+      "y" : 2.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 5.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 5.0,
+      "y" : 1.0
+    }
+  ]
+}

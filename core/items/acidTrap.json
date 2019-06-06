@@ -1,0 +1,25 @@
+{
+  "name" : "Acid Trap",
+  "description" : "A trap that does acid damage for several rounds.  The amount and duration of the damage is dependant on the quality of the trap.",
+  "script" : "items/acidTrap",
+  "class" : "Trap",
+  "icon" : {
+    "sprite" : "items/T_acid",
+    "color" : "#ffffffff"
+  },
+  "value" : 15000,
+  "weight" : 2000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "Place Trap",
+  "useAP" : 8000,
+  "defaultQuality" : "Good",
+  "damageType" : "Acid",
+  "minDamage" : 5,
+  "maxDamage" : 15,
+  "findDifficulty" : 85,
+  "placeDifficulty" : 90,
+  "disarmDifficulty" : 95,
+  "recoverDifficulty" : 105,
+  "reflexDifficulty" : 100
+}

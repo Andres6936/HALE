@@ -1,0 +1,137 @@
+{
+  "enchantmentChance" : 30,
+  "enchantmentSkillModifier" : 30,
+  "items" : [
+    {
+      "id" : "gem06",
+      "quantity" : 2
+    }, {
+      "id" : "gem05",
+      "quantity" : 4
+    }, {
+      "id" : "gem07",
+      "quantity" : 4
+    }, {
+      "id" : "gem04",
+      "quantity" : 4
+    }, {
+      "id" : "gem03",
+      "quantity" : 4
+    }, {
+      "id" : "gem02",
+      "quantity" : 4
+    }, {
+      "id" : "gem01",
+      "quantity" : 4
+    }, {
+      "id" : "goldRing",
+      "quantity" : 2
+    }, {
+      "id" : "potionHealing",
+      "quality" : "Good",
+      "quantity" : 3
+    }, {
+      "id" : "herb_medicinal",
+      "quantity" : 8
+    }, {
+      "id" : "grain_alcohol",
+      "quantity" : 7
+    }, {
+      "id" : "empty_bottle",
+      "quantity" : 7
+    }, {
+      "id" : "potionHealing",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "arrow"
+      "quantity" : 50
+    }, {
+      "id" : "bolt"
+      "quantity" : 50
+    }, {
+      "id" : "slingstone"
+      "quantity" : 50
+    }, {
+      "id" : "bar_iron",
+      "quantity" : 3
+    }, {
+      "id" : "bar_wood",
+      "quantity" : 4
+    }, {
+      "id" : "coal",
+      "quantity" : 6
+    }, {
+      "id" : "wire",
+      "quantity" : 10
+    }, {
+      "id" : "feather",
+      "quantity" : 15
+    }, {
+      "id" : "silverRing",
+      "quantity" : 2
+    }, {
+      "id" : "potionCon",
+      "quality" : "Good",
+      "quantity" : 1
+    }, {
+      "id" : "potionStrength",
+      "quality" : "Good",
+      "quantity" : 1
+    }, {
+      "id" : "gem08",
+      "quantity" : 4
+    }, {
+      "id" : "gem09",
+      "quantity" : 4
+    }, {
+      "id" : "gem10",
+      "quantity" : 4
+    }, {
+      "id" : "foxtail",
+      "quantity" : 8
+    }, {
+      "id" : "shell",
+      "quantity" : 7
+    }, {
+      "id" : "claw",
+      "quantity" : 7
+    }, {
+      "id" : "stone",
+      "quantity" : 15
+    }, {
+      "id" : "bar_gold",
+      "quantity" : 3
+    }, {
+      "id" : "bar_silver",
+      "quantity" : 3
+    }, {
+      "id" : "thread",
+      "quantity" : 20
+    }, {
+      "id" : "water_jug",
+      "quantity" : 5
+    }, {
+      "id" : "leather",
+      "quantity" : 8
+    }, {
+      "id" : "pressure_plate",
+      "quantity" : 2
+    }, {
+      "id" : "oilFlamable",
+      "quantity" : 5
+    }, {
+      "id" : "bar_lead",
+      "quantity" : 5
+    }, {
+	  "id" : "bone",
+	  "quantity" : 5
+	}, {
+	  "id" : "paper",
+	  "quantity" : 10
+	}, {
+	  "id" : "tongue",
+	  "quantity" : 4
+	}
+  ]
+}

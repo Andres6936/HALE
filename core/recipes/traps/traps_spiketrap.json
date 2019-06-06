@@ -1,0 +1,42 @@
+{
+  "name" : "Spike Trap",
+  "description" : "Creates a spike trap.  The quality of the trap is dependant on your Traps skill.",
+  "skill" : "Traps",
+  "skillRankRequirement" : 10,
+  "ingredients" : {
+    "spike" : 10,
+    "wire" : 2,
+    "pressure_plate" : 1
+  },
+  "result" : {
+    "id" : "spikeTrap",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 5
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 25
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 45
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 65
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 85
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 105
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 125
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 145
+      }
+    ]
+  }
+}

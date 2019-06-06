@@ -1,0 +1,13 @@
+{
+  "name" : "Spikes",
+  "description" : "Creates 10 spikes for use in trap making.",
+  "skill" : "Traps",
+  "skillRankRequirement" : 5,
+  "ingredients" : {
+    "bar_iron" : 1
+  },
+  "result" : {
+    "id" : "spike",
+    "quantity" : 10
+  }
+}

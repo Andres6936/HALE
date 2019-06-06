@@ -1,0 +1,24 @@
+{
+  "name" : "Healer",
+  "usesSpeechSkill" : true,
+  "confirmOnExit" : false,
+  "respawnHours" : 24,
+  "buyValuePercentage" : 50,
+  "sellValuePercentage" : 150,
+  "items" : [
+    {
+      "id" : "PotionsGood",
+      "probability" : {
+        "value" : 80,
+        "mode" : "PerItem"
+      }
+    },
+	{
+	  "id" : "LootMagicGood",
+	  "probability" : {
+	    "value" : 50,
+		"mode" : "PerItem"
+	  }
+	}
+  ]
+}

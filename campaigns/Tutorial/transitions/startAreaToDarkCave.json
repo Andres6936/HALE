@@ -1,0 +1,31 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : false,
+  "isTwoWay" : true,
+  "from" : {
+    "area" : "Grassland",
+    "x" : 12,
+    "y" : 1,
+    "partyPositions" : [
+      [ 0, 0 ]
+    ]
+  },
+  "to" : {
+    "area" : "Dark Cave",
+    "x" : 3,
+    "y" : 8,
+    "partyPositions" : [
+      [ 0, 0 ]
+    ]
+  }
+}

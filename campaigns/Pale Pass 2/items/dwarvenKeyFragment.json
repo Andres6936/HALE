@@ -1,0 +1,13 @@
+{
+  "name" : "Dwarven Key Fragment",
+  "description" : "The fragment of the gate key that was held by the Deep Dwarves.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Key02",
+    "color" : "#ff989fea"
+  },
+  "value" : 0,
+  "weight" : 0,
+  "isIngredient" : false,
+  "isQuest" : true
+}

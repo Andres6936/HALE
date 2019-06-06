@@ -1,0 +1,94 @@
+{
+  "name" : "Skeleton Fire Mage",
+  "gender" : "Male",
+  "race" : "Skeleton",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/skeleton02",
+        "color" : "#ffeaab7b"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 13,
+    "constitution" : 15,
+    "intelligence" : 18,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "FlamingFingers",
+      "levelObtained" : 1
+    }, {
+      "id" : "Firebolt",
+      "levelObtained" : 1
+    }, {
+      "id" : "Fireball",
+      "levelObtained" : 1
+    }, {
+      "id" : "Meteor",
+      "levelObtained" : 1
+    }, {
+      "id" : "Curse",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCurse",
+      "levelObtained" : 1
+    }, {
+      "id" : "FlamingWeapon",
+      "levelObtained" : 1
+    }, {
+      "id" : "ImproveWeapon",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction5",
+      "levelObtained" : 1
+    }, {
+      "id" : "PhysicalVulnerability",
+      "levelObtained" : 1
+    }, {
+      "id" : "Vulnerability",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Mage" : 15,
+    "baseRoleID" : "Mage"
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    10000, 20000
+  ],
+  "loot" : [
+    {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

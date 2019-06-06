@@ -1,0 +1,83 @@
+{
+  "name" : "Grimbok",
+  "gender" : "Male",
+  "race" : "LargeAnimal",
+  "script" : "ai/aiGrimbok",
+  "icon" : {
+    "sprite" : "creatures/bloodbeast",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 21,
+    "dexterity" : 14,
+    "constitution" : 22,
+    "intelligence" : 4,
+    "wisdom" : 8,
+    "charisma" : 7
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor30",
+      "levelObtained" : 1
+    }, {
+      "id" : "ImmobilizationImmunity",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction5",
+      "levelObtained" : 1
+    }, {
+      "id" : "GrimbokRoar",
+      "levelObtained" : 1
+    }, {
+      "id" : "SpellResistance30",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "MonsterStrong" : 12
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedClawLarge",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    10000, 20000
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel10Fine",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel1",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "GrimbokLoot",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

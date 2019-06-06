@@ -1,0 +1,26 @@
+{
+  "name" : "Mass Curse",
+  "type" : "Enchantment",
+  "icon" : {
+    "sprite" : "icons/massCurse"
+  },
+  "description" : "Mass Curse upgrades Curse, causing it to now affect all hostiles within 4 hexes.  Note that there is no resistance check for this spell, meaning it is guaranteed to affect all targets.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40,
+    "actionType" : "Debuff",
+    "groupType" : "Multiple",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Curse"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

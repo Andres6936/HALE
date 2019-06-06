@@ -1,0 +1,70 @@
+{
+  "name" : "Goblin Guard",
+  "gender" : "Male",
+  "race" : "Goblin",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ff8dc935",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/goblin02",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 13,
+    "dexterity" : 15,
+    "constitution" : 11,
+    "intelligence" : 6,
+    "wisdom" : 9,
+    "charisma" : 7
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 7,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "shortSword",
+        "quality" : "Good"
+      },
+      "OffHand" : {
+        "id" : "shield_light_base",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_leather_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true,
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

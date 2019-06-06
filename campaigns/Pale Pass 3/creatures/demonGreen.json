@@ -1,0 +1,123 @@
+{
+  "name" : "Green Demon",
+  "gender" : "Male",
+  "race" : "Demon",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/demon03",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 14,
+    "dexterity" : 19,
+    "constitution" : 14,
+    "intelligence" : 12,
+    "wisdom" : 16,
+    "charisma" : 13
+  },
+  "skills" : {
+    "Search" : 60
+  },
+  "abilities" : [
+    {
+      "id" : "FastSpellRecovery1",
+      "levelObtained" : 1
+    }, {
+      "id" : "MeleeCasting",
+      "levelObtained" : 1
+    }, {
+      "id" : "Summon",
+      "levelObtained" : 1
+    }, {
+      "id" : "AcidSplash",
+      "levelObtained" : 1
+    }, {
+      "id" : "PoisonFog",
+      "levelObtained" : 1
+    }, {
+      "id" : "ConcealingFog",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWieldingMastery",
+      "levelObtained" : 1
+    }, {
+      "id" : "ExpertDualWielding",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWielding",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWieldingDefense",
+      "levelObtained" : 1
+    }, {
+      "id" : "Crush",
+      "levelObtained" : 1
+    }, {
+      "id" : "Tremor",
+      "levelObtained" : 1
+    }, {
+      "id" : "ProficiencySmallSwords",
+      "levelObtained" : 1
+    }, {
+      "id" : "HardenArmor",
+      "levelObtained" : 1
+    }, {
+      "id" : "Haste",
+      "levelObtained" : 1
+    }, {
+      "id" : "ResistWeapons",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction5",
+      "levelObtained" : 1
+    }, {
+      "id" : "AcidImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "Regeneration10",
+      "levelObtained" : 1
+    }, {
+      "id" : "LayerOfBark",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 18,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "shortSword",
+        "quality" : "Superb"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    19000, 29000
+  ],
+  "loot" : [
+    {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsExceptional",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

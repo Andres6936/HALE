@@ -1,0 +1,82 @@
+{
+  "name" : "Bandit",
+  "gender" : "Male",
+  "race" : "Human",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair015",
+        "color" : "#ffab7821"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 12,
+    "constitution" : 9,
+    "intelligence" : 8,
+    "wisdom" : 10,
+    "charisma" : 8
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 4,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "longbow",
+        "quality" : "Decent"
+      },
+      "Armor" : {
+        "id" : "armor_leatherhard_base",
+        "quality" : "Decent"
+      },
+      "Gloves" : {
+        "id" : "gloves_leather_base",
+        "quality" : "Decent"
+      },
+      "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Decent"
+      },
+      "Quiver" : {
+        "id" : "arrow"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "arrow"
+        "quantity" : 17
+      }
+    ]
+  },
+  "reward" : [
+    2000, 3000
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 8,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

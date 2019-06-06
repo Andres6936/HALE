@@ -1,0 +1,34 @@
+{ "class" : "Weapon",
+  "name" : "Club",
+
+  "icon" : {
+    "sprite" : "items/W_Mace001",
+	"color" : "#ffffffff"
+  },
+  
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-light-hammer01",
+	"color" : "#ffffffff"
+  },
+  
+  "isUnequippable" : false,
+  "description" : "A basic club.  For the purposes of the tutorial, you may not unequip this item.",
+  
+  "value" : 12000,
+  "weight" : 600,
+  "script" : "items/tutorial_club",
+  
+  "type" : "Weapon",
+  "weaponType" : "Melee",
+  "handed" : "Light",
+  "baseWeapon" : "Club",
+  "threatensAoOs" : true,
+  "minRange" : 1,
+  "maxRange" : 1,
+  "damageType" : "Blunt",
+  "minDamage" : 2,
+  "maxDamage" : 3,
+  "criticalThreat" : 100,
+  "criticalMultiplier" : 1,
+  "attackCost" : 2800
+}

@@ -1,0 +1,10 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().add('CriticalHitImmunity'); parent.applyEffect(effect); }",
+  "name" : "Critical Hit Immunity",
+  "type" : "Racial Abilities",
+  "icon" : {
+    "sprite" : "icons/criticalHitImmunity"
+  },
+  "description" : "Some creatures have no specific weak spots.  They are immune to critical hits and other attacks relying on weak spots such as backstabs.",
+  "isActivateable" : false
+}

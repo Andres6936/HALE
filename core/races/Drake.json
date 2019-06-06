@@ -1,0 +1,8 @@
+{ "name" : "Drake",
+  "baseMovementCost" : 1000,
+  "defaultWeapon" : "unarmedClaw",
+  
+  "racialTypes" : [
+    "Beast"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+	"textAreaWidth" : 700,
+    "textAreaHeight" : 130,
+	
+	"callbackScript" : "triggers/blackRiverCrossingWalkAway",
+	"callbackFunction" : "startConvo",
+	
+	"frames" : [ {
+		"background" : "blackRiver1",
+		"textFile" : "blackRiverCrossing1.html"
+	} , {
+		"background" : "blackRiver2",
+		"textFile" : "blackRiverCrossing2.html"
+	} , {
+		"background" : "willowInnSleep3",
+		"textFile" : "blackRiverCrossing3.html"
+	} , {
+		"background" : "blackRiver4",
+		"textFile" : "blackRiverCrossing4.html"
+	} , {
+		"background" : "blackRiver1",
+		"textFile" : "blackRiverCrossing5.html"
+	} ]
+}

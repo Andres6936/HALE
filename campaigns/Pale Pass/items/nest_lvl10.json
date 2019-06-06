@@ -1,0 +1,26 @@
+{ "name" : "Nest",
+  "description" : "A bird's nest.",
+  "class" : "Container",
+  "isWorkbench" : false,
+  "loot" : [
+    {
+      "id" : "LootLevel10",
+      "probability" : {
+        "value" : 25,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel10",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "WeaponsGood",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

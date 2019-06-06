@@ -1,0 +1,62 @@
+{
+  "name" : "Blacksmith",
+  "gender" : "Male",
+  "race" : "Human",
+  "portrait" : "Human/woodsman",
+  "conversation" : "conversations/fareachBlacksmith",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair006",
+        "color" : "#ffbbab43"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 10,
+    "constitution" : 10,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "ProficiencyHammers",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Artisan" : 3
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "warhammer",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_leather_base",
+        "quality" : "Good"
+      },
+      "Gloves" : {
+        "id" : "gloves_leather_base",
+        "quality" : "Good"
+      },
+      "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true
+}

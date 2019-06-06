@@ -1,0 +1,13 @@
+{
+  "name" : "Paper",
+  "description" : "A piece of parchment.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_paper",
+    "color" : "#ffffffff"
+  },
+  "value" : 5,
+  "weight" : 10,
+  "isIngredient" : true,
+  "isQuest" : false
+}

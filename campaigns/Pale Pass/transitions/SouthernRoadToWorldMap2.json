@@ -1,0 +1,27 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : false,
+  "worldMapLocation" : "Southern Road",
+  "from" : {
+    "area" : "Southern Road",
+    "x" : 42,
+    "y" : 48,
+    "partyPositions" : [
+      
+    ]
+  },
+  "to" : {
+    "worldMap" : true
+  }
+}

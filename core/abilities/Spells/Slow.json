@@ -1,0 +1,45 @@
+{
+  "externalScript" : "spells/slow",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : true,
+  "spellLevel" : 1,
+  "name" : "Slow",
+  "type" : "Enchantment",
+  "icon" : {
+    "sprite" : "icons/slow"
+  },
+  "description" : "The caster selects a target up to 4 hexes away.  If the target fails a mental resistance check, it suffers a 25 + 1 per caster level Action Point penalty for 3 to 6 rounds.",
+  "upgrades" : [
+    { "ability" : "Sleep",
+      "description" : "With Sleep, your slow spell now puts the target to sleep if they fail the mental resistance check.  Sleeping creatures are immediately awoken if hurt in any way.  Even after being awoken, the action point penalty will remain.",
+      "override" : true },
+    { "ability" : "Paralyze",
+      "description" : "With Paralyze, the target becomes completely immobile and helpless for the duration of the spell if it fails the mental resistance check.",
+      "override" : true },
+    { "ability" : "MassParalyze",
+      "description" : "With Mass Paralyze, your slow spell now affects all hostile targets within 4 hexes of the caster.",
+      "override" : true}
+  ],
+  "isActivateable" : true,
+  "quickbarGroup" : "Enchantment",
+  "isFixed" : true,
+  "cooldown" : 11,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 10,
+    "priority" : 5,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 1
+      }
+    ]
+  }
+}

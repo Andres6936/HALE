@@ -1,0 +1,26 @@
+{
+  "name" : "Lightning Bolt",
+  "type" : "Evocation",
+  "icon" : {
+    "sprite" : "icons/lightningBolt"
+  },
+  "description" : "Lightning Bolt upgrades your Shock spell.  You select a target hostile up to 4 hexes away.  All creatures within 1 hex of the target take 8 to 16 plus one per caster level damage.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30,
+    "actionType" : "Damage",
+    "groupType" : "Multiple",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Shock"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

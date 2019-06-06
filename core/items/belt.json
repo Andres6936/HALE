@@ -1,0 +1,14 @@
+{
+  "name" : "Belt",
+  "description" : "A belt which is wrapped around the wearer's waist.",
+  "class" : "EquippableItem",
+  "icon" : {
+    "sprite" : "items/Ac_Belt01",
+    "color" : "#ffcdb998"
+  },
+  "value" : 500,
+  "weight" : 1000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Belt"
+}

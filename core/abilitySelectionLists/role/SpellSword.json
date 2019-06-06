@@ -1,0 +1,21 @@
+{
+  "name" : "Spell Sword",
+  "subLists" : {
+	"Melee" : {
+      "x" : 0.0,
+      "y" : 0.5
+    },
+    "Defense" : {
+      "x" : 3.5,
+      "y" : 0.5
+    },
+    "Evocation" : {
+      "x" : 0.0,
+      "y" : 5.5
+    },
+    "Conjuration" : {
+      "x" : 0.0,
+      "y" : 11.5
+    }
+  }
+}

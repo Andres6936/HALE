@@ -1,0 +1,42 @@
+{
+  "name" : "Bastard Sword",
+  "description" : "Creates a bastard sword. The quality is dependant on your Craft Weapons skill.",
+  "skill" : "CraftWeapons",
+  "skillRankRequirement" : 35,
+  "ingredients" : {
+    "bar_iron" : 4,
+    "bar_wood" : 1,
+    "coal" : 6
+  },
+  "result" : {
+    "id" : "bastardSword",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 30
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 50
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 70
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 90
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 110
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 125
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 140
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 160
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "Empty Bottle",
+  "description" : "A small empty bottle.  This item can be used to store a variety of created potions.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Bottle",
+    "color" : "#ffffffff"
+  },
+  "value" : 200,
+  "weight" : 50,
+  "isIngredient" : true,
+  "isQuest" : false
+}

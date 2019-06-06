@@ -1,0 +1,44 @@
+{
+  "name" : "Acid trap",
+  "description" : "Creates an acid trap.  The quality of the trap is dependant on your Traps skill.",
+  "skill" : "Traps",
+  "skillRankRequirement" : 40,
+  "ingredients" : {
+    "wire" : 2,
+    "pressure_plate" : 1,
+    "water_jug" : 1,
+    "claw" : 2,
+    "spike" : 5
+  },
+  "result" : {
+    "id" : "acidTrap",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 25
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 50
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 70
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 90
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 110
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 130
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 150
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 170
+      }
+    ]
+  }
+}

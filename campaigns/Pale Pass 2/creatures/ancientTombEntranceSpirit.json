@@ -1,0 +1,52 @@
+{
+  "name" : "Skeleton Guardian",
+  "gender" : "Male",
+  "race" : "Skeleton",
+  "portrait" : "Human/cavalier",
+  "conversation" : "conversations/ancientTombEntranceSpirit",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffe7e017",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/skeleton02",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 17,
+    "dexterity" : 12,
+    "constitution" : 14,
+    "intelligence" : 11,
+    "wisdom" : 11,
+    "charisma" : 12
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 12,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "longsword",
+        "quality" : "Good"
+      },
+      "OffHand" : {
+        "id" : "shield_heavy_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true
+}

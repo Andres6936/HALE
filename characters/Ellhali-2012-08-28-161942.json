@@ -1,0 +1,291 @@
+{
+  "name" : "Ellhali",
+  "isPregenerated" : true,
+  "gender" : "Female",
+  "race" : "Elf",
+  "portrait" : "Elf\/FlareFemaleHero2",
+  "icon" : {
+    "skinColor" : "#ffd48661",
+    "clothingColor" : "#ff00ff00",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons\/hair004",
+        "color" : "#ff5c3317"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 12,
+    "dexterity" : 19,
+    "constitution" : 12,
+    "intelligence" : 11,
+    "wisdom" : 10,
+    "charisma" : 11
+  },
+  "skills" : {
+    "Locks" : 70,
+    "Search" : 50,
+    "Hide" : 55,
+    "Traps" : 70,
+    "Speech" : 5
+  },
+  "abilities" : [
+    {
+      "id" : "Poison",
+      "levelObtained" : 9
+    }, {
+      "id" : "LingeringPoison",
+      "levelObtained" : 13
+    }, {
+      "id" : "PreciseShot",
+      "levelObtained" : 4
+    }, {
+      "id" : "PointBlankShot",
+      "levelObtained" : 3
+    }, {
+      "id" : "MultiShot",
+      "levelObtained" : 11
+    }, {
+      "id" : "RapidShot",
+      "levelObtained" : 1
+    }, {
+      "id" : "BlindFighting",
+      "levelObtained" : 14
+    }, {
+      "id" : "QuickDraw",
+      "levelObtained" : 2
+    }, {
+      "id" : "FastActions",
+      "levelObtained" : 8
+    }, {
+      "id" : "ReflexiveAttacks",
+      "levelObtained" : 5
+    }, {
+      "id" : "DexterityTraining1",
+      "levelObtained" : 11
+    }, {
+      "id" : "CripplingShot",
+      "levelObtained" : 10
+    }, {
+      "id" : "Backstab",
+      "levelObtained" : 5
+    }, {
+	  "id" : "RangedBackstab",
+	  "levelObtained" : 6
+	}, {
+      "id" : "ImprovedBackstab",
+      "levelObtained" : 7
+    }
+  ],
+  "roles" : {
+    "baseRoleID" : "Rogue",
+    "Rogue" : 10,
+    "Assassin" : 4
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "compositeLongbow-0xb4c55cc4",
+        "quality" : "Fine"
+      },
+      "Armor" : {
+        "id" : "armor_leather_base-0xb846a0ba",
+        "quality" : "Fine"
+      },
+      "Gloves" : {
+        "id" : "gloves_leather_base-0x1deadba3",
+        "quality" : "Fine"
+      },
+      "Helmet" : {
+        "id" : "helmet_leather_base",
+        "quality" : "Fine"
+      },
+      "Cloak" : {
+        "id" : "cloak-0xff58c335"
+      },
+      "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Fine"
+      },
+      "Belt" : {
+        "id" : "belt-0x72e24b77"
+      },
+      "Amulet" : {
+        "id" : "amulet-0x92f4f9dd"
+      },
+      "RightRing" : {
+        "id" : "silverRing-0xeda799dd"
+      },
+      "LeftRing" : {
+        "id" : "silverRing-0x8e2c151b"
+      },
+      "Quiver" : {
+        "id" : "arrow"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "arrow",
+        "quantity" : 280
+      }, {
+        "id" : "shortSword",
+        "quality" : "Fine",
+        "quantity" : 1
+      }, {
+        "id" : "potionHealing",
+        "quality" : "Fine",
+        "quantity" : 2
+      }
+    ],
+    "createdItems" : [
+      {
+        "baseItemID" : "compositeLongbow",
+        "createdItemID" : "compositeLongbow-0xb4c55cc4",
+        "scripts" : [
+          "entity.addStandaloneDamageBonus('Cold', 1, 4);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Ice",
+        "valueModifier" : 170,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_ice",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "armor_leather_base",
+        "createdItemID" : "armor_leather_base-0xb846a0ba",
+        "scripts" : [
+          "entity.addDamageReduction('Blunt',  1);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Blunt Resistance",
+        "valueModifier" : 160,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_blunt",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "gloves_leather_base",
+        "createdItemID" : "gloves_leather_base-0x1deadba3",
+        "scripts" : [
+          "entity.addBonus('PhysicalResistance', 4);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Physical Resistance",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_physical",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "cloak",
+        "createdItemID" : "cloak-0xff58c335",
+        "scripts" : [
+          "entity.addDamageReduction('Acid',  2);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Acid Resistance",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_acid",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "belt",
+        "createdItemID" : "belt-0x72e24b77",
+        "scripts" : [
+          "entity.addSkillBonus('Search',  5);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Search",
+        "valueModifier" : 130,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_search",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "amulet",
+        "createdItemID" : "amulet-0x92f4f9dd",
+        "scripts" : [
+          "entity.addBonus('ArmorClass', 'Deflection',  6);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Defense",
+        "valueModifier" : 180,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_armor",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "silverRing",
+        "createdItemID" : "silverRing-0xeda799dd",
+        "scripts" : [
+          "entity.addBonus('Concealment',  5);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Invisibility",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_invisibility",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "silverRing",
+        "createdItemID" : "silverRing-0x8e2c151b",
+        "scripts" : [
+          "entity.addSkillBonus('Locks',  10);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Locks",
+        "valueModifier" : 155,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_locks",
+          "color" : "#ffffffff"
+        }
+      }
+    ]
+  },
+  "unspentSkillPoints" : 4,
+  "experiencePoints" : 21292,
+  "quickbar" : {
+    "lastViewSet" : 0,
+    "slots" : {
+      "slot0" : {
+        "type" : "use",
+        "itemID" : "potionHealing",
+        "itemQuality" : "Fine"
+      },
+      "slot1" : {
+        "type" : "equip",
+        "itemID" : "compositeLongbow-0xb4c55cc4",
+        "itemQuality" : "Fine"
+      },
+      "slot2" : {
+        "type" : "equip",
+        "itemID" : "shortSword",
+        "itemQuality" : "Fine"
+      },
+      "slot3" : {
+        "type" : "ability",
+        "abilityID" : "Hide"
+      },
+      "slot4" : {
+        "type" : "ability",
+        "abilityID" : "RapidShot"
+      },
+      "slot5" : {
+        "type" : "ability",
+        "abilityID" : "Poison"
+      },
+      "slot6" : {
+        "type" : "ability",
+        "abilityID" : "MultiShot"
+      },
+	  "slot7" : {
+	    "type" : "ability",
+		"abilityID" : "CripplingShot"
+	  }
+    }
+  }
+}

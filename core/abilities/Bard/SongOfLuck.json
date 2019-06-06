@@ -1,0 +1,17 @@
+{
+  "name" : "Song of Luck",
+  "type" : "Bard Abilities",
+  "icon" : {
+    "sprite" : "icons/songOfLuck"
+  },
+  "description" : "The Song of Luck affects all allies within 8 hexes of the Bard.  Affected creatures gain a bonus of 10 plus two times Bard level plus 2 per point of Charisma over 10 to Spell Casting Success, Attack, Locks Skill Checks, and Traps Skill Checks.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Bardsong"
+    ]
+  }
+}

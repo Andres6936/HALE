@@ -1,0 +1,19 @@
+{
+  "name" : "Belt",
+  "description" : "Creates a simple belt.",
+  "skill" : "CraftArmor",
+  "skillRankRequirement" : 5,
+  "ingredients" : {
+    "leather" : 2,
+    "thread" : 2
+  },
+  "result" : {
+    "id" : "belt",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "skillRankRequirement" : 5
+      }
+    ]
+  }
+}

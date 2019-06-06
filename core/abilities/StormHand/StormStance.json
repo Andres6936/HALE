@@ -1,0 +1,31 @@
+{
+  "externalScript" : "abilities/stormStance",
+  "name" : "Storm Stance",
+  "type" : "Storm Hand Abilities",
+  "icon" : {
+    "sprite" : "icons/stormStance"
+  },
+  "description" : "You can select one of your known Storm Hand stances, each providing unique bonuses during combat.  There is a cooldown of 1 turn when switching stances.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : true,
+  "isCancelable" : true,
+  "cooldown" : 1,
+  "ai" : {
+    "power" : 30,
+    "priority" : 5,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Storm Hand",
+        "level" : 1
+      }
+    ]
+  }
+}

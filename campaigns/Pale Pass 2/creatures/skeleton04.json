@@ -1,0 +1,87 @@
+{
+  "name" : "Skeleton",
+  "gender" : "Male",
+  "race" : "Skeleton",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/skeleton02",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 16,
+    "dexterity" : 12,
+    "constitution" : 15,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "SlashingImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "PiercingImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "CriticalHitImmunity",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 8,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "longsword",
+        "quality" : "Good"
+      },
+      "OffHand" : {
+        "id" : "shield_heavy_base",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_mail_base",
+        "quality" : "Good"
+      },
+      "Gloves" : {
+        "id" : "gloves_mail_base",
+        "quality" : "Good"
+      },
+      "Helmet" : {
+        "id" : "helmet_mail_base",
+        "quality" : "Good"
+      },
+      "Boots" : {
+        "id" : "boots_mail_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    3000, 6500
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

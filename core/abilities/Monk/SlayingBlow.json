@@ -1,0 +1,32 @@
+{
+  "externalScript" : "abilities/slayingBlow",
+  "name" : "Slaying Blow",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/slayingBlow"
+  },
+  "description" : "You attempt an unarmed strike against a single opponent in melee range.  Upon a successful hit, the target makes a Physical Resistance Check.  If they fail, they take massive damage - two thirds of their maximum hit points.  Even if they suceed, they take one third of their maximum hit points in damage.  This damage is unaffected by any resistances.  This ability does not affect targets immune to critical hits.  The attack has the same AP cost as one of your normal attacks.",
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : false,
+  "isCancelable" : false,
+  "cooldown" : 10,
+  "actionPointCost" : "Same as an attack",
+  "ai" : {
+    "power" : 35,
+    "priority" : 5,
+    "actionType" : "Damage",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Monk",
+        "level" : 12
+      }
+    ],
+	"abilities" : [ "StunningBlow" ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name" : "Sling",
+  "description" : "An ancient weapon, a sling is a device for hurling small stones at high velocity.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Sling01",
+    "color" : "#ffffffff"
+  },
+  "value" : 300,
+  "weight" : 400,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-sling01",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Ranged",
+  "minRange" : 1,
+  "maxRange" : 10,
+  "handed" : "Light",
+  "baseWeapon" : "Sling",
+  "threatensAoOs" : false,
+  "damageType" : "Blunt",
+  "minDamage" : 1,
+  "maxDamage" : 5,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 3,
+  "attackCost" : 2800,
+  "rangePenalty" : 20,
+  "maxStrengthBonus" : 0
+}

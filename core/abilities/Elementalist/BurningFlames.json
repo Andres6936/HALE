@@ -1,0 +1,17 @@
+{
+  "name" : "Burning Flames",
+  "type" : "Elementalist Abilities",
+  "icon" : {
+    "sprite" : "icons/burningFlames"
+  },
+  "description" : "Your Firebolt / Fireball / Meteor spell now causes targets to catch on fire, taking one point per four caster levels of fire damage for 2 rounds.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 20
+  },
+  "prereqs" : {
+    "abilities" : [
+      "FireMage"
+    ]
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "name" : "Chapter 3",
+  "startArea" : "The Gate",
+  "worldMapBackground" : "worldMap",
+  "partySize" : {
+    "min" : 2,
+    "max" : 4
+  },
+  "startingLevel" : {
+    "min" : 12,
+    "max" : 60
+  },
+  "minCurrency" : 1000000,
+  "allowLevelUp" : true,
+  "timeConversions" : {
+    "roundsPerMinute" : 10,
+    "minutesPerHour" : 60,
+    "hoursPerDay" : 24,
+    "daysPerMonth" : 30
+  },
+  "locations" : [
+    {
+      "id" : "The Gate",
+      "startingTransition" : "theGateToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/drake4"
+      },
+      "iconPosition" : {
+        "x" : 30,
+        "y" : 420
+      },
+      "travelTimes" : {
+        "Pale Pass" : 60,
+        "Army Camp" : 48,
+        "Aravil Merchants" : 24,
+        "Aravil West Gate" : 24,
+        "Tomb of Narkel" : 42,
+        "Scout Encampment" : 42,
+        "Master's Army" : 52,
+        "Lake Renarel" : 48,
+        "Greenrange Canyon" : 22,
+        "Aravil Castle" : 24,
+        "Greenrange Forest" : 18,
+        "Demon Gate" : 50
+      }
+    }, {
+      "id" : "Aravil West Gate",
+      "startingTransition" : "aravilWestGateToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/city1"
+      },
+      "iconPosition" : {
+        "x" : 280,
+        "y" : 400
+      },
+      "travelTimes" : {
+        "Pale Pass" : 36,
+        "Army Camp" : 24,
+        "Aravil Merchants" : 1,
+        "Tomb of Narkel" : 18,
+        "Scout Encampment" : 18,
+        "The Gate" : 24,
+        "Master's Army" : 28,
+        "Lake Renarel" : 24,
+        "Greenrange Canyon" : 28,
+        "Aravil Castle" : 1,
+        "Greenrange Forest" : 24,
+        "Demon Gate" : 26
+      }
+    }, {
+      "id" : "Scout Encampment",
+      "startingTransition" : "scoutEncampmentToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/tent-ruin-1"
+      },
+      "iconPosition" : {
+        "x" : 520,
+        "y" : 440
+      },
+      "travelTimes" : {
+        "Pale Pass" : 54,
+        "Army Camp" : 42,
+        "Aravil Merchants" : 18,
+        "Aravil West Gate" : 18,
+        "Tomb of Narkel" : 36,
+        "The Gate" : 42,
+        "Master's Army" : 46,
+        "Lake Renarel" : 42,
+        "Greenrange Canyon" : 46,
+        "Aravil Castle" : 18,
+        "Greenrange Forest" : 42,
+        "Demon Gate" : 44
+      }
+    }, {
+      "id" : "Aravil Castle",
+      "startingTransition" : "aravilCastleToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/city2"
+      },
+      "iconPosition" : {
+        "x" : 320,
+        "y" : 320
+      },
+      "travelTimes" : {
+        "Pale Pass" : 36,
+        "Army Camp" : 24,
+        "Aravil Merchants" : 1,
+        "Aravil West Gate" : 1,
+        "Tomb of Narkel" : 18,
+        "Scout Encampment" : 18,
+        "The Gate" : 24,
+        "Master's Army" : 28,
+        "Lake Renarel" : 24,
+        "Greenrange Canyon" : 28,
+        "Greenrange Forest" : 24,
+        "Demon Gate" : 26
+      }
+    }, {
+      "id" : "Aravil Merchants",
+      "startingTransition" : "aravilMerchantsToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/city4"
+      },
+      "iconPosition" : {
+        "x" : 370,
+        "y" : 400
+      },
+      "travelTimes" : {
+        "Pale Pass" : 36,
+        "Army Camp" : 24,
+        "Aravil West Gate" : 1,
+        "Tomb of Narkel" : 18,
+        "Scout Encampment" : 18,
+        "The Gate" : 24,
+        "Master's Army" : 28,
+        "Lake Renarel" : 24,
+        "Aravil Castle" : 1,
+        "Greenrange Canyon" : 28,
+        "Greenrange Forest" : 24,
+        "Demon Gate" : 26
+      }
+    }, {
+      "id" : "Tomb of Narkel",
+      "startingTransition" : "tombEntranceToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/drake2"
+      },
+      "iconPosition" : {
+        "x" : 535,
+        "y" : 280
+      },
+      "travelTimes" : {
+        "Aravil Merchants" : 18,
+        "Pale Pass" : 48,
+        "Army Camp" : 36,
+        "Aravil West Gate" : 18,
+        "Scout Encampment" : 36,
+        "The Gate" : 42,
+        "Master's Army" : 40,
+        "Lake Renarel" : 36,
+        "Aravil Castle" : 18,
+        "Greenrange Canyon" : 46,
+        "Greenrange Forest" : 42,
+        "Demon Gate" : 38
+      }
+    }, {
+      "id" : "Greenrange Forest",
+      "startingTransition" : "greenrangeForestToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/deciduous-summer-4"
+      },
+      "iconPosition" : {
+        "x" : 140,
+        "y" : 250
+      },
+      "travelTimes" : {
+        "Aravil Merchants" : 24,
+        "Pale Pass" : 48,
+        "Army Camp" : 36,
+        "Aravil West Gate" : 24,
+        "Tomb of Narkel" : 42,
+        "Scout Encampment" : 42,
+        "The Gate" : 18,
+        "Master's Army" : 40,
+        "Lake Renarel" : 24,
+        "Aravil Castle" : 24,
+        "Greenrange Canyon" : 4,
+        "Demon Gate" : 26
+      }
+    }, {
+      "id" : "Greenrange Canyon",
+      "startingTransition" : "greenrangeCanyonToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/deciduous-fall-2"
+      },
+      "iconPosition" : {
+        "x" : 10,
+        "y" : 260
+      },
+      "travelTimes" : {
+        "Aravil Merchants" : 28,
+        "Pale Pass" : 50,
+        "Army Camp" : 40,
+        "Aravil West Gate" : 28,
+        "Tomb of Narkel" : 46,
+        "Scout Encampment" : 46,
+        "The Gate" : 22,
+        "Master's Army" : 44,
+        "Lake Renarel" : 28,
+        "Aravil Castle" : 28,
+        "Greenrange Forest" : 4,
+        "Demon Gate" : 30
+      }
+    }, {
+      "id" : "Lake Renarel",
+      "startingTransition" : "lakeRenarelToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/lake1"
+      },
+      "iconPosition" : {
+        "x" : 140,
+        "y" : 100
+      },
+      "travelTimes" : {
+        "Aravil Merchants" : 24,
+        "Pale Pass" : 36,
+        "Army Camp" : 24,
+        "Aravil West Gate" : 24,
+        "Tomb of Narkel" : 36,
+        "Scout Encampment" : 42,
+        "The Gate" : 48,
+        "Master's Army" : 28,
+        "Aravil Castle" : 24,
+        "Greenrange Canyon" : 28,
+        "Greenrange Forest" : 24,
+        "Demon Gate" : 2
+      }
+    }, {
+      "id" : "Demon Gate",
+      "startingTransition" : "demonGateToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/dwarven-doors-closed"
+      },
+      "iconPosition" : {
+        "x" : 110,
+        "y" : 20
+      },
+      "travelTimes" : {
+        "Aravil Merchants" : 26,
+        "Pale Pass" : 38,
+        "Army Camp" : 26,
+        "Aravil West Gate" : 26,
+        "Tomb of Narkel" : 38,
+        "Scout Encampment" : 44,
+        "The Gate" : 50,
+        "Master's Army" : 30,
+        "Lake Renarel" : 2,
+        "Aravil Castle" : 26,
+        "Greenrange Canyon" : 30,
+        "Greenrange Forest" : 26
+      }
+    }, {
+      "id" : "Army Camp",
+      "startingTransition" : "armyForwardCampToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/camp"
+      },
+      "iconPosition" : {
+        "x" : 350,
+        "y" : 120
+      },
+      "travelTimes" : {
+        "Aravil Merchants" : 24,
+        "Pale Pass" : 12,
+        "Aravil West Gate" : 24,
+        "Tomb of Narkel" : 36,
+        "Scout Encampment" : 42,
+        "The Gate" : 48,
+        "Master's Army" : 4,
+        "Lake Renarel" : 24,
+        "Aravil Castle" : 24,
+        "Greenrange Canyon" : 40,
+        "Greenrange Forest" : 36,
+        "Demon Gate" : 26
+      }
+    }, {
+      "id" : "Master's Army",
+      "startingTransition" : "armyEncampmentToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/orc4"
+      },
+      "iconPosition" : {
+        "x" : 450,
+        "y" : 95
+      },
+      "travelTimes" : {
+        "Aravil Merchants" : 28,
+        "Army Camp" : 4,
+        "Pale Pass" : 8,
+        "Aravil West Gate" : 28,
+        "Tomb of Narkel" : 40,
+        "Scout Encampment" : 46,
+        "The Gate" : 52,
+        "Lake Renarel" : 28,
+        "Aravil Castle" : 28,
+        "Greenrange Canyon" : 44,
+        "Greenrange Forest" : 40,
+        "Demon Gate" : 30
+      }
+    }, {
+      "id" : "Pale Pass",
+      "startingTransition" : "palePassToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/mine-abandoned"
+      },
+      "iconPosition" : {
+        "x" : 450,
+        "y" : 5
+      },
+      "travelTimes" : {
+        "Aravil Merchants" : 36,
+        "Army Camp" : 12,
+        "Aravil West Gate" : 36,
+        "Tomb of Narkel" : 48,
+        "Scout Encampment" : 54,
+        "The Gate" : 60,
+        "Master's Army" : 8,
+        "Lake Renarel" : 36,
+        "Aravil Castle" : 36,
+        "Greenrange Canyon" : 50,
+        "Greenrange Forest" : 48,
+        "Demon Gate" : 38
+      }
+    }
+  ]
+}

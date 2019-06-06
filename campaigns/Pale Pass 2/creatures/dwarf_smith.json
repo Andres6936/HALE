@@ -1,0 +1,64 @@
+{
+  "name" : "Deep Dwarf Smith",
+  "gender" : "Male",
+  "race" : "Dwarf",
+  "portrait" : "Dwarf/fighter-dark",
+  "conversation" : "conversations/dwarf_smith",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ff56583b",
+    "clothingColor" : "#ffb3b86b",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair001",
+        "color" : "#ff5c87a2"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 9,
+    "constitution" : 12,
+    "intelligence" : 11,
+    "wisdom" : 9,
+    "charisma" : 9
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor10",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 6,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "lighthammer",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_clothes"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true,
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

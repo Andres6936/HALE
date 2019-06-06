@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBaseWeaponBonus('Shortbow', 'Damage', 15); effect.getBonuses().addBaseWeaponBonus('Longbow', 'Damage', 15); parent.applyEffect(effect); }",
+  "name" : "Advanced Training, Bows",
+  "type" : "Weapon Training",
+  "icon" : {
+    "sprite" : "icons/advTrainBows"
+  },
+  "description" : "You gain an additional +15 to damage with shortbows and longbows.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "TrainingPiercing"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 24
+      }
+    ]
+  }
+}

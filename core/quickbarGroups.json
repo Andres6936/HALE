@@ -1,0 +1,40 @@
+{
+  "quickbarGroups" : [
+    { "name" : "OtherAbility",
+	  "tooltip" : "Abilities",
+	  "icon" : {
+        "sprite" : "icons/groupAbility"
+      },
+	},
+	{ "name" : "Evocation",
+	  "tooltip" : "Evocation Spells",
+	  "icon" : {
+        "sprite" : "icons/groupEvocation"
+      },
+	},
+	{ "name" : "Restoration",
+	  "tooltip" : "Restoration Spells",
+	  "icon" : {
+        "sprite" : "icons/groupRestoration"
+      },
+	},
+	{ "name" : "Enchantment",
+	  "tooltip" : "Enchantment Spells",
+	  "icon" : {
+        "sprite" : "icons/groupEnchantment"
+      },
+	},
+	{ "name" : "Alteration",
+	  "tooltip" : "Alteration Spells",
+	  "icon" : {
+        "sprite" : "icons/groupAlteration"
+      },
+	},
+	{ "name" : "Conjuration",
+	  "tooltip" : "Conjuration Spells",
+	  "icon" : {
+        "sprite" : "icons/groupConjuration"
+      },
+	}
+  ]
+}

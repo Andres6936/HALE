@@ -1,0 +1,26 @@
+{ "name" : "Human",
+  "icon" : "icons/human",
+  "baseMovementCost" : 1000,
+  "defaultWeapon" : "unarmedMedium",
+  
+  "baseAttributes" : [ 10, 10, 10, 10, 10, 10 ],
+  
+  "racialTypes" : [
+    "Humanoid"
+  ],
+  
+  "icons" : {
+    "maleForeground" : "creatures/human-male-fg",
+	"maleBackground" : "creatures/human-male-bg",
+	"femaleForeground" : "creatures/human-female-fg",
+	"femaleBackground" : "creatures/human-female-bg",
+	"maleClothes" : "creatures/human-male-clothes",
+	"femaleClothes" : "creatures/human-female-clothes"
+  },
+  
+  "iconOffsets" : {
+	"Shield" : [ 22, 15 ],
+	"MainHandWeapon" : [ 4, 10 ],
+	"OffHandWeapon" : [ 24, 11 ]
+  }
+}

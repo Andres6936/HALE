@@ -1,0 +1,32 @@
+{
+  "name" : "Axe of Gan Tok",
+  "description" : "A masterfully crafted axe, heirloom of the royal family of the Dwarven city of Gan Tok.",
+  "script" : "items/axe_dwarven",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Axe008",
+    "color" : "#ffffffff"
+  },
+  "value" : 400000,
+  "weight" : 2400,
+  "isIngredient" : false,
+  "isQuest" : false
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-axe02",
+    "color" : "#ffdc9696"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "OneHanded",
+  "baseWeapon" : "Battleaxe",
+  "threatensAoOs" : true,
+  "damageType" : "Slashing",
+  "minDamage" : 3,
+  "maxDamage" : 9,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 3,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

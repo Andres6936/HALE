@@ -1,0 +1,18 @@
+{
+  "source" : "usable",
+  "gridSize" : 34,
+  "category"  : "items",
+  "images" : {
+    "C_ArmorStandGold" : [ 0, 0 ],
+    "C_ArmorStandGrey" : [ 1, 0 ],
+    "C_ArmorStandEmpty" : [ 2, 0 ],
+    "C_Chest01Closed" : [ 3, 0 ],
+    "C_Chest01Open" : [ 4, 0 ],
+    "C_Chest02Open" : [ 5, 0 ],
+    "C_Chest02Closed" : [ 6, 0 ],
+    "C_Chest03Open" : [ 7, 0 ],
+    "C_Chest03Closed" : [ 8, 0 ],    
+    "C_Workbench" : [ 9, 0 ],
+    "C_LootBag" : [ 10, 0 ],
+  }
+}

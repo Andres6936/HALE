@@ -1,0 +1,13 @@
+{
+  "name" : "Pressure Plate",
+  "description" : "A pressure plate, useful in crafting many traps.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_PressurePlate",
+    "color" : "#ffffffff"
+  },
+  "value" : 4000,
+  "weight" : 200,
+  "isIngredient" : true,
+  "isQuest" : false
+}

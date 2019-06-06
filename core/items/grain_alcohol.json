@@ -1,0 +1,13 @@
+{
+  "name" : "Grain Alcohol",
+  "description" : "Not purified enough for drinking, this grain alcohol can be used as a part of some crafting recipes.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/P_White03",
+    "color" : "#ffffffff"
+  },
+  "value" : 1000,
+  "weight" : 150,
+  "isIngredient" : true,
+  "isQuest" : false
+}

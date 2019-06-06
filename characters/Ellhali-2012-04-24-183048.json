@@ -1,0 +1,59 @@
+{
+  "name" : "Ellhali",
+  "isPregenerated" : true,
+  "gender" : "Female",
+  "race" : "Elf",
+  "portrait" : "Elf/FlareFemaleHero2",
+  "icon" : {
+    "skinColor" : "#ffd48661",
+    "clothingColor" : "#ff00ff00",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair004",
+        "color" : "#ff5c3317"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 12,
+    "dexterity" : 19,
+    "constitution" : 12,
+    "intelligence" : 11,
+    "wisdom" : 10,
+    "charisma" : 11
+  },
+  "skills" : {
+    "Hide" : 5,
+    "Locks" : 5,
+    "Traps" : 5,
+    "Search" : 5
+  },
+  "abilities" : [
+    {
+      "id" : "RapidShot",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Rogue" : 1,
+    "baseRoleID" : "Rogue"
+  },
+  "inventory" : {
+    "equipped" : {
+      "Armor" : {
+        "id" : "armor_clothes"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "experiencePoints" : 0,
+  "unspentSkillPoints" : 1,
+  "quickbar" : {
+    "slots" : {
+
+    }
+  }
+}

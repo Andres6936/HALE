@@ -1,0 +1,72 @@
+{
+  "name" : "Goblin",
+  "gender" : "Male",
+  "race" : "Goblin",
+  "portrait" : "Monster/goblin05",
+  "conversation" : "conversations/goblin_cavernEnter",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ff722626",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/goblin03",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 12,
+    "dexterity" : 14,
+    "constitution" : 9,
+    "intelligence" : 5,
+    "wisdom" : 9,
+    "charisma" : 7
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 5,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "Armor" : {
+        "id" : "armor_leather_base",
+        "quality" : "Good"
+      },
+      "Gloves" : {
+        "id" : "gloves_leather_base",
+        "quality" : "Good"
+      },
+      "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true,
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

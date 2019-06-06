@@ -1,0 +1,34 @@
+{
+  "name" : "Shortbow",
+  "description" : "A small bow that still is able to deal out respectible damage with accuracy at range.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Bow01",
+    "color" : "#ffffffff"
+  },
+  "value" : 50000,
+  "weight" : 1100,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "type" : "OffHandWeapon",
+    "sprite" : "subIcons/weapon-bow01",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Ranged",
+  "minRange" : 1,
+  "maxRange" : 10,
+  "handed" : "TwoHanded",
+  "baseWeapon" : "Shortbow",
+  "threatensAoOs" : false,
+  "damageType" : "Piercing",
+  "minDamage" : 2,
+  "maxDamage" : 6,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 3,
+  "attackCost" : 2800,
+  "rangePenalty" : 20,
+  "maxStrengthBonus" : 0
+}

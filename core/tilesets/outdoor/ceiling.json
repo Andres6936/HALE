@@ -1,0 +1,30 @@
+{
+  "source" : "ceiling",
+  "images" : {
+    "wall-stone-se-s-sw-nw" : [ 0, 0, 100, 140 ],
+    "wall-stone-ne-se-s" : [ 100, 0, 100, 140 ],
+    "wall-stone-ne-se-s-sw" : [ 200, 0, 100, 140 ],
+    "wall-stone-s-sw-nw" : [ 300, 0, 100, 140 ],
+    "wall-stone-ne-se-s-sw-nw-fg" : [ 400, 0, 100, 140 ],
+    "wall-stone-se-s-sw" : [ 500, 0, 100, 140 ],
+    "wall-stone-n-s" : [ 600, 0, 100, 140 ],
+    "wall-stone-ne-se" : [ 0, 140, 100, 140 ],
+    "wall-stone-n-ne-se-s-fg" : [ 100, 140, 100, 140 ],
+    "wall-stone-s" : [ 200, 140, 100, 140 ],
+    "wall-stone-se" : [ 300, 140, 100, 140 ],
+    "wall-stone-se-s" : [ 400, 140, 100, 140 ],
+    "wall-stone-s-sw" : [ 500, 140, 100, 140 ],
+    "wall-stone-s-sw-ne-n-fg" : [ 0, 280, 100, 140 ],
+    "wall-stone-sw" : [ 100, 280, 100, 140 ],
+    "wall-stone-sw-ne" : [ 200, 280, 100, 140 ],
+    "wall-stone-se2" : [ 300, 280, 100, 140 ],
+    "wall-stone-sw2" : [ 400, 280, 100, 140 ],
+    "wall-stone-ne-se2" : [ 500, 280, 100, 140 ],
+    "wall-stone-sw-ne2" : [ 600, 280, 100, 140 ],
+    "building-roof-01" : [ 0, 420, 136, 126 ],
+    "building-roof-02" : [ 136, 420, 136, 126 ],
+    "building-roof-03" : [ 272, 420, 136, 126 ],
+    "building-roof-04" : [ 408, 420, 136, 126 ],
+    "building-roof-05" : [ 544, 420, 136, 126 ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "Strength of the Earth",
+  "type" : "Storm Hand Abilities",
+  "icon" : {
+    "sprite" : "icons/strengthOfTheEarth"
+  },
+  "description" : "This ability upgrades the Stone Form stance.  You gain a bonus to your Constitution equal to your Wisdom bonus, and regenerate hit points per round equal to your Wisdom bonus.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [ "StoneForm" ],
+	"roles" : [ { "id" : "Storm Hand", "level" : 5 } ]
+  }
+}

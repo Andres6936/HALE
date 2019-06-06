@@ -1,0 +1,26 @@
+{
+  "name" : "Meteor",
+  "type" : "Evocation",
+  "icon" : {
+    "sprite" : "icons/meteor"
+  },
+  "description" : "Meteor further upgrades your Firebolt spell.  A swarm of meteors descends on the targeted area, especially on hostile creatures.  All hostile targets in a 5 hex radius take 10 to 20 plus one per caster level damage.  Friendly targets in the area take only one third as much damage.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 50,
+    "actionType" : "Damage",
+    "groupType" : "Multiple",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Fireball"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 13
+      }
+    ]
+  }
+}

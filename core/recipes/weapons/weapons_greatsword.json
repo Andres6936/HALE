@@ -1,0 +1,42 @@
+{
+  "name" : "Greatsword",
+  "description" : "Creates a greatsword. The quality is dependant on your Craft Weapons skill.",
+  "skill" : "CraftWeapons",
+  "skillRankRequirement" : 40,
+  "ingredients" : {
+    "bar_iron" : 5,
+    "bar_wood" : 1,
+    "coal" : 8
+  },
+  "result" : {
+    "id" : "greatsword",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 35
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 55
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 75
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 95
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 115
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 130
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 145
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 165
+      }
+    ]
+  }
+}

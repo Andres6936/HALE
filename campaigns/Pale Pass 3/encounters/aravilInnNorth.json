@@ -1,0 +1,31 @@
+{
+  "radius" : 5,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "peasant01",
+      "x" : -4,
+      "y" : -3
+    }, {
+      "id" : "peasant03",
+      "x" : -1,
+      "y" : -5
+    }, {
+      "id" : "peasant06",
+      "x" : -4,
+      "y" : 0
+    }, {
+      "id" : "peasant08",
+      "x" : 3,
+      "y" : -3
+    }, {
+      "id" : "peasant07",
+      "x" : -4,
+      "y" : 3
+    }, {
+      "id" : "aravilBarkeep",
+      "x" : 2,
+      "y" : 2
+    }
+  ]
+}

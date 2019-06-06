@@ -1,0 +1,42 @@
+{
+  "name" : "Potion of Dexterity",
+  "description" : "Creates a potion of dexterity.  The bonus conferred by the potion depends on your Alchemy Skill.",
+  "skill" : "Alchemy",
+  "skillRankRequirement" : 15,
+  "ingredients" : {
+    "empty_bottle" : 1,
+    "water_jug" : 1,
+    "foxtail" : 2
+  },
+  "result" : {
+    "id" : "potionDex",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 10
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 30
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 50
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 70
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 90
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 110
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 130
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 150
+      }
+    ]
+  }
+}

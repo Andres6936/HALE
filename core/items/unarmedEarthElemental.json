@@ -1,0 +1,22 @@
+{ "class" : "Weapon",
+  "name" : "Crush",
+  
+  "enchantments" : [
+    "entity.addStandaloneDamageBonus('Acid', 1, 3);"
+  ],
+  
+  "type" : "Weapon",
+  "weaponType" : "Melee",
+  "handed" : "Light",
+  "defaultQuality" : "Good",
+  "baseWeapon" : "Unarmed",
+  "threatensAoOs" : true,
+  "minRange" : 1,
+  "maxRange" : 1,
+  "damageType" : "Blunt",
+  "minDamage" : 3,
+  "maxDamage" : 8,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800
+}

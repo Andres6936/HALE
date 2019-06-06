@@ -1,0 +1,12 @@
+{
+  "name" : "Workbench",
+  "description" : "A workbench, suitable for use in crafting a variety of items.",
+  "class" : "Container",
+  "closedIcon" : {
+    "sprite" : "items/C_Workbench"
+  },
+  "openIcon" : {
+    "sprite" : "items/C_Workbench"
+  },
+  "isWorkbench" : true
+}

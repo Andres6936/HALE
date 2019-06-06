@@ -1,0 +1,13 @@
+{
+  "items" : [
+    {
+      "id" : "sonorinDesertKey",
+      "quality" : "Good",
+      "quantity" : 1
+    }, {
+      "id" : "sonorinDesertNote",
+      "quality" : "Good",
+      "quantity" : 1
+    }
+  ]
+}

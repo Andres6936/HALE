@@ -1,0 +1,11 @@
+{
+  "radius" : 0,
+  "faction" : "Hostile",
+  "creatures" : [
+    {
+      "id" : "snakegiant",
+      "x" : 0,
+      "y" : 0
+    }
+  ]
+}

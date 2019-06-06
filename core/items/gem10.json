@@ -1,0 +1,13 @@
+{
+  "name" : "Moonstone",
+  "description" : "A good example of a moonstone, worth a bit of coin.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/S_Sling01",
+    "color" : "#ffffffff"
+  },
+  "value" : 3200,
+  "weight" : 10,
+  "isIngredient" : true,
+  "isQuest" : false
+}

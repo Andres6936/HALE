@@ -1,0 +1,17 @@
+{
+  "name" : "Mortality Song",
+  "type" : "Bard Abilities",
+  "icon" : {
+    "sprite" : "icons/mortalitySong"
+  },
+  "description" : "The Mortality Song affects all hostiles within 8 hexes of the Bard.  Affected creatures suffer a penalty to Constitution of one point per 2 Bard levels plus one point per 2 points of Charisma above 10, and a penalty to Defense of 10 plus two times Bard level plus 2 per point of Charisma over 10.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40
+  },
+  "prereqs" : {
+    "abilities" : [
+      "CurseSong"
+    ]
+  }
+}

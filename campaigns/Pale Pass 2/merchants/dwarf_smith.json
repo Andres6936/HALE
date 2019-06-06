@@ -1,0 +1,35 @@
+{
+  "name" : "Smith",
+  "usesSpeechSkill" : true,
+  "confirmOnExit" : false,
+  "respawnHours" : 24,
+  "buyValuePercentage" : 45,
+  "sellValuePercentage" : 160,
+  "items" : [
+    {
+      "id" : "Ammo",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerItem"
+      }
+    }, {
+      "id" : "SmithingSupplies",
+      "probability" : {
+        "value" : 70,
+        "mode" : "PerItem"
+      }
+    }, {
+      "id" : "ArmorFine",
+      "probability" : {
+        "value" : 80,
+        "mode" : "PerItem"
+      }
+    }, {
+      "id" : "WeaponsFine",
+      "probability" : {
+        "value" : 80,
+        "mode" : "PerItem"
+      }
+    }
+  ]
+}

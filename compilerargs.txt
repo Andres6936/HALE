@@ -1,0 +1,5 @@
+-d bin
+-sourcepath src
+-classpath bin:lib/lwjgl.jar:lib/TWL.jar:lib/xpp3-1.1.4c.jar:lib/json-smart-1.0.9.jar
+
+src/net/sf/hale/Game.java

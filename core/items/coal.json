@@ -1,0 +1,13 @@
+{
+  "name" : "Coal",
+  "description" : "A lump of coal, useful as fuel in various crafting recipes.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_GemCoal",
+    "color" : "#ffffffff"
+  },
+  "value" : 500,
+  "weight" : 500,
+  "isIngredient" : true,
+  "isQuest" : false
+}

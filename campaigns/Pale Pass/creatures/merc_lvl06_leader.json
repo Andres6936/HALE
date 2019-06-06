@@ -1,0 +1,118 @@
+{
+  "name" : "Mercenary Leader",
+  "gender" : "Male",
+  "race" : "HumanOnlyHandSubIcons",
+  "portrait" : "Human/iron-mauler",
+  "conversation" : "conversations/sonorinDesertMercLeader",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/human22",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 13,
+    "dexterity" : 10,
+    "constitution" : 12,
+    "intelligence" : 10,
+    "wisdom" : 16,
+    "charisma" : 8
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "MeleeCasting",
+      "levelObtained" : 1
+    }, {
+      "id" : "Enfeeble",
+      "levelObtained" : 1
+    }, {
+      "id" : "Curse",
+      "levelObtained" : 1
+    }, {
+      "id" : "Sleep",
+      "levelObtained" : 1
+    }, {
+      "id" : "Slow",
+      "levelObtained" : 1
+    }, {
+      "id" : "DivineLuck",
+      "levelObtained" : 1
+    }, {
+      "id" : "FlamingWeapon",
+      "levelObtained" : 1
+    }, {
+      "id" : "ImproveWeapon",
+      "levelObtained" : 1
+    }, {
+      "id" : "Haste",
+      "levelObtained" : 1
+    }, {
+      "id" : "Cure",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 7,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "warhammer",
+        "quality" : "Good"
+      },
+      "OffHand" : {
+        "id" : "shield_heavy_base",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_scale_base",
+        "quality" : "Good"
+      },
+      "Gloves" : {
+        "id" : "gloves_leather_base",
+        "quality" : "Good"
+      },
+      "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    3500, 5000
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel10",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "SonorinDesertMercLeader",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerItem"
+      }
+    }
+  ]
+}

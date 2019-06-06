@@ -1,0 +1,18 @@
+{ "class" : "Weapon",
+  "name" : "Claw",
+  
+  "type" : "Weapon",
+  "weaponType" : "Melee",
+  "handed" : "Light",
+  "defaultQuality" : "Good",
+  "baseWeapon" : "Unarmed",
+  "threatensAoOs" : true,
+  "minRange" : 1,
+  "maxRange" : 1,
+  "damageType" : "Piercing",
+  "minDamage" : 3,
+  "maxDamage" : 9,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800
+}

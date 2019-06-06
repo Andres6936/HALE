@@ -1,0 +1,19 @@
+{
+  "name" : "Sling Stone",
+  "description" : "A stone for use with a sling.",
+  "class" : "Ammo",
+  "icon" : {
+    "sprite" : "items/S_Sling01",
+    "color" : "#ffffffff"
+  },
+  "value" : 5,
+  "weight" : 50,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Ammo",
+  "projectileIcon" : {
+    "sprite" : "subIcons/projectile_bullet01",
+    "color" : "#ffffffff"
+  },
+  "weapons" : [ "Sling" ]
+}

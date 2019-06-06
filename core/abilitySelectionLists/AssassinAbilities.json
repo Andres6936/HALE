@@ -1,0 +1,108 @@
+{
+  "name" : "Assassin",
+  "abilities" : {
+    "Backstab" : {
+      "x" : 0.5,
+      "y" : 0.0
+    },
+    "ImprovedBackstab" : {
+      "x" : 0.0,
+      "y" : 1.0
+    },
+    "RangedBackstab" : {
+      "x" : 1.0,
+      "y" : 1.0
+    },
+    "CripplingBackstab" : {
+      "x" : 0.0,
+      "y" : 2.0
+    },
+    "BackstabMastery" : {
+      "x" : 0.5,
+      "y" : 3.0
+    },
+    "Poison" : {
+      "x" : 2.5,
+      "y" : 0.0
+    },
+    "LingeringPoison" : {
+      "x" : 2.0,
+      "y" : 1.0
+    },
+    "LethalPoison" : {
+      "x" : 3.0,
+      "y" : 2.0
+    },
+    "DexterityTraining1" : {
+      "x" : 4.5,
+      "y" : 0.0
+    },
+    "DexterityTraining2" : {
+      "x" : 4.0,
+      "y" : 1.0
+    },
+    "DexterityTraining3" : {
+      "x" : 4.0,
+      "y" : 2.0
+    },
+    "CombatReady" : {
+      "x" : 5.5,
+      "y" : 0.0
+    },
+    "DeadlyInitiative" : {
+      "x" : 5.25,
+      "y" : 1.0
+    },
+    "HideInPlainSight" : {
+      "x" : 6.5,
+      "y" : 1.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "TwoDown",
+      "x" : 0.5,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "TwoUp",
+      "x" : 0.5,
+      "y" : 3.0
+    }, {
+      "type" : "TwoDown",
+      "x" : 2.5,
+      "y" : 0.0
+    }, {
+      "type" : "Through",
+      "x" : 3.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 1.0
+    }, {
+      "type" : "TwoDown",
+      "x" : 4.5,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 5.5,
+      "y" : 0.0
+    }
+  ]
+}

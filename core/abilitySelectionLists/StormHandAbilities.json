@@ -1,0 +1,64 @@
+{
+  "name" : "Storm Hand",
+  "abilities" : {
+    "StormStance" : {
+      "x" : 1.5,
+      "y" : 0.0
+    },
+	"BurningPalm" : {
+	  "x" : 0.0,
+	  "y" : 1.0
+	},
+	"FlowingBody" : {
+	  "x" : 2.0,
+	  "y" : 1.0
+	},
+	"StoneForm" : {
+	  "x" : 3.0,
+	  "y" : 1.0
+	},
+	"HurricaneClaw" : {
+	  "x" : 1.0,
+	  "y" : 1.0
+	},
+	"SearingImpact" : {
+	  "x" : 0.0,
+	  "y" : 2.0
+	},
+	"SonicStrike" : {
+	  "x" : 1.0,
+	  "y" : 2.0
+	},
+	"TideWalker" : {
+	  "x" : 2.0,
+	  "y" : 2.0
+	},
+	"StrengthOfTheEarth" : {
+	  "x" : 3.0,
+	  "y" : 2.0
+	}
+  },
+  "connectors" : [
+    {
+      "type" : "FourDown",
+      "x" : 1.5,
+      "y" : 0.0
+    }, {
+	  "type" : "OneDown",
+	  "x" : 0.0,
+	  "y" : 1.0
+	}, {
+	  "type" : "OneDown",
+	  "x" : 1.0,
+	  "y" : 1.0
+	}, {
+	  "type" : "OneDown",
+	  "x" : 2.0,
+	  "y" : 1.0
+	}, {
+	  "type" : "OneDown",
+	  "x" : 3.0,
+	  "y" : 1.0
+	}
+  ]
+}

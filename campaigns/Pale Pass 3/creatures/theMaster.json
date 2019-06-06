@@ -1,0 +1,138 @@
+{
+  "name" : "The Master",
+  "gender" : "Male",
+  "race" : "Demon",
+  "portrait" : "Monster/shadow",
+  "conversation" : "conversations/theMaster",
+  "script" : "ai/theMaster",
+  "icon" : {
+    "sprite" : "creatures/theMaster",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 16,
+    "dexterity" : 16,
+    "constitution" : 23,
+    "intelligence" : 22,
+    "wisdom" : 13,
+    "charisma" : 15
+  },
+  "skills" : {
+    "Search" : 100
+  },
+  "abilities" : [
+    {
+      "id" : "Shield",
+      "levelObtained" : 1
+    }, {
+      "id" : "ElementalShield",
+      "levelObtained" : 1
+    }, {
+      "id" : "ProficientCasting",
+      "levelObtained" : 1
+    }, {
+      "id" : "FastSpellRecovery1",
+      "levelObtained" : 1
+    }, {
+      "id" : "MeleeCasting",
+      "levelObtained" : 1
+    }, {
+      "id" : "IcicleStab",
+      "levelObtained" : 1
+    }, {
+      "id" : "Shock",
+      "levelObtained" : 1
+    }, {
+      "id" : "LightningBolt",
+      "levelObtained" : 1
+    }, {
+      "id" : "FlamingFingers",
+      "levelObtained" : 1
+    }, {
+      "id" : "Firebolt",
+      "levelObtained" : 1
+    }, {
+      "id" : "Fireball",
+      "levelObtained" : 1
+    }, {
+      "id" : "Meteor",
+      "levelObtained" : 1
+    }, {
+      "id" : "Enfeeble",
+      "levelObtained" : 1
+    }, {
+      "id" : "Curse",
+      "levelObtained" : 1
+    }, {
+      "id" : "Sleep",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCurse",
+      "levelObtained" : 1
+    }, {
+      "id" : "Paralyze",
+      "levelObtained" : 1
+    }, {
+      "id" : "Slow",
+      "levelObtained" : 1
+    }, {
+      "id" : "ProficiencyLargeSwords",
+      "levelObtained" : 1
+    }, {
+      "id" : "Chameleon",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassChameleon",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction10",
+      "levelObtained" : 1
+    }, {
+      "id" : "SpellResistance30",
+      "levelObtained" : 1
+    }, {
+      "id" : "MonstrousRegeneration",
+      "levelObtained" : 1
+    }, {
+      "id" : "Cure",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCure",
+      "levelObtained" : 1
+    }, {
+      "id" : "MasterImmortality",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 24,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "greatsword",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_plateheavy_base",
+        "quality" : "Masterwork"
+      },
+      "Gloves" : {
+        "id" : "gloves_plate_base",
+        "quality" : "Masterwork"
+      },
+      "Helmet" : {
+        "id" : "helmet_plate_base",
+        "quality" : "Masterwork"
+      },
+      "Boots" : {
+        "id" : "boots_plate_base",
+        "quality" : "Masterwork"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  }
+}

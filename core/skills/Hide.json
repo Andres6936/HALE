@@ -1,0 +1,15 @@
+{
+  "name" : {
+    "noun" : "Hide",
+    "presentTenseVerb" : "Hide",
+    "pastTenseVerb" : "Hide"
+  },
+  "icon" : {
+    "sprite" : "icons/hide"
+  },
+  "isUsableUntrained" : true,
+  "suffersArmorPenalty" : true,
+  "keyAttribute" : "Dex",
+  "isCraft" : false,
+  "restrictToRole" : "Rogue"
+}

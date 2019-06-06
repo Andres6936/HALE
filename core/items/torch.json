@@ -1,0 +1,13 @@
+{
+  "name" : "Torch",
+  "description" : "A torch which can be used in crafting items or providing light.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_torch",
+    "color" : "#ffffffff"
+  },
+  "value" : 500,
+  "weight" : 100,
+  "isIngredient" : true,
+  "isQuest" : false
+}

@@ -1,0 +1,17 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('ArmorSpellFailure', 'Stackable', 7); parent.applyEffect(effect); }",
+  "name" : "Armor Casting I",
+  "type" : "Spell Casting",
+  "icon" : {
+    "sprite" : "icons/armorCasting1"
+  },
+  "description" : "You have practiced casting spells while wearing armor.  You suffer 7% less spell failure from armor and shields.  Note that that this talent can not reduce your spell failure from armor and shield to less than 0; It does nothing if you are not wearing any armor.",
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 1
+      }
+    ]
+  }
+}

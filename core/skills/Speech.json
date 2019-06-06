@@ -1,0 +1,14 @@
+{
+  "name" : {
+    "noun" : "Speech",
+    "presentTenseVerb" : "Speak",
+    "pastTenseVerb" : "Spoke"
+  },
+  "icon" : {
+    "sprite" : "icons/speech"
+  },
+  "isUsableUntrained" : true,
+  "suffersArmorPenalty" : false,
+  "keyAttribute" : "Cha",
+  "isCraft" : false
+}

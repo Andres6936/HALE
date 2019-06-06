@@ -1,0 +1,32 @@
+{
+  "name" : "Waraxe",
+  "description" : "A large and powerful one handed axe that deals out large slashing damage, but requires special training to use.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Axe014",
+    "color" : "#ffffffff"
+  },
+  "value" : 35000,
+  "weight" : 2400,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-axe03",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "OneHanded",
+  "baseWeapon" : "Waraxe",
+  "threatensAoOs" : true,
+  "damageType" : "Slashing",
+  "minDamage" : 2,
+  "maxDamage" : 7,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 3,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

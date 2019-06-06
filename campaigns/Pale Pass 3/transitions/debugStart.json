@@ -1,0 +1,27 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : false,
+  "isTwoWay" : false,
+  "worldMapLocation" : "The Gate",
+  "from" : {
+    "area" : "The Gate",
+    "x" : 2,
+    "y" : 12,
+    "partyPositions" : [
+      
+    ]
+  },
+  "to" : {
+    "worldMap" : true
+  }
+}

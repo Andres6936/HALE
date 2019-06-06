@@ -1,0 +1,13 @@
+{
+  "name" : "Thread",
+  "description" : "Thread for use in stitching cloth or leather.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Thread",
+    "color" : "#fff09b3b"
+  },
+  "value" : 500,
+  "weight" : 10,
+  "isIngredient" : true,
+  "isQuest" : false
+}

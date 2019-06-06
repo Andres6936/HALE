@@ -1,0 +1,26 @@
+{
+  "name" : "Scattershot",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/scattershot"
+  },
+  "description" : "Your Multi-Shot ability now causes shards of shrapnel to launch out in all directions.  All creatures within 2 hexes of the target take 1 to 10 plus one per three character levels in damage.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40,
+    "actionType" : "Damage",
+    "groupType" : "Single",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "MultiShot"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 50
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name" : "Mushroom Man",
+  "gender" : "Male",
+  "race" : "MediumAnimal",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/mushroom",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 14,
+    "dexterity" : 13,
+    "constitution" : 17,
+    "intelligence" : 2,
+    "wisdom" : 5,
+    "charisma" : 9
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "MightyBlow",
+      "levelObtained" : 1
+    }, {
+      "id" : "CriticalHitImmunity",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Monster" : 8
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedClaw",
+        "quality" : "Fine"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    2000, 4000
+  ],
+  "loot" : [
+    {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootMagicGood",
+      "probability" : {
+        "value" : 2,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsGood",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootMushroomMan",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

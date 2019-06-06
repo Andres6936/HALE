@@ -1,0 +1,143 @@
+{
+  "name" : "Monk",
+  "abilities" : {
+    "ImprovedStrike1" : {
+      "x" : 1.5,
+      "y" : 0.0
+    },
+	"ImprovedStrike2" : {
+	  "x" : 1.0,
+	  "y" : 2.0
+	},
+	"ImprovedStrike3" : {
+	  "x" : 1.0,
+	  "y" : 3.0
+	},
+	"UnerringStrike" : {
+	  "x" : 2.0,
+	  "y" : 2.0
+	},
+	"PreciseBlows" : {
+	  "x" : 0.0,
+	  "y" : 3.0
+	},
+	"FuriousBlows" : {
+	  "x" : 2.0,
+	  "y" : 3.0
+	},
+	"FlurryOfBlows" : {
+	  "x" : 0.0,
+	  "y" : 1.0
+	},
+	"StunningBlow" : {
+	  "x" : 3.0,
+	  "y" : 1.0
+	},
+	"SlayingBlow" : {
+	  "x" : 3.0,
+	  "y" : 3.0
+	}
+	"FleetOfFoot" : {
+	  "x" : 4.5,
+	  "y" : 0.0
+	},
+	"Pivot" : {
+	  "x" : 4.0,
+	  "y" : 2.0
+	},
+	"ChiDefense" : {
+	  "x" : 5.0,
+	  "y" : 2.0
+	},
+	"StrengthOfMind" : {
+	  "x" : 7.0,
+	  "y" : 0.0
+	},
+	"StrengthOfBody" : {
+	  "x" : 6.0,
+	  "y" : 0.0
+	},
+	"BodyMastery" : {
+	  "x" : 6.5,
+	  "y" : 2.0
+	},
+	"ChiMastery" : {
+	  "x" : 6.5,
+	  "y" : 3.0
+	}
+  },
+  "connectors" : [
+    { "type" : "FourDown",
+	  "x" : 1.5,
+	  "y" : 0.0
+	},
+	{ "type" : "Through",
+	  "x" : 1.0,
+	  "y" : 1.0
+	},
+	{ "type" : "OneDown",
+	  "x" : 1.0,
+	  "y" : 1.0
+	},
+	{ "type" : "ThreeDown",
+	  "x" : 1.0,
+	  "y" : 2.0
+	},
+	{ "type" : "Through",
+	  "x" : 2.0,
+	  "y" : 1.0,
+	},
+	{ "type" : "OneDown",
+	  "x" : 2.0,
+	  "y" : 1.0,
+	},
+	{ "type" : "TwoUp",
+	  "x" : 6.5,
+	  "y" : 1.0
+	},
+	{ "type" : "Through",
+	  "x" : 6.5,
+	  "y" : 1.0
+	},
+	{ "type" : "OneDown",
+	  "x" : 6.5,
+	  "y" : 1.0
+	},
+	{ "type" : "OneDown",
+	  "x" : 6.5,
+	  "y" : 2.0
+	},
+	{ "type" : "OneDown",
+	  "x" : 3.0,
+	  "y" : 1.0
+	},
+	{ "type" : "Through",
+	  "x" : 3.0,
+	  "y" : 2.0
+	},
+	{ "type" : "OneDown",
+	  "x" : 3.0,
+	  "y" : 2.0
+	},
+	{ "type" : "TwoDown",
+	  "x" : 4.5,
+	  "y" : 0.0
+	},
+	{ "type" : "Through",
+	  "x" : 4.0,
+	  "y" : 1.0
+	},
+	{ "type" : "Through",
+	  "x" : 5.0,
+	  "y" : 1.0
+	},
+	{ "type" : "OneDown",
+	  "x" : 4.0,
+	  "y" : 1.0
+	},
+	{ "type" : "OneDown",
+	  "x" : 5.0,
+	  "y" : 1.0
+	}
+  ]
+}

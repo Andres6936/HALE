@@ -1,0 +1,25 @@
+{
+  "name" : "Plate Helmet",
+  "description" : "A helmet made of solid steel plates, providing excellent protection for the wearer's head.",
+  "class" : "Armor",
+  "coversBeard" : false,
+  "coversHair" : true,
+  "icon" : {
+    "sprite" : "items/C_Elm03",
+    "color" : "#ffffffff"
+  },
+  "value" : 19000,
+  "weight" : 1200,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Helmet",
+  "subIcon" : {
+    "sprite" : "subIcons/helmet-04",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Heavy",
+  "armorClass" : 4,
+  "armorPenalty" : 4,
+  "movementPenalty" : 3
+}

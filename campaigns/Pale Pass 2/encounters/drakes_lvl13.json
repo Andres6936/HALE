@@ -1,0 +1,38 @@
+{
+  "respawnTime" : 24,
+  "radius" : 2,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 3,
+  "maxRandomCreatures" : 4,
+  "creatures" : [
+    {
+      "id" : "drakeWarrior",
+      "x" : -2,
+      "y" : -1
+    }, {
+      "id" : "drakeWarrior",
+      "x" : -1,
+      "y" : -2
+    }, {
+      "id" : "drakeWarrior02",
+      "x" : 0,
+      "y" : -2
+    }, {
+      "id" : "drakeWarrior02",
+      "x" : -2,
+      "y" : 0
+    }, {
+      "id" : "drakePriest",
+      "x" : 1,
+      "y" : 0
+    }, {
+      "id" : "drakeFireMage",
+      "x" : 1,
+      "y" : -1
+    }, {
+      "id" : "drakeFireMage02",
+      "x" : 2,
+      "y" : 0
+    }
+  ]
+}

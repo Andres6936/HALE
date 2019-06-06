@@ -1,0 +1,20 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('OneHandedMeleeWeaponDamage', 'Stackable', 15); effect.getBonuses().addBonus('TwoHandedMeleeWeaponDamage', 'Stackable', 15); parent.applyEffect(effect); }",
+  "name" : "Bruiser",
+  "type" : "Berserker Abilities",
+  "icon" : {
+    "sprite" : "icons/bruiser"
+  },
+  "description" : "You hit harder than others, gaining a permanent +15 bonus to damage with melee weapons (except light melee weapons).",
+  "prereqs" : {
+    "abilities" : [
+      "StrengthTraining1"
+    ],
+    "roles" : [
+      {
+        "id" : "Berserker",
+        "level" : 3
+      }
+    ]
+  }
+}

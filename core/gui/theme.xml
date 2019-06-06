@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<include filename="gothicUI.xml"/>
+    <include filename="cursors.xml"/>
+    
+    <fontDef name="medium-italic" filename="fonts/mediumItalic.fnt" color="black">
+        <fontParam if="error" color="red"/>
+        <fontParam if="disabled" color="gray"/>
+        <fontParam if="textSelection" color="white"/>
+    </fontDef>
+
+    <fontDef name="medium-bold" filename="fonts/mediumBold.fnt" color="black">
+        <fontParam if="error" color="red"/>
+        <fontParam if="disabled" color="gray"/>
+        <fontParam if="textSelection" color="white"/>
+    </fontDef>
+
+    <fontDef name="medium" filename="fonts/medium.fnt" color="black">
+        <fontParam if="error" color="red"/>
+        <fontParam if="disabled" color="gray"/>
+        <fontParam if="textSelection" color="white"/>
+    </fontDef>
+
+    <fontDef name="large" filename="fonts/large.fnt" color="black">
+        <fontParam if="error" color="red"/>
+        <fontParam if="disabled" color="gray"/>
+        <fontParam if="textSelection" color="white"/>
+    </fontDef>
+	<fontDef name="large-red" filename="fonts/large.fnt" color="red"/>
+	<fontDef name="large-blue" filename="fonts/large.fnt" color="blue"/>
+	<fontDef name="large-green" filename="fonts/large.fnt" color="green"/>
+	<fontDef name="large-yellow" filename="fonts/large.fnt" color="yellow"/>
+	<fontDef name="large-orange" filename="fonts/large.fnt" color="orange"/>
+	<fontDef name="large-purple" filename="fonts/large.fnt" color="purple"/>
+	<fontDef name="large-white" filename="fonts/large.fnt" color="white"/>
+
+    <fontDef name="normal" filename="fonts/small.fnt" color="black">
+        <fontParam if="error" color="red"/>
+        <fontParam if="disabled" color="gray"/>
+        <fontParam if="textSelection" color="white"/>
+    </fontDef>
+	<fontDef name="white" filename="fonts/small.fnt" color="white"/>
+    <fontDef name="black" filename="fonts/small.fnt" color="black"/>
+    <fontDef name="red" filename="fonts/small.fnt" color="red"/>
+    <fontDef name="green" filename="fonts/small.fnt" color="green"/>
+    <fontDef name="blue" filename="fonts/small.fnt" color="blue"/>
+    <fontDef name="yellow" filename="fonts/small.fnt" color="yellow"/>
+    <fontDef name="orange" filename="fonts/small.fnt" color="#ff5500"/>
+    <fontDef name="purple" filename="fonts/small.fnt" color="purple"/>
+    <fontDef name="link" filename="fonts/small.fnt" color="blue" underline="true" underlineOffset="1"/>
+	
+	<fontDef name="red-dark" filename="fonts/small.fnt" color="#c00000"/>
+    <fontDef name="green-dark" filename="fonts/small.fnt" color="#005000"/>
+	
+	<fontDef name="medium-white" filename="fonts/medium.fnt" color="white"/>
+    <fontDef name="medium-bold-white" filename="fonts/mediumBold.fnt" color="white"/>
+    <fontDef name="medium-italic-white" filename="fonts/mediumItalic.fnt" color="white"/>
+    <fontDef name="medium-red" filename="fonts/medium.fnt" color="#c00000"/>
+    <fontDef name="medium-bold-red" filename="fonts/mediumBold.fnt" color="#c00000"/>
+    <fontDef name="medium-italic-red" filename="fonts/mediumItalic.fnt" color="#c00000"/>
+    <fontDef name="medium-green" filename="fonts/medium.fnt" color="#005000"/>
+    <fontDef name="medium-bold-green" filename="fonts/mediumBold.fnt" color="#005000"/>
+    <fontDef name="medium-italic-green" filename="fonts/mediumItalic.fnt" color="#005000"/>
+    <fontDef name="medium-blue" filename="fonts/medium.fnt" color="blue"/>
+    <fontDef name="medium-bold-blue" filename="fonts/mediumBold.fnt" color="blue"/>
+    <fontDef name="medium-italic-blue" filename="fonts/mediumItalic.fnt" color="blue"/>
+
+	<fontDef name="mono-bold-white" filename="fonts/monoBold.fnt" color="white"/>
+	
+    <fontDef name="code" filename="fonts/mono.fnt" color="#000000"/>
+    <fontDef name="codeComment" filename="fonts/mono.fnt" color="#707070"/>
+    <fontDef name="codeCommentTag" filename="fonts/monoBold.fnt" color="#707070"/>
+    <fontDef name="codeString" filename="fonts/mono.fnt" color="#ce7b00"/>
+    <fontDef name="codeKeyword" filename="fonts/mono.fnt" color="#0000e6"/>
+
+    <fontDef name="combobox" filename="fonts/small.fnt" color="black">
+        <fontParam if="comboboxKeyboardFocus" color="white"/>
+    </fontDef>
+
+    <inputMapDef name="-defaultInputMap">
+        <action name="selectAll">ctrl A</action>
+        <action name="cut">ctrl X</action>
+        <action name="copy">ctrl C</action>
+        <action name="paste">ctrl V</action>
+    </inputMapDef>
+    
+    <theme name="-defaults">
+        <param name="background"><image>none</image></param>
+        <param name="overlay"><image>none</image></param>
+        <param name="font"><font>normal</font></param>
+        <param name="textAlignment"><enum type="alignment">left</enum></param>
+        <param name="minWidth"><int>0</int></param>
+        <param name="minHeight"><int>0</int></param>
+        <param name="maxWidth"><int>0</int></param>
+        <param name="maxHeight"><int>0</int></param>
+        <param name="inputMap"><inputMap>-defaultInputMap</inputMap></param>
+    </theme>
+	
+	<theme name="roundedbutton" ref="-defaults">
+	    <param name=""><image>roundedbutton.*</image></param>
+		<param name="border"><border>background.border</border></param>
+		<param name="textAlignment"><enum type="alignment">center</enum></param>
+		<param name="font"><font>white</font></param>
+	</theme>
+	
+    <theme name="button" ref="-defaults" allowWildcard="true">
+        <param name=""><image>button.*</image></param>
+        <param name="border"><border>background.border</border></param>
+        <param name="textAlignment"><enum type="alignment">center</enum></param>
+		<param name="font"><font>white</font></param>
+    </theme>
+	
+	<theme name="redbutton" ref="-defaults">
+	    <param name=""><image>redbutton.*</image></param>
+		<param name="border"><border>background.border</border></param>
+        <param name="textAlignment"><enum type="alignment">center</enum></param>
+		<param name="font"><font>white</font></param>
+	</theme>
+
+    <theme name="togglebutton" ref="button" allowWildcard="true">
+        <param name=""><image>togglebutton.*</image></param>
+        <param name="border"><border>background.border</border></param>
+    </theme>
+	
+	<theme name="largebutton" ref="roundedbutton">
+		<param name="textAlignment"><enum type="alignment">center</enum></param>
+		<param name="font"><font>large-white</font></param>
+		
+		<param name="minWidth"><int>200</int></param>
+		<param name="minHeight"><int>50</int></param>
+	</theme>
+
+	<theme name="checkbutton" ref="-defaults">
+		<param name=""><image>checkbutton.*</image></param>
+		<param name="border"><border>background.border</border></param>
+		<param name="textAlignment"><enum type="alignment">right</enum></param>
+		<param name="font"><font>white</font></param>
+	</theme>
+
+	<theme name="incrementbutton" ref="button">
+		<param name="overlay"><image>centereduparrow</image></param>
+		<param name="minHeight"><int>19</int></param>
+		<param name="minWidth"><int>19</int></param>
+	</theme>
+					
+	<theme name="decrementbutton" ref="button">
+		<param name="overlay"><image>centereddownarrow</image></param>
+		<param name="minHeight"><int>19</int></param>
+		<param name="minWidth"><int>19</int></param>
+	</theme>
+	
+    <theme name="checkbox" ref="-defaults" allowWildcard="true">
+        <param name=""><image>checkbox.*</image></param>
+        <param name="minWidth"><int>13</int></param>
+        <param name="minHeight"><int>13</int></param>
+    </theme>
+
+    <theme name="label" ref="-defaults" allowWildcard="true">
+        <param name="font"><font>white</font></param>
+    </theme>
+
+    <theme name="labelbig" ref="-defaults" allowWildcard="true">
+        <param name="font"><font>large-white</font></param>
+    </theme>
+    
+    <theme name="labelbigred" ref="-defaults" allowWildcard="true">
+        <param name="font"><font>large-red</font></param>
+    </theme>
+
+    <theme name="labelbigblue" ref="-defaults" allowWildcard="true">
+        <param name="font"><font>large-blue</font></param>
+    </theme>
+
+    <theme name="labelbigblack" ref="-defaults" allowWildcard="true">
+        <param name="font"><font>large</font></param>
+    </theme>
+
+    <theme name="labelblack" ref="-defaults" allowWildcard="true">
+        <param name="font"><font>black</font></param>
+    </theme>
+
+    <theme name="labelblue" ref="-defaults" allowWildcard="true">
+        <param name="font"><font>blue</font></param>
+    </theme>
+
+    <theme name="labelred" ref="-defaults" allowWildcard="true">
+        <param name="font"><font>red</font></param>
+    </theme>
+
+	<theme name="labelgreen" ref="-defaults" allowWildcard="true">
+		<param name="font"><font>green</font></param>
+	</theme>
+
+    <theme name="editfield" ref="labelblack" allowWildcard="true">
+        <param name=""><image>editfield.*</image></param>
+        <param name="border"><border>background.border</border></param>
+        <param name="passwordChar"><int>0x25CF</int></param>
+        <param name="maxWidth"><int>32767</int></param>
+        <param name="columns"><int>5</int></param>
+        <theme name="renderer" ref="labelblack"/>
+        <param name="mouseCursor"><cursor>cursor.text</cursor></param>
+        <param name="autocompletion-height"><int>150</int></param>
+    </theme>
+
+    <theme name="hscrollbar" ref="-defaults" allowWildcard="true">
+        <param name="background"><image>scrollbar.background</image></param>
+        <theme name="leftbutton" ref="-defaults">
+            <param name=""><image>hscrollbar.leftbutton.*</image></param>
+            <param name="minWidth"><int>16</int></param>
+        </theme>
+        <theme name="rightbutton" ref="-defaults">
+            <param name=""><image>hscrollbar.rightbutton.*</image></param>
+            <param name="minWidth"><int>16</int></param>
+        </theme>
+        <theme name="thumb" ref="-defaults">
+            <param name=""><image>scrollbar.thumb.*</image></param>
+        </theme>
+        <param name="scaleThumb"><bool>true</bool></param>
+        <param name="minWidth"><int>48</int></param>
+        <param name="minHeight"><int>16</int></param>
+    </theme>
+
+    <theme name="vscrollbar" ref="-defaults" allowWildcard="true">
+        <param name="background"><image>scrollbar.background</image></param>
+        <theme name="upbutton" ref="-defaults">
+            <param name=""><image>vscrollbar.upbutton.*</image></param>
+            <param name="minHeight"><int>16</int></param>
+        </theme>
+        <theme name="downbutton" ref="-defaults">
+            <param name=""><image>vscrollbar.downbutton.*</image></param>
+            <param name="minHeight"><int>16</int></param>
+        </theme>
+        <theme name="thumb" ref="-defaults">
+            <param name=""><image>scrollbar.thumb.*</image></param>
+        </theme>
+        <param name="scaleThumb"><bool>true</bool></param>
+        <param name="minWidth"><int>16</int></param>
+        <param name="minHeight"><int>48</int></param>
+    </theme>
+
+    <fontDef name="listbox-display" filename="fonts/small.fnt" color="black">
+        <fontParam if="selected" color="white"/>
+    </fontDef>
+
+    <theme name="listbox" ref="-defaults" allowWildcard="true">
+		<param name="minDisplayedRows"><int>3</int></param>
+        <param name="background"><image>textbackground-gothic</image></param>
+        <param name="border"><border>background.border</border></param>
+        <param name="cellHeight"><int>font.lineHeight + 4</int></param>
+        <param name="cellWidth"><constant>SINGLE_COLUMN</constant></param>
+        <param name="rowMajor"><bool>true</bool></param>
+        <param name="fixedCellWidth"><bool>false</bool></param>
+        <param name="fixedCellHeight"><bool>false</bool></param>
+        <param name="maxHeight"><int>8000</int></param>
+        <param name="maxWidth"><int>8000</int></param>
+        <theme name="vscrollbar" ref="vscrollbar"/>
+        <theme name="display" ref="label">
+            <param name=""><image>listbox.display.*</image></param>
+            <param name="font"><font>listbox-display</font></param>
+            <param name="border"><border>2</border></param>
+        </theme>
+    </theme>
+
+    <theme name="combobox" ref="-defaults" allowWildcard="true">
+        <param name="background"><image>textbackground-gothic</image></param>
+        <theme name="display" ref="label">
+            <param name=""><image>combobox.display.*</image></param>
+            <param name="border"><border>3</border></param>
+            <param name="minWidth"><int>65</int></param>
+            <param name="textAlignment"><enum type="alignment">left</enum></param>
+            <param name="font"><font>combobox</font></param>
+        </theme>
+        <theme name="button" ref="-defaults">
+            <param name=""><image>combobox.button.*</image></param>
+            <param name="minWidth"><int>18</int></param>
+        </theme>
+    </theme>
+
+    <theme name="comboboxPopup" ref="-defaults">
+        <param name="background"><image>textbackground-gothic</image></param>
+        <param name="border"><border>2</border></param>
+        <theme name="listbox" ref="listbox">
+			<param name="minDisplayedRows"><int>5</int></param>
+            <param name="background"><image>none</image></param>
+        <param name="border"><border>0</border></param>
+        </theme>
+        <param name="maxHeight"><int>150</int></param>
+    </theme>
+
+    <theme name="valueadjuster" ref="-defaults" allowWildcard="true">
+        <param name="background"><image>none</image></param>
+        <theme name="decButton" ref="button">
+            <param name="text"><string>-</string></param>
+            <param name="border"><border>0</border></param>
+            <param name="minWidth"><int>16</int></param>
+        </theme>
+        <theme name="incButton" ref="button">
+            <param name="text"><string>+</string></param>
+            <param name="border"><border>0</border></param>
+            <param name="minWidth"><int>16</int></param>
+        </theme>
+        <theme name="valueDisplay" ref="button">
+            <param name=""><image>button.*</image></param>
+            <param name="textAlignment"><enum type="alignment">center</enum></param>
+        </theme>
+        <theme name="valueEdit" ref="editfield"/>
+        <param name="width"><int>50</int></param>
+        <param name="useMouseWheel"><bool>true</bool></param>
+        <param name="displayPrefix"><string/></param>
+    </theme>
+
+    <theme name="dialoglayout" ref="-defaults" allowWildcard="true">
+        <param name="defaultGap"><dimension>5,5</dimension></param>
+        <param name="smallGap"><dimension>8,8</dimension></param>
+        <param name="mediumGap"><dimension>10,10</dimension></param>
+        <param name="largeGap"><dimension>15,15</dimension></param>
+        <param name="namedGaps"><map>
+            <param name="menuitem"><gap>5</gap></param>
+        </map></param>
+
+        <theme name="label" ref="label"/>
+        <theme name="listbox" ref="listbox"/>
+        <theme name="button" ref="button"/>
+        <theme name="combobox" ref="combobox"/>
+        <theme name="valueadjuster" ref="valueadjuster"/>
+    </theme>
+
+    <theme name="textarea" ref="-defaults" allowWildcard="true">
+        <param name="border"><border>background.border</border></param>
+        <param name="fonts"><map>
+           <param name="default"><font>black</font></param>
+           <param name="mono"><font>code</font></param>
+		   <param name="white"><font>white</font></param>
+		   <param name="black"><font>black</font></param>
+		   <param name="red"><font>red-dark</font></param>
+		   <param name="green"><font>green-dark</font></param>
+		   <param name="blue"><font>blue</font></param>
+		   <param name="yellow"><font>yellow</font></param>
+		   <param name="orange"><font>orange</font></param>
+           <param name="purple"><font>purple</font></param>
+           <param name="link"><font>link</font></param>
+           <param name="medium"><font>medium</font></param>
+           <param name="medium-bold"><font>medium-bold</font></param>
+           <param name="medium-italic"><font>medium-italic</font></param>
+		   <param name="medium-white"><font>medium-white</font></param>
+           <param name="medium-bold-white"><font>medium-bold-white</font></param>
+           <param name="medium-italic-white"><font>medium-italic-white</font></param>
+           <param name="medium-red"><font>medium-red</font></param>
+           <param name="medium-bold-red"><font>medium-bold-red</font></param>
+           <param name="medium-italic-red"><font>medium-italic-red</font></param>
+           <param name="medium-green"><font>medium-green</font></param>
+           <param name="medium-bold-green"><font>medium-bold-green</font></param>
+           <param name="medium-italic-green"><font>medium-italic-green</font></param>
+           <param name="medium-blue"><font>medium-blue</font></param>
+           <param name="medium-bold-blue"><font>medium-bold-blue</font></param>
+           <param name="medium-italic-blue"><font>medium-italic-blue</font></param>
+		   <param name="large"><font>large</font></param>
+		   <param name="large-red"><font>large-red</font></param>
+		   <param name="large-green"><font>large-green</font></param>
+		   <param name="large-blue"><font>large-blue</font></param>
+		   <param name="large-yellow"><font>large-yellow</font></param>
+		   <param name="large-orange"><font>large-orange</font></param>
+		   <param name="large-purple"><font>large-purple</font></param>
+		   <param name="large-white"><font>large-white</font></param>
+        </map></param>
+        <param name="images"><map>
+			<param name="ul-bullet"><image>none</image></param>
+        </map></param>
+        <param name="classes"><map>
+        </map></param>
+        <theme name="image" ref="-defaults"/>
+    </theme>
+	
+    <theme name="scrollpane" ref="-defaults" allowWildcard="true">
+        <param name="background"><image>textbackground-gothic</image></param>
+        <param name="border"><border>background.border</border></param>
+        <theme name="textarea" ref="textarea">
+            <param name="minWidth"><int>10</int></param>
+        </theme>
+        <theme name="hscrollbar" ref="hscrollbar"/>
+        <theme name="vscrollbar" ref="vscrollbar"/>
+        <param name="minWidth"><int>100</int></param>
+        <param name="minHeight"><int>100</int></param>
+        <param name="maxWidth"><int>32767</int></param>
+        <param name="maxHeight"><int>32767</int></param>
+        <param name="hasDragButton"><bool>false</bool></param>
+        <param name="autoScrollArea"><int>5</int></param>
+        <param name="autoScrollSpeed"><int>10</int></param>
+        <param name="scrollbarsAlwaysVisible"><bool>false</bool></param>
+    </theme>
+
+    <theme name="editfield-errorinfowindow" ref="-defaults">
+        <param name="background"><image>textbackground-gothic</image></param>
+        <theme name="label" ref="label"/>
+    </theme>
+
+    <theme name="progressbar" ref="-defaults" allowWildcard="true">
+        <param name="background"><image>tinybackground-gothic</image></param>
+        <param name="progressImage"><image>gradient-gothic</image></param>
+        <param name="border"><border>2</border></param>
+        <param name="minWidth"><int>100</int></param>
+    </theme>
+
+    <theme name="colorselector" ref="dialoglayout">
+        <theme name="colorarea1d" ref="-defaults">
+            <param name="background"><image>tinybackground-gothic</image></param>
+            <param name="border"><border>2</border></param>
+            <param name="minWidth"><int>30</int></param>
+            <param name="minHeight"><int>128</int></param>
+            <param name=""><image>colorselector.*</image></param>
+        </theme>
+        <theme name="colorarea2d" ref="-defaults">
+            <param name="background"><image>tinybackground-gothic</image></param>
+            <param name="border"><border>2</border></param>
+            <param name="minWidth"><int>128</int></param>
+            <param name="minHeight"><int>128</int></param>
+            <param name=""><image>colorselector.*</image></param>
+        </theme>
+        <theme name="valueadjuster" ref="valueadjuster">
+            <param name="maxWidth"><int>32767</int></param>
+        </theme>
+        <theme name="previewLabel" ref="label">
+            <param name="text"><string>Current color:</string></param>
+        </theme>
+        <theme name="preview" ref="-defaults">
+            <param name="background"><image>tinybackground-gothic</image></param>
+            <param name="border"><border>2</border></param>
+            <param name="minWidth"><int>64</int></param>
+            <param name="minHeight"><int>64</int></param>
+            <theme name="colorarea" ref="-defaults">
+                <param name="background"><image>white</image></param>
+            </theme>
+        </theme>
+        <theme name="hexColorEditField" ref="editfield">
+            <param name="tooltip"><string>Current color in ARGB hex format</string></param>
+        </theme>
+    </theme>
+
+    <theme name="infodialog" ref="-defaults" allowWildcard="true">
+        <param name="background"><image>windowbackground-gothic</image></param>
+        <param name="border"><border>30,18,30,18</border></param>
+        <param name="titleAreaTop"><int>2</int></param>
+        <param name="titleAreaLeft"><int>30</int></param>
+        <param name="titleAreaRight"><int>-30</int></param>
+        <param name="titleAreaBottom"><int>25</int></param>
+        <param name="hasCloseButton"><bool>true</bool></param>
+        <param name="closeButtonX"><int>-28</int></param>
+        <param name="closeButtonY"><int>3</int></param>
+        <param name="hasResizeHandle"><bool>false</bool></param>
+        <param name="resizeHandleX"><int>0</int></param>
+        <param name="resizeHandleY"><int>0</int></param>
+        <param name="fadeColorInactive"><color>white</color></param>
+        <param name="fadeDurationActivate"><int>0</int></param>
+        <param name="fadeDurationDeactivate"><int>0</int></param>
+        <param name="fadeDurationShow"><int>0</int></param>
+        <param name="fadeDurationHide"><int>0</int></param>
+        <param name="mouseCursor"><cursor>arrow.*</cursor></param>
+        <theme name="title" ref="label">
+		    <param name="background"><image>tinybackground-gothic</image></param>
+            <param name="textAlignment"><enum type="alignment">center</enum></param>
+            <param name="font"><fontDef filename="fonts/small.fnt" color="white">
+                <fontParam unless="keyboardFocus | hasOpenPopups" color="#d4d0c8"/>
+            </fontDef></param>
+        </theme>
+        <theme name="closeButton" ref="redbutton">
+            <param name="minWidth"><int>25</int></param>
+            <param name="minHeight"><int>25</int></param>
+        </theme>
+        <theme name="label" ref="label"></theme>
+        <theme name="button" ref="button"></theme>
+        <theme name="togglebutton" ref="togglebutton"></theme>
+        <theme name="listbox" ref="listbox"></theme>
+        <theme name="editfield" ref="editfield"></theme>
+        <theme name="hscrollbar" ref="hscrollbar"></theme>
+        <theme name="vscrollbar" ref="vscrollbar"></theme>
+        <theme name="valueadjuster" ref="valueadjuster"></theme>
+    </theme>
+
+    <theme name="tabbedpane" ref="-defaults">
+        <theme name="tabbox" ref="-defaults">
+            <theme name="tabbutton" ref="togglebutton"/>
+            <param name="spacing"><int>0</int></param>
+            <param name="alignment"><enum type="alignment">BOTTOMRIGHT</enum></param>
+        </theme>
+        <theme name="container" ref="-defaults"/>
+        <param name="inputMap"><inputMapDef>
+            <action name="nextTab">CTRL TAB</action>
+            <action name="prevTab">CTRL SHIFT TAB</action>
+        </inputMapDef></param>
+    </theme>
+	
+	<theme name="tooltipwindow" ref="-defaults">
+        <param name="background"><image>textbackground-gothic</image></param>
+        <param name="border"><border>background.border</border></param>
+        <param name="fadeInTime"><int>250</int></param>
+        <theme name="label" ref="label"/>
+    </theme>
+	
+	<include filename="characterbuilder.xml"/>
+	<include filename="interface.xml"/>
+	<include filename="mainMenu.xml"/>
+</themes>

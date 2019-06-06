@@ -1,0 +1,17 @@
+{
+  "name" : "Flamable Oil",
+  "description" : "A jar of flamable oil which can be used in crafting items.",
+  "script" : "",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/P_Red01",
+    "color" : "#fff5d7ae"
+  },
+  "value" : 2000,
+  "weight" : 400,
+  "isIngredient" : true,
+  "isQuest" : false,
+  "useText" : "Drink",
+  "useAP" : 4000,
+  "defaultQuality" : "Good"
+}

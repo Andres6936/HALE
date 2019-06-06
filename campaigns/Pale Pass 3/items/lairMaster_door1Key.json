@@ -1,0 +1,13 @@
+{
+  "name" : "Key",
+  "description" : "A key you found in the Lair of the Master.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Key03",
+    "color" : "#ffffffff"
+  },
+  "value" : 0,
+  "weight" : 10,
+  "isIngredient" : false,
+  "isQuest" : true
+}

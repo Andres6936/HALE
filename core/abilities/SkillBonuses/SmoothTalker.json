@@ -1,0 +1,9 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addSkillBonus('Speech', 'Stackable', 15); parent.applyEffect(effect); }",
+  "name" : "Smooth Talker",
+  "type" : "Skill Bonuses",
+  "icon" : {
+    "sprite" : "icons/smoothTalker"
+  },
+  "description" : "You can talk your way into and out of a variety of situations.  You gain +15 on all Speech checks."
+}

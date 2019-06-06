@@ -1,0 +1,23 @@
+{
+  "name" : "Lethal Poison",
+  "type" : "Assassin Abilities",
+  "icon" : {
+    "sprite" : "icons/lethalPoison"
+  },
+  "description" : "Your Poison becomes particulary lethal, improving as you gain Assassin levels.  Each round, your poison does an additional 1 point of damage per 2 Assassin levels.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Poison"
+    ],
+    "roles" : [
+      {
+        "id" : "Assassin",
+        "level" : 5
+      }
+    ]
+  }
+}

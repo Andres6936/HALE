@@ -1,0 +1,53 @@
+{
+  "name" : "Air Elemental",
+  "gender" : "Male",
+  "race" : "Elemental",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/elemental",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 26,
+    "constitution" : 13,
+    "intelligence" : 1,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "PiercingImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction5",
+      "levelObtained" : 1
+    }, {
+      "id" : "ElectricalImmunity100",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor10",
+      "levelObtained" : 1
+    }, {
+      "id" : "CriticalHitImmunity",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Monster" : 10
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedAirElemental",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  }
+}

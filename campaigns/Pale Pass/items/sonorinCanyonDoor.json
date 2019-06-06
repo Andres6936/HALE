@@ -1,0 +1,12 @@
+{
+  "name" : "Door",
+  "description" : "A door that retracts into the ground.",
+  "class" : "Door",
+  "closedIcon" : {
+    "sprite" : "doors/gate-rusty-opaque-se"
+  },
+  "openIcon" : {
+    "sprite" : "doors/gate-rusty-se-open"
+  },
+  "isTransparent" : false
+}

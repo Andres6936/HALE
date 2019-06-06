@@ -1,0 +1,22 @@
+{
+  "respawnTime" : 24,
+  "radius" : 1,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 3,
+  "maxRandomCreatures" : 4,
+  "creatures" : [
+    {
+      "id" : "treeant",
+      "x" : -1,
+      "y" : 0
+    }, {
+      "id" : "treeant",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "treeAntLarge",
+      "x" : 0,
+      "y" : 1
+    }
+  ]
+}

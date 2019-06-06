@@ -1,0 +1,53 @@
+{
+  "name" : "Enhance Attack",
+  "description" : "Enchants a weapon with a bonus to attack.  The amount of the bonus is dependant on your Enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 5,
+  "ingredients" : {
+    "gem01" : 1,
+    "claw" : 2,
+    "bar_silver" : 1
+  },
+  "result" : {
+    "postfix" : " of Seeking",
+    "ingredientItemTypes" : [ "Weapon" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_attack"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 5,
+		"valueModifier" : 140,
+        "enchantment" : "entity.addBonus('WeaponAttack',  4);"
+      }, {
+        "skillRankRequirement" : 20,
+		"valueModifier" : 155,
+        "enchantment" : "entity.addBonus('WeaponAttack',  8)"
+      }, {
+        "skillRankRequirement" : 40,
+		"valueModifier" : 165,
+        "enchantment" : "entity.addBonus('WeaponAttack',  12);"
+      }, {
+        "skillRankRequirement" : 60,
+		"valueModifier" : 175,
+        "enchantment" : "entity.addBonus('WeaponAttack',  16);"
+      }, {
+        "skillRankRequirement" : 80,
+		"valueModifier" : 185,
+        "enchantment" : "entity.addBonus('WeaponAttack', 20);"
+      }, {
+        "skillRankRequirement" : 100,
+		"valueModifier" : 195,
+        "enchantment" : "entity.addBonus('WeaponAttack', 24);"
+      }, {
+        "skillRankRequirement" : 120,
+		"valueModifier" : 205,
+        "enchantment" : "entity.addBonus('WeaponAttack', 28);"
+      }, {
+        "skillRankRequirement" : 140,
+		"valueModifier" : 215,
+        "enchantment" : "entity.addBonus('WeaponAttack', 32);"
+      }
+    ]
+  }
+}

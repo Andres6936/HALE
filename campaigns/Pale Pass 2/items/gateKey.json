@@ -1,0 +1,13 @@
+{
+  "name" : "Gate Key",
+  "description" : "The assembled key to the surface gate, located south of the goblin city.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Key04",
+    "color" : "#ffd27a7a"
+  },
+  "value" : 0,
+  "weight" : 0,
+  "isIngredient" : false,
+  "isQuest" : true
+}

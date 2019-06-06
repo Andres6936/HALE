@@ -1,0 +1,17 @@
+{
+  "name" : "Hide In Plain Sight",
+  "type" : "Assassin Abilities",
+  "icon" : {
+    "sprite" : "icons/hideInPlainSight"
+  },
+  "description" : "You no longer suffer a penalty to Hide skill checks while in plain view of enemies.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Assassin",
+        "level" : 3
+      }
+    ]
+  }
+}

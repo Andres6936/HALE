@@ -1,0 +1,26 @@
+{
+  "name" : "Devastating Shot",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/devastatingShot"
+  },
+  "description" : "Your Crippling Shot is now made with a +40 Attack bonus and a +160 Damage bonus.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "CripplingShot"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 50
+      }
+    ]
+  }
+}

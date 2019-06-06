@@ -1,0 +1,11 @@
+{
+  "name" : "Container",
+  "description" : "A container used to hold items.",
+  "class" : "Container",
+  "closedIcon" : {
+    "sprite" : "items/C_LootBag"
+  },
+  "openIcon" : {
+    "sprite" : "items/C_LootBag"
+  },
+}

@@ -1,0 +1,19 @@
+{
+	"textAreaWidth" : 700,
+    "textAreaHeight" : 100,
+
+    "frames": [ {
+		"background" : "willowInnSleep1",
+		"textFile" : "willowInnSleep1.html"
+	}, {
+		"background" : "willowInnSleep3",
+		"textFile" : "willowInnSleep2.html",
+		"textAreaHeight" : 150
+	}, {
+		"background" : "willowInnSleep3",
+		"textFile" : "willowInnSleep3.html"
+	}, {
+	    "background" : "willowInnSleep4",
+		"textFile" : "willowInnSleep4.html"
+	} ]
+};

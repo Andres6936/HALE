@@ -1,0 +1,32 @@
+{
+  "name" : "Bastard Sword",
+  "description" : "A very powerful one handed weapon, the bastard sword is longer than an ordinary longsword.  However, it requires special training to use properly.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Sword004",
+    "color" : "#ffffffff"
+  },
+  "value" : 38000,
+  "weight" : 2250,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-sword05",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "OneHanded",
+  "baseWeapon" : "Bastard Sword",
+  "threatensAoOs" : true,
+  "damageType" : "Slashing",
+  "minDamage" : 2,
+  "maxDamage" : 7,
+  "criticalThreat" : 91,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

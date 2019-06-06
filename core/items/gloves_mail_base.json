@@ -1,0 +1,23 @@
+{
+  "name" : "Mail Gloves",
+  "description" : "Gloves made of interlocking metal rings, these provide more protection than leather gloves.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/Ac_Gloves03",
+    "color" : "#ffffffff"
+  },
+  "value" : 5300,
+  "weight" : 600,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Gloves",
+  "subIcon" : {
+    "sprite" : "subIcons/gloves-03",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Medium",
+  "armorClass" : 3,
+  "armorPenalty" : 2,
+  "movementPenalty" : 2
+}

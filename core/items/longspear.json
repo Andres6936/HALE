@@ -1,0 +1,32 @@
+{
+  "name" : "Longspear",
+  "description" : "A spear with a shaft that is taller than a man.  This weapon can be used to attack targets 2 hexes away, but not adjacent targets due to its length.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Spear006",
+    "color" : "#ffffffff"
+  },
+  "value" : 30000,
+  "weight" : 5000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-spear04",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 2,
+  "maxRange" : 2,
+  "handed" : "TwoHanded",
+  "baseWeapon" : "Long Spear",
+  "threatensAoOs" : true,
+  "damageType" : "Piercing",
+  "minDamage" : 2,
+  "maxDamage" : 11,
+  "criticalThreat" : 93,
+  "criticalMultiplier" : 3,
+  "attackCost" : 4200,
+  "rangePenalty" : 0
+}

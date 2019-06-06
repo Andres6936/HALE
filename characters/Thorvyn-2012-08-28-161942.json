@@ -1,0 +1,231 @@
+{
+  "name" : "Thorvyn",
+  "isPregenerated" : true,
+  "gender" : "Male",
+  "race" : "Dwarf",
+  "portrait" : "Dwarf\/burin",
+  "icon" : {
+    "skinColor" : "#ffffc794",
+    "clothingColor" : "#ff00ffff",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons\/hair016",
+        "color" : "#ff8b4513"
+      }, {
+        "type" : "Beard",
+        "sprite" : "subIcons\/beard002",
+        "color" : "#ff8b4513"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 18,
+    "dexterity" : 12,
+    "constitution" : 15,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 9
+  },
+  "skills" : {
+    "CraftArmor" : 70
+  },
+  "abilities" : [
+    {
+      "id" : "ForcefulBlows",
+      "levelObtained" : 4
+    }, {
+      "id" : "ChargeAttack",
+      "levelObtained" : 7
+    }, {
+      "id" : "MightyBlow",
+      "levelObtained" : 1
+    }, {
+      "id" : "WhirlwindAttack",
+      "levelObtained" : 13
+    }, {
+      "id" : "Disarm",
+      "levelObtained" : 3
+    }, {
+      "id" : "StrengthTraining1",
+      "levelObtained" : 14
+    }, {
+      "id" : "ToughBody",
+      "levelObtained" : 8
+    }, {
+      "id" : "BlindFighting",
+      "levelObtained" : 5
+    }, {
+      "id" : "ReflexiveAttacks",
+      "levelObtained" : 2
+    }, {
+      "id" : "ProficiencyWaraxe",
+      "levelObtained" : 11
+    }, {
+      "id" : "ImprovedRage",
+      "levelObtained" : 12
+    }, {
+      "id" : "Rage",
+      "levelObtained" : 9
+    }, {
+      "id" : "ShieldCombat",
+      "levelObtained" : 10
+    }, {
+      "id" : "ShieldDefense",
+      "levelObtained" : 6
+    }
+  ],
+  "roles" : {
+    "baseRoleID" : "Warrior",
+    "Warrior" : 10,
+    "Berserker" : 4
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "waraxe-0xc3ca31b2",
+        "quality" : "Fine"
+      },
+      "OffHand" : {
+        "id" : "shield_tower_base",
+        "quality" : "Fine"
+      },
+      "Armor" : {
+        "id" : "armor_plateheavy_base",
+        "quality" : "Fine"
+      },
+      "Gloves" : {
+        "id" : "gloves_plate_base",
+        "quality" : "Fine"
+      },
+      "Helmet" : {
+        "id" : "helmet_plate_base-0x5960c32e",
+        "quality" : "Fine"
+      },
+      "Cloak" : {
+        "id" : "cloak-0x6d63fe7c"
+      },
+      "Boots" : {
+        "id" : "boots_plate_base",
+        "quality" : "Fine"
+      },
+      "Belt" : {
+        "id" : "belt-0x1deaeaa7"
+      },
+      "Amulet" : {
+        "id" : "amulet-0x1deadba3"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "potionHealing",
+        "quality" : "Fine",
+        "quantity" : 2
+      }
+    ],
+    "createdItems" : [
+      {
+        "baseItemID" : "waraxe",
+        "createdItemID" : "waraxe-0xc3ca31b2",
+        "scripts" : [
+          "entity.addStandaloneDamageBonus('Fire', 1, 4);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Fire",
+        "valueModifier" : 170,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_fire",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "helmet_plate_base",
+        "createdItemID" : "helmet_plate_base-0x5960c32e",
+        "scripts" : [
+          "entity.addDamageReduction('Cold',  2);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Cold Resistance",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_ice",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "cloak",
+        "createdItemID" : "cloak-0x6d63fe7c",
+        "scripts" : [
+          "entity.addBonus('ReflexResistance', 8);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Reflex Resistance",
+        "valueModifier" : 170,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_reflex",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "belt",
+        "createdItemID" : "belt-0x1deaeaa7",
+        "scripts" : [
+          "entity.addBonus('PhysicalResistance', 8);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Physical Resistance",
+        "valueModifier" : 170,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_physical",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "amulet",
+        "createdItemID" : "amulet-0x1deadba3",
+        "scripts" : [
+          "entity.addBonus('PhysicalResistance', 4);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Physical Resistance",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_physical",
+          "color" : "#ffffffff"
+        }
+      }
+    ]
+  },
+  "unspentSkillPoints" : 0,
+  "experiencePoints" : 21292,
+  "quickbar" : {
+    "lastViewSet" : 0,
+    "slots" : {
+      "slot0" : {
+        "type" : "use",
+        "itemID" : "potionHealing",
+        "itemQuality" : "Fine"
+      },
+      "slot1" : {
+        "type" : "ability",
+        "abilityID" : "MightyBlow"
+      },
+      "slot2" : {
+        "type" : "ability",
+        "abilityID" : "Disarm"
+      },
+      "slot3" : {
+        "type" : "ability",
+        "abilityID" : "ForcefulBlows"
+      },
+      "slot4" : {
+        "type" : "ability",
+        "abilityID" : "ChargeAttack"
+      },
+      "slot5" : {
+        "type" : "ability",
+        "abilityID" : "Rage"
+      },
+      "slot6" : {
+        "type" : "ability",
+        "abilityID" : "WhirlwindAttack"
+      }
+    }
+  }
+}

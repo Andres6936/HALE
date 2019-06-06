@@ -1,0 +1,32 @@
+{
+  "name" : "Club",
+  "description" : "A simple wooden club which can be used for bashing opponents.  It is inferior to more sophisticated weapons, however.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Mace001",
+    "color" : "#ffffffff"
+  },
+  "value" : 1000,
+  "weight" : 2000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-club01",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "OneHanded",
+  "baseWeapon" : "Club",
+  "threatensAoOs" : true,
+  "damageType" : "Blunt",
+  "minDamage" : 1,
+  "maxDamage" : 4,
+  "criticalThreat" : 93,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

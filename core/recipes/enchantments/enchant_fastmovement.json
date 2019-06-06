@@ -1,0 +1,54 @@
+{
+  "name" : "Fast Movement",
+  "description" : "Adds a movement speed enchantment to an item. The magnitude of the enchantment depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 35,
+  "ingredients" : {
+    "bar_silver" : 1,
+    "foxtail" : 1,
+    "feather" : 1,
+    "gem04" : 1
+  },
+  "result" : {
+    "postfix" : " of Speed",
+    "ingredientItemTypes" : [ "Boots", "Belt", "Cloak" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_fastMovement"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 30,
+		"valueModifier" : 150,
+        "enchantment" : "entity.addBonus('Movement',  10);"
+      }, {
+        "skillRankRequirement" : 50,
+		"valueModifier" : 170,
+        "enchantment" : "entity.addBonus('Movement',  15);"
+      }, {
+        "skillRankRequirement" : 70,
+		"valueModifier" : 180,
+        "enchantment" : "entity.addBonus('Movement',  20);"
+      }, {
+        "skillRankRequirement" : 90,
+		"valueModifier" : 190,
+        "enchantment" : "entity.addBonus('Movement',  25);"
+      }, {
+        "skillRankRequirement" : 110,
+		"valueModifier" : 200,
+        "enchantment" : "entity.addBonus('Movement',  30);"
+      }, {
+        "skillRankRequirement" : 130,
+		"valueModifier" : 210,
+        "enchantment" : "entity.addBonus('Movement',  35);"
+      }, {
+        "skillRankRequirement" : 150,
+		"valueModifier" : 220,
+        "enchantment" : "entity.addBonus('Movement',  40);"
+      }, {
+        "skillRankRequirement" : 170,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addBonus('Movement',  45);"
+      }
+    ]
+  }
+}

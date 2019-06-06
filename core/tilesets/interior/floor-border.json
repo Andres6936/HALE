@@ -1,0 +1,17 @@
+{
+  "source" : "floor-border",
+  "images" : {
+    "wood-regular-n" : [ 0, 0, 72, 72 ],
+    "wood-regular-n-ne" : [ 144, 0, 72, 72 ],
+    "wood-regular-nw-n" : [ 0, 72, 72, 72 ],
+    "wood-regular-nw-n-ne" : [ 72, 72, 72, 72 ],
+    "wood-regular-s" : [ 144, 72, 72, 72 ],
+    "wood-regular-se-s" : [ 0, 144, 72, 72 ],
+    "wood-regular-se-s-sw" : [ 72, 144, 72, 72 ],
+    "wood-regular-s-sw" : [ 144, 144, 72, 72 ],
+    "stone-nw-n" : [ 288, 0, 72, 72 ],
+    "stone-n-ne" : [ 288, 72, 72, 72 ],
+    "cobble-nw-n" : [ 360, 0, 72, 72 ],
+    "cobble-n-ne" : [ 360, 72, 72, 72 ]
+  }
+}

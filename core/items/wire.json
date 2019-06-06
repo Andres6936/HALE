@@ -1,0 +1,13 @@
+{
+  "name" : "Wire",
+  "description" : "A length of wire, useful in crafting certain items",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Thread",
+    "color" : "#ffa0a883"
+  },
+  "value" : 1000,
+  "weight" : 100,
+  "isIngredient" : true,
+  "isQuest" : false
+}

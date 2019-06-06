@@ -1,0 +1,32 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "worldMapLocation" : "Fareach",
+  "from" : {
+    "area" : "Forest Road",
+    "x" : 48,
+    "y" : 39,
+    "partyPositions" : [
+      [ -2, 1 ], [ -1, 0 ], [ 0, 1 ], [ 0, 0 ]
+    ]
+  },
+  "to" : {
+    "area" : "Fareach",
+    "x" : 1,
+    "y" : 3,
+    "partyPositions" : [
+      [ 2, 1 ], [ 1, 0 ], [ 0, 1 ], [ 0, 0 ]
+    ]
+  }
+}

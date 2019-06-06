@@ -1,0 +1,11 @@
+{
+  "radius" : 1,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "werewolf_farmhouse",
+      "x" : 0,
+      "y" : 0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name" : "Monk",
+  "icon" : {
+    "sprite" : "icons/monk"
+  },
+  "isPlayer" : true,
+  "isBase" : true,
+  "stats" : {
+    "hpPerLevel" : 4,
+    "hpAtLevelOne" : 12,
+    "damageBonusPerLevel" : 4,
+    "attackBonusPerLevel" : 5,
+    "skillPointsPerLevel" : 5
+  },
+  "defaultSelections" : {
+    "Str" : 6,
+    "Dex" : 2,
+    "Con" : 4,
+    "Int" : 0,
+    "Wis" : 3,
+    "Cha" : 0,
+    "skills" : [
+      "CraftWeapons", "Alchemy", "Search", "Speech", "CraftArmor"
+    ]
+  },
+  "abilitiesAdded" : {
+    "ProficiencySimpleWeapons" : 1,
+    "ProficiencySpears" : 1,
+  },
+  "abilitySelectionsFromList" : {
+    "Monk" : [
+      1, 3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 19, 21, 22, 24, 25, 27, 28, 30,
+	  31, 33, 34, 36, 37, 39, 40, 42, 43, 45, 46, 48, 49, 51, 52, 54, 55, 57, 58
+    ],
+	"General" : [ 2, 5, 8, 11, 14, 17, 20, 23, 26, 29,
+	              32, 35, 38, 41, 44, 47, 50, 53, 56, 59 ]
+  }
+}

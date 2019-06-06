@@ -1,0 +1,13 @@
+{
+  "name" : "Key",
+  "description" : "This key was found in the deep tunnels and likely opens a door somewhere in that area.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Key06",
+    "color" : "#ffffffff"
+  },
+  "value" : 0,
+  "weight" : 10,
+  "isIngredient" : false,
+  "isQuest" : false
+}

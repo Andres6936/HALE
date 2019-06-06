@@ -1,0 +1,32 @@
+{
+  "externalScript" : "abilities/pivot",
+  "name" : "Pivot",
+  "type" : "Monk Abilities",
+  "icon" : {
+    "sprite" : "icons/pivot"
+  },
+  "description" : "You select a target within melee range and make a standard attack.  Regardless of whether the attack is successful, you leap over or around the target to an adjacent unoccupied hex.  This movement does not have any Action Point cost.",
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "cooldown" : 2,
+  "actionPointCost" : "Same as an attack",
+  "ai" : {
+    "power" : 20,
+    "priority" : 1,
+    "actionType" : "Tactical",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+	  "FleetOfFoot"
+	],
+    "roles" : [
+      {
+        "id" : "Monk",
+        "level" : 6
+      }
+    ]
+  }
+}

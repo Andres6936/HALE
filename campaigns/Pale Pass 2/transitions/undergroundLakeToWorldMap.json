@@ -1,0 +1,27 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "worldMapLocation" : "Underground Lake",
+  "from" : {
+    "area" : "Underground Lake",
+    "x" : 11,
+    "y" : 38,
+    "partyPositions" : [
+      [ 2, -2 ], [ 1, -2 ], [ 2, -1 ], [ 1, -1 ]
+    ]
+  },
+  "to" : {
+    "worldMap" : true
+  }
+}

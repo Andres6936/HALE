@@ -1,0 +1,38 @@
+{
+  "name" : "Healer",
+  "gender" : "Male",
+  "race" : "Human",
+  "portrait" : "Human/mage-light",
+  "conversation" : "conversations/ChaolDorn-Healer",
+  "icon" : {
+    "sprite" : "creatures/human03",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 11,
+    "constitution" : 12,
+    "intelligence" : 9,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Priest" : 2,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true
+}

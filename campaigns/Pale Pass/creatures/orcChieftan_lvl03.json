@@ -1,0 +1,99 @@
+{
+  "name" : "Orc Chieftan",
+  "gender" : "Male",
+  "race" : "Orc",
+  "portrait" : "Monster/orc01",
+  "conversation" : "conversations/orc_chieftanOrcCaves",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/orc01",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 15,
+    "dexterity" : 10,
+    "constitution" : 11,
+    "intelligence" : 7,
+    "wisdom" : 9,
+    "charisma" : 6
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "ProficiencyLightArmor",
+      "levelObtained" : 1
+    }, {
+      "id" : "ProficiencyShields",
+      "levelObtained" : 1
+    }, {
+      "id" : "ProficiencyHammers",
+      "levelObtained" : 1
+    }, {
+      "id" : "ProficiencyAxes",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Monster" : 3
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "warhammer",
+        "quality" : "Decent"
+      },
+      "Armor" : {
+        "id" : "armor_leather_base",
+        "quality" : "Decent"
+      },
+      "Gloves" : {
+        "id" : "gloves_leather_base",
+        "quality" : "Decent"
+      },
+      "Helmet" : {
+        "id" : "helmet_leather_base",
+        "quality" : "Decent"
+      },
+      "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Decent"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    600, 1300
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "WeaponsDecent",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "ArmorDecent",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

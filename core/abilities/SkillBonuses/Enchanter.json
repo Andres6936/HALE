@@ -1,0 +1,18 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addSkillBonus('Enchanting', 'Stackable', 15); parent.applyEffect(effect); }",
+  "name" : "Enchanter",
+  "type" : "Skill Bonuses",
+  "icon" : {
+    "sprite" : "icons/enchanter"
+  },
+  "description" : "You have a talent for creating powerful enchanted items.  You gain a +15 bonus to Enchanting.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Mage",
+        "level" : 1
+      }
+    ]
+  }
+}

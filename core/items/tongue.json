@@ -1,0 +1,13 @@
+{
+  "name" : "Tongue",
+  "description" : "A tongue from an animal.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Tongue",
+    "color" : "#ffffffff"
+  },
+  "value" : 5,
+  "weight" : 100,
+  "isIngredient" : true,
+  "isQuest" : false
+}

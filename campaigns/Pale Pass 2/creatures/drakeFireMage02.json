@@ -1,0 +1,99 @@
+{
+  "name" : "Drake Fire Mage",
+  "gender" : "Male",
+  "race" : "Drake",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/drake08",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 18,
+    "dexterity" : 13,
+    "constitution" : 14,
+    "intelligence" : 15,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Search" : 40
+  },
+  "abilities" : [
+    {
+      "id" : "Shield",
+      "levelObtained" : 1
+    }, {
+      "id" : "ElementalShield",
+      "levelObtained" : 1
+    }, {
+      "id" : "FlamingFingers",
+      "levelObtained" : 1
+    }, {
+      "id" : "Firebolt",
+      "levelObtained" : 1
+    }, {
+      "id" : "Fireball",
+      "levelObtained" : 1
+    }, {
+      "id" : "Chameleon",
+      "levelObtained" : 1
+    }, {
+      "id" : "HardenArmor",
+      "levelObtained" : 1
+    }, {
+      "id" : "ResistWeapons",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassChameleon",
+      "levelObtained" : 1
+    }, {
+      "id" : "FireImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor20",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Mage" : 13,
+    "baseRoleID" : "Mage"
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    8000, 14000
+  ],
+  "loot" : [
+    {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel10Fine",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsFine",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

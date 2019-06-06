@@ -1,0 +1,78 @@
+{
+  "name" : "Goblin Berserker",
+  "gender" : "Male",
+  "race" : "Goblin",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ff722626",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/goblin01",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 15,
+    "dexterity" : 13,
+    "constitution" : 13,
+    "intelligence" : 6,
+    "wisdom" : 9,
+    "charisma" : 7
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "ExpertDualWielding",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWielding",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 6,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "battleaxe",
+        "quality" : "Good"
+      },
+	  "OffHand" : {
+	    "id" : "handaxe",
+		"quality" : "Good"
+	  },
+      "Armor" : {
+        "id" : "armor_leather_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    5000, 9000
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

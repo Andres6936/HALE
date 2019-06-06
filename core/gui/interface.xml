@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<themes>
+	<theme name="fpscounter" ref="label"/>
+	
+	<theme name="htmlpopup" ref="-defaults">
+		<theme name="content" ref="-defaults">
+			<param name=""><image>mediumbackground-gothic.*</image></param>
+			<param name="border"><border>7</border></param>
+			
+			<theme name="closebutton" ref="button">
+				<param name="text"><string>Continue</string></param>
+			</theme>
+			
+			<theme name="scrollpane" ref="scrollpane">
+				<theme name="textarea" ref="textarea">
+					<param name="images"><map>
+						<param name="ul-bullet"><image>textarea.ul-bullet</image></param>
+					</map></param>
+				</theme>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="targeterdescription" ref="textarea">
+		<param name="border"><border>10</border></param>
+	</theme>
+	
+	<theme name="itemiconhover" ref="textarea">
+		<param name="border"><border>0,4,2,4</border></param>
+		<param name="background"><image>textbackground-gothic</image></param>
+		<param name="maxWidth"><int>1000</int></param>
+	</theme>
+	
+	<theme name="entitymouseover" ref="-defaults">
+	    <param name="background"><image>smallbackground-gothic</image></param>
+		<param name="border"><border>7</border></param>
+		<theme name="namelabel" ref="label"/>
+		<theme name="statuslabel" ref="labelred"/>
+	</theme>
+	
+	<theme name="overheadfadeaway" ref="-defaults">
+		<theme name="textlabel" ref="label">
+			<param name="font"><font>mono-bold-white</font></param>
+		</theme>
+	</theme>
+	
+	<theme name="multipleitempopup" ref="-defaults">
+		<theme name="content" ref="-defaults">
+		    <param name="background"><image>mediumbackground-gothic</image></param>
+			<param name="border"><border>10</border></param>
+			<param name="titleGap"><int>10</int></param>
+			<param name="acceptCancelGap"><int>10</int></param>
+			<param name="valueGap"><int>5</int></param>
+		
+			<theme name="titlelabel" ref="labelbig"/>
+			
+			<theme name="valueadjuster" ref="valueadjuster">
+				<param name="minWidth"><int>90</int></param>
+			</theme>
+			
+			<theme name="valuelabel" ref="label"/>
+			
+			<theme name="minbutton" ref="button">
+				<param name="text"><string>Min</string></param>
+			</theme>
+			
+			<theme name="maxbutton" ref="button">
+				<param name="text"><string>Max</string></param>
+			</theme>
+			
+			<theme name="acceptbutton" ref="button">
+				<param name="minWidth"><int>60</int></param>
+				<param name="minHeight"><int>20</int></param>
+			</theme>
+			
+			<theme name="cancelbutton" ref="button">
+				<param name="text"><string>Cancel</string></param>
+				<param name="minWidth"><int>60</int></param>
+				<param name="minHeight"><int>20</int></param>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="expandablewidget" ref="-defaults">
+	    <param name="background"><image>textbackground-gothic</image></param>
+		<param name="border"><border>3</border></param>
+		<theme name="description" ref="textarea"/>
+		<theme name="iconviewer" ref="button"/>
+				
+		<theme name="expandbutton" ref="button">
+			<param name="text"><string>+</string></param>
+			<param name="tooltip"><string>Show Details</string></param>
+			<param name="border"><border>4,2</border></param>
+		</theme>
+		
+		<theme name="contractbutton" ref="button">
+			<param name="text"><string>-</string></param>
+			<param name="tooltip"><string>Hide Details</string></param>
+			<param name="border"><border>4,2</border></param>
+		</theme>
+	</theme>
+	
+	<theme name="mainpanebutton" ref="button">
+		<param name=""><image>mainpanebutton.*</image></param>
+		<param name="minHeight"><int>38</int></param>
+		<param name="minWidth"><int>38</int></param>
+	</theme>
+	
+	<theme name="mainpane" ref="-defaults">
+		<param name="background"><image>smallbackground-gothic</image></param>
+	
+		<param name="minHeight"><int>160</int></param>
+		<param name="buttonGap"><int>1</int></param>
+		<param name="rowGap"><int>5</int></param>
+	
+        
+        <param name="border"><border>5,5,5,5</border></param>
+
+		<theme name="endturnbutton" ref="button">
+			<param name=""><image>endturnbutton.*</image></param>
+			<param name="tooltip"><string>End the turn of the active character</string></param>
+			<param name="font"><font>medium-white</font></param>
+			<param name="text"><string>End Turn</string></param>
+			<param name="minWidth"><int>76</int></param>
+			<param name="minHeight"><int>17</int></param>
+		</theme>
+		
+		<theme name="turnmodebutton" ref="togglebutton">
+			<param name="text"><string>Turn Mode</string></param>
+			<param name="tooltip"><string>Force the game to run in turn mode</string></param>
+		</theme>
+		
+		<theme name="menubutton" ref="mainpanebutton">
+			<param name="tooltip"><string>Main Menu</string></param>
+			<param name="overlay"><image>menuicon</image></param>
+		</theme>
+		
+		<theme name="characterbutton" ref="mainpanebutton">
+			<param name="overlay"><image>charactericon</image></param>
+			<param name="tooltip"><string>Character Sheet</string></param>
+		</theme>
+		
+		<theme name="inventorybutton" ref="mainpanebutton">
+			<param name="overlay"><image>inventoryicon</image></param>
+			<param name="tooltip"><string>Inventory</string></param>
+		</theme>
+		
+		<theme name="messagesbutton" ref="mainpanebutton">
+		    <param name="overlay"><image>messagesicon</image></param>
+			<param name="tooltip"><string>Messages</string></param>
+		</theme>
+		
+		<theme name="mapbutton" ref="mainpanebutton">
+			<param name="overlay"><image>mapicon</image></param>
+			<param name="tooltip"><string>Minimap</string></param>
+		</theme>
+		
+		<theme name="logbutton" ref="mainpanebutton">
+			<param name="overlay"><image>logicon</image></param>
+			<param name="tooltip"><string>Logbook and Recipes</string></param>
+		</theme>
+		
+		<theme name="movementmodebutton" ref="mainpanebutton">
+			<param name="partyicon"><image>partymovementicon</image></param>
+			<param name="singleicon"><image>singlemovementicon</image></param>
+			<param name="tooltip"><string>Toggle Movement Mode</string></param>
+		</theme>
+		
+		<theme name="partymovementbutton" ref="mainpanebutton">
+			<param name="overlay"><image>partymovementicon</image></param>
+			<param name="tooltip"><string>Party Movement Mode</string></param>
+		</theme>
+		
+		<theme name="singlemovementbutton" ref="mainpanebutton">
+			<param name="overlay"><image>singlemovementicon</image></param>
+			<param name="tooltip"><string>Single Character Movement Mode</string></param>
+		</theme>
+		
+		<theme name="stopbutton" ref="mainpanebutton">
+			<param name="overlay"><image>stopicon</image></param>
+			<param name="tooltip"><string>Cancel all orders</string></param>
+		</theme>
+    </theme>
+	
+	<theme name="quickbarslotbutton" ref="button">
+		<param name="minWidth"><int>48</int></param>
+		<param name="minHeight"><int>48</int></param>
+			
+		<theme name="indexlabel" ref="labelred"/>
+		<theme name="primarylabel" ref="labelgreen"/>
+			
+		<param name="emptytooltip"><string>Drag and Drop Items here to use this Slot</string></param>
+	</theme>
+	
+	<theme name="quickbarviewer" ref="-defaults">
+        <param name="border"><border>2</border></param>
+		
+		<param name="buttonGap"><int>1</int></param>
+		<param name="groupGap"><int>5</int></param>
+		
+		<theme name="quickbarslotbutton" ref="quickbarslotbutton"/>
+	</theme>
+	
+	<theme name="initiativeticker" ref="-defaults">
+		<param name="minViewerGap"><int>0</int></param>
+		<param name="enabledTooltip"><string>Drag down to delay your turn</string></param>
+		<param name="disabledTooltip"><string>You have already taken an action</string></param>
+	
+		<param name="background"><image>tinybackground-gothic</image></param>
+		
+		<theme name="creatureviewer" ref="-defaults">
+			<param name=""><image>roundedbutton.*</image></param>
+		</theme>
+	</theme>
+	
+	<theme name="statbar" ref="-defaults">
+		<param name="font"><font>white</font></param>
+		<param name="textAlignment"><enum type="alignment">center</enum></param>
+		<param name="emptyImage"><image>black</image></param>
+		<param name="border"><border>0</border></param>
+	</theme>
+	
+	<theme name="portraitviewer" ref="-defaults">
+		<param name=""><image>portraitviewer.*</image></param>
+		<param name="border"><border>1,1,1,1</border></param>
+		<param name="portraitScale"><int>2</int></param>
+				
+		<theme name="hpbar" ref="statbar">
+			<param name="background"><image>-hpBarBorder</image></param>
+			<param name="fullImage"><image>-hpBar</image></param>
+		</theme>
+	
+		<theme name="apbar" ref="statbar">
+			<param name="background"><image>-apBarBorder</image></param>
+			<param name="fullImage"><image>-apBar</image></param>
+		</theme>
+				
+		<theme name="levelupbutton" ref="mainpanebutton">
+			<param name="text"><string>Level Up</string></param>
+			<param name="font"><font>white</font></param>
+			<param name="minHeight"><int>30</int></param>
+			<param name="minWidth"><int>96</int></param>
+			<param name="disabledtooltip"><string>You may not level up during combat</string></param>
+		</theme>
+				
+		<theme name="namelabel" ref="label"/>
+	</theme>
+	
+	<theme name="portraitarea" ref="scrollpane">
+		<param name="portraitGap"><int>1</int></param>
+	
+        <param name="background"><image>smallbackground-gothic</image></param>
+        <param name="scrollbarsAlwaysVisible"><bool>false</bool></param>
+		
+		<theme name="content" ref="-defaults">
+			<param name="border"><border>0,0,0,1</border></param>
+			<theme name="portraitviewer" ref="portraitviewer">
+				<param name="tooltip"><string>Click to select, drag to change party order</string></param>
+				<param name="nameOverlap"><int>5</int></param>
+				<param name="hpBarOverlap"><int>3</int></param>
+				<param name="effectIconColumns"><int>5</int></param>
+				<param name="effectIconStartY"><int>12</int></param>
+			</theme>
+		</theme>
+    </theme>
+	
+	<theme name="areaviewer" ref="-defaults">
+         <param name="cursor"><cursor>cursor.*</cursor></param>
+		 
+		 <param name="hexfilledblack"><image>hex-filled-black</image></param>
+		 <param name="hexfilledgrey"><image>hex-filled-grey</image></param>
+		 <param name="hexwhite"><image>hex-white</image></param>
+		 <param name="hexred"><image>hex-red</image></param>
+		 <param name="hexblue"><image>hex-blue</image></param>
+		 <param name="hexgreen"><image>hex-green</image></param>
+		 <param name="hexgrey"><image>hex-grey</image></param>
+		 <param name="hexanim"><image>hex-anim-white</image></param>
+    </theme>
+	
+	<theme name="gamesubwindow" ref="infodialog">
+		<param name="defaultWidth"><int>300</int></param>
+		<param name="defaultHeight"><int>400</int></param>
+		<param name="defaultX"><int>0</int></param>
+		<param name="defaultY"><int>0</int></param>
+	</theme>
+	
+	<theme name="charactersheet" ref="scrollpane">
+		<theme name="content" ref="-defaults">
+			<param name="xpBarX"><int>0</int></param>
+			<param name="xpBarY"><int>26</int></param>
+			<param name="portraitViewerOffset"><int>450</int></param>
+		
+			<theme name="portraitviewer" ref="portraitviewer"/>
+			<theme name="textarea" ref="textarea"/>
+			<theme name="xpbar" ref="statbar">
+				<param name="emptyImage"><image>-xpBarEmpty</image></param>
+				<param name="font"><font>medium-italic</font></param>
+				<param name="background"><image>-xpBarBorder</image></param>
+				<param name="fullImage"><image>-xpBar</image></param>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="skillsetviewer" ref="scrollpane">
+		<theme name="content" ref="-defaults">
+			<param name="gap"><int>10</int></param>
+		
+			<theme name="skillviewer" ref="expandablewidget"/>
+		</theme>
+	</theme>
+	
+	<theme name="abilityslotviewer" ref="button">
+		<param name="disabledColor"><color>#ff7f7f7f</color></param>
+		<theme name="cooldownlabel" ref="labelgreen"/>
+	</theme>
+	
+	<theme name="abilitiessheet" ref="scrollpane">
+		<param name="viewerGap"><int>5</int></param>
+	
+		<theme name="content" ref="-defaults">
+			<theme name="abilityhover" ref="button">
+				<theme name="abilitynamelabel" ref="label"/>
+				<theme name="hovermessagelabel" ref="label"/>
+			</theme>
+			<theme name="abilityhoverdetails" ref="button">
+			    <param name="border"><border>4,4,4,4</border></param>
+			</theme>
+		
+			<theme name="abilityselectionlistpane" ref="abilityselectionlistpane">
+				<param name="selectableText"><string>Prereqs Met</string></param>
+				<param name="notOwnedText"><string>Not Owned</string></param>
+				
+				<theme name="abilityselectionlistpane" ref="abilityselectionlistpane.abilityselectionlistpane">
+					<param name="selectableText"><string>Prereqs Met</string></param>
+					<param name="notOwnedText"><string>Not Owned</string></param>
+				</theme>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="messageswindow" ref="gamesubwindow">
+	    <param name="defaultWidth"><int>600</int></param>
+		<param name="defaultHeight"><int>400</int></param>
+		<param name="minWidth"><int>250</int></param>
+		<param name="minHeight"><int>300</int></param>
+		
+		<theme name="messagespane" ref="scrollpane"/>
+	</theme>
+	
+	<theme name="characterwindow" ref="gamesubwindow">
+		<param name="minWidth"><int>700</int></param>
+		<param name="maxWidth"><int>700</int></param>
+		<param name="defaultX"><int>0</int></param>
+	
+		<theme name="exportbutton" ref="button">
+			<param name="text"><string>Export</string></param>
+			<param name="tooltip"><string>Export Characters or your Party</string></param>
+		</theme>
+	
+		<theme name="content" ref="tabbedpane">
+			<theme name="container" ref="tabbedpane.container">
+				<theme name="skillsetviewer" ref="skillsetviewer"/>
+				<theme name="abilitiessheet" ref="abilitiessheet"/>
+				<theme name="charactersheet" ref="charactersheet"/>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="abilitydetailswindow" ref="gamesubwindow">
+		<param name="defaultWidth"><int>250</int></param>
+		<param name="defaultHeight"><int>300</int></param>
+		<param name="minWidth"><int>250</int></param>
+		<param name="minHeight"><int>300</int></param>
+		
+		<theme name="content" ref="dialoglayout">
+			<theme name="titlelabel" ref="labelbig"/>
+			<theme name="iconviewer" ref="-defaults"/>
+			<theme name="scrollpane" ref="scrollpane"/>
+		</theme>
+	</theme>
+	
+	<theme name="itemiconviewer" ref="-defaults">
+		<param name=""><image>itemiconviewer.*</image></param>
+		<param name="border"><border>2</border></param>
+		
+		<param name="minWidth"><int>48</int></param>
+		<param name="minHeight"><int>48</int></param>
+		
+		<theme name="quantitylabel" ref="labelgreen"/>
+	</theme>
+	
+	<theme name="itemlistviewer" ref="-defaults">
+		<param name="gridGap"><int>1</int></param>
+	
+		<theme name="itemspane" ref="scrollpane">
+			<theme name="content" ref="-defaults">
+				<param name=""><image>itemlistviewercontent.*</image></param>
+			
+				<theme name="itemiconviewer" ref="itemiconviewer"/>
+			</theme>
+		</theme>
+		
+		<theme name="allfilter" ref="togglebutton">
+			<param name="text"><string>All</string></param>
+			<param name="tooltip"><string>Show all Items</string></param>
+		</theme>
+		<theme name="weaponsfilter" ref="togglebutton">
+			<param name="text"><string>Weapons</string></param>
+			<param name="tooltip"><string>Show only Weapons</string></param>
+		</theme>
+		<theme name="armorfilter" ref="togglebutton">
+			<param name="text"><string>Armor</string></param>
+			<param name="tooltip"><string>Show only Armor and Apparel</string></param>
+		</theme>
+		<theme name="usablefilter" ref="togglebutton">
+			<param name="text"><string>Usable</string></param>
+			<param name="tooltip"><string>Show only Usable items (Potions, Scrolls)</string></param>
+		</theme>
+		<theme name="ingredientsfilter" ref="togglebutton">
+			<param name="text"><string>Crafting</string></param>
+			<param name="tooltip"><string>Show only Ingredients for Recipes</string></param>
+		</theme>
+		<theme name="trapsfilter" ref="togglebutton">
+			<param name="text"><string>Traps</string></param>
+			<param name="tooltip"><string>Show only Traps</string></param>
+		</theme>
+		<theme name="questfilter" ref="togglebutton">
+			<param name="text"><string>Quest</string></param>
+			<param name="tooltip"><string>Show only Quest Items</string></param>
+		</theme>
+	</theme>
+	
+	<theme name="equippeditemiconviewer" ref="itemiconviewer">
+		<param name="emptyImageX"><int>5</int></param>
+		<param name="emptyImageY"><int>5</int></param>
+	</theme>
+	
+	<theme name="inventorywindow" ref="gamesubwindow">
+		<param name="minWidth"><int>402</int></param>
+		<param name="minHeight"><int>300</int></param>
+		<param name="defaultX"><int>402</int></param>
+		<param name="gridSize"><int>49</int></param>
+		<param name="labelGap"><int>5</int></param>
+		<param name="defaultHeight"><int>450</int></param>
+	
+		<theme name="itemlistviewer" ref="itemlistviewer"/>
+	
+		<theme name="currencylabel" ref="label"/>
+		<theme name="weightlabel" ref="label"/>
+		
+		<theme name="organizebutton" ref="button">
+			<param name="text"><string>Organize</string></param>
+			<param name="tooltip"><string>Re-arrange your inventory by name and item quality</string></param>
+		</theme>
+		
+		<theme name="creatureviewer" ref="roundedbutton">
+			<param name="gridCenterX"><int>3</int></param>
+			<param name="gridCenterY"><int>2</int></param>
+		</theme>
+		
+		<theme name="quiverviewer" ref="equippeditemiconviewer">
+			<param name="gridX"><int>0</int></param>
+			<param name="gridY"><int>0</int></param>
+			<param name="emptyTooltip"><string>Quiver Slot</string></param>
+			<param name="emptyImage"><image>quivericon</image></param>
+		</theme>
+		
+		<theme name="mainhandviewer" ref="equippeditemiconviewer">
+			<param name="gridX"><int>0</int></param>
+			<param name="gridY"><int>1</int></param>
+			<param name="emptyTooltip"><string>Main Hand Slot</string></param>
+			<param name="emptyImage"><image>mainhandicon</image></param>
+		</theme>
+		
+		<theme name="rightringviewer" ref="equippeditemiconviewer">
+			<param name="gridX"><int>0</int></param>
+			<param name="gridY"><int>2</int></param>
+			<param name="emptyTooltip"><string>Ring Slot</string></param>
+			<param name="emptyImage"><image>ringicon</image></param>
+		</theme>
+		
+		<theme name="helmetviewer" ref="equippeditemiconviewer">
+			<param name="gridX"><int>1</int></param>
+			<param name="gridY"><int>0</int></param>
+			<param name="emptyTooltip"><string>Helmet Slot</string></param>
+			<param name="emptyImage"><image>helmeticon</image></param>
+		</theme>
+		
+		<theme name="bootsviewer" ref="equippeditemiconviewer">
+			<param name="gridX"><int>1</int></param>
+			<param name="gridY"><int>2</int></param>
+			<param name="emptyTooltip"><string>Boots Slot</string></param>
+			<param name="emptyImage"><image>bootsicon</image></param>
+		</theme>
+		
+		<theme name="amuletviewer" ref="equippeditemiconviewer">
+			<param name="gridX"><int>2</int></param>
+			<param name="gridY"><int>0</int></param>
+			<param name="emptyTooltip"><string>Amulet Slot</string></param>
+			<param name="emptyImage"><image>amuleticon</image></param>
+		</theme>
+		
+		<theme name="cloakviewer" ref="equippeditemiconviewer">
+			<param name="gridX"><int>3</int></param>
+			<param name="gridY"><int>0</int></param>
+			<param name="emptyTooltip"><string>Cloak Slot</string></param>
+			<param name="emptyImage"><image>cloakicon</image></param>
+		</theme>
+		
+		<theme name="armorviewer" ref="equippeditemiconviewer">
+			<param name="gridX"><int>4</int></param>
+			<param name="gridY"><int>0</int></param>
+			<param name="emptyTooltip"><string>Armor Slot</string></param>
+			<param name="emptyImage"><image>armoricon</image></param>
+		</theme>
+		
+		<theme name="beltviewer" ref="equippeditemiconviewer">
+			<param name="gridX"><int>4</int></param>
+			<param name="gridY"><int>2</int></param>
+			<param name="emptyTooltip"><string>Belt Slot</string></param>
+			<param name="emptyImage"><image>belticon</image></param>
+		</theme>
+		
+		<theme name="glovesviewer" ref="equippeditemiconviewer">
+			<param name="gridX"><int>5</int></param>
+			<param name="gridY"><int>0</int></param>
+			<param name="emptyTooltip"><string>Gloves Slot</string></param>
+			<param name="emptyImage"><image>glovesicon</image></param>
+		</theme>
+		
+		<theme name="offhandviewer" ref="equippeditemiconviewer">
+			<param name="gridX"><int>5</int></param>
+			<param name="gridY"><int>1</int></param>
+			<param name="emptyTooltip"><string>Off Hand Slot</string></param>
+			<param name="emptyImage"><image>offhandicon</image></param>
+		</theme>
+		
+		<theme name="leftringviewer" ref="equippeditemiconviewer">
+			<param name="gridX"><int>5</int></param>
+			<param name="gridY"><int>2</int></param>
+			<param name="emptyTooltip"><string>Ring Slot</string></param>
+			<param name="emptyImage"><image>ringicon</image></param>
+		</theme>
+	</theme>
+	
+	<theme name="itemdetailswindow" ref="gamesubwindow">
+		<param name="defaultWidth"><int>280</int></param>
+		<param name="defaultHeight"><int>300</int></param>
+		<param name="minWidth"><int>250</int></param>
+		<param name="minHeight"><int>300</int></param>
+		
+		<theme name="content" ref="dialoglayout">
+			<theme name="iconviewer" ref="-defaults">
+			    <param name="background"><image>tinybackground-gothic</image></param>
+				<param name="minWidth"><int>48</int></param>
+				<param name="minHeight"><int>48</int></param>
+			</theme>
+			<theme name="titlelabel" ref="labelbig"/>
+			<theme name="detailspane" ref="scrollpane"/>
+		</theme>
+	</theme>
+	
+	<theme name="containerwindow" ref="gamesubwindow">
+		<param name="minWidth"><int>392</int></param>
+		<param name="minHeight"><int>100</int></param>
+		<param name="defaultX"><int>310</int></param>
+		<param name="defaultHeight"><int>300</int></param>
+	
+		<param name="buttonGap"><int>5</int></param>
+	
+		<theme name="itemlistviewer" ref="itemlistviewer"/>
+		<theme name="takeallbutton" ref="button">
+			<param name="text"><string>Take All</string></param>
+			<param name="minWidth"><int>80</int></param>
+			<param name="minHeight"><int>30</int></param>
+		</theme>
+	</theme>
+	
+	<theme name="merchantwindow" ref="gamesubwindow">
+		<param name="minWidth"><int>392</int></param>
+		<param name="minHeight"><int>100</int></param>
+		<param name="defaultX"><int>0</int></param>
+		<param name="defaultHeight"><int>450</int></param>
+		
+		<param name="labelGap"><int>5</int></param>
+		
+		<theme name="selllabel" ref="label"/>
+		<theme name="buylabel" ref="label"/>
+	
+		<theme name="itemlistviewer" ref="itemlistviewer"/>
+	</theme>
+	
+	<theme name="creaturedetailswindow" ref="gamesubwindow">
+		<param name="defaultWidth"><int>250</int></param>
+		<param name="defaultHeight"><int>300</int></param>
+		<param name="minWidth"><int>250</int></param>
+		<param name="minHeight"><int>300</int></param>
+		
+		<theme name="content" ref="dialoglayout">
+			<theme name="iconviewer" ref="-defaults"/>
+			<theme name="titlelabel" ref="labelbig"/>
+			<theme name="detailspane" ref="scrollpane"/>
+		</theme>
+	</theme>
+	
+	<theme name="recipeviewer" ref="expandablewidget">
+		<theme name="iconviewer" ref="expandablewidget.iconviewer">
+			<param name="minWidth"><int>48</int></param>
+			<param name="minHeight"><int>48</int></param>
+		</theme>
+		
+		<theme name="craftbutton" ref="button">
+			<param name="text"><string>Craft</string></param>
+			<param name="tooltip"><string>Craft this recipe</string></param>
+			<param name="minWidth"><int>50</int></param>
+			<param name="minHeight"><int>20</int></param>
+		</theme>
+	</theme>
+	
+	<theme name="recipesetviewer" ref="-defaults">
+		<param name="scrollPaneOverlap"><int>0</int></param>
+	
+		<theme name="craftskilliconbutton" ref="togglebutton"/>
+		<theme name="scrollpane" ref="scrollpane">
+			<theme name="content" ref="dialoglayout">
+				<param name="border"><border>2</border></param>
+				<theme name="recipeviewer" ref="recipeviewer"/>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="questviewer" ref="expandablewidget">
+		<theme name="expandbutton" ref="button">
+			<param name="text"><string>Show All Entries</string></param>
+			<param name="tooltip"><string>Show all Entries for this Quest</string></param>
+		</theme>
+		
+		<theme name="contractbutton" ref="button">
+			<param name="text"><string>Show Most Recent</string></param>
+			<param name="tooltip"><string>Show only the most recent Entry for this Quest</string></param>
+		</theme>
+	</theme>
+	
+	<theme name="questsetviewer" ref="-defaults">
+		<theme name="showcompletedbutton" ref="checkbutton">
+			<param name="text"><string>Show Completed Quests</string></param>
+			<param name="minWidth"><int>175</int></param>
+		</theme>
+		
+		<theme name="scrollpane" ref="scrollpane">
+			<theme name="content" ref="dialoglayout">
+				<theme name="questviewer" ref="questviewer"/>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="logwindow" ref="gamesubwindow">
+		<param name="minWidth"><int>300</int></param>
+		<param name="minHeight"><int>300</int></param>
+		
+		<param name="defaultWidth"><int>392</int></param>
+		<param name="defaultHeight"><int>450</int></param>
+		
+		<theme name="content" ref="tabbedpane">
+			<theme name="container" ref="tabbedpane.container">
+				<theme name="recipesetviewer" ref="recipesetviewer"/>
+				<theme name="questsetviewer" ref="questsetviewer"/>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="minimapwindow" ref="gamesubwindow">
+		<param name="minWidth"><int>100</int></param>
+		<param name="minHeight"><int>50</int></param>
+	
+		<param name="tile"><image>minimapempty</image></param>
+		<param name="impassableTile"><image>minimapimpass</image></param>
+		<param name="friendlyCreature"><image>minimapfriendly</image></param>
+		<param name="neutralCreature"><image>minimapneutral</image></param>
+		<param name="hostileCreature"><image>minimaphostile</image></param>
+		<param name="container"><image>minimapcontainer</image></param>
+		<param name="door"><image>minimapdoor</image></param>
+		<param name="trap"><image>minimaptrap</image></param>
+		<param name="transition"><image>minimaptransition</image></param>
+		<param name="viewport"><image>minimapviewport</image></param>
+	
+		<param name="legendgap"><int>10</int></param>
+	
+		<theme name="mappane" ref="scrollpane">
+			<theme name="content" ref="-defaults"/>
+		</theme>
+		
+		<theme name="legendbutton" ref="button">
+			<param name="text"><string>Legend</string></param>
+		</theme>
+	</theme>
+	
+	<theme name="legendpopup" ref="-defaults">
+		<theme name="content" ref="-defaults">
+			<param name="border"><border>5</border></param>
+			<param name="background"><image>textbackground-gothic</image></param>
+			<param name="labelgap"><int>3</int></param>
+		
+			<theme name="friendlylabel" ref="labelblack">
+				<param name="text"><string>Friendly Creature</string></param>
+			</theme>
+			
+			<theme name="neutrallabel" ref="labelblack">
+				<param name="text"><string>Neutral Creature</string></param>
+			</theme>
+			
+			<theme name="hostilelabel" ref="labelblack">
+				<param name="text"><string>Hostile Creature</string></param>
+			</theme>
+			
+			<theme name="containerlabel" ref="labelblack">
+				<param name="text"><string>Container</string></param>
+			</theme>
+			
+			<theme name="doorlabel" ref="labelblack">
+				<param name="text"><string>Door</string></param>
+			</theme>
+			
+			<theme name="traplabel" ref="labelblack">
+				<param name="text"><string>Trap</string></param>
+			</theme>
+			
+			<theme name="transitionlabel" ref="labelblack">
+				<param name="text"><string>Area Transition</string></param>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="craftingwindow" ref="gamesubwindow">
+		<param name="minWidth"><int>400</int></param>
+		<param name="minHeight"><int>300</int></param>
+		
+		<theme name="recipesetviewer" ref="recipesetviewer"/>
+	</theme>
+	
+	<theme name="selectcraftitempopup" ref="-defaults">
+		<theme name="content" ref="-defaults">
+		    <param name="background"><image>mediumbackground-gothic</image></param>
+			<param name="border"><border>10</border></param>
+			<param name="gap"><int>10</int></param>
+			<param name="maxHeight"><int>500</int></param>
+			<param name="minWidth"><int>400</int></param>
+			
+			<theme name="titlelabel" ref="labelbigblack"/>
+			<theme name="recipelabel" ref="label">
+				<param name="font"><font>medium</font></param>
+			</theme>
+			
+			<theme name="acceptbutton" ref="largebutton">
+				<param name="text"><string>Craft</string></param>
+				<param name="minWidth"><int>80</int></param>
+			</theme>
+			
+			<theme name="cancelbutton" ref="largebutton">
+				<param name="text"><string>Cancel</string></param>
+				<param name="minWidth"><int>80</int></param>
+			</theme>
+			
+			<theme name="scrollpane" ref="scrollpane">
+				<theme name="content" ref="dialoglayout">
+					<theme name="itemviewer" ref="-defaults">
+						<param name="background"><image>togglebutton.background</image></param>
+						<param name="border"><border>2</border></param>
+					
+						<theme name="iconviewer" ref="itemiconviewer"/>
+						
+						<theme name="textarea" ref="textarea"/>
+					</theme>
+				</theme>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="scriptconsole" ref="gamesubwindow">
+		<param name="defaultWidth"><int>700</int></param>
+		<param name="defaultHeight"><int>300</int></param>
+		
+		<param name="autocompleteheight"><int>300</int></param>
+		<param name="autocompleteindent"><int>50</int></param>
+		
+		<theme name="entryfield" ref="editfield"/>
+		
+		<theme name="scriptpane" ref="scrollpane"/>
+	</theme>
+	
+	<theme name="scriptautocompletepopup" ref="-defaults">
+		<theme name="content" ref="-defaults">
+		    <param name="background"><image>mediumbackground-gothic</image></param>
+			<param name="border"><border>7</border></param>
+			
+			<theme name="textarea" ref="textarea"/>
+			
+			<theme name="scrollpane" ref="scrollpane">
+				<theme name="dialoglayout" ref="dialoglayout">
+					<param name="defaultGap"><dimension>1,1</dimension></param>
+				
+					<theme name="entryselector" ref="button">
+						<theme name="textarea" ref="textarea">
+							<param name="border"><border>2</border></param>
+						</theme>
+					</theme>
+				</theme>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="worldmapviewer" ref="-defaults">
+		<theme name="locationviewer" ref="-defaults"/>
+				
+		<theme name="locationhover" ref="-defaults">
+			<param name="labeloverlap"><int>15</int></param>
+				
+			<param name="border"><border>5</border></param>
+			<param name="background"><image>textbackground-gothic</image></param>
+			<theme name="label" ref="labelbig"/>
+			<theme name="button" ref="button">
+				<param name="minWidth"><int>70</int></param>
+				<param name="minHeight"><int>25</int></param>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="worldmappopup" ref="-defaults">
+		<theme name="content" ref="-defaults">
+			<param name="background"><image>windowbackground-gothic</image></param>
+			<param name="border"><border>30,18,30,18</border></param>
+			
+			<theme name="worldmapviewer" ref="worldmapviewer"/>
+			<theme name="closebutton" ref="button">
+				<param name="text"><string>Cancel</string></param>
+				<param name="minWidth"><int>60</int></param>
+				<param name="minHeight"><int>30</int></param>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="conversationpopup" ref="gamesubwindow">
+		<theme name="content" ref="-defaults">
+			<param name="minWidth"><int>400</int></param>
+			<param name="minHeight"><int>400</int></param>
+		
+			<theme name="dialogpane" ref="scrollpane"/>
+			
+			<theme name="responsepane" ref="scrollpane">
+				<param name="maxHeight"><int>150</int></param>
+				
+				<theme name="content" ref="-defaults">
+					<theme name="responsewidget" ref="button">
+						<param name="border"><border>3</border></param>
+				
+						<theme name="responsearea" ref="textarea">
+							<param name="fonts"><map>
+								<param name="default"><font>white</font></param>
+								<param name="white"><font>white</font></param>
+		   						<param name="black"><font>black</font></param>
+		   						<param name="red"><font>red</font></param>
+		   						<param name="green"><font>green</font></param>
+		   						<param name="blue"><font>blue</font></param>
+		   						<param name="yellow"><font>yellow</font></param>
+		   						<param name="orange"><font>orange</font></param>
+           						<param name="purple"><font>purple</font></param>
+							</map></param>
+						</theme>
+					</theme>
+				</theme>
+			</theme>
+			
+			<theme name="label" ref="label"/>
+			
+			<theme name="portraitviewer" ref="portraitviewer"/>
+		</theme>
+	</theme>
+	
+	<theme name="rightclickmenu" ref="-defaults">
+		<theme name="content" ref="-defaults">
+			<theme name="rightclickmenulevel" ref="-defaults">
+				<param name="background"><image>tinybackground-gothic</image></param>
+				<param name="titleBorder"><int>10</int></param>
+				<param name="border"><border>3,0,0,0</border></param>
+				<theme name="titlelabel" ref="label"/>
+				<theme name="menubutton" ref="button"/>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="cutscenepopup" ref="-defaults">
+		<theme name="content" ref="-defaults">
+			<param name="background"><image>black</image></param>
+		
+			<param name="continueOffset"><int>10</int></param>
+			<param name="skipOffset"><int>5</int></param>
+			
+			<theme name="continuelabel" ref="label">
+				<param name="text"><string>Click to Continue</string></param>
+			</theme>
+			
+			<theme name="textarea" ref="textarea">
+				<param name="background"><image>textbackground-transparent</image></param>
+				<param name="border"><border>20,20,20,20</border></param>
+			</theme>
+			
+			<theme name="skipbutton" ref="button">
+				<param name="text"><string>Skip</string></param>
+				<param name="minWidth"><int>40</int></param>
+				<param name="minHeight"><int>20</int></param>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="exportpopup" ref="gamesubwindow">
+		<theme name="content" ref="-defaults">
+			<param name="minwidth"><int>300</int></param>
+			<param name="border"><border>10</border></param>
+			<param name="sectiongap"><int>10</int></param>
+			
+			<theme name="titlelabel" ref="labelbig">
+				<param name="text"><string>Export Characters</string></param>
+			</theme>
+			
+			<theme name="closebutton" ref="button">
+				<param name="font"><font>large-white</font></param>
+				<param name="minWidth"><int>80</int></param>
+				<param name="minHeight"><int>20</int></param>
+				<param name="text"><string>Close</string></param>
+			</theme>
+			
+			<theme name="portraitviewer" ref="portraitviewer"/>
+			
+			<theme name="portraitnamelabel" ref="label"/>
+			
+			<theme name="exportbutton" ref="button"/>
+			
+			<theme name="exportallbutton" ref="button">
+				<param name="font"><font>large-white</font></param>
+				<param name="minWidth"><int>130</int></param>
+				<param name="minHeight"><int>20</int></param>
+			</theme>
+		</theme>
+	</theme>
+</themes>

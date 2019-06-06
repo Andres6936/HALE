@@ -1,0 +1,18 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addWeaponDamageBonus('Piercing', 'Stackable', 10); parent.applyEffect(effect); }",
+  "name" : "Piercer",
+  "type" : "Duelist Abilities",
+  "icon" : {
+    "sprite" : "icons/piercer"
+  },
+  "description" : "You gain a permanent 10 percent damage bonus with all Piercing weapons.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Duelist",
+        "level" : 1
+      }
+    ]
+  }
+}

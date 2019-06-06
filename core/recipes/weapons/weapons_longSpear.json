@@ -1,0 +1,42 @@
+{
+  "name" : "Long Spear",
+  "description" : "Creates a long spear.  The quality is dependant on your Craft Weapons skill.",
+  "skill" : "CraftWeapons",
+  "skillRankRequirement" : 25,
+  "ingredients" : {
+    "bar_iron" : 1,
+    "bar_wood" : 2,
+    "coal" : 4
+  },
+  "result" : {
+    "id" : "longspear",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 20
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 40
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 60
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 80
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 100
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 120
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 135
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 155
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name" : "Potion of Intelligence",
+  "description" : "This potion will grant a bonus to intelligence to anyone who drinks it.  The amount of the bonus is dependant on the quality of the potion.",
+  "script" : "items/potionInt",
+  "class" : "Item",
+  "icon" : {
+	"composed" : [
+	  {
+	    "sprite" : "items/P_Yellow04",
+	    "color" : "#ffffffff"
+	  },
+	  {
+	    "sprite" : "items/enchant_intelligence",
+		"color" : "#ffffffff"
+	  }
+	]
+  },	
+  "value" : 10000,
+  "weight" : 300,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "Drink",
+  "useAP" : 4000,
+  "defaultQuality" : "Good"
+}

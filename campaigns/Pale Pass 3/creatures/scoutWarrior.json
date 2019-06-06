@@ -1,0 +1,81 @@
+{
+  "name" : "Warrior",
+  "gender" : "Male",
+  "race" : "Human",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ff4c4343",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      
+    ]
+  },
+  "attributes" : {
+    "strength" : 16,
+    "dexterity" : 13,
+    "constitution" : 14,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Search" : 60
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 12,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "maul",
+        "quality" : "Fine"
+      },
+      "Armor" : {
+        "id" : "armor_plate_base",
+        "quality" : "Fine"
+      },
+      "Gloves" : {
+        "id" : "gloves_mail_base",
+        "quality" : "Fine"
+      },
+      "Cloak" : {
+        "id" : "cloak"
+      },
+      "Boots" : {
+        "id" : "boots_mail_base",
+        "quality" : "Fine"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    10000, 20000
+  ],
+  "loot" : [
+    {
+      "id" : "LootPotionsFine",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootMagicFine",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "radius" : 5,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "focusCrystal",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "theMaster",
+      "x" : -5,
+      "y" : 2
+    }, {
+      "id" : "demonSlayer",
+      "x" : -5,
+      "y" : 1
+    }, {
+      "id" : "demonSlayer",
+      "x" : -4,
+      "y" : 3
+    }, {
+      "id" : "demonBlue",
+      "x" : 0,
+      "y" : 4
+    }, {
+      "id" : "demonGreen",
+      "x" : 0,
+      "y" : -4
+    }, {
+      "id" : "demonRed",
+      "x" : -4,
+      "y" : -2
+    }, {
+      "id" : "demonEye",
+      "x" : 4,
+      "y" : -2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name" : "Ranged Backstab",
+  "type" : "Rogue Abilities",
+  "icon" : {
+    "sprite" : "icons/rangedBackstab"
+  },
+  "description" : "You can now perform backstabs with ranged weapons, as long as you are within 3 hexes of your target.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "Backstab"
+    ],
+    "roles" : [
+      {
+        "id" : "Rogue",
+        "level" : 4
+      }
+    ]
+  }
+}

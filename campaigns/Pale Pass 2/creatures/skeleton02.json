@@ -1,0 +1,70 @@
+{
+  "name" : "Skeleton",
+  "gender" : "Male",
+  "race" : "Skeleton",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/skeleton01",
+        "color" : "#ffe8bbbb"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 15,
+    "dexterity" : 12,
+    "constitution" : 14,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "SlashingImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "PiercingImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "CriticalHitImmunity",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "UndeadWarrior" : 8
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "battleaxe",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_leatherhard_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    3000, 6500
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

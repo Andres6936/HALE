@@ -1,0 +1,71 @@
+{
+  "name" : "Greater Werewolf",
+  "gender" : "Male",
+  "race" : "Werewolf",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/werewolf02",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 21,
+    "dexterity" : 18,
+    "constitution" : 20,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Search" : 80
+  },
+  "abilities" : [
+    {
+      "id" : "Regeneration30",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "MonsterStrong" : 18
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedClaw",
+        "quality" : "Exceptional"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    15000, 25000
+  ],
+  "loot" : [
+    {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootMagicSuperb",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "Drop_GreaterWerewolf",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerItem"
+      }
+    }
+  ]
+}

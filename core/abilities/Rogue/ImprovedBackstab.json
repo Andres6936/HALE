@@ -1,0 +1,20 @@
+{
+  "name" : "Improved Backstab",
+  "type" : "Rogue Abilities",
+  "icon" : {
+    "sprite" : "icons/improvedBackstab"
+  },
+  "description" : "You can now perform backstab attacks merely by flanking an opponent.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "Backstab"
+    ],
+    "roles" : [
+      {
+        "id" : "Rogue",
+        "level" : 4
+      }
+    ]
+  }
+}

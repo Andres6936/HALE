@@ -1,0 +1,68 @@
+{
+  "name" : "Spell Casting",
+  "abilities" : {
+    "MeleeCasting" : {
+      "x" : 0.0,
+      "y" : 0.0
+    },
+    "ProficientCasting" : {
+      "x" : 1.0,
+      "y" : 0.0
+    },
+    "IntenseCasting" : {
+      "x" : 0.5,
+      "y" : 1.0
+    },
+    "OffensiveSpellFocus" : {
+      "x" : 0.0,
+      "y" : 2.0
+    },
+    "HealingSpellFocus" : {
+      "x" : 1.0,
+      "y" : 2.0
+    },
+    "FastSpellRecovery1" : {
+      "x" : 2.0,
+      "y" : 0.0
+    },
+    "FastSpellRecovery2" : {
+      "x" : 2.0,
+      "y" : 1.0
+    },
+    "ArmorCasting1" : {
+      "x" : 3.0,
+      "y" : 0.0
+    },
+    "ArmorCasting2" : {
+      "x" : 3.0,
+      "y" : 1.0
+    },
+    "ArmorCasting3" : {
+      "x" : 3.0,
+      "y" : 2.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "TwoUp",
+      "x" : 0.5,
+      "y" : 1.0
+    }, {
+      "type" : "TwoDown",
+      "x" : 0.5,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 1.0
+    }
+  ]
+}

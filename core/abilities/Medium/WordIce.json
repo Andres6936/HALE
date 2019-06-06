@@ -1,0 +1,23 @@
+{
+  "externalScript" : "abilities/mediumWordGesture",
+  "name" : "Ice",
+  "type" : "Medium Abilities",
+  "icon" : {
+    "sprite" : "icons/wordIce"
+  },
+  "description" : "This word adds ice damage to the Medium's next invocation, doing 3 to 6 damage plus one per caster level.",
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : false,
+  "isCancelable" : false,
+  "cooldown" : 1,
+  "actionPointCost" : "50 AP per word and / or gesture",
+  "ai" : {
+    "power" : 10,
+    "priority" : 5,
+    "actionType" : "Damage",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  }
+}

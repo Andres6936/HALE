@@ -1,0 +1,37 @@
+{
+  "externalScript" : "spells/flamingFingers",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : true,
+  "spellLevel" : 2,
+  "name" : "Flaming Fingers",
+  "type" : "Evocation",
+  "icon" : {
+    "sprite" : "icons/flamingFingers"
+  },
+  "description" : "The caster's hands erupt in flames, affecting all creatures in a 90 degree cone with a radius of 4 hexes.  Each affected creature is set on fire, taking 1 to 4 plus one per three caster levels fire damage initially and an additional one point per three caster levels fire damage each round for 3 rounds.",
+  "isActivateable" : true,
+  "quickbarGroup" : "Evocation",
+  "isFixed" : true,
+  "cooldown" : 9,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 20,
+    "priority" : 3,
+    "actionType" : "Damage",
+    "groupType" : "Multiple",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Firebolt"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 4
+      }
+    ]
+  }
+}

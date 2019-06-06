@@ -1,0 +1,41 @@
+{
+  "name" : "Sabretooth",
+  "gender" : "Male",
+  "race" : "MediumAnimal",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/sabretooth",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 18,
+    "dexterity" : 18,
+    "constitution" : 12,
+    "intelligence" : 3,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor20",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Monster" : 1
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "mediumClaw",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  }
+}

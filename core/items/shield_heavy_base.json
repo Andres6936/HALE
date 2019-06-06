@@ -1,0 +1,24 @@
+{
+  "name" : "Heavy Shield",
+  "description" : "A heavy wooden shield, providing substantial defense at the expense of some mobility.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/E_Wood03",
+    "color" : "#ffffffff"
+  },
+  "value" : 15000,
+  "weight" : 6000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Shield",
+  "subIcon" : {
+    "sprite" : "subIcons/shield-largeshield01",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Shield",
+  "armorClass" : 15,
+  "armorPenalty" : 15,
+  "movementPenalty" : 0,
+  "shieldAttackPenalty" : 5
+}

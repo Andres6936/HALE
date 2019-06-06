@@ -1,0 +1,18 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBaseWeaponBonus('Dagger', 'CriticalChance', 'Stackable', 5); effect.getBonuses().addBaseWeaponBonus('Short Sword', 'CriticalChance', 'Stackable', 5); effect.getBonuses().addBaseWeaponBonus('Longsword', 'CriticalChance', 'Stackable', 5); effect.getBonuses().addBaseWeaponBonus('Bastard Sword', 'CriticalChance', 'Stackable', 5); effect.getBonuses().addBaseWeaponBonus('Handaxe', 'CriticalChance', 'Stackable', 5); effect.getBonuses().addBaseWeaponBonus('Battleaxe', 'CriticalChance', 'Stackable', 5); effect.getBonuses().addBaseWeaponBonus('Waraxe', 'CriticalChance', 'Stackable', 5); parent.applyEffect(effect); }",
+  "name" : "Critical Strike",
+  "type" : "Duelist Abilities",
+  "icon" : {
+    "sprite" : "icons/criticalStrike"
+  },
+  "description" : "You gain a 5 percent greater chance to inflict critical hits with many one handed slashing and piercing weapons, including Daggers, Short Swords, Longswords, Handaxes, Battleaxes, Short Spears, Bastard Swords, and Waraxes.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Duelist",
+        "level" : 3
+      }
+    ]
+  }
+}

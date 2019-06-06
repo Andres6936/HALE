@@ -1,0 +1,8 @@
+{ "name" : "Small Animal",
+  "baseMovementCost" : 1200,
+  "defaultWeapon" : "unarmedSmall",
+  
+  "racialTypes" : [
+    "Animal"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name" : "Merchant",
+  "usesSpeechSkill" : true,
+  "confirmOnExit" : false,
+  "respawnHours" : 24,
+  "buyValuePercentage" : 60,
+  "sellValuePercentage" : 150,
+  "items" : [
+    {
+      "id" : "EquipmentMediocre",
+      "probability" : {
+        "value" : 80,
+        "mode" : "PerItem"
+      }
+    },
+	{
+	  "id" : "LootMagicDecent",
+	  "probability" : {
+	    "value" : 50,
+		"mode" : "PerItem"
+	  }
+	}
+  ]
+}

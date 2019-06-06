@@ -1,0 +1,13 @@
+{
+  "name" : "Feather",
+  "description" : "A feather from a bird.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Feather",
+    "color" : "#ffffffff"
+  },
+  "value" : 100,
+  "weight" : 10,
+  "isIngredient" : true,
+  "isQuest" : false
+}

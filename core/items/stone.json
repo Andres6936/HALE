@@ -1,0 +1,13 @@
+{
+  "name" : "Stone",
+  "description" : "A large stone.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Rock02",
+    "color" : "#ffffffff"
+  },
+  "value" : 200,
+  "weight" : 1000,
+  "isIngredient" : true,
+  "isQuest" : false
+}

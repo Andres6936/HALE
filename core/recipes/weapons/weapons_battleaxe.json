@@ -1,0 +1,42 @@
+{
+  "name" : "Battleaxe",
+  "description" : "Creates a battleaxe.  The quality is dependant on your Craft Weapons skill.",
+  "skill" : "CraftWeapons",
+  "skillRankRequirement" : 20,
+  "ingredients" : {
+    "bar_iron" : 2,
+    "bar_wood" : 1,
+    "coal" : 5
+  },
+  "result" : {
+    "id" : "battleaxe",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 15
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 35
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 55
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 75
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 95
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 115
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 130
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 150
+      }
+    ]
+  }
+}

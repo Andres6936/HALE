@@ -1,0 +1,32 @@
+{
+  "externalScript" : "abilities/feint",
+  "name" : "Feint",
+  "type" : "Rogue Abilities",
+  "icon" : {
+    "sprite" : "icons/feint"
+  },
+  "description" : "As a standard attack action, you make a melee attack against a target intended to mislead.  If the target fails a mental resistance check, they suffer a Defense penalty of 20 plus one per the attacker's Rogue level for 2 rounds.",,
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "cooldown" : 3,
+  "actionPointCost" : "Same as attack",
+  "ai" : {
+    "power" : 20,
+    "priority" : 5,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+	  "Hide"
+	],
+    "roles" : [
+      {
+        "id" : "Rogue",
+        "level" : 1
+      }
+    ]
+  }
+}

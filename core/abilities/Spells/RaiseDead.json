@@ -1,0 +1,38 @@
+{
+  "externalScript" : "spells/raiseDead",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 4,
+  "name" : "Raise Dead",
+  "type" : "Restoration",
+  "icon" : {
+    "sprite" : "icons/raiseDead"
+  },
+  "description" : "The caster touches a single dead party member, raising them back to life.  The raised party member has only 1 hit point initially.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Restoration",
+  "isFixed" : true,
+  "cooldown" : 11,
+  "actionPointCost" : 8000,
+  "ai" : {
+    "power" : 40,
+    "priority" : 1,
+    "actionType" : "Tactical",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Renewal"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

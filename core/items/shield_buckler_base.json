@@ -1,0 +1,24 @@
+{
+  "name" : "Buckler",
+  "description" : "A small metal shield, light enough to only minimally encumber the hand holding it, but still providing some defense.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/E_Metal01",
+    "color" : "#ffffffff"
+  },
+  "value" : 12000,
+  "weight" : 1500,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Shield",
+  "subIcon" : {
+    "sprite" : "subIcons/shield-buckler01",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Shield",
+  "armorClass" : 5,
+  "armorPenalty" : 2,
+  "movementPenalty" : 0,
+  "shieldAttackPenalty" : 0
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "Greater Dispell",
+  "type" : "Restoration",
+  "icon" : {
+    "sprite" : "icons/greaterDispell"
+  },
+  "description" : "Greater Dispell upgrades your Dispell ability, making your dispell attempts more likely to succeed and increasing the number of abilities you can attempt to dispell up to five.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40,
+    "actionType" : "Tactical",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Dispell"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

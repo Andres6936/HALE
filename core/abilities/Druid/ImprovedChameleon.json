@@ -1,0 +1,26 @@
+{
+  "name" : "Improved Chameleon",
+  "type" : "Druid Abilities",
+  "icon" : {
+    "sprite" : "icons/improvedChameleon"
+  },
+  "description" : "Your Chameleon ability is improved.  Now, all targets gain a 15 + 1 per caster level bonus to personal concealment.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Chameleon"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

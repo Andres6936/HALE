@@ -1,0 +1,23 @@
+{
+  "name" : "Leather Armor",
+  "description" : "Armor consisting of pieces of leather sewn together.  It provides some basic protection without hindering movement very much.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/A_Clothing02",
+    "color" : "#ffffffff"
+  },
+  "value" : 10000,
+  "weight" : 2000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Armor",
+  "subIcon" : {
+    "sprite" : "subIcons/armor-04",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Light",
+  "armorClass" : 6,
+  "armorPenalty" : 5,
+  "movementPenalty" : 0
+}

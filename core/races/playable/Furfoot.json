@@ -1,0 +1,76 @@
+{ "name" : "Furfoot",
+  "icon" : "icons/furfoot",
+  "baseMovementCost" : 1250,
+  "defaultWeapon" : "unarmedMedium",
+  "playerSelectable" : true,
+  
+  "baseAttributes" : [ 9, 12, 9, 11, 10, 10 ],
+  
+  "racialTypes" : [
+    "Humanoid", "Beast"
+  ],
+  
+  "subIconRaceString" : "Small",
+
+  "icons" : {
+    "maleForeground" : "creatures/furfoot-fg",
+	"maleBackground" : "creatures/furfoot-bg",
+	"femaleForeground" : "creatures/furfoot-fg",
+	"femaleBackground" : "creatures/furfoot-bg",
+	"maleClothes" : "creatures/furfoot-clothes",
+	"femaleClothes" : "creatures/furfoot-clothes",
+	"maleEars" : "subIcons/earsFurfoot",
+	"femaleEars" : "subIcons/earsFurfoot",
+  },
+  
+  "iconOffsets" : {
+    "Cloak" : [ 18, 17 ],
+	"Quiver" : [ 14, 24 ],
+	"Torso" : [ 16, 21 ],
+	"Gloves" : [ 15, 21 ],
+	"Head" : [ 16, 14 ],
+	"Ears" : [ 17, 14 ],
+	"Hair" : [ 15, 14 ],
+	"Beard" : [ 17, 14 ],
+	"Shield" : [ 22, 21 ],
+	"Boots" : [ 16, 26 ],
+	"MainHandWeapon" : [ 4, 17 ],
+	"OffHandWeapon" : [ 25, 17 ]
+  },
+  
+  "hasBeard" : false,
+  "hasHair" : false,
+
+  "hairAndBeardColors" : [
+		"#FFFFFFFF", "#FFC0C0C0", "#FF808080", "#FF545454",
+		"#FF545454", "#FF000000", "#FFEEE685", "#FFFFFF00", 
+		"#FFCC9900", "#FFD98719", "#FFFFA500", "#FFEE7600",
+		"#FFFF0000", "#FFC00000", "#FF800000", "#FFCD853F",
+		"#FF8B5A2B", "#FF8B5A00", "#FF8B4513", "#FF5C3317"
+  ],
+	
+  "skinColors" : [
+        "#FFACACAC", "#FF909090", "#FF727272", "#FF535353",
+		"#FFEDAE67", "#FFCE9452", "#FF734A29", "#FF422110",
+		"#FF2F1010", "#FFFFC794", "#FFD48661", "#FF80412B",
+		"#FF501002"
+  ],
+  
+  "defaultHairIndex" : 1,
+  "defaultBeardIndex" : 1,
+  "defaultHairColor" : "#FF800000",
+  "defaultBeardColor" : "#FF800000",
+  "defaultSkinColor" : "#FF909090",
+  
+  "abilitySelectionsFromList" : {
+  
+  },
+  
+  "randomMaleNames" : [ "Alba","Alli","Ana","Ante","Arma","Barra","Bea","Buffa","Cani","Cari","Cate","Coyo","Cri","Cro","Croco","Drago",
+    "Ele","Feli","Fla","Flami","Gaze","Gira","Hexa","Hone","Jagu","Komo","Leo","Locu","Mana","Moo","Pa","Pea","Peli","Phea","Porcu","Rhi",
+	"Rhino","Sala","Scolri","Skuda","Snayl","Snai","Spanna","Spizer","Squip","Stirp","Toa","Ursa","Vina","Weas","Wharen","Woo" ],
+  
+  "randomFemaleNames" : [ "Alba","Alli","Ana","Ante","Arma","Barra","Bea","Buffa","Cani","Cari","Cate","Coyo","Cri","Cro","Croco","Drago",
+    "Ele","Feli","Fla","Flami","Gaze","Gira","Hexa","Hone","Jagu","Komo","Leo","Locu","Mana","Moo","Pa","Pea","Peli","Phea","Porcu","Rhi",
+	"Rhino","Sala","Scolri","Skuda","Snayl","Snai","Spanna","Spizer","Squip","Stirp","Toa","Ursa","Vina","Weas","Wharen","Woo" ]
+}

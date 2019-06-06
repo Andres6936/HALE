@@ -1,0 +1,34 @@
+{
+  "name" : "Crossbow",
+  "description" : "The crossbow is simpler to operate than a traditional bow and does respectable damage, but at a lower firing rate.  Unlike other ranged weapons, the user's strength penalty does not apply to Crossbow damage.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_XBow01",
+    "color" : "#ffffffff"
+  },
+  "value" : 30000,
+  "weight" : 1500,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-crossbow01",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Ranged",
+  "minRange" : 1,
+  "maxRange" : 10,
+  "handed" : "TwoHanded",
+  "baseWeapon" : "Crossbow",
+  "threatensAoOs" : false,
+  "damageType" : "Piercing",
+  "minDamage" : 2,
+  "maxDamage" : 10,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 3,
+  "attackCost" : 4200,
+  "rangePenalty" : 18,
+  "maxStrengthBonus" : 0,
+  "minStrengthBonus" : 0
+}

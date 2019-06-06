@@ -1,0 +1,15 @@
+{
+	"textAreaWidth" : 700,
+    "textAreaHeight" : 150,
+
+    "frames": [ {
+		"background" : "intro1",
+		"textFile" : "intro1.html"
+	}, {
+		"background" : "intro2",
+		"textFile" : "intro2.html",
+	}, {
+		"background" : "intro3",
+		"textFile" : "intro3.html"
+	} ]
+};

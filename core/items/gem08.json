@@ -1,0 +1,13 @@
+{
+  "name" : "Amethyst",
+  "description" : "A good example of an amethyst stone, worth a bit of coin.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_GemAmethyst",
+    "color" : "#ffffffff"
+  },
+  "value" : 3000,
+  "weight" : 10,
+  "isIngredient" : true,
+  "isQuest" : false
+}

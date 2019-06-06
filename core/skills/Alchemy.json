@@ -1,0 +1,14 @@
+{
+  "name" : {
+    "noun" : "Alchemy",
+    "presentTenseVerb" : "Craft",
+    "pastTenseVerb" : "Crafted"
+  },
+  "icon" : {
+    "sprite" : "icons/alchemy"
+  },
+  "isUsableUntrained" : false,
+  "suffersArmorPenalty" : false,
+  "keyAttribute" : "Wis",
+  "isCraft" : true
+}

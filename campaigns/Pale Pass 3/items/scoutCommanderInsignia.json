@@ -1,0 +1,14 @@
+{
+  "name" : "Insignia",
+  "description" : "The Insignia from the Commander of the Master's Scout encampment near Aravil.",
+  "script" : "items/scoutCommanderInsignia",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Skull",
+    "color" : "#ffffffff"
+  },
+  "value" : 0,
+  "weight" : 0,
+  "isIngredient" : false,
+  "isQuest" : true
+}

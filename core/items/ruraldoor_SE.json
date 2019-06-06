@@ -1,0 +1,12 @@
+{
+  "name" : "Door",
+  "description" : "A large metal retracting door.",
+  "class" : "Door",
+  "closedIcon" : {
+    "sprite" : "doors/rural_gate-se"
+  },
+  "openIcon" : {
+    "sprite" : "doors/rural_gate-se-open"
+  },
+  "isTransparent" : false
+}

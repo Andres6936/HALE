@@ -1,0 +1,4 @@
+{ "name" : "Pale Pass",
+  "defaultCampaign" : "Pale Pass",
+  "campaigns" : [ "Pale Pass", "Pale Pass 2", "Pale Pass 3" ]
+}

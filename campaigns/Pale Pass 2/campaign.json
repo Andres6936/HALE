@@ -1,0 +1,204 @@
+{
+  "name" : "Chapter 2",
+  "startArea" : "Large Cavern",
+  "worldMapBackground" : "worldMap",
+  "partySize" : {
+    "min" : 2,
+    "max" : 4
+  },
+  "startingLevel" : {
+    "min" : 6,
+    "max" : 13
+  },
+  "minCurrency" : 100000,
+  "allowLevelUp" : true,
+  "timeConversions" : {
+    "roundsPerMinute" : 10,
+    "minutesPerHour" : 60,
+    "hoursPerDay" : 24,
+    "daysPerMonth" : 30
+  },
+  "locations" : [
+    {
+      "id" : "Goblin City",
+      "startingTransition" : "goblinCityToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/cave"
+      },
+      "iconPosition" : {
+        "x" : 250,
+        "y" : 330
+      },
+      "travelTimes" : {
+        "Slaver Camp" : 10,
+        "Deep Tunnels" : 12,
+        "Ancient Tomb" : 24,
+        "Dwarven City" : 24,
+        "Mushroom Forest" : 6,
+        "The Gate" : 36,
+        "Drake Caves" : 24,
+        "Underground Lake" : 36
+      }
+    }, {
+      "id" : "Mushroom Forest",
+      "startingTransition" : "mushroomForestToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/mushrooms-tile"
+      },
+      "iconPosition" : {
+        "x" : 250,
+        "y" : 220
+      },
+      "travelTimes" : {
+        "Slaver Camp" : 4,
+        "Deep Tunnels" : 18,
+        "Goblin City" : 6,
+        "Ancient Tomb" : 12,
+        "Dwarven City" : 12,
+        "The Gate" : 42,
+        "Drake Caves" : 30,
+        "Underground Lake" : 24
+      }
+    }, {
+      "id" : "Dwarven City",
+      "startingTransition" : "dwarvenCityToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/castle"
+      },
+      "iconPosition" : {
+        "x" : 150,
+        "y" : 15
+      },
+      "travelTimes" : {
+        "Slaver Camp" : 8,
+        "Deep Tunnels" : 36,
+        "Goblin City" : 24,
+        "Ancient Tomb" : 24,
+        "Mushroom Forest" : 12,
+        "The Gate" : 54,
+        "Drake Caves" : 42,
+        "Underground Lake" : 36
+      }
+    }, {
+      "id" : "Ancient Tomb",
+      "startingTransition" : "ancientTombToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/temple1"
+      },
+      "iconPosition" : {
+        "x" : 45,
+        "y" : 125
+      },
+      "travelTimes" : {
+        "Slaver Camp" : 16,
+        "Deep Tunnels" : 36,
+        "Goblin City" : 24,
+        "Dwarven City" : 24,
+        "Mushroom Forest" : 12,
+        "The Gate" : 54,
+        "Drake Caves" : 42,
+        "Underground Lake" : 36
+      }
+    }, {
+      "id" : "Underground Lake",
+      "startingTransition" : "undergroundLakeToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/lake1"
+      },
+      "iconPosition" : {
+        "x" : 490,
+        "y" : 110
+      },
+      "travelTimes" : {
+        "Slaver Camp" : 16,
+        "Deep Tunnels" : 48,
+        "Goblin City" : 36,
+        "Dwarven City" : 36,
+        "Ancient Tomb" : 36,
+        "Mushroom Forest" : 24,
+        "The Gate" : 66,
+        "Drake Caves" : 54
+      }
+    }, {
+      "id" : "Drake Caves",
+      "startingTransition" : "drakeCavesToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/dwarven"
+      },
+      "iconPosition" : {
+        "x" : 300,
+        "y" : 440
+      },
+      "travelTimes" : {
+        "Slaver Camp" : 34,
+        "Deep Tunnels" : 36,
+        "Goblin City" : 24,
+        "Dwarven City" : 42,
+        "Ancient Tomb" : 42,
+        "Mushroom Forest" : 30,
+        "The Gate" : 12,
+        "Underground Lake" : 54
+      }
+    }, {
+      "id" : "The Gate",
+      "startingTransition" : "theGateToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/drake4"
+      },
+      "iconPosition" : {
+        "x" : 470,
+        "y" : 460
+      },
+      "travelTimes" : {
+        "Slaver Camp" : 46,
+        "Deep Tunnels" : 48,
+        "Goblin City" : 36,
+        "Dwarven City" : 54,
+        "Ancient Tomb" : 54,
+        "Mushroom Forest" : 42,
+        "Drake Caves" : 12,
+        "Underground Lake" : 66
+      }
+    }, {
+      "id" : "Slaver Camp",
+      "startingTransition" : "slaverCampToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/tent-ruin-1"
+      },
+      "iconPosition" : {
+        "x" : 265,
+        "y" : 120
+      },
+      "travelTimes" : {
+        "Deep Tunnels" : 22,
+        "Goblin City" : 10,
+        "Dwarven City" : 8,
+        "Ancient Tomb" : 16,
+        "Mushroom Forest" : 4,
+        "The Gate" : 46,
+        "Drake Caves" : 34,
+        "Underground Lake" : 16
+      }
+    }, {
+      "id" : "Deep Tunnels",
+      "startingTransition" : "deepTunnelsToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/dwarven-doors-closed"
+      },
+      "iconPosition" : {
+        "x" : 90,
+        "y" : 340
+      },
+      "travelTimes" : {
+        "Slaver Camp" : 22,
+        "Goblin City" : 12,
+        "Dwarven City" : 36,
+        "Ancient Tomb" : 36,
+        "Mushroom Forest" : 18,
+        "The Gate" : 48,
+        "Drake Caves" : 36,
+        "Underground Lake" : 48
+      }
+    }
+  ]
+}

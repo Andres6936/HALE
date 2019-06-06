@@ -1,0 +1,30 @@
+{
+  "respawnTime" : 24,
+  "radius" : 2,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 3,
+  "maxRandomCreatures" : 4,
+  "creatures" : [
+    {
+      "id" : "wolfgiant",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "wolfgiant",
+      "x" : 1,
+      "y" : -1
+    }, {
+      "id" : "wolfgiant",
+      "x" : 1,
+      "y" : 0
+    }, {
+      "id" : "wolfgiant",
+      "x" : 0,
+      "y" : 1
+    }, {
+      "id" : "wolfgiant",
+      "x" : -1,
+      "y" : 0
+    }
+  ]
+}

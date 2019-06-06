@@ -1,0 +1,63 @@
+{
+  "name" : "Scout",
+  "gender" : "Male",
+  "race" : "Human",
+  "portrait" : "Human/spearman",
+  "conversation" : "conversations/theGateSoldier",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair008",
+        "color" : "#ff8b7387"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 13,
+    "dexterity" : 14,
+    "constitution" : 12,
+    "intelligence" : 11,
+    "wisdom" : 13,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 12,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "Armor" : {
+        "id" : "armor_leatherhard_base",
+        "quality" : "Good"
+      },
+      "Gloves" : {
+        "id" : "gloves_leather_base",
+        "quality" : "Good"
+      },
+      "Helmet" : {
+        "id" : "helmet_mail_base",
+        "quality" : "Good"
+      },
+      "Cloak" : {
+        "id" : "cloak"
+      },
+      "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true
+}

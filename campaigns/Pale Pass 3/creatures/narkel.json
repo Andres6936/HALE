@@ -1,0 +1,38 @@
+{
+  "name" : "Narkel",
+  "gender" : "Male",
+  "race" : "Skeleton",
+  "portrait" : "Monster/ghost",
+  "conversation" : "conversations/narkel",
+  "icon" : {
+    "sprite" : "creatures/ghost03",
+    "color" : "#ffdaf6e7"
+  },
+  "attributes" : {
+    "strength" : 17,
+    "dexterity" : 12,
+    "constitution" : 13,
+    "intelligence" : 14,
+    "wisdom" : 12,
+    "charisma" : 16
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 22,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true
+}

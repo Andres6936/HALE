@@ -1,0 +1,83 @@
+{ "name" : "Dwarf",
+  "icon" : "icons/dwarf",
+  "baseMovementCost" : 1250,
+  "defaultWeapon" : "unarmedMedium",
+  "playerSelectable" : true,
+  
+  "baseAttributes" : [ 10, 9, 12, 10, 10, 9 ],
+  
+  "racialTypes" : [
+    "Humanoid"
+  ],
+  
+  "subIconRaceString" : "Small",
+
+  "icons" : {
+    "maleForeground" : "creatures/dwarf-fg",
+	"maleBackground" : "creatures/dwarf-bg",
+	"femaleForeground" : "creatures/dwarf-fg",
+	"femaleBackground" : "creatures/dwarf-bg",
+	"maleClothes" : "creatures/dwarf-clothes",
+	"femaleClothes" : "creatures/dwarf-clothes"
+  },
+  
+  "iconOffsets" : {
+    "Cloak" : [ 18, 17 ],
+	"Quiver" : [ 14, 24 ],
+	"Torso" : [ 16, 21 ],
+	"Gloves" : [ 15, 21 ],
+	"Head" : [ 17, 14 ],
+	"Ears" : [ 17, 14 ],
+	"Hair" : [ 17, 14 ],
+	"Beard" : [ 17, 14 ],
+	"Shield" : [ 22, 21 ],
+	"Boots" : [ 16, 26 ],
+	"MainHandWeapon" : [ 4, 17 ],
+	"OffHandWeapon" : [ 25, 17 ]
+  },
+  
+  "hasBeard" : true,
+  "selectableHairIndices" : [ 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 14, 15, 16 ],
+  "selectableBeardIndices" : [ 1, 2, 3, 4, 5, 6, 7 ],
+  
+  "hairAndBeardColors" : [
+		"#FFFFFFFF", "#FFC0C0C0", "#FF808080", "#FF545454",
+		"#FF545454", "#FF000000", "#FFEEE685", "#FFFFFF00", 
+		"#FFCC9900", "#FFD98719", "#FFFFA500", "#FFEE7600",
+		"#FFFF0000", "#FFC00000", "#FF800000", "#FFCD853F",
+		"#FF8B5A2B", "#FF8B5A00", "#FF8B4513", "#FF5C3317"
+  ],
+	
+  "skinColors" : [
+		"#FFF9F4C8", "#FFF6D39B", "#FFF8E088", "#FFF6D39B",
+		"#FFEDAE67", "#FFCE9452", "#FF734A29", "#FF422110",
+		"#FF2F1010", "#FFFFC794", "#FFD48661", "#FF80412B",
+		"#FF501002"
+  ],
+  
+  "defaultHairIndex" : 2,
+  "defaultBeardIndex" : 1,
+  "defaultHairColor" : "#FF800000",
+  "defaultBeardColor" : "#FF800000",
+  "defaultSkinColor" : "#FFF6D39B",
+  
+  "abilitySelectionsFromList" : {
+
+  },
+  
+  "randomMaleNames" : [
+    "Angolf", "Beardie", "Connink", "Daalor", "Hraftink", "Haleon", "Hrothil", "Killus", "Morgour", "Muili", "Oilti", "Orgrin", "Osrin",
+	"Thior", "Thaid", "Thorvyn", "Thraunos", "Uerih", "Wendir", "Ysonir", "Dor", "Ovund", "Durkon", "Bulak", "Barrak", "Ovlin", "Hadri",
+	"Dil", "Durrak", "Dordri", "Ragur", "Balrak", "Thorkon", "Munzad", "Bulbur", "Morain", "Fimrund", "Boltil", "Nalzad", "Farain",
+	"Bofdri", "Brak", "Dalur", "Bilum", "Morkk", "Bofim", "Fimgin", "Barond", "Dalain", "Morlin", "Dalond", "Chalkon", "Thingar",
+	"Munni", "Dorunn", "Nalur", "Norar"
+  ],
+  
+  "randomFemaleNames" : [
+    "Alynnee", "Armissa", "Blatia", "Britta", "Codaha", "Garwai", "Gregina", "Imaryle", "Lorcy", "Nokkvi", "Norean", "Onnda", "Pesina",
+	"Quodda", "Rathie", "Turella", "Shorta", "Tytta", "Winie", "Zabethe", "Runzadi", "Griumma", "Fimili", "Gargoli", "Grogoli", "Gomrimi",
+	"Harili", "Dorbura", "Nora", "Ragip", "Dwinila", "Gimraka", "Drukka", "Groa", "Gomundi", "Barnia", "Ragria", "Durkka", "Thrunni",
+	"Gomunni", "Norundi", "Ketina", "Herrimi", "Simdina", "Chalundi", "Ovondi", "Farili", "Gombari", "Stordina", "Belzadi", "Mungari",
+	"Farola", "Dormina", "Thola", "Storana"
+  ]
+}

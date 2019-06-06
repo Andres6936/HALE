@@ -1,0 +1,27 @@
+{
+  "radius" : 3,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "deepDwarf",
+      "x" : -2,
+      "y" : 1
+    }, {
+      "id" : "deepDwarf",
+      "x" : 2,
+      "y" : 1
+    }, {
+      "id" : "deepDwarf02Ranged",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "deepDwarf02Ranged",
+      "x" : 3,
+      "y" : -1
+    }, {
+      "id" : "deepDwarfCityEntranceGuard",
+      "x" : 0,
+      "y" : 1
+    }
+  ]
+}

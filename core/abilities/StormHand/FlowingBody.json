@@ -1,0 +1,17 @@
+{
+  "name" : "Flowing Body",
+  "type" : "Storm Hand Abilities",
+  "icon" : {
+    "sprite" : "icons/flowingBody"
+  },
+  "description" : "A balanced stance providing both offensive and defensive capabilities.  Flowing Body adds twice your Storm Hand level and twice your Wisdom bonus to both your Defense and Attack rolls.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [
+      "StormStance"
+    ]
+  }
+}

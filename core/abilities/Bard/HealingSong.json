@@ -1,0 +1,23 @@
+{
+  "name" : "Healing Song",
+  "type" : "Bard Abilities",
+  "icon" : {
+    "sprite" : "icons/healingSong"
+  },
+  "description" : "The Healing Song affects all allies within 8 hexes of the Bard.  Affected creatures are healed for 1 point per two Bard levels plus 1 point per two points of Charisma above 10 each round.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40
+  },
+  "prereqs" : {
+    "abilities" : [
+      "DefendersRhythm"
+    ],
+    "roles" : [
+      {
+        "id" : "Bard",
+        "level" : 5
+      }
+    ]
+  }
+}

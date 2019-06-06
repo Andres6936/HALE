@@ -1,0 +1,27 @@
+{
+  "externalScript" : "abilities/mediumInvocation",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : true,
+  "spellLevel" : 1,
+  "name" : "Invocation",
+  "type" : "Medium Abilities",
+  "icon" : {
+    "sprite" : "icons/invocation"
+  },
+  "description" : "After saying one or more words of power, and performing one or more gestures, the Medium then casts their invocation, creating the spell effect.  It costs 50 Action Points to speak one word and / or perform one gesture.  Words and gestures can be chained together (even over multiple rounds), creating more powerful or varied invocations.  Some examples:<ul style=\"margin-top: 1em;\"><li>-50 AP - speak one word</li><li>-50 AP - perform one gesture</li><li>-50 AP - speak one word and perform one gesture</li><li>-100 AP - perform two gestures(with no words)</li><li>-100 AP - speak two words and perform one gesture</li><li>-100 AP - speak two words and perform two gestures</li></ul>",
+  "isActivateable" : true,
+  "quickbarGroup" : "Evocation",
+  "isFixed" : true,
+  "isMode" : false,
+  "cooldown" : 1,
+  "actionPointCost" : 2000,
+  "ai" : {
+    "power" : 10,
+    "priority" : 2,
+    "actionType" : "Damage",
+    "groupType" : "Single",
+    "rangeType" : "Long"
+  }
+}

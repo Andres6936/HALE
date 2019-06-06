@@ -1,0 +1,14 @@
+{
+  "name" : {
+    "noun" : "Craft Weapons",
+    "presentTenseVerb" : "Craft",
+    "pastTenseVerb" : "Crafted"
+  },
+  "icon" : {
+    "sprite" : "icons/craftWeapons"
+  },
+  "isUsableUntrained" : false,
+  "suffersArmorPenalty" : false,
+  "keyAttribute" : "Int",
+  "isCraft" : true
+}

@@ -1,0 +1,41 @@
+{
+  "name" : "Leather Boots",
+  "description" : "Creates leather boots.  The quality is dependant on your Craft Armor skill.",
+  "skill" : "CraftArmor",
+  "skillRankRequirement" : 5,
+  "ingredients" : {
+    "leather" : 2,
+    "thread" : 5
+  },
+  "result" : {
+    "id" : "boots_leather_base",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 5
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 25
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 45
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 65
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 85
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 105
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 125
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 145
+      }
+    ]
+  }
+}

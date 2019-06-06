@@ -1,0 +1,42 @@
+{
+  "name" : "Greataxe",
+  "description" : "Creates a greataxe. The quality is dependant on your Craft Weapons skill.",
+  "skill" : "CraftWeapons",
+  "skillRankRequirement" : 30,
+  "ingredients" : {
+    "bar_iron" : 3,
+    "bar_wood" : 1,
+    "coal" : 6
+  },
+  "result" : {
+    "id" : "greataxe",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 25
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 45
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 65
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 85
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 105
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 125
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 140
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 160
+      }
+    ]
+  }
+}

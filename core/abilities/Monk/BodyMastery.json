@@ -1,0 +1,36 @@
+{
+  "externalScript" : "abilities/bodyMastery",
+  "name" : "Body Mastery",
+  "type" : "Defensive",
+  "icon" : {
+    "sprite" : "icons/bodyMastery"
+  },
+  "description" : "You achieve a higher level of mastery over your own body for 2 rounds plus 1 per 4 Monk levels.  You gain an additional +25 to Physical, Reflex, and Mental Resistance checks.  You also become immune to immobilization.",
+  "upgrades" : [
+    { "ability" : "ChiMastery",
+      "description" : "With Chi Mastery, you gain Spell Resistance equal to your Monk level times 4."}
+  ],
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : false,
+  "isCancelable" : false,
+  "cooldown" : 8,
+  "actionPointCost" : 2000,
+  "ai" : {
+    "power" : 20,
+    "priority" : 5,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Monk",
+        "level" : 6
+      }
+    ],
+	"abilities" : [ "StrengthOfBody", "StrengthOfMind" ]
+  }
+}

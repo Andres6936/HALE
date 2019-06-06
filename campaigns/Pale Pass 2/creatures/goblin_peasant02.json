@@ -1,0 +1,51 @@
+{
+  "name" : "Goblin",
+  "gender" : "Male",
+  "race" : "Goblin",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/goblin02",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 11,
+    "dexterity" : 12,
+    "constitution" : 9,
+    "intelligence" : 5,
+    "wisdom" : 9,
+    "charisma" : 7
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Commoner" : 5
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true,
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

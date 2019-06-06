@@ -1,0 +1,68 @@
+{
+  "name" : "Treeant",
+  "gender" : "Male",
+  "race" : "Treeant",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/treeant-medium",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 18,
+    "dexterity" : 10,
+    "constitution" : 19,
+    "intelligence" : 7,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor30",
+      "levelObtained" : 1
+    }, {
+      "id" : "ElectricalImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "FireVulnerability25",
+      "levelObtained" : 1
+    }, {
+      "id" : "ColdImmunity50",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "MonsterStrong" : 13
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedEarthElemental",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    5000, 10000
+  ],
+  "loot" : [
+    {
+      "id" : "AlchemySupplies",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

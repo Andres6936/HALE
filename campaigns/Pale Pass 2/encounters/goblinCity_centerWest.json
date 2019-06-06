@@ -1,0 +1,27 @@
+{
+  "radius" : 4,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "goblin_peasant01",
+      "x" : -2,
+      "y" : -2
+    }, {
+      "id" : "goblin_peasant01",
+      "x" : 0,
+      "y" : -4
+    }, {
+      "id" : "goblin_peasant02",
+      "x" : 0,
+      "y" : 1
+    }, {
+      "id" : "goblin_peasant01",
+      "x" : -2,
+      "y" : 3
+    }, {
+      "id" : "goblin_peasant01",
+      "x" : -3,
+      "y" : 2
+    }
+  ]
+}

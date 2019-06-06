@@ -1,0 +1,77 @@
+{
+  "items" : [
+    {
+      "id" : "apple",
+      "quantity" : 2
+    }, {
+      "id" : "bar_gold",
+      "quantity" : 1
+    }, {
+      "id" : "bar_iron",
+      "quantity" : 3
+    }, {
+      "id" : "bar_lead",
+      "quantity" : 2
+    }, {
+      "id" : "bar_silver",
+      "quantity" : 2
+    }, {
+      "id" : "bar_wood",
+      "quantity" : 3
+    }, {
+      "id" : "bread",
+      "quantity" : 2
+    }, {
+      "id" : "claw",
+      "quantity" : 2
+    }, {
+      "id" : "coal",
+      "quantity" : 3
+    }, {
+      "id" : "empty_bottle",
+      "quantity" : 3
+    }, {
+      "id" : "feather",
+      "quantity" : 2
+    }, {
+      "id" : "foxtail",
+      "quantity" : 2
+    }, {
+      "id" : "grain_alcohol",
+      "quantity" : 2
+    }, {
+      "id" : "herb_medicinal",
+      "quantity" : 2
+    }, {
+      "id" : "oilFlamable",
+      "quantity" : 1
+    }, {
+      "id" : "pressure_plate",
+      "quantity" : 1
+    }, {
+      "id" : "shell",
+      "quantity" : 2
+    }, {
+      "id" : "spike",
+      "quantity" : 3
+    }, {
+      "id" : "thread",
+      "quantity" : 2
+    }, {
+      "id" : "water_jug",
+      "quantity" : 2
+    }, {
+      "id" : "wire",
+      "quantity" : 3
+    },
+	{ "id" : "bone",
+	  "quantity" : 2
+	},
+	{ "id" : "paper",
+	  "quantity" : 3
+	},
+	{ "id" : "tongue",
+	  "quantity" : 2
+	}
+  ]
+}

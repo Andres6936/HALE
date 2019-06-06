@@ -1,0 +1,31 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "from" : {
+    "area" : "Tomb of Narkel Level 1",
+    "x" : 27,
+    "y" : 28,
+    "partyPositions" : [
+      [ -3, -2 ], [ -2, -1 ], [ -1, -1 ], [ 0, 0 ]
+    ]
+  },
+  "to" : {
+    "area" : "Tomb of Narkel Level 2",
+    "x" : 2,
+    "y" : 1,
+    "partyPositions" : [
+      [ 3, 1 ], [ 2, 1 ], [ 1, 0 ], [ 0, 0 ]
+    ]
+  }
+}

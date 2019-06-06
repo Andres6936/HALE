@@ -1,0 +1,13 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('ConcealmentIgnoring', 'Stackable', 40); parent.applyEffect(effect); }",
+  "name" : "Blind Fighting",
+  "type" : "General",
+  "icon" : {
+    "sprite" : "icons/blindFighting"
+  },
+  "description" : "You gain a bonus to fighting against enemies affected by concealment.  You ignore up to 40 points of any target's personal concealment in combat.",
+  "isActivateable" : false,
+  "isMode" : false,
+  "isCancelable" : false,
+  "cooldown" : 0
+}

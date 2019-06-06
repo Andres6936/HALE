@@ -1,0 +1,29 @@
+{
+  "source" : "chasm",
+  "images" : {
+    "chasm-concave-bl" : [ 0, 0, 108, 144 ],
+    "chasm-concave-br" : [ 108, 0, 108, 144 ],
+    "chasm-concave-l" : [ 216, 0, 108, 144 ],
+    "chasm-concave-r" : [ 324, 0, 108, 144 ],
+    "chasm-concave-tl" : [ 432, 0, 108, 144 ],
+    "chasm-concave-tr" : [ 540, 0, 108, 144 ],
+    "chasm-convex-bl" : [ 0, 144, 108, 144 ],
+    "chasm-convex-br" : [ 108, 144, 108, 144 ],
+    "chasm-convex-l" : [ 216, 144, 108, 144 ],
+    "chasm-convex-r" : [ 324, 144, 108, 144 ],
+    "chasm-convex-tl" : [ 432, 144, 108, 144 ],
+    "chasm-convex-tr" : [ 540, 144, 108, 144 ],
+    "lava-concave-bl" : [ 0, 288, 108, 144 ],
+    "lava-concave-br" : [ 108, 288, 108, 144 ],
+    "lava-concave-l" : [ 216, 288, 108, 144 ],
+    "lava-concave-r" : [ 324, 288, 108, 144 ],
+    "lava-concave-tl" : [ 432, 288, 108, 144 ],
+    "lava-concave-tr" : [ 540, 288, 108, 144 ],
+    "lava-convex-bl" : [ 0, 432, 108, 144 ],
+    "lava-convex-br" : [ 108, 432, 108, 144 ],
+    "lava-convex-l" : [ 216, 432, 108, 144 ],
+    "lava-convex-r" : [ 324, 432, 108, 144 ],
+    "lava-convex-tl" : [ 432, 432, 108, 144 ],
+    "lava-convex-tr" : [ 540, 432, 108, 144 ]
+  }
+}

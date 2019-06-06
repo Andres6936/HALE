@@ -1,0 +1,52 @@
+{
+  "name" : "Enhance Damage",
+  "description" : "Enchants a weapon with a bonus to damage.  The amount of the bonus is dependant on your Enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 10,
+  "ingredients" : {
+    "bar_silver" : 2,
+    "gem03" : 2
+  },
+  "result" : {
+    "postfix" : " of Slaying",
+    "ingredientItemTypes" : [ "Weapon" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_damage"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 5,
+		"valueModifier" : 150,
+        "enchantment" : "entity.addBonus('WeaponDamage',  5);"
+      }, {
+        "skillRankRequirement" : 20,
+		"valueModifier" : 170,
+        "enchantment" : "entity.addBonus('WeaponDamage',  10);"
+      }, {
+        "skillRankRequirement" : 40,
+		"valueModifier" : 180,
+        "enchantment" : "entity.addBonus('WeaponDamage',  15);"
+      }, {
+        "skillRankRequirement" : 60,
+		"valueModifier" : 190,
+        "enchantment" : "entity.addBonus('WeaponDamage',  20);"
+      }, {
+        "skillRankRequirement" : 80,
+		"valueModifier" : 200,
+        "enchantment" : "entity.addBonus('WeaponDamage', 25);"
+      }, {
+        "skillRankRequirement" : 100,
+		"valueModifier" : 210,
+        "enchantment" : "entity.addBonus('WeaponDamage', 30);"
+      }, {
+        "skillRankRequirement" : 120,
+		"valueModifier" : 220,
+        "enchantment" : "entity.addBonus('WeaponDamage', 35);"
+      }, {
+        "skillRankRequirement" : 140,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addBonus('WeaponDamage', 40);"
+      }
+    ]
+  }
+}

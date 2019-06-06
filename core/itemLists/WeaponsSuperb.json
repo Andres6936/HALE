@@ -1,0 +1,107 @@
+{
+  "enchantmentChance" : 20,
+  "enchantmentSkillModifier" : 60,
+  "items" : [
+    {
+      "id" : "dagger",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "shortSword",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "longsword",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "bastardSword",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "greatsword",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "handaxe",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "battleaxe",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "waraxe",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "greataxe",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "club",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "mace",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "morningstar",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "flail",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "lighthammer",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "warhammer",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "maul",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "shortspear",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "longspear",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "quarterstaff",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "javelin",
+      "quality" : "Superb",
+      "quantity" : 40
+    }, {
+      "id" : "sling",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "crossbow",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "shortbow",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "longbow",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "compositeLongbow",
+      "quality" : "Superb",
+      "quantity" : 1
+    }
+  ]
+}

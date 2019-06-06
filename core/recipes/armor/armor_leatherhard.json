@@ -1,0 +1,43 @@
+{
+  "name" : "Hardened Leather Armor",
+  "description" : "Creates hardened leather armor.  The quality is dependant on your Craft Armor skill.",
+  "skill" : "CraftArmor",
+  "skillRankRequirement" : 20,
+  "ingredients" : {
+    "leather" : 4,
+    "thread" : 10,
+    "coal" : 2,
+    "water_jug" : 2
+  },
+  "result" : {
+    "id" : "armor_leatherhard_base",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 10
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 30
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 50
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 70
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 90
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 110
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 130
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 150
+      }
+    ]
+  }
+}

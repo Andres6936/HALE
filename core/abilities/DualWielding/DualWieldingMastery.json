@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('DualWieldAttack', 'Stackable', 10); effect.getBonuses().addBonus('DualWieldStrDamage', 'Stackable', 1); parent.applyEffect(effect); }",
+  "name" : "Dual Wielding Mastery",
+  "type" : "Dual Wielding",
+  "icon" : {
+    "sprite" : "icons/dualWieldMastery"
+  },
+  "description" : "You gain an additional +10 bonus to attack and a +1 damage bonus per point of Strength above 10 while Dual Wielding.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "DualWieldingDefense", "ExpertDualWielding"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 50
+      }
+    ]
+  }
+}

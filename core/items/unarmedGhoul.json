@@ -1,0 +1,18 @@
+{ "class" : "Weapon",
+  "name" : "Drain",
+  
+  "type" : "Weapon",
+  "weaponType" : "Melee",
+  "handed" : "Light",
+  "defaultQuality" : "Good",
+  "baseWeapon" : "Unarmed",
+  "threatensAoOs" : true,
+  "minRange" : 1,
+  "maxRange" : 1,
+  "damageType" : "Slashing",
+  "minDamage" : 2,
+  "maxDamage" : 6,
+  "criticalThreat" : 93,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800
+}

@@ -1,0 +1,28 @@
+{
+  "externalScript" : "abilities/smite",
+  "name" : "Smite",
+  "type" : "Paladin Abilities",
+  "icon" : {
+    "sprite" : "icons/smite"
+  },
+  "description" : "The Paladin charges their current weapon with holy might.  For the next 3 rounds, all hits with the weapon do 2 points per point of Charisma above 10 plus the wielder's Paladin level in Divine damage.",
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "cooldown" : 5,
+  "ai" : {
+    "power" : 30,
+    "priority" : 8,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Paladin",
+        "level" : 3
+      }
+    ]
+  }
+}

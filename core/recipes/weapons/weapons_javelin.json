@@ -1,0 +1,42 @@
+{
+  "name" : "Javelin",
+  "description" : "Creates 5 javelins.  The quality is dependant on your Craft Weapons skill.",
+  "skill" : "CraftWeapons",
+  "skillRankRequirement" : 10,
+  "ingredients" : {
+    "bar_iron" : 2,
+    "bar_wood" : 2,
+    "coal" : 4
+  },
+  "result" : {
+    "id" : "javelin",
+    "quantity" : 5,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 5
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 25
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 45
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 65
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 85
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 105
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 125
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 145
+      }
+    ]
+  }
+}

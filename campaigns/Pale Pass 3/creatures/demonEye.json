@@ -1,0 +1,123 @@
+{
+  "name" : "Eye Demon",
+  "gender" : "Male",
+  "race" : "Human",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/demon06",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 8,
+    "dexterity" : 19,
+    "constitution" : 13,
+    "intelligence" : 22,
+    "wisdom" : 12,
+    "charisma" : 8
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "PoisonFog",
+      "levelObtained" : 1
+    }, {
+      "id" : "ConcealingFog",
+      "levelObtained" : 1
+    }, {
+      "id" : "Crush",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCrush",
+      "levelObtained" : 1
+    }, {
+      "id" : "Firebolt",
+      "levelObtained" : 1
+    }, {
+      "id" : "Fireball",
+      "levelObtained" : 1
+    }, {
+      "id" : "Meteor",
+      "levelObtained" : 1
+    }, {
+      "id" : "IceMage",
+      "levelObtained" : 1
+    }, {
+      "id" : "LightningMage",
+      "levelObtained" : 1
+    }, {
+      "id" : "BurningFlames",
+      "levelObtained" : 1
+    }, {
+      "id" : "FireMage",
+      "levelObtained" : 1
+    }, {
+      "id" : "Deafen",
+      "levelObtained" : 1
+    }, {
+      "id" : "Silence",
+      "levelObtained" : 1
+    }, {
+      "id" : "ElectricalImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "ColdImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "ImmobilizationImmunity",
+      "levelObtained" : 1
+    }, {
+      "id" : "FireImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "SpellResistance30",
+      "levelObtained" : 1
+    }, {
+      "id" : "Vulnerability",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Mage" : 19,
+    "baseRoleID" : "Mage"
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    15000, 30000
+  ],
+  "loot" : [
+    {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 25,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsExceptional",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootMagicExceptional",
+      "probability" : {
+        "value" : 4,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

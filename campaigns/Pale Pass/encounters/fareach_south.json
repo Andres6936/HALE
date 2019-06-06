@@ -1,0 +1,15 @@
+{
+  "radius" : 3,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "peasant01",
+      "x" : -2,
+      "y" : 1
+    }, {
+      "id" : "fareach_healer",
+      "x" : 1,
+      "y" : -2
+    }
+  ]
+}

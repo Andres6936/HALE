@@ -1,0 +1,27 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "worldMapLocation" : "Black River Crossing",
+  "from" : {
+    "area" : "Black River Crossing",
+    "x" : 2,
+    "y" : 1,
+    "partyPositions" : [
+      [ 2, 1 ], [ 1, 0 ], [ 0, 1 ], [ 0, 0 ]
+    ]
+  },
+  "to" : {
+    "worldMap" : true
+  }
+}

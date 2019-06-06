@@ -1,0 +1,38 @@
+{
+  "name" : "Cave Bat",
+  "gender" : "Male",
+  "race" : "MediumAnimal",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/giantbat",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 12,
+    "dexterity" : 18,
+    "constitution" : 13,
+    "intelligence" : 3,
+    "wisdom" : 9,
+    "charisma" : 9
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Monster" : 6
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedBat",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  }
+}

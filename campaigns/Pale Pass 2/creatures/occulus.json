@@ -1,0 +1,111 @@
+{
+  "name" : "Occulus",
+  "gender" : "Male",
+  "race" : "Human",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/tentacle-beast",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 8,
+    "dexterity" : 23,
+    "constitution" : 19,
+    "intelligence" : 16,
+    "wisdom" : 10,
+    "charisma" : 5
+  },
+  "skills" : {
+    "Search" : 75
+  },
+  "abilities" : [
+    {
+	  "id" : "MeleeCasting",
+	  "levelObtained" : 1
+	}, {
+      "id" : "Crush",
+      "levelObtained" : 1
+    }, {
+      "id" : "Shock",
+      "levelObtained" : 1
+    }, {
+      "id" : "LightningBolt",
+      "levelObtained" : 1
+    }, {
+      "id" : "FlamingFingers",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCrush",
+      "levelObtained" : 1
+    }, {
+      "id" : "Firebolt",
+      "levelObtained" : 1
+    }, {
+      "id" : "Fireball",
+      "levelObtained" : 1
+    }, {
+      "id" : "Freeze",
+      "levelObtained" : 1
+    }, {
+      "id" : "Tremor",
+      "levelObtained" : 1
+    }, {
+      "id" : "Enfeeble",
+      "levelObtained" : 1
+    }, {
+      "id" : "Curse",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCurse",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor30",
+      "levelObtained" : 1
+    }, {
+      "id" : "ElectricalImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "ColdImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "ImmobilizationImmunity",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction15",
+      "levelObtained" : 1
+    }, {
+      "id" : "FireImmunity50",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Mage" : 20,
+    "baseRoleID" : "Mage"
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    10000, 20000
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel10Fine",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

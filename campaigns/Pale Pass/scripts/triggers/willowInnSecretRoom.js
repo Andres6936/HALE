@@ -1,0 +1,4 @@
+
+function onPlayerEnter(game, player) {
+
+}

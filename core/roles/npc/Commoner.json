@@ -1,0 +1,15 @@
+{
+  "name" : "Commoner",
+  "isPlayer" : false,
+  "isBase" : true,
+  "stats" : {
+    "hpPerLevel" : 2,
+    "hpAtLevelOne" : 4,
+    "damageBonusPerLevel" : 1,
+    "attackBonusPerLevel" : 1,
+    "skillPointsPerLevel" : 5
+  },
+  "abilitiesAdded" : {
+    "ProficiencySimpleWeapons" : 1
+  }
+}

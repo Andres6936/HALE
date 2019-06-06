@@ -1,0 +1,20 @@
+{ "class" : "Weapon",
+  "name" : "Bite",
+  
+  "script" : "items/unarmedBat",
+  
+  "type" : "Weapon",
+  "weaponType" : "Melee",
+  "handed" : "Light",
+  "defaultQuality" : "Good",
+  "baseWeapon" : "Unarmed",
+  "threatensAoOs" : true,
+  "minRange" : 1,
+  "maxRange" : 1,
+  "damageType" : "Piercing",
+  "minDamage" : 3,
+  "maxDamage" : 7,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800
+}

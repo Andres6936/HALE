@@ -1,0 +1,44 @@
+{
+  "name" : "Bear",
+  "gender" : "Male",
+  "race" : "MediumAnimal",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/bear",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 18,
+    "dexterity" : 10,
+    "constitution" : 18,
+    "intelligence" : 3,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor10",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Monster" : 5
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "mediumClaw",
+        "quality" : "Superb"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    1500, 2500
+  ]
+}

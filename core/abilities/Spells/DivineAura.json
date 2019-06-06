@@ -1,0 +1,26 @@
+{
+  "name" : "Divine Aura",
+  "type" : "Enchantment",
+  "icon" : {
+    "sprite" : "icons/divineAura"
+  },
+  "description" : "Divine Aura upgrades your Divine Luck spell.  The affect of the spell now moves with the caster.  Only creatures within the aura at any given time are affected.  In addition to the bonuses from Divine Luck, all hostile creatures within the aura are affected with penalties to Attack, Damage, and Resistances (if you have the ability 'Resistance') corresponding to the bonuses affecting friendly creatures.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40,
+    "actionType" : "Buff",
+    "groupType" : "Multiple",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "DivineLuck"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

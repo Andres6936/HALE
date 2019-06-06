@@ -1,0 +1,25 @@
+{
+  "name" : "Rock Trap",
+  "description" : "A crushing rock trap.  The amount of the damage is dependant on the quality of the trap.",
+  "script" : "items/trap",
+  "class" : "Trap",
+  "icon" : {
+    "sprite" : "items/T_rock",
+    "color" : "#ffffffff"
+  },
+  "value" : 7500,
+  "weight" : 5000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "Place Trap",
+  "useAP" : 8000,
+  "defaultQuality" : "Good",
+  "damageType" : "Blunt",
+  "minDamage" : 8,
+  "maxDamage" : 20,
+  "findDifficulty" : 60,
+  "placeDifficulty" : 65,
+  "disarmDifficulty" : 70,
+  "recoverDifficulty" : 85,
+  "reflexDifficulty" : 85
+}

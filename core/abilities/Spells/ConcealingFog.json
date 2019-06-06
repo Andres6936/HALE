@@ -1,0 +1,45 @@
+{
+  "externalScript" : "spells/concealingFog",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 1,
+  "name" : "Concealing Fog",
+  "type" : "Conjuration",
+  "icon" : {
+    "sprite" : "icons/concealingFog"
+  },
+  "description" : "A thick fog appears in a circular area of radius 4 hexes targeted by the caster.  Creatures within the fog gain a +10 concealment bonus per hex of fog a hostile must look through to see them.  The fog remains in place for between 5 and 10 rounds.",
+  "upgrades" : [
+      { "ability" : "DistractingFog",
+        "description" : "When upgraded with Distracting Fog, creatures in the fog suffer a 10 point penalty to Mental Resistance, and a 10 point plus one per caster level penalty to Attack and to Spell Failure.",
+        "override" : true
+      },
+      { "ability" : "PoisonFog",
+        "description" : "With Poison Fog, creatures in the fog now suffer a penalty to Strength and Constitution.  The penalty starts at -1, and increases by 1 point for each round the creature remains in the fog.",
+        "override" : true
+      }
+  ],
+  "isActivateable" : true,
+  "quickbarGroup" : "Conjuration",
+  "isFixed" : true,
+  "isMode" : false,
+  "cooldown" : 8,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 10,
+    "priority" : 1,
+    "actionType" : "Debuff",
+    "groupType" : "Multiple",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 1
+      }
+    ]
+  }
+}

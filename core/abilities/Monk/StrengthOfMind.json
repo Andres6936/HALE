@@ -1,0 +1,17 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('MentalResistance', 'Stackable', 25); effect.getBonuses().addBonus('SpellResistance', 10); parent.applyEffect(effect); }",
+  "name" : "Strength of Mind",
+  "type" : "Monk Abilities",
+  "icon" : {
+    "sprite" : "icons/strengthOfMind"
+  },
+  "description" : "The monk has trained their mind to be particularly resilient, gaining a +25 bonus to all Mental Resistance checks and 10% spell resistance.",
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Monk",
+        "level" : 1
+      }
+    ]
+  }
+}

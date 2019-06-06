@@ -1,0 +1,17 @@
+{
+  "name" : "Adept",
+  "subLists" : {
+    "Conjuration" : {
+      "x" : 0.0,
+      "y" : 0.5
+    },
+    "Enchantment" : {
+      "x" : 0.0,
+      "y" : 5.0
+    },
+    "Alteration" : {
+      "x" : 0.0,
+      "y" : 9.5
+    }
+  }
+}

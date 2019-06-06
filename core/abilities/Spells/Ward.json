@@ -1,0 +1,38 @@
+{
+  "externalScript" : "spells/ward",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 3,
+  "name" : "Ward",
+  "type" : "Restoration",
+  "icon" : {
+    "sprite" : "icons/ward"
+  },
+  "description" : "The caster touches a single target, granting that target a layer of protection against negative magic attacks.  The next time a negative effect is applied to the target, it is immediately removed.  The spell lasts for 3 rounds plus one per three caster levels or until it removes an effect.  The list of spells that Ward provides protection from includes: Anti-Magic, Blindness, Curse, Deafen, Freeze, Flaming Fingers, Slow, and Vulnerability.  Note that Ward does not protect from the initial damage from a spell, only from its lasting negative effects.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Restoration",
+  "isFixed" : true,
+  "cooldown" : 10,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 30,
+    "priority" : 8,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Dispell"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

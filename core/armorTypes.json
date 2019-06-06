@@ -1,0 +1,10 @@
+{ "comment" : "None is the default value",
+
+"armorTypes" : [
+	"None",
+	"Light",
+	"Medium",
+	"Heavy",
+	"Shield",
+	"Tower Shield"
+] }

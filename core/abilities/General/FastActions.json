@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('ActionPoint', 'Stackable', 5); parent.applyEffect(effect); }",
+  "name" : "Fast Actions",
+  "type" : "General",
+  "icon" : {
+    "sprite" : "icons/fastActions"
+  },
+  "description" : "Everything you do is a bit faster than those around you. You gain 5 additional Action Points each round.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "QuickDraw", "ReflexiveAttacks"
+    ],
+    "stats" : [
+      {
+        "type" : "Dex",
+        "value" : 15
+      }
+    ]
+  }
+}

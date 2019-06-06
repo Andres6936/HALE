@@ -1,0 +1,52 @@
+{
+  "name" : "Soldier",
+  "gender" : "Male",
+  "race" : "HumanOnlyHandSubIcons",
+  "portrait" : "Human/royal-guard",
+  "conversation" : "conversations/fareachSoldier",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/human10",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 12,
+    "dexterity" : 11,
+    "constitution" : 12,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 2,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "longsword",
+        "quality" : "Good"
+      },
+      "OffHand" : {
+        "id" : "shield_heavy_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true
+}

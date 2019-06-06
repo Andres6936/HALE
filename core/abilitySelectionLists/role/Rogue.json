@@ -1,0 +1,21 @@
+{
+  "name" : "Rogue",
+  "subLists" : {
+    "RogueAbilities" : {
+      "x" : 0.0,
+      "y" : 0.5
+    },
+    "DualWielding" : {
+      "x" : 4.5,
+      "y" : 0.5
+    },
+    "Ranged" : {
+      "x" : 0.0,
+      "y" : 5.0
+    },
+    "WeaponTrainingRogue" : {
+      "x" : 5.5,
+      "y" : 5.0
+    }
+  }
+}

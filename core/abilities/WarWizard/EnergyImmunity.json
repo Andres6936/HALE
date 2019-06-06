@@ -1,0 +1,44 @@
+{
+  "externalScript" : "spells/energyImmunity",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 5,
+  "name" : "Energy Immunity",
+  "type" : "War Wizard Abilities",
+  "icon" : {
+    "sprite" : "icons/energyImmunity"
+  },
+  "description" : "The War Wizard becomes incased in a shell of protective energy for 2 rounds plus one per 3 War Wizard levels.  The shell grants 100% Immunity to damage from Fire, Cold, Electrical and Acid sources, and 100% Spell Resistance.  In addition, however, the caster also suffers a 100% penalty to Spell Failure.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Enchantment",
+  "isFixed" : true,
+  "cooldown" : 12,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 50,
+    "priority" : 7,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "ResistSpells"
+    ],
+    "roles" : [
+      {
+        "id" : "War Wizard",
+        "level" : 5
+      }
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 13
+      }
+    ]
+  }
+}

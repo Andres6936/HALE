@@ -1,0 +1,42 @@
+{
+  "externalScript" : "spells/tanglefoot",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : true,
+  "spellLevel" : 1,
+  "name" : "Tanglefoot",
+  "type" : "Conjuration",
+  "icon" : {
+    "sprite" : "icons/tanglefoot"
+  },
+  "description" : "A circular area with a 4 hex radius up to 10 hexes away from the caster is targeted.  Within the area, entangling vines appear out of the ground.  All creatures in the area suffer a 40 plus 3 points per caster level movement penalty.  The effect lasts for 3 rounds plus one round per 4 caster levels.",
+  "upgrades" : [
+    { "ability" : "CrushingVines",
+      "description" : "With Crushing Vines, each round, hostile creatures in the area of effect have a 50% chance of needing a physical resistance check or becoming immobilized for one round and taking 1 to 6 blunt damage.",
+      "override" : true },
+    { "ability" : "DeadlyVines",
+      "description" : "With Deadly Vines, hostile creatures in the area of effect take 1 to 6 plus one per four caster levels piercing damage each round.",
+      "override" : true }
+  ],
+  "isActivateable" : true,
+  "quickbarGroup" : "Conjuration",
+  "isFixed" : true,
+  "cooldown" : 8,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 10,
+    "priority" : 7,
+    "actionType" : "Debuff",
+    "groupType" : "Multiple",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 1
+      }
+    ]
+  }
+}

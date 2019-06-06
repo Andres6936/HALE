@@ -1,0 +1,34 @@
+{ "name" : "Orc",
+  
+  "icon" : {
+	"sprite" : "creatures/orc01",
+	"color" : "#ffffffff"
+  },
+  
+  "gender" : "Male",
+  "race" : "Orc",
+  "script" : "ai/aiStandard",
+  
+  "roles" : {
+    "baseRoleID" : "Monster",
+	"Monster" : 2
+  },
+  
+  "attributes" : {
+    "strength" : 10,
+	"dexterity" : 1,
+	"constitution" : 12,
+	"intelligence" : 10,
+	"wisdom" : 10,
+	"charisma" : 10
+  },
+  
+  "inventory" : {
+    "equipped" : {
+	  "MainHand" : {
+	    "id" : "tutorial_orc_fist",
+		"quality" : "Good"
+	  }
+	}
+  }
+}

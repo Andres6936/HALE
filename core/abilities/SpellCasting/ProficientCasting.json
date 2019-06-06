@@ -1,0 +1,17 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('SpellFailure', 'Stackable', 5); parent.applyEffect(effect); }",
+  "name" : "Proficient Casting",
+  "type" : "Spell Casting",
+  "icon" : {
+    "sprite" : "icons/proficientCasting"
+  },
+  "description" : "You have focused on the motions and sounds of spell casting. You gain a 5% bonus against spell failure on all spell casting attempts.  This stacks with bonuses from other sources such as Armor Casting.",
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 1
+      }
+    ]
+  }
+}

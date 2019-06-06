@@ -1,0 +1,29 @@
+{
+  "name" : "Skill Bonuses",
+  "abilities" : {
+    "Crafter" : {
+      "x" : 0.0,
+      "y" : 0.0
+    },
+    "SmoothTalker" : {
+      "x" : 0.0,
+      "y" : 1.0
+    },
+    "SelfSufficient" : {
+      "x" : 1.0,
+      "y" : 0.0
+    },
+    "Enchanter" : {
+      "x" : 1.0,
+      "y" : 1.0
+    },
+    "NimbleFingers" : {
+      "x" : 2.0,
+      "y" : 0.0
+    },
+    "Sneaky" : {
+      "x" : 2.0,
+      "y" : 1.0
+    }
+  }
+}

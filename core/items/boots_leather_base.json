@@ -1,0 +1,23 @@
+{
+  "name" : "Leather Boots",
+  "description" : "Boots made out of hardened leather, to protect the wearer's feet.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/A_Shoes01",
+    "color" : "#ffffffff"
+  },
+  "value" : 2000,
+  "weight" : 800,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Boots",
+  "subIcon" : {
+    "sprite" : "subIcons/boots-03",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "None",
+  "armorClass" : 1,
+  "armorPenalty" : 0,
+  "movementPenalty" : 0
+}

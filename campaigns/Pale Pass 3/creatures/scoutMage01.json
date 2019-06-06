@@ -1,0 +1,75 @@
+{
+  "name" : "Mage",
+  "gender" : "Male",
+  "race" : "Human",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ff4c4343",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      
+    ]
+  },
+  "attributes" : {
+    "strength" : 12,
+    "dexterity" : 13,
+    "constitution" : 14,
+    "intelligence" : 18,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Search" : 70
+  },
+  "abilities" : [
+    {
+      "id" : "PoisonFog",
+      "levelObtained" : 1
+    }, {
+      "id" : "ConcealingFog",
+      "levelObtained" : 1
+    }, {
+      "id" : "Crush",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCrush",
+      "levelObtained" : 1
+    }, {
+      "id" : "Freeze",
+      "levelObtained" : 1
+    }, {
+      "id" : "Tremor",
+      "levelObtained" : 1
+    }, {
+      "id" : "Deafen",
+      "levelObtained" : 1
+    }, {
+      "id" : "Blindness",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Mage" : 13,
+    "baseRoleID" : "Mage"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "quarterstaff",
+        "quality" : "Fine"
+      },
+      "Armor" : {
+        "id" : "armor_clothes"
+      },
+      "Cloak" : {
+        "id" : "cloak"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    10000, 20000
+  ]
+}

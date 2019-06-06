@@ -1,0 +1,27 @@
+{
+  "radius" : 2,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "drakeKing",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "drakeArchMage",
+      "x" : -1,
+      "y" : 1
+    }, {
+      "id" : "drakePriest",
+      "x" : 2,
+      "y" : 0
+    }, {
+      "id" : "drakeChampion",
+      "x" : -2,
+      "y" : -1
+    }, {
+      "id" : "drakeChampion",
+      "x" : 0,
+      "y" : -2
+    }
+  ]
+}

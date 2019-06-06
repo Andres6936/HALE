@@ -1,0 +1,23 @@
+{
+  "externalScript" : "abilities/bardsong",
+  "name" : "Bardsong",
+  "type" : "Bard Abilities",
+  "icon" : {
+    "sprite" : "icons/bardsong"
+  },
+  "description" : "The Bardsong is the basic ability of all Bard characters.  As you progress in levels, you learn a variety of songs that can be activated through this ability.  Only one bardsong may be active at any given time.  While playing a bardsong, Bards suffer a 50 point Action Penalty due to the concentration involved in the song.  Bard songs typically affect all creatures within an 8 hex radius of the Bard.  Some songs affect only friendly creatures, while some affect only hostiles.",
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : true,
+  "isCancelable" : true,
+  "cooldown" : 3,
+  "actionPointCost" : 5000,
+  "ai" : {
+    "power" : 30,
+    "priority" : 10,
+    "actionType" : "Buff",
+    "groupType" : "Multiple",
+    "rangeType" : "Personal"
+  }
+}

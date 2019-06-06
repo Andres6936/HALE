@@ -1,0 +1,18 @@
+{
+  "name" : "Cloak",
+  "description" : "An cloak which is clasped around the neck.",
+  "class" : "EquippableItem",
+  "icon" : {
+    "sprite" : "items/A_Cloak01",
+    "color" : "#ffb8ae46"
+  },
+  "value" : 800,
+  "weight" : 1000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Cloak",
+  "subIcon" : {
+    "sprite" : "subIcons/cloak-01",
+    "color" : "#ffb8ae46"
+  }
+}

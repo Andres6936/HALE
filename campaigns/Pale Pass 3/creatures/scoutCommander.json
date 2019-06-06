@@ -1,0 +1,84 @@
+{
+  "name" : "Scout Commander",
+  "gender" : "Male",
+  "race" : "Human",
+  "portrait" : "Human/iron-mauler",
+  "conversation" : "conversations/scoutCommander",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ff3f3737",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      
+    ]
+  },
+  "attributes" : {
+    "strength" : 17,
+    "dexterity" : 13,
+    "constitution" : 14,
+    "intelligence" : 13,
+    "wisdom" : 12,
+    "charisma" : 12
+  },
+  "skills" : {
+    "Search" : 60
+  },
+  "abilities" : [
+    {
+      "id" : "UnstoppableRage",
+      "levelObtained" : 1
+    }, {
+      "id" : "ImprovedRage",
+      "levelObtained" : 1
+    }, {
+      "id" : "Rage",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 14,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "greatsword",
+        "quality" : "Superb"
+      },
+      "Armor" : {
+        "id" : "armor_plateheavy_base",
+        "quality" : "Fine"
+      },
+      "Gloves" : {
+        "id" : "gloves_mail_base",
+        "quality" : "Fine"
+      },
+      "Helmet" : {
+        "id" : "helmet_plate_base",
+        "quality" : "Fine"
+      },
+      "Cloak" : {
+        "id" : "cloak"
+      },
+      "Boots" : {
+        "id" : "boots_mail_base",
+        "quality" : "Fine"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    15000, 25000
+  ],
+  "loot" : [
+    {
+      "id" : "Drop_ScoutCommander",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerItem"
+      }
+    }
+  ]
+}

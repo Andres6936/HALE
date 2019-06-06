@@ -1,0 +1,140 @@
+{
+  "name" : "Conjuration",
+  "abilities" : {
+    "Shield" : {
+      "x" : 1.0,
+      "y" : 0.0
+    },
+    "ConjureWeapon" : {
+      "x" : 0.0,
+      "y" : 2.0
+    },
+    "ConjureArmor" : {
+      "x" : 1.0,
+      "y" : 1.0
+    },
+    "ElementalShield" : {
+      "x" : 2.0,
+      "y" : 3.0
+    },
+    "ConcealingFog" : {
+      "x" : 3.5,
+      "y" : 0.0
+    },
+    "DistractingFog" : {
+      "x" : 3.0,
+      "y" : 2.0
+    },
+    "PoisonFog" : {
+      "x" : 4.0,
+      "y" : 2.0
+    },
+    "Summon" : {
+      "x" : 5.0,
+      "y" : 1.0
+    },
+    "SummonElemental" : {
+      "x" : 5.0,
+      "y" : 3.0
+    },
+    "Tanglefoot" : {
+      "x" : 6.5,
+      "y" : 0.0
+    },
+    "CrushingVines" : {
+      "x" : 6.0,
+      "y" : 1.0
+    },
+    "DeadlyVines" : {
+      "x" : 7.0,
+      "y" : 3.0
+    },
+    "AcidSplash" : {
+      "x" : 8.0,
+      "y" : 2.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "ThreeDown",
+      "x" : 1.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 2.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 2.0
+    }, {
+      "type" : "Through",
+      "x" : 2.0,
+      "y" : 2.0
+    }, {
+      "type" : "TwoDown",
+      "x" : 3.5,
+      "y" : 0.0
+    }, {
+      "type" : "Through",
+      "x" : 4.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 3.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 5.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 5.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 5.0,
+      "y" : 2.0
+    }, {
+      "type" : "TwoDown",
+      "x" : 6.5,
+      "y" : 0.0
+    }, {
+      "type" : "Through",
+      "x" : 7.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 7.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 7.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 7.0,
+      "y" : 2.0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "externalScript" : "spells/fortifyHealth",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 2,
+  "name" : "Fortify Health",
+  "type" : "Restoration",
+  "icon" : {
+    "sprite" : "icons/fortifyHealth"
+  },
+  "description" : "The caster touches a single friendly target.  That creature gains 5 plus 1 to 3 per caster level temporary hit points.  Temporary hit points can increase the target's total hit points beyond their normal maximum.  However, the temporary hit points are removed after 5 to 10 rounds.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Restoration",
+  "isFixed" : true,
+  "cooldown" : 9,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 15,
+    "priority" : 8,
+    "actionType" : "Heal",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Cure"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 4
+      }
+    ]
+  }
+}

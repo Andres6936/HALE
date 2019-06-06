@@ -1,0 +1,26 @@
+{
+  "respawnTime" : 24,
+  "radius" : 2,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 3,
+  "maxRandomCreatures" : 4,
+  "creatures" : [
+    {
+      "id" : "clagraw",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "clagraw",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "clagraw",
+      "x" : 0,
+      "y" : -1
+    }, {
+      "id" : "clagraw",
+      "x" : 1,
+      "y" : -1
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "Hat",
+  "description" : "Creates a simple wizard hat.",
+  "skill" : "CraftArmor",
+  "skillRankRequirement" : 5,
+  "ingredients" : {
+    "leather" : 2,
+    "thread" : 4
+  },
+  "result" : {
+    "id" : "wizardHat",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "skillRankRequirement" : 5
+      }
+    ]
+  }
+}

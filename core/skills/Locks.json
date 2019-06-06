@@ -1,0 +1,16 @@
+{
+  "name" : {
+    "noun" : "Locks",
+    "presentTenseVerb" : "Lock",
+    "pastTenseVerb" : "Locked"
+  },
+  "icon" : {
+    "sprite" : "icons/locks"
+  },
+  "isUsableUntrained" : false,
+  "suffersArmorPenalty" : false,
+  "keyAttribute" : "Dex",
+  "isCraft" : false,
+  "restrictToRole" : "Rogue",
+  "alwaysRolls100OutsideOfCombat" : true
+}

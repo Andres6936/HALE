@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBaseWeaponBonus('Longsword', 'CriticalMultiplier', 1); effect.getBonuses().addBaseWeaponBonus('Bastard Sword', 'CriticalMultiplier', 1); effect.getBonuses().addBaseWeaponBonus('Greatsword', 'CriticalMultiplier', 1); parent.applyEffect(effect); }",
+  "name" : "Master Training, Large Swords",
+  "type" : "Weapon Training",
+  "icon" : {
+    "sprite" : "icons/masterLargeSwords"
+  },
+  "description" : "You do an additional 1x damage on critical hits with longswords, bastard swords, and great swords.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "ExpertTrainingLargeSwords"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 60
+      }
+    ]
+  }
+}

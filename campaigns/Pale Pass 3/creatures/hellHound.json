@@ -1,0 +1,59 @@
+{
+  "name" : "Hound of Hell",
+  "gender" : "Male",
+  "race" : "Demon",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/demon07",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 16,
+    "dexterity" : 19,
+    "constitution" : 14,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "SpellResistance50",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor20",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "MonsterStrong" : 12
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedClaw",
+        "quality" : "Superb"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "loot" : [
+    {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

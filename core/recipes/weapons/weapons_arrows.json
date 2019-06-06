@@ -1,0 +1,15 @@
+{
+  "name" : "Arrows",
+  "description" : "Creates 20 arrows.",
+  "skill" : "CraftWeapons",
+  "skillRankRequirement" : 10,
+  "ingredients" : {
+    "bar_iron" : 1,
+    "bar_wood" : 1,
+    "coal" : 3
+  },
+  "result" : {
+    "id" : "arrow",
+    "quantity" : 20
+  }
+}

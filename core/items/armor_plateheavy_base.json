@@ -1,0 +1,23 @@
+{
+  "name" : "Heavy Plate Armor",
+  "description" : "Reinforced and with thicker steel than ordinary plate, this armor provides excellent defense but with significant mobility restrictions.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/A_Armour02",
+    "color" : "#ffffffff"
+  },
+  "value" : 240000,
+  "weight" : 20000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Armor",
+  "subIcon" : {
+    "sprite" : "subIcons/armor-06",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Heavy",
+  "armorClass" : 30,
+  "armorPenalty" : 32,
+  "movementPenalty" : 25
+}

@@ -1,0 +1,42 @@
+{
+  "name" : "Heavy Shield",
+  "description" : "Creates a heavy shield.  The quality is dependant on your Craft Armor skill.",
+  "skill" : "CraftArmor",
+  "skillRankRequirement" : 25,
+  "ingredients" : {
+    "bar_wood" : 2,
+    "bar_iron" : 4,
+    "coal" : 3
+  },
+  "result" : {
+    "id" : "shield_heavy_base",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 15
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 35
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 55
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 75
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 95
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 115
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 130
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 150
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "Sling Stones",
+  "description" : "Creates 20 sling stones.",
+  "skill" : "CraftWeapons",
+  "skillRankRequirement" : 10,
+  "ingredients" : {
+    "bar_lead" : 1
+  },
+  "result" : {
+    "id" : "slingstone",
+    "quantity" : 20
+  }
+}

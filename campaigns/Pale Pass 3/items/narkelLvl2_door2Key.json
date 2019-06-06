@@ -1,0 +1,13 @@
+{
+  "name" : "Key",
+  "description" : "This is the key you found on the second level of the Tomb of Narkel.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Key05",
+    "color" : "#ffffffff"
+  },
+  "value" : 0,
+  "weight" : 25,
+  "isIngredient" : false,
+  "isQuest" : true
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "Claw",
+  "description" : "A claw from an animal of some kind.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Claw",
+    "color" : "#ffffffff"
+  },
+  "value" : 100,
+  "weight" : 10,
+  "isIngredient" : true,
+  "isQuest" : false
+}

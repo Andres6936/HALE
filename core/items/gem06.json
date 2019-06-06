@@ -1,0 +1,13 @@
+{
+  "name" : "Diamond",
+  "description" : "A rare and valuable diamond.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_GemDiamond",
+    "color" : "#ffffffff"
+  },
+  "value" : 50000,
+  "weight" : 1,
+  "isIngredient" : true,
+  "isQuest" : false
+}

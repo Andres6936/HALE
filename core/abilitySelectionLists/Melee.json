@@ -1,0 +1,72 @@
+{
+  "name" : "Melee",
+  "abilities" : {
+    "MightyBlow" : {
+      "x" : 1.0,
+      "y" : 0.0
+    },
+    "Disarm" : {
+      "x" : 1.0,
+      "y" : 1.0
+    },
+    "ForcefulBlows" : {
+      "x" : 0.0,
+      "y" : 1.5
+    },
+    "PowerfulBlows" : {
+      "x" : 0.0,
+      "y" : 2.5
+    },
+    "ChargeAttack" : {
+      "x" : 2.0,
+      "y" : 2.0
+    },
+    "WhirlwindAttack" : {
+      "x" : 1.5,
+      "y" : 3.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "ThreeDown",
+      "x" : 1.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 2.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneUp",
+      "x" : 0.0,
+      "y" : 1.2
+    }, {
+      "type" : "OneUp",
+      "x" : 0.0,
+      "y" : 1.3
+    }, {
+      "type" : "OneUp",
+      "x" : 0.0,
+      "y" : 1.5
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 1.5
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "TwoUp",
+      "x" : 1.5,
+      "y" : 3.0
+    }
+  ]
+}

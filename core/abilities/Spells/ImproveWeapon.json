@@ -1,0 +1,41 @@
+{
+  "externalScript" : "spells/improveWeapon",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 1,
+  "name" : "Improve Weapon",
+  "type" : "Alteration",
+  "icon" : {
+    "sprite" : "icons/improveWeapon"
+  },
+  "description" : "The equipped melee weapon of the targeted creature touched by the caster becomes magically enhanced.  Attacks with the weapon are made with a bonus of 5 plus one per caster level, and the weapon gains a 10% increased chance on each hit of a critical hit.  The effect lasts for 5 to 10 rounds.  If the wielder stops using the weapon, the effect immediately ends.",
+  "upgrades" : [
+    { "ability" : "FlamingWeapon",
+      "description" : "With Flaming Weapon, the targeted weapon becomes enhanced with magical flames, doing an additional 1 to 4 plus 1 per 4 caster levels of fire damage on every hit.",
+      "override" : true
+    }
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Alteration",
+  "isFixed" : true,
+  "cooldown" : 8,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 10,
+    "priority" : 6,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 1
+      }
+    ]
+  }
+}

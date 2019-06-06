@@ -1,0 +1,80 @@
+{
+  "name" : "Deep Dwarf",
+  "gender" : "Male",
+  "race" : "Dwarf",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ff433f22",
+    "clothingColor" : "#ffbfe074",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair015",
+        "color" : "#ff5255ac"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 16,
+    "dexterity" : 9,
+    "constitution" : 16,
+    "intelligence" : 11,
+    "wisdom" : 9,
+    "charisma" : 9
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "ProficiencyWaraxe",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor10",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 8,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "waraxe",
+        "quality" : "Good"
+      },
+      "OffHand" : {
+        "id" : "shield_light_base",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_leatherhard_base",
+        "quality" : "Good"
+      },
+      "Gloves" : {
+        "id" : "gloves_leather_base",
+        "quality" : "Good"
+      },
+      "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    5000, 10000
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

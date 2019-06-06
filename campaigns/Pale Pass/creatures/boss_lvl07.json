@@ -1,0 +1,78 @@
+{
+  "name" : "Warrior",
+  "gender" : "Male",
+  "race" : "Human",
+  "portrait" : "Human/iron-mauler",
+  "conversation" : "conversations/sonorinCanyonBoss",
+  "script" : "ai/sonorinDesertBoss",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      
+    ]
+  },
+  "attributes" : {
+    "strength" : 17,
+    "dexterity" : 12,
+    "constitution" : 14,
+    "intelligence" : 11,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 8,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "greataxe",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_plate_base",
+        "quality" : "Decent"
+      },
+      "Gloves" : {
+        "id" : "gloves_mail_base",
+        "quality" : "Good"
+      },
+      "Helmet" : {
+        "id" : "helmet_plate_02",
+        "quality" : "Decent"
+      },
+      "Boots" : {
+        "id" : "boots_mail_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    5000, 7500
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel10",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel10",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

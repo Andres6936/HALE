@@ -1,0 +1,83 @@
+{ "name" : "Human",
+  "icon" : "icons/human",
+  "baseMovementCost" : 1000,
+  "defaultWeapon" : "unarmedMedium",
+  "playerSelectable" : true,
+  
+  "baseAttributes" : [ 10, 10, 10, 10, 10, 10 ],
+  
+  "racialTypes" : [
+    "Humanoid"
+  ],
+  
+  "subIconRaceString" : "Medium",
+  
+  "icons" : {
+    "maleForeground" : "creatures/human-male-fg",
+	"maleBackground" : "creatures/human-male-bg",
+	"femaleForeground" : "creatures/human-female-fg",
+	"femaleBackground" : "creatures/human-female-bg",
+	"maleClothes" : "creatures/human-male-clothes",
+	"femaleClothes" : "creatures/human-female-clothes"
+  },
+  
+  "iconOffsets" : {
+    "Cloak" : [ 16, 15 ],
+	"Quiver" : [ 16, 15 ],
+	"Torso" : [ 16, 15 ],
+	"Gloves" : [ 16, 15 ],
+	"Head" : [ 16, 4 ],
+	"Ears" : [ 16, 4 ],
+	"Hair" : [ 16, 4 ],
+	"Beard" : [ 16, 5 ],
+	"Shield" : [ 22, 15 ],
+	"Boots" : [ 16, 26 ],
+	"MainHandWeapon" : [ 4, 10 ],
+	"OffHandWeapon" : [ 24, 11 ]
+  },
+  
+  "hasBeard" : true,
+  "selectableHairIndices" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ],
+  "selectableBeardIndices" : [ 1, 2, 3, 4, 5, 6, 7 ],
+  
+  "hairAndBeardColors" : [
+		"#FFFFFFFF", "#FFC0C0C0", "#FF808080", "#FF545454",
+		"#FF545454", "#FF000000", "#FFEEE685", "#FFFFFF00", 
+		"#FFCC9900", "#FFD98719", "#FFFFA500", "#FFEE7600",
+		"#FFFF0000", "#FFC00000", "#FF800000", "#FFCD853F",
+		"#FF8B5A2B", "#FF8B5A00", "#FF8B4513", "#FF5C3317"
+  ],
+	
+  "skinColors" : [
+		"#FFF9F4C8", "#FFF6D39B", "#FFF8E088", "#FFF6D39B",
+		"#FFEDAE67", "#FFCE9452", "#FF734A29", "#FF422110",
+		"#FF2F1010", "#FFFFC794", "#FFD48661", "#FF80412B",
+		"#FF501002"
+  ],
+  
+  "defaultHairIndex" : 2,
+  "defaultBeardIndex" : 1,
+  "defaultHairColor" : "#FF800000",
+  "defaultBeardColor" : "#FF800000",
+  "defaultSkinColor" : "#FFF6D39B",
+  
+  "abilitySelectionsFromList" : {
+  
+  },
+  
+  "randomMaleNames" : [
+    "Adane", "Aeric", "Brien", "Cromir", "Cyric", "Darian", "Duffus", "Golin", "Jackin", "Jartet",
+	"Kennig", "Melin", "Merick", "Ranith", "Sorran", "Shorman", "Sydney", "Teffis", "Terlin", "Wellen",
+	"Melor", "Ruan", "Alan", "Nadelek", "Colan", "Jermyn", "Conan", "Gawen", "Howel", "Pedrek", "Carlyon",
+	"Branek", "Wolmar", "Rudi", "Georg", "Rutger", "Jakob", "Runnolf", "Vikar", "Bosi", "Fjori", "Frodi",
+	"Asmund", "Hakon", "Bjarkmar", "Hosvir", "Hakon"
+  ],
+  
+  "randomFemaleNames" : [
+    "Alissa", "Amicia", "Brena", "Brook", "Coley", "Crista", "Glinta", "Gwena", "Jenae", "Kerry", "Lobanna",
+	"Lucie", "Nella", "Rosie", "Morianna", "Shamma", "Shirriel", "Tetra", "Vadanna", "Zaria", "Elestren",
+	"Tega", "Tressa", "Lowenna", "Eseld", "Rosenwyn", "Tressa", "Mellyn", "Kerensa", "Caja", "Bronnen",
+	"Wenna", "Gitta", "Elfrida", "Kathrine", "Emilie", "Sima", "Frida", "Ursua", "Theda", "Elisa", "Bera",
+	"Galumvor", "Isgerd", "Vaetild", "Ilsa"
+  ]
+}

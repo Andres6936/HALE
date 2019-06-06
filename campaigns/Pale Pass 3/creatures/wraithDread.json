@@ -1,0 +1,50 @@
+{
+  "name" : "Dread Wraith",
+  "gender" : "Male",
+  "race" : "Ghost",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/ghost02",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 14,
+    "dexterity" : 23,
+    "constitution" : 10,
+    "intelligence" : 6,
+    "wisdom" : 10,
+    "charisma" : 7
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor30",
+      "levelObtained" : 1
+    }, {
+      "id" : "SpellResistance50",
+      "levelObtained" : 1
+    }, {
+      "id" : "PhysicalImmunity75",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Monster" : 18
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedWraith",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    12000, 24000
+  ]
+}

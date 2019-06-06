@@ -1,0 +1,34 @@
+{
+  "name" : "Skullcrusher",
+  "description" : "This warhammer does tremendous crushing damage with every blow.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Hammer02",
+    "color" : "#ffe1d6d9"
+  },
+  "value" : 210000,
+  "weight" : 3800,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-warhammer01",
+    "color" : "#ffffffff"
+  },
+  "enchantments" : [
+    "entity.addStandaloneDamageBonus('Blunt', 2, 6); entity.addBonus('WeaponAttack', 30);"
+  ],
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "OneHanded",
+  "baseWeapon" : "Warhammer",
+  "threatensAoOs" : true,
+  "damageType" : "Blunt",
+  "minDamage" : 3,
+  "maxDamage" : 10,
+  "criticalThreat" : 93,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

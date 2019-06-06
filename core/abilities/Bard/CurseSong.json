@@ -1,0 +1,17 @@
+{
+  "name" : "Curse Song",
+  "type" : "Bard Abilities",
+  "icon" : {
+    "sprite" : "icons/curseSong"
+  },
+  "description" : "The Curse Song affects all hostiles within 8 hexes of the Bard.  Affected creatures suffer a penalty to Strength and Dexterity of one point per 2 Bard levels plus one point per 2 points of Charisma above 10.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Bardsong"
+    ]
+  }
+}

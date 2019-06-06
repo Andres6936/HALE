@@ -1,0 +1,135 @@
+{
+  "name" : "Red Demon",
+  "gender" : "Male",
+  "race" : "Demon",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/demon05",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 14,
+    "dexterity" : 19,
+    "constitution" : 15,
+    "intelligence" : 12,
+    "wisdom" : 16,
+    "charisma" : 13
+  },
+  "skills" : {
+    "Search" : 70
+  },
+  "abilities" : [
+    {
+      "id" : "FastSpellRecovery1",
+      "levelObtained" : 1
+    }, {
+      "id" : "MeleeCasting",
+      "levelObtained" : 1
+    }, {
+      "id" : "Shield",
+      "levelObtained" : 1
+    }, {
+      "id" : "ElementalShield",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWieldingMastery",
+      "levelObtained" : 1
+    }, {
+      "id" : "ExpertDualWielding",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWielding",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWieldingDefense",
+      "levelObtained" : 1
+    }, {
+      "id" : "FlamingFingers",
+      "levelObtained" : 1
+    }, {
+      "id" : "Firebolt",
+      "levelObtained" : 1
+    }, {
+      "id" : "Fireball",
+      "levelObtained" : 1
+    }, {
+      "id" : "Enfeeble",
+      "levelObtained" : 1
+    }, {
+      "id" : "Curse",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCurse",
+      "levelObtained" : 1
+    }, {
+      "id" : "ProficiencySmallSwords",
+      "levelObtained" : 1
+    }, {
+      "id" : "ImproveWeapon",
+      "levelObtained" : 1
+    }, {
+      "id" : "FlamingWeapon",
+      "levelObtained" : 1
+    }, {
+      "id" : "HardenArmor",
+      "levelObtained" : 1
+    }, {
+      "id" : "Haste",
+      "levelObtained" : 1
+    }, {
+      "id" : "ResistWeapons",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction5",
+      "levelObtained" : 1
+    }, {
+      "id" : "ImmobilizationImmunity",
+      "levelObtained" : 1
+    }, {
+      "id" : "FireImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "Regeneration10",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 18,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "shortSword",
+        "quality" : "Superb"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    20000, 30000
+  ],
+  "loot" : [
+    {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsExceptional",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

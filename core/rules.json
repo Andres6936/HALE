@@ -1,0 +1,101 @@
+{
+    "MaximumPathLength" : 50,
+
+	"BaseActionPoints" : 10000,
+	
+	"OutsideCombatHealingFactor" : 3,
+	
+	"PickUpAndWieldItemCost" : 4000,
+	"DropItemCost" : 4000,
+	"PickUpItemCost" : 4000,
+	"GiveItemCost" : 4000,
+
+	"EquipItemCost" : 4000,
+	"EquipArmorCost" : 9000,
+
+	"OpenLockCost" : 8000,
+	"DisarmTrapCost" : 8000,
+	"RecoverTrapCost" : 8000,
+	"PlaceTrapCost" : 8000,
+	"OpenContainerCost" : 0,
+	"OpenDoorCost" : 4000,
+
+	"TrapCriticalFailureThreshold" : 40,
+
+	"SearchCheckCreatureBaseDifficulty" : 25,
+	"SearchCheckDistanceMultiplier" : 10,
+
+	"HideAttackPenalty" : 100,
+	"HideSpringTrapPenalty" : 150,
+	"HidePlaceTrapPenalty" : 75,
+	"HideRecoverTrapPenalty" : 50,
+	"HideDisarmTrapPenalty" : 30,
+	"HideCastSpellPenalty" : 100,
+	"HideInPlainSightPenalty" : 50,
+	"HideOpenDoorPenalty" : 100,
+
+	"BonusSpellsAbilityScoreFactor"  : 3,
+	"BonusSpellsSpellLevelFactor"    : 3,
+	"BonusSpellsBaseValue"           : -20,
+	"BonusSpellsMultiplier"          : 1,
+
+	"MinIntelligenceToOpenDoors" : 4,
+
+	"StartingAttributePoints" : 20,
+
+	"WeightLimitBase" : 60000,
+	"WeightLimitStrengthFactor" : 8000,
+
+	"XPLevelMultFactor" : 100,
+	"XPLevelExpBaseInv" : 11,
+
+	"EncounterChallengeFactor" : 10,
+	"EncounterXPFactor" : 80,
+	
+	"EncounterGroupChallengeScaleFactor" : 622,
+
+	"SkillsMaxPerLevel" : 5,
+
+	"DeathXPPenaltyCharacterLevelFactor" : 10,
+
+	"BuySellGapSpeechExpFactor" : 85,
+
+	"SpellSlotCooldownBase" : 9,
+	"SpellSlotCooldownSpellLevelFactor" : 1,
+
+	"AttributePointCostExpBaseNumerator"   : 106,
+	"AttributePointCostExpBaseDenominator" : 100,
+
+	"TrapQualityDifficultyNumerator"   : 1,
+	"TrapQualityDifficultyDenominator" : 4,
+
+	"RecipeVisibleSkillThreshold" : 50,
+	
+	"CombatLengthXPFactor" : 250,
+	"CombatLengthXPMax" : 4000,
+	
+	"FemaleIcon" : "icons/female",
+	"MaleIcon"   : "icons/male",
+
+	"StrengthIcon"     : "icons/strength",
+	"DexterityIcon"    : "icons/dexterity",
+	"ConstitutionIcon" : "icons/constitution",
+	"IntelligenceIcon" : "icons/intelligence",
+	"WisdomIcon"       : "icons/wisdom",
+	"CharismaIcon"     : "icons/charisma",
+
+	"DefaultClothes" : "armor_clothes",
+
+	"DefaultRace" : "Human",
+	"DefaultGender" : "Male",
+	
+	"TemporaryContainerID" : "temporaryContainer",
+
+	"DefaultItemQuality" : "Good",
+	"DefaultBaseWeapon"  : "Unarmed",
+	"DefaultArmorType"   : "None",
+	"PhysicalDamageType" : "Physical",
+	"DefaultFaction" : "Neutral",
+	
+	"PlayerFaction" : "Player"
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "Resistance",
+  "type" : "Enchantment",
+  "icon" : {
+    "sprite" : "icons/resistance"
+  },
+  "description" : "Resistance upgrades your Divine Luck ability.  All affected targets now gain a bonus of 10 plus caster level to Physical, Mental, and Reflex resistance checks.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 20,
+    "actionType" : "Buff",
+    "groupType" : "Multiple",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "DivineLuck"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 4
+      }
+    ]
+  }
+}

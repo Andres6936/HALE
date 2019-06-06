@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBaseWeaponBonus('Light Hammer', 'CriticalChance', 5); effect.getBonuses().addBaseWeaponBonus('Warhammer', 'CriticalChance', 5); effect.getBonuses().addBaseWeaponBonus('Maul', 'CriticalChance', 5); parent.applyEffect(effect); }",
+  "name" : "Expert Training, Hammers",
+  "type" : "Weapon Training",
+  "icon" : {
+    "sprite" : "icons/expertHammers"
+  },
+  "description" : "You gain an additional +5 chance to inflict critical hits with light hammers, warhammers, and mauls.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "AdvancedTrainingHammers"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 45
+      }
+    ]
+  }
+}

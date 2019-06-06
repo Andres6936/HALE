@@ -1,0 +1,64 @@
+{
+  "name" : "Arle",
+  "gender" : "Male",
+  "race" : "Human",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffbe7238",
+    "clothingColor" : "#ff47b145",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair001",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 18,
+    "dexterity" : 12,
+    "constitution" : 16,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "MightyBlow",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 14,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "greatsword",
+        "quality" : "Fine"
+      },
+      "Armor" : {
+        "id" : "armor_plate_base",
+        "quality" : "Fine"
+      },
+      "Gloves" : {
+        "id" : "gloves_plate_base",
+        "quality" : "Fine"
+      },
+      "Boots" : {
+        "id" : "boots_plate_base",
+        "quality" : "Fine"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    8000, 18000
+  ]
+}

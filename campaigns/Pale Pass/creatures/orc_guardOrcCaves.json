@@ -1,0 +1,81 @@
+{
+  "name" : "Orc Guard",
+  "gender" : "Male",
+  "race" : "Orc",
+  "portrait" : "Monster/orc02",
+  "conversation" : "conversations/orc_guardOrcCaves",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/orc01",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 12,
+    "dexterity" : 11,
+    "constitution" : 8,
+    "intelligence" : 7,
+    "wisdom" : 9,
+    "charisma" : 6
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "ProficiencyShields",
+      "levelObtained" : 1
+    }, {
+      "id" : "ProficiencyAxes",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Monster" : 2
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "battleaxe",
+        "quality" : "Decent"
+      },
+      "OffHand" : {
+        "id" : "shield_light_base",
+        "quality" : "Decent"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    1200, 1500
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel1",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel1",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

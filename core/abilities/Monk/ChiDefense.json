@@ -1,0 +1,18 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect('effects/chiDefense'); parent.applyEffect(effect); }",
+  "name" : "Chi Defense",
+  "type" : "Monk Abilities",
+  "icon" : {
+    "sprite" : "icons/chiDefense"
+  },
+  "description" : "The monk is surrounded by a powerful aura at all times, gaining twice their Monk level and twice their Wisdom bonus to defense.",
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Monk",
+        "level" : 6
+      }
+    ],
+	"abilities" : [ "FleetOfFoot" ]
+  }
+}

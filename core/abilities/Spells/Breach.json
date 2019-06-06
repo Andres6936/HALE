@@ -1,0 +1,39 @@
+{
+  "externalScript" : "spells/breach",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 3,
+  "name" : "Breach",
+  "type" : "Alteration",
+  "icon" : {
+    "sprite" : "icons/breach"
+  },
+  "description" : "Breach is a powerful assault against the defenses of an enemy spellcaster or magical creature.  The caster selects a single target up to 10 hexes away.  Up to one point per caster level of spell resistance on that creature is negated for 5 to 10 rounds.  In addition, up to two of the following defensive spells are removed from the target or its armor: Harden Armor, Absorb Energy, Deflect Projectiles, Chameleon, Layer of Bark, Shield, Fortify Health, Ward, Energy Immunity, or Invulnerability.  If the target has more than two of these defensive spells active, two are chosen randomly.  Note that unlike other targeted spells, this spell ignores the target's concealment.",
+  "upgrades" : [
+	  { "ability" : "Rupture",
+	    "description" : "With Rupture, you remove 3 additional points of Spell Resistance from the target per Avenger level, and Breach will now remove up to 3 defensive spells with 1 Avenger level, 4 with 5 Avenger levels, or 5 with 10 Avenger levels.",
+	    "override" : true }
+	],
+  "isActivateable" : true,
+  "quickbarGroup" : "Alteration",
+  "isFixed" : true,
+  "cooldown" : 10,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 25,
+    "priority" : 5,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name" : "Clothes",
+  "description" : "A basic set of ordinary peasants clothing.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/A_Clothing01",
+    "color" : "#ffffffff"
+  },
+  "value" : 1200,
+  "weight" : 1000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Armor",
+  "subIcon" : {
+    "sprite" : "subIcons/armor-11",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "None",
+  "armorClass" : 0,
+  "armorPenalty" : 0,
+  "movementPenalty" : 0
+}

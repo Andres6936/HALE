@@ -1,0 +1,17 @@
+{
+  "name" : "Burning Palm",
+  "type" : "Storm Hand Abilities",
+  "icon" : {
+    "sprite" : "icons/burningPalm"
+  },
+  "description" : "A powerful, but primarly offensive stance, the Burning Palm adds 1 to 3 plus 1 per 3 Storm Hand levels fire damage to all of your attacks, as well as providing 4 points of Damage Reduction against Cold.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [
+      "StormStance"
+    ]
+  }
+}

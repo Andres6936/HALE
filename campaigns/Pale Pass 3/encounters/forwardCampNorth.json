@@ -1,0 +1,31 @@
+{
+  "radius" : 5,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "aravilSoldier",
+      "x" : 4,
+      "y" : -3
+    }, {
+      "id" : "aravilSoldier",
+      "x" : 5,
+      "y" : -2
+    }, {
+      "id" : "aravilSoldier",
+      "x" : -1,
+      "y" : -5
+    }, {
+      "id" : "aravilSoldier",
+      "x" : -3,
+      "y" : -1
+    }, {
+      "id" : "aravilSoldier",
+      "x" : -3,
+      "y" : 0
+    }, {
+      "id" : "aravilArmyGeneral",
+      "x" : 0,
+      "y" : -3
+    }
+  ]
+}

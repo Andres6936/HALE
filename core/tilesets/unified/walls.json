@@ -1,0 +1,47 @@
+{
+  "source" : "walls",
+  "images" : {
+    "wall-rough-concave-l" : [ 0, 0, 108, 144 ],
+    "wall-rough-concave-r" : [ 108, 0, 108, 144 ],
+    "wall-rough-concave-tl" : [ 216, 0, 108, 144 ],
+    "wall-rough-concave-tr" : [ 324, 0, 108, 144 ],
+    "wall-rough-convex-bl" : [ 0, 144, 108, 144 ],
+    "wall-rough-convex-br" : [ 108, 144, 108, 144 ],
+    "wall-rough-convex-l" : [ 216, 144, 108, 144 ],
+    "wall-rough-convex-r" : [ 324, 144, 108, 144 ],
+
+    "wall-rough" : [ 432, 0, 72, 72 ],
+    "wall-stone" : [ 432, 72, 72, 72 ],
+	
+    "wall-wood-n" : [ 0, 288, 100, 140 ],
+    "wall-wood-n-ne" : [ 100, 288, 144, 140 ],
+    "wall-wood-nw-n" : [ 244, 288, 144, 140 ],
+    "wall-wood-nw-n-ne" : [ 0, 428, 100, 140 ],
+    "wall-wood-ne" : [ 100, 428, 100, 140 ],
+    "wall-wood-nw" : [ 200, 428, 100, 140 ],
+    "wall-stone-n-ne" : [ 300, 428, 144, 140 ],
+
+    "wall-stone-n" : [ 0, 568, 100, 140 ],
+    "wall-stone-nw-n" : [ 100, 568, 144, 140 ],
+    "wall-stone-nw-n-ne" : [ 300, 568, 100, 140 ],
+    "wall-stone-ne" : [ 400, 568, 100, 140 ],
+    "wall-stone-nw" : [ 0, 708, 100, 140 ],
+    "building01" : [ 100, 708, 100, 140 ],
+    "building02" : [ 200, 708, 100, 140 ],
+    "building03" : [ 300, 708, 100, 140 ],
+    "building04" : [ 400, 708, 100, 140 ],
+
+    "cliff-concave-bl" : [ 504,   0, 108, 130 ],
+    "cliff-concave-br" : [ 612,   0, 108, 130 ],
+    "cliff-concave-l"  : [ 504, 130, 108, 130 ],
+    "cliff-concave-r"  : [ 612, 130, 108, 130 ],
+    "cliff-concave-tl" : [ 504, 260, 108, 130 ],
+    "cliff-concave-tr" : [ 612, 260, 108, 130 ],
+    "cliff-convex-bl"  : [ 504, 390, 108, 130 ],
+    "cliff-convex-br"  : [ 612, 390, 108, 130 ],
+    "cliff-convex-l"   : [ 504, 520, 108, 130 ],
+    "cliff-convex-r"   : [ 612, 520, 108, 130 ],
+    "cliff-convex-tl"  : [ 504, 650, 108, 130 ],
+    "cliff-convex-tr"  : [ 612, 650, 108, 130 ]
+  }
+}

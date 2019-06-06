@@ -1,0 +1,9 @@
+{
+  "name" : "Storm Hand",
+  "subLists" : {
+    "StormHandAbilities" : {
+      "x" : 0.0,
+      "y" : 0.5
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name" : "Paladin",
+  "subLists" : {
+    "PaladinAbilities" : {
+      "x" : 0.0,
+      "y" : 0.5
+    },
+    "Melee" : {
+      "x" : 0.0,
+      "y" : 4.0
+    },
+    "Defense" : {
+      "x" : 3.5,
+      "y" : 4.0
+    }
+  }
+}

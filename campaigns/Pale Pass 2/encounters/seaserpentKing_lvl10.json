@@ -1,0 +1,27 @@
+{
+  "radius" : 2,
+  "faction" : "Hostile",
+  "creatures" : [
+    {
+      "id" : "kingSerpent",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "seaSerpent",
+      "x" : -1,
+      "y" : -2
+    }, {
+      "id" : "seaSerpent",
+      "x" : 2,
+      "y" : 0
+    }, {
+      "id" : "seaSerpent",
+      "x" : -2,
+      "y" : 1
+    }, {
+      "id" : "seaSerpent",
+      "x" : 0,
+      "y" : 2
+    }
+  ]
+}

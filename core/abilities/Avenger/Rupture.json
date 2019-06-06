@@ -1,0 +1,26 @@
+{
+  "name" : "Rupture",
+  "type" : "Avenger Abilities",
+  "icon" : {
+    "sprite" : "icons/rupture"
+  },
+  "description" : "Rupture upgrades your Breach spell.  You remove 3 additional points of Spell Resistance from the target per Avenger level, and Breach will now remove up to 3 defensive spells with 1 Avenger level, 4 with 5 Avenger levels, or 5 with 10 Avenger levels.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 35,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Breach"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "radius" : 2,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "forestRoad_Merchant",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "forestRoad_guard",
+      "x" : -1,
+      "y" : -2
+    }, {
+      "id" : "forestRoad_guard",
+      "x" : 2,
+      "y" : 0
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "externalScript" : "abilities/preciseBlows",
+  "name" : "Precise Blows",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/preciseBlows"
+  },
+  "description" : "Your blows strike with careful precision.  You are 1% more likely to score critical hits per Monk level and Wisdom bonus, but your attacks do 20% less damage.  Note that this ability or Furious Blows can be gained by a given character, not both.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : true,
+  "isCancelable" : true,
+  "cooldown" : 0,
+  "ai" : {
+    "power" : 20,
+    "priority" : 5,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Monk",
+        "level" : 10
+      }
+    ],
+	"abilities" : [ "ImprovedStrike2" ]
+  },
+  "restrictions" : {
+    "abilities" : [ "FuriousBlows" ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "radius" : 3,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "goblin_smith",
+      "x" : 2,
+      "y" : 0
+    }, {
+      "id" : "goblin_healer",
+      "x" : -3,
+      "y" : 1
+    }, {
+      "id" : "goblin_peasant01",
+      "x" : 1,
+      "y" : -3
+    }, {
+      "id" : "goblin_alchemist",
+      "x" : -1,
+      "y" : -2
+    }
+  ]
+}

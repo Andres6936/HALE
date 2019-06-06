@@ -1,0 +1,29 @@
+{ "difficultyLevels" : [
+    { "name" : "Very Easy",
+	  "criticalHitsOnPCs" : false,
+	  "friendlyFireOnPCs" : false,
+	  "damageFactorOnPCs" : 75
+	},
+	{ "name" : "Easy",
+	  "criticalHitsOnPCs" : false,
+	  "friendlyFireOnPCs" : false,
+	  "damageFactorOnPCs" : 100
+	},
+	{ "name" : "Normal",
+	  "criticalHitsOnPCs" : true,
+	  "friendlyFireOnPCs" : true,
+	  "damageFactorOnPCs" : 100
+	},
+	{ "name" : "Hard",
+	  "criticalHitsOnPCs" : true,
+	  "friendlyFireOnPCs" : true,
+	  "damageFactorOnPCs" : 150
+	},
+	{ "name" : "Very Hard",
+	  "criticalHitsOnPCs" : true,
+	  "friendlyFireOnPCs" : true,
+	  "damageFactorOnPCs" : 200
+	}
+  ],
+  "defaultDifficulty" : "Normal"
+}

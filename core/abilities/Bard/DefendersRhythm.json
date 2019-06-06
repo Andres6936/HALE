@@ -1,0 +1,17 @@
+{
+  "name" : "Defender's Rhythm",
+  "type" : "Bard Abilities",
+  "icon" : {
+    "sprite" : "icons/defendersRhythm"
+  },
+  "description" : "The Defender's Rhythm affects all allies within 8 hexes of the Bard.  Affected creatures gain a bonus of 10 plus two times Bard level plus two per point of Charisma over 10 to Defense and Armor Penalty.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Bardsong"
+    ]
+  }
+}

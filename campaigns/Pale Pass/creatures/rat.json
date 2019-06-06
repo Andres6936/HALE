@@ -1,0 +1,38 @@
+{
+  "name" : "Rat",
+  "gender" : "Male",
+  "race" : "SmallAnimal",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/rat",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 8,
+    "dexterity" : 18,
+    "constitution" : 4,
+    "intelligence" : 2,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Monster" : 1
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "smallClaw",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  }
+}

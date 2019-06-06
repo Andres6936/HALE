@@ -1,0 +1,120 @@
+{
+  "name" : "Restoration",
+  "abilities" : {
+    "Renewal" : {
+      "x" : 1.0,
+      "y" : 0.0
+    },
+    "RestoreMorale" : {
+      "x" : 0.0,
+      "y" : 1.0
+    },
+    "RemoveParalysis" : {
+      "x" : 2.0,
+      "y" : 2.0
+    },
+    "RaiseDead" : {
+      "x" : 1.0,
+      "y" : 3.0
+    },
+    "Cure" : {
+      "x" : 4.0,
+      "y" : 0.0
+    },
+    "FortifyHealth" : {
+      "x" : 5.0,
+      "y" : 1.0
+    },
+    "Regeneration" : {
+      "x" : 3.0,
+      "y" : 1.0
+    },
+    "MassCure" : {
+      "x" : 4.0,
+      "y" : 2.0
+    },
+    "MassRegeneration" : {
+      "x" : 3.5,
+      "y" : 3.0
+    },
+    "Dispell" : {
+      "x" : 6.5,
+      "y" : 1.0
+    },
+    "GreaterDispell" : {
+      "x" : 6.0,
+      "y" : 3.0
+    },
+    "Ward" : {
+      "x" : 7.0,
+      "y" : 2.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "ThreeDown",
+      "x" : 1.0,
+      "y" : 0.0
+    }, {
+      "type" : "Through",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+	  "type" : "Through",
+	  "x" : 1.0,
+	  "y" : 1.0
+	}, {
+	  "type" : "OneDown",
+	  "x" : 1.0,
+	  "y" : 1.0
+	}, {
+	  "type" : "Through",
+	  "x" : 2.0,
+	  "y" : 1.0
+	}, {
+	  "type" : "OneDown",
+	  "x" : 2.0,
+	  "y" : 1.0
+	}, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 3.0,
+      "y" : 2.0
+    }, {
+      "type" : "ThreeDown",
+      "x" : 4.0,
+      "y" : 0.0
+    }, {
+      "type" : "TwoUp",
+      "x" : 3.5,
+      "y" : 3.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 4.0,
+      "y" : 1.0
+    }, {
+      "type" : "TwoDown",
+      "x" : 6.5,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 6.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 6.0,
+      "y" : 2.0
+    }
+  ]
+}

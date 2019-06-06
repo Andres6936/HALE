@@ -1,0 +1,35 @@
+{
+  "items" : [
+    {
+      "id" : "bar_iron",
+      "quantity" : 20
+    }, {
+      "id" : "bar_lead",
+      "quantity" : 10
+    }, {
+      "id" : "bar_wood",
+      "quantity" : 20
+    }, {
+      "id" : "leather",
+      "quantity" : 30
+    }, {
+      "id" : "thread",
+      "quantity" : 100
+    }, {
+      "id" : "wire",
+      "quantity" : 100
+    }, {
+      "id" : "coal",
+      "quantity" : 40
+    }, {
+      "id" : "pressure_plate",
+      "quantity" : 10
+    }, {
+	  "id" : "belt",
+	  "quantity" : 10
+	}, {
+	  "id" : "cloak",
+	  "quantity" : 10
+	}
+  ]
+}

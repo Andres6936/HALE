@@ -1,0 +1,25 @@
+{
+  "name" : "Warrior",
+  "subLists" : {
+    "Melee" : {
+      "x" : 0.0,
+      "y" : 0.5
+    },
+    "DualWielding" : {
+      "x" : 3.5,
+      "y" : 0.5
+    },
+    "Ranged" : {
+      "x" : 3.5,
+      "y" : 5.0
+    },
+    "Defense" : {
+      "x" : 0.0,
+      "y" : 5.0
+    },
+    "WeaponTraining" : {
+      "x" : 0.0,
+      "y" : 9.5
+    }
+  }
+}

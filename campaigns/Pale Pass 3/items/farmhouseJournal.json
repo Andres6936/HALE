@@ -1,0 +1,17 @@
+{
+  "name" : "Journal",
+  "description" : "This is the Journal you found in the farmhouse in the Greenrange Forest.",
+  "conversation" : "conversations/farmhouseJournal",
+  "script" : "items/readBook",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/W_Book01",
+    "color" : "#ffffffff"
+  },
+  "value" : 0,
+  "weight" : 500,
+  "isIngredient" : false,
+  "isQuest" : true,
+  "useText" : "Read",
+  "useAP" : 4000
+}

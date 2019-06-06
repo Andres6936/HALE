@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBaseWeaponBonus('Dagger', 'CriticalMultiplier', 1); effect.getBonuses().addBaseWeaponBonus('Short Sword', 'CriticalMultiplier', 1); parent.applyEffect(effect); }",
+  "name" : "Master Training, Small Swords",
+  "type" : "Weapon Training",
+  "icon" : {
+    "sprite" : "icons/masterSmallSwords"
+  },
+  "description" : "You do an additional 1x damage on critical hits with daggers and short swords.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "ExpertTrainingSmallSwords"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 60
+      }
+    ]
+  }
+}

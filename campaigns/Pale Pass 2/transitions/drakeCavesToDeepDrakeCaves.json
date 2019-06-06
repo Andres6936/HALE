@@ -1,0 +1,31 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "from" : {
+    "area" : "Drake Caves",
+    "x" : 28,
+    "y" : 78,
+    "partyPositions" : [
+      [ -2, -1 ], [ -2, 0 ], [ -1, -1 ], [ 0, 0 ]
+    ]
+  },
+  "to" : {
+    "area" : "Deep Drake Caves",
+    "x" : 1,
+    "y" : 3,
+    "partyPositions" : [
+      [ 2, 1 ], [ 2, 0 ], [ 1, 0 ], [ 0, 0 ]
+    ]
+  }
+}

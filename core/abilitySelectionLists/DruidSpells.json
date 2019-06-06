@@ -1,0 +1,172 @@
+{
+  "name" : "Druid",
+  "abilities" : {
+    "Summon" : {
+      "x" : 0.5,
+      "y" : 1.0
+    },
+    "SummonElemental" : {
+      "x" : 0.0,
+      "y" : 3.0
+    },
+    "ImprovedSummon" : {
+      "x" : 1.0,
+      "y" : 3.0
+    },
+    "Tanglefoot" : {
+      "x" : 3.0,
+      "y" : 0.0
+    },
+    "CrushingVines" : {
+      "x" : 2.0,
+      "y" : 1.0
+    },
+    "DeadlyVines" : {
+      "x" : 3.0,
+      "y" : 3.0
+    },
+    "Root" : {
+      "x" : 4.0,
+      "y" : 4.0
+    },
+    "Chameleon" : {
+      "x" : 5.5,
+      "y" : 1.0
+    },
+    "MassChameleon" : {
+      "x" : 5.0,
+      "y" : 3.0
+    },
+    "ImprovedChameleon" : {
+      "x" : 6.0,
+      "y" : 3.0
+    },
+    "Cure" : {
+      "x" : 7.0,
+      "y" : 0.0
+    },
+    "Regeneration" : {
+      "x" : 7.0,
+      "y" : 2.0
+    },
+    "MonstrousRegeneration" : {
+      "x" : 7.0,
+      "y" : 4.0
+    },
+    "LayerOfBark" : {
+      "x" : 8.0,
+      "y" : 3.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "TwoDown",
+      "x" : 0.5,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 2.0
+    }, {
+      "type" : "Through",
+      "x" : 0.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "Through",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "ThreeDown",
+      "x" : 3.0,
+      "y" : 0.0
+    }, {
+      "type" : "Through",
+      "x" : 3.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 3.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 2.0
+    }, {
+      "type" : "Through",
+      "x" : 4.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 4.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 2.0
+    }, {
+      "type" : "Through",
+      "x" : 4.0,
+      "y" : 3.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 3.0
+    }, {
+      "type" : "TwoDown",
+      "x" : 5.5,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 5.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 5.0,
+      "y" : 2.0
+    }, {
+      "type" : "Through",
+      "x" : 6.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 6.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 7.0,
+      "y" : 0.0
+    }, {
+      "type" : "Through",
+      "x" : 7.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 7.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 7.0,
+      "y" : 2.0
+    }, {
+      "type" : "Through",
+      "x" : 7.0,
+      "y" : 3.0
+    }, {
+      "type" : "OneDown",
+      "x" : 7.0,
+      "y" : 3.0
+    }
+  ]
+}

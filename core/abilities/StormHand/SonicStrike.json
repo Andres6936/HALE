@@ -1,0 +1,16 @@
+{
+  "name" : "Sonic Strike",
+  "type" : "Storm Hand Abilities",
+  "icon" : {
+    "sprite" : "icons/sonicStrike"
+  },
+  "description" : "This ability upgrades your Hurricane Claw stance.  Upon a successful strike, the opponent and all opponents directly adjacent suffer 1 to 4 Sonic damage.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [ "HurricaneClaw" ],
+	"roles" : [ { "id" : "Storm Hand", "level" : 5 } ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "radius" : 2,
+  "faction" : "Hostile",
+  "creatures" : [
+    {
+      "id" : "wraithKing",
+      "x" : -2,
+      "y" : 0
+    }, {
+      "id" : "wraithDread",
+      "x" : 0,
+      "y" : -2
+    }, {
+      "id" : "wraithDread",
+      "x" : 0,
+      "y" : 2
+    }, {
+      "id" : "wraithDread",
+      "x" : 2,
+      "y" : 1
+    }, {
+      "id" : "wraithDread",
+      "x" : 2,
+      "y" : -1
+    }
+  ]
+}

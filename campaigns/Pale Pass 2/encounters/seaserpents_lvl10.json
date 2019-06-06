@@ -1,0 +1,25 @@
+{
+  "radius" : 1,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 3,
+  "maxRandomCreatures" : 4,
+  "creatures" : [
+    {
+      "id" : "seaSerpent",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "seaSerpent",
+      "x" : -1,
+      "y" : 0
+    }, {
+      "id" : "seaSerpent",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "seaSerpent",
+      "x" : 0,
+      "y" : -1
+    }
+  ]
+}

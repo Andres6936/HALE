@@ -1,0 +1,31 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : false,
+  "isTwoWay" : true,
+  "from" : {
+    "area" : "Large Cavern",
+    "x" : 7,
+    "y" : 1,
+    "partyPositions" : [
+      [ -2, 1 ], [ -1, 0 ], [ 0, 1 ], [ 0, 0 ]
+    ]
+  },
+  "to" : {
+    "area" : "Goblin City",
+    "x" : 17,
+    "y" : 14,
+    "partyPositions" : [
+      [ -2, 1 ], [ -1, 1 ], [ -1, 0 ], [ 0, 1 ]
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "Giant Snake",
+  "gender" : "Male",
+  "race" : "MediumAnimal",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/bloodserpent",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 16,
+    "dexterity" : 17,
+    "constitution" : 11,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor10",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Monster" : 8
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedSnake",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    2000, 3000
+  ]
+}

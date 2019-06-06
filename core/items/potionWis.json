@@ -1,0 +1,25 @@
+{
+  "name" : "Potion of Wisdom",
+  "description" : "This potion will grant a bonus to wisdom to anyone who drinks it.  The amount of the bonus is dependant on the quality of the potion.",
+  "script" : "items/potionWis",
+  "class" : "Item",
+  "icon" : {
+	"composed" : [
+	  {
+	    "sprite" : "items/P_Yellow04",
+	    "color" : "#ffffffff"
+	  },
+	  {
+	    "sprite" : "items/enchant_wisdom",
+		"color" : "#ffffffff"
+	  }
+	]
+  },	
+  "value" : 10000,
+  "weight" : 300,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "Drink",
+  "useAP" : 4000,
+  "defaultQuality" : "Good"
+}

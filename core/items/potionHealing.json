@@ -1,0 +1,17 @@
+{
+  "name" : "Potion of Healing",
+  "description" : "This potion restores hit points to anyone that drinks it.  The number of hit points healed depends on the quality of the potion.",
+  "script" : "items/healingPotion",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/P_Blue02",
+    "color" : "#ffffffff"
+  },
+  "value" : 8000,
+  "weight" : 300,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "Drink",
+  "useAP" : 4000,
+  "defaultQuality" : "Good"
+}

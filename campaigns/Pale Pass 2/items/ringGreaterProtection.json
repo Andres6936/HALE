@@ -1,0 +1,17 @@
+{
+  "name" : "Ring of Greater Protection",
+  "description" : "This ring has a powerful magical enchantment that provides a +15 bonus to Defense.",
+  "class" : "EquippableItem",
+  "icon" : {
+    "sprite" : "items/Ac_Ring03",
+    "color" : "#ffe7e96f"
+  },
+  "value" : 45000,
+  "weight" : 100,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Ring",
+  "enchantments" : [
+    "entity.addBonus('ArmorClass', 'Deflection', 15);"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name" : "Cave door",
+  "description" : "A large metal retracting door.",
+  "class" : "Door",
+  "closedIcon" : {
+    "sprite" : "doors/gate-rusty-sw"
+  },
+  "openIcon" : {
+    "sprite" : "doors/gate-rusty-sw_open"
+  },
+  "isLocked" : true,
+  "lockDifficulty" : 0,
+  "keyID" : "lairMaster_door1Key",
+  "keyRequired" : true,
+  "removeKeyOnUnlock" : true,
+  "isTransparent" : true
+}

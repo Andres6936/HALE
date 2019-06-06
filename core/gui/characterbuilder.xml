@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<theme name="colorselectorpopup" ref="-defaults">
+		<theme name="content" ref="infodialog">
+			<param name="buttongap"><int>15</int></param>
+		
+			<theme name="titlelabel" ref="labelbig"/>
+		
+			<theme name="colorselector" ref="colorselector"/>
+			
+			<theme name="cancelbutton" ref="button">
+				<param name="font"><font>large-white</font></param>
+			</theme>
+			
+			<theme name="acceptbutton" ref="button">
+				<param name="font"><font>large-white</font></param>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="charpropertyeditor" ref="togglebutton">
+		<param name="defaultGap"><dimension>8,8</dimension></param>
+		<param name="smallGap"><dimension>8,8</dimension></param>
+		<param name="mediumGap"><dimension>10,10</dimension></param>
+		<param name="largeGap"><dimension>15,15</dimension></param>
+		<param name="namedGaps"><map>
+			<param name="decrementincrement"><gap>8</gap></param>
+			<param name="namevalue"><gap>5</gap></param>
+		</map></param>
+				
+		<theme name="iconviewer" ref="-defaults">
+			<param name="border"><border>2,2,2,2</border></param>
+			<param name="minWidth"><int>48</int></param>
+			<param name="minHeight"><int>48</int></param>
+		</theme>
+		
+		<theme name="valuelabel" ref="labelbigred">
+			<param name="textAlignment"><enum type="alignment">right</enum></param>
+			<param name="minWidth"><int>45</int></param>
+		</theme>
+					
+		<theme name="namelabel" ref="labelbig">
+			<param name="minWidth"><int>100</int></param>
+		</theme>
+					
+		<theme name="incrementbutton" ref="incrementbutton"/>		
+		<theme name="decrementbutton" ref="decrementbutton"/>
+	</theme>
+	
+	<theme name="builderpane" ref="-defaults">
+		<param name="minHeight"><int>500</int></param>
+		<param name="titlegap"><int>2</int></param>
+		<param name="panegap"><int>10</int></param>
+		
+		<theme name="titlelabel" ref="labelbig"/>
+		<theme name="descriptionpane" ref="scrollpane"/>
+		<theme name="nextbutton" ref="button">
+			<param name="minWidth"><int>80</int></param>
+			<param name="minHeight"><int>30</int></param>
+		</theme>
+		<theme name="backbutton" ref="button">
+			<param name="minWidth"><int>80</int></param>
+			<param name="minHeight"><int>30</int></param>
+		</theme>
+		<theme name="pointslabel" ref="labelred"/>
+		<theme name="selectorpane" ref="scrollpane">
+			<param name="minHeight"><int>10</int></param>
+		
+			<theme name="content" ref="dialoglayout">
+				<theme name="raceselector" ref="charpropertyeditor"/>
+				
+				<theme name="roleselector" ref="charpropertyeditor">
+					<theme name="namelabel" ref="labelbig">
+						<param name="minWidth"><int>140</int></param>
+					</theme>
+				</theme>
+				
+				<theme name="attributeselector" ref="charpropertyeditor">
+					<theme name="namelabel" ref="labelbig">
+						<param name="minWidth"><int>130</int></param>
+					</theme>
+				</theme>
+				<theme name="skillselector" ref="charpropertyeditor">
+					<theme name="namelabel" ref="labelbig">
+						<param name="minWidth"><int>160</int></param>
+					</theme>
+				</theme>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="builderpaneattributes" ref="builderpane">
+		<theme name="defaultbutton" ref="button"/>
+		<theme name="racerolebutton" ref="button"/>
+	</theme>
+	
+	<theme name="builderpaneskills" ref="builderpane">
+		<theme name="resetbutton" ref="button"/>
+		<theme name="rolebutton" ref="button"/>
+	</theme>
+	
+	<theme name="connector" ref="-defaults">
+		<param name=""><image>connector.*</image></param>
+		
+		<param name="one-up"><image>connector-up-one</image></param>
+		<param name="one-down"><image>connector-down-one</image></param>
+		<param name="two-down"><image>connector-down-two</image></param>
+		<param name="two-up"><image>connector-up-two</image></param>
+		<param name="three-up"><image>connector-up-three</image></param>
+		<param name="three-down"><image>connector-down-three</image></param>
+		<param name="four-up"><image>connector-up-four</image></param>
+		<param name="four-down"><image>connector-down-four</image></param>
+		<param name="through"><image>connector-through</image></param>
+	</theme>
+	
+	<theme name="abilityselectorbutton" ref="-defaults">
+		<param name=""><image>abilityselectorbutton.*</image></param>
+		<param name="border"><border>2,2,2,2</border></param>
+	</theme>
+	
+	<theme name="abilityselectionlistpane" ref="-defaults">
+		<param name="gridSize"><int>60</int></param>
+		<param name="notOwnedText"><string>Not Owned</string></param>
+		<param name="alreadyOwnedText"><string>Already Owned</string></param>
+		<param name="prereqsNotMetText"><string>Prereqs not met</string></param>
+		<param name="selectableText"><string>Click to select</string></param>
+		<param name="border"><border>0,0,18,0</border></param>
+		
+		<theme name="abilityselectorbutton" ref="abilityselectorbutton"/>
+		<theme name="connector" ref="connector"/>
+		<theme name="title" ref="labelbigblack"/>
+		<theme name="abilityselectionlistpane" ref="-defaults">
+		    <param name="background"><image>mediumbackground-gothic</image></param>
+			<param name="gridSize"><int>60</int></param>
+			<param name="notOwnedText"><string>Not Owned</string></param>
+			<param name="alreadyOwnedText"><string>Already Owned</string></param>
+			<param name="prereqsNotMetText"><string>Prereqs not met</string></param>
+			<param name="selectableText"><string>Click to select</string></param>
+			<param name="border"><border>9</border></param>
+			
+			<theme name="abilityselectorbutton" ref="abilityselectorbutton"/>
+			<theme name="connector" ref="connector"/>
+		</theme>
+	</theme>
+	
+	<theme name="builderpaneabilities" ref="builderpane">
+		<param name="resetGap"><int>50</int></param>
+				
+		<theme name="abilityhover" ref="button">
+			<theme name="abilitynamelabel" ref="label"/>
+			<theme name="hovermessagelabel" ref="label"/>
+		</theme>
+		<theme name="abilityhoverdetails" ref="button">
+			<param name="border"><border>4,4,4,4</border></param>
+		</theme>
+		<theme name="selectedabilityhover" ref="button">
+			<theme name="abilitynamelabel" ref="labelbig"/>
+		</theme>
+			
+		<theme name="resetbutton" ref="button">
+			<param name="minWidth"><int>160</int></param>
+			<param name="minHeight"><int>30</int></param>
+		</theme>
+		<theme name="abilitiespane" ref="scrollpane">
+			<theme name="abilityselectionlistpane" ref="abilityselectionlistpane"/>
+		</theme>
+		<theme name="selectedabilitiespane" ref="scrollpane">
+			<param name="minWidth"><int>160</int></param>
+		
+			<theme name="content" ref="dialoglayout">
+				<theme name="abilityselectionviewer" ref="button"/>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="colorpicker" ref="-defaults">
+		<param name="numcolumns"><int>8</int></param>
+	
+		<theme name="colorbutton" ref="button">
+			<param name="minWidth"><int>20</int></param>
+			<param name="minHeight"><int>20</int></param>
+		</theme>
+		<theme name="othercolorbutton" ref="button"/>
+	</theme>
+	
+	<theme name="portraitselector" ref="infodialog">
+		<param name="numcolumns"><int>6</int></param>
+		<param name="buttongap"><int>10</int></param>
+		<param name="portraitsize"><int>104</int></param>
+	
+		<theme name="content" ref="-defaults">
+			<theme name="titlelabel" ref="labelbig"/>
+		
+			<theme name="portraitpane" ref="scrollpane">
+				<theme name="content" ref="-defaults">
+					<theme name="portraitviewer" ref="togglebutton"/>
+				</theme>
+			</theme>
+			
+			<theme name="acceptbutton" ref="button">
+				<param name="font"><font>large-white</font></param>
+			</theme>
+			<theme name="cancelbutton" ref="button">
+				<param name="font"><font>large-white</font></param>
+			</theme>
+		</theme>
+		
+	</theme>
+	
+	<theme name="builderpanecosmetic" ref="builderpane">
+		<param name="gap"><int>15</int></param>
+		<param name="smallgap"><int>5</int></param>
+	
+		<param name="nonamemessage"><string>Please enter a name for your character</string></param>
+		<param name="nogendermessage"><string>Please select a gender for your character</string></param>
+		<param name="noportraitmessage"><string>Please select a portrait for your character</string></param>
+	
+		<theme name="appearancearea" ref="-defaults">
+			<param name="border"><border>10</border></param>
+			
+			<theme name="characterviewer" ref="button"/>
+			<theme name="portraitviewer" ref="button">
+				<param name="portraitScale"><int>2</int></param>
+			</theme>
+		</theme>
+		
+		<theme name="namelabel" ref="labelbig"/>
+		<theme name="nameeditfield" ref="editfield">
+			<param name="minWidth"><int>150</int></param>
+			<theme name="renderer" ref="labelbigblack"/>
+		</theme>
+		<theme name="randomnamebutton" ref="button">
+			<param name="font"><font>large-white</font></param>
+		</theme>
+		<theme name="genderlabel" ref="labelbig"/>
+		<theme name="genderselector" ref="charpropertyeditor"/>
+		
+		<theme name="hairlabel" ref="labelbig"/>
+		<theme name="hairstylelabel" ref="labelbig"/>
+		<theme name="prevhairstyle" ref="button"/>
+		<theme name="nexthairstyle" ref="button"/>
+		<theme name="haircolorpicker" ref="colorpicker"/>
+		
+		<theme name="beardlabel" ref="labelbig"/>
+		<theme name="prevbeardstyle" ref="button"/>
+		<theme name="nextbeardstyle" ref="button"/>
+		<theme name="beardstylelabel" ref="labelbig"/>
+		<theme name="beardcolorpicker" ref="colorpicker"/>
+		
+		<theme name="skinlabel" ref="labelbig"/>
+		<theme name="skincolorpicker" ref="colorpicker"/>
+		
+		<theme name="clothinglabel" ref="labelbig"/>
+		<theme name="clothingcolorpicker" ref="colorpicker"/>
+		
+		<theme name="portraitlabel" ref="labelbig"/>
+		
+		<theme name="chooseportraitbutton" ref="button">
+			<param name="font"><font>large-white</font></param>
+		</theme>
+	</theme>
+	
+	<theme name="characterbuilder" ref="infodialog" allowWildcard="true">
+		<param name="defaultX"><int>0</int></param>
+		<param name="defaultY"><int>0</int></param>
+		<param name="defaultHeight"><int>600</int></param>
+		<param name="defaultWidth"><int>800</int></param>
+	
+		<theme name="content" ref="dialoglayout">
+			<theme name="paneselectorbutton" ref="togglebutton">
+				<param name="font"><font>large-white</font></param>
+				<param name="minWidth"><int>120</int></param>
+				<param name="minHeight"><int>40</int></param>
+			</theme>
+			
+			<theme name="builderpanerace" ref="builderpane"/>
+			<theme name="builderpanerole" ref="builderpane"/>
+			<theme name="builderpaneattributes" ref="builderpaneattributes"/>
+			<theme name="builderpaneskills" ref="builderpaneskills"/>
+			<theme name="builderpaneabilities" ref="builderpaneabilities"/>
+			<theme name="builderpanecosmetic" ref="builderpanecosmetic"/>
+		</theme>
+	</theme>
+</themes>

@@ -1,0 +1,14 @@
+{
+  "name" : "Gold Ring",
+  "description" : "A valuable ring made out of solid gold.",
+  "class" : "EquippableItem",
+  "icon" : {
+    "sprite" : "items/Ac_Ring02",
+    "color" : "#ffffffff"
+  },
+  "value" : 10000,
+  "weight" : 100,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Ring"
+}

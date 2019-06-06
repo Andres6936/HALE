@@ -1,0 +1,43 @@
+{
+  "name" : "Rogue",
+  "icon" : {
+    "sprite" : "icons/rogue"
+  },
+  "isPlayer" : true,
+  "isBase" : true,
+  "stats" : {
+    "hpPerLevel" : 4,
+    "hpAtLevelOne" : 12,
+    "damageBonusPerLevel" : 3,
+    "attackBonusPerLevel" : 4,
+    "skillPointsPerLevel" : 20
+  },
+  "defaultSelections" : {
+    "Str" : 3,
+    "Dex" : 7,
+    "Con" : 3,
+    "Int" : 1,
+    "Wis" : 0,
+    "Cha" : 1,
+    "skills" : [
+      "Locks", "Traps", "Hide", "Search", "Speech", "Alchemy", "CraftArmor", "CraftWeapons"
+    ]
+  },
+  "abilitiesAdded" : {
+    "ProficiencyLightArmor" : 1,
+    "ProficiencyBows" : 1,
+    "ProficiencySimpleWeapons" : 1,
+    "ProficiencySmallSwords" : 1,
+    "LockPicking" : 1,
+    "TrapHandling" : 1,
+    "Hide" : 1
+  },
+  "abilitySelectionsFromList" : {
+    "Rogue" : [
+      1, 1, 3, 4, 5, 6, 7, 9, 10, 12, 13, 15, 16, 18, 19, 21, 22, 24, 25, 27, 28, 30,
+	  31, 33, 34, 36, 37, 39, 40, 42, 43, 45, 46, 48, 49, 51, 52, 54, 55, 57, 58
+    ],
+	"General" : [ 2, 5, 8, 11, 14, 17, 20, 23, 26, 29,
+	              32, 35, 38, 41, 44, 47, 50, 53, 56, 59 ]
+  }
+}

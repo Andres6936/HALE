@@ -1,0 +1,13 @@
+{
+  "name" : "Shell",
+  "description" : "A shell from an animal.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Shell",
+    "color" : "#ffffffff"
+  },
+  "value" : 100,
+  "weight" : 10,
+  "isIngredient" : true,
+  "isQuest" : false
+}

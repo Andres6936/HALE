@@ -1,0 +1,63 @@
+{
+  "name" : "Werewolf",
+  "gender" : "Male",
+  "race" : "Werewolf",
+  "conversation" : "conversations/farmhouseWerewolf",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/werewolf01",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 19,
+    "dexterity" : 17,
+    "constitution" : 18,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Search" : 80
+  },
+  "abilities" : [
+    {
+      "id" : "Regeneration20",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "MonsterStrong" : 15
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    10000, 20000
+  ],
+  "loot" : [
+    {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootMagicSuperb",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

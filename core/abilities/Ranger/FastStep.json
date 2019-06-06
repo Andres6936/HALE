@@ -1,0 +1,9 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('Movement', 'Stackable', 20); parent.applyEffect(effect); }",
+  "name" : "Fast Step",
+  "type" : "Ranger Abilities",
+  "icon" : {
+    "sprite" : "icons/fastStep"
+  },
+  "description" : "You are able to move very quickly over a variety of terrain, gaining a +20 bonus to movement at all times.",
+}

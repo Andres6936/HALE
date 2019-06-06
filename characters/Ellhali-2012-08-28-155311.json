@@ -1,0 +1,212 @@
+{
+  "name" : "Ellhali",
+  "isPregenerated" : true,
+  "gender" : "Female",
+  "race" : "Elf",
+  "portrait" : "Elf\/FlareFemaleHero2",
+  "icon" : {
+    "skinColor" : "#ffd48661",
+    "clothingColor" : "#ff00ff00",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons\/hair004",
+        "color" : "#ff5c3317"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 12,
+    "dexterity" : 19,
+    "constitution" : 12,
+    "intelligence" : 11,
+    "wisdom" : 10,
+    "charisma" : 11
+  },
+  "skills" : {
+    "Search" : 35,
+    "Locks" : 35,
+    "Hide" : 35,
+    "Traps" : 35,
+    "Speech" : 5
+  },
+  "abilities" : [
+    {
+      "id" : "PreciseShot",
+      "levelObtained" : 4
+    }, {
+      "id" : "PointBlankShot",
+      "levelObtained" : 3
+    }, {
+      "id" : "RapidShot",
+      "levelObtained" : 1
+    }, {
+      "id" : "ReflexiveAttacks",
+      "levelObtained" : 5
+    }, {
+      "id" : "QuickDraw",
+      "levelObtained" : 2
+    }, {
+      "id" : "ImprovedBackstab",
+      "levelObtained" : 7
+    }, {
+      "id" : "Backstab",
+      "levelObtained" : 5
+    }, {
+	  "id" : "RangedBackstab",
+	  "levelObtained" : 6
+	}
+  ],
+  "roles" : {
+    "baseRoleID" : "Rogue",
+    "Rogue" : 7
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "shortbow-0xc3ca2df1",
+        "quality" : "Decent"
+      },
+      "Armor" : {
+        "id" : "armor_leather_base",
+        "quality" : "Decent"
+      },
+      "Gloves" : {
+        "id" : "gloves_leather_base",
+        "quality" : "Decent"
+      },
+      "Helmet" : {
+        "id" : "helmet_leather_base-0x5960c32e",
+        "quality" : "Decent"
+      },
+      "Cloak" : {
+        "id" : "cloak-0xff58c335"
+      },
+      "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Decent"
+      },
+      "Belt" : {
+        "id" : "belt-0x72e24b77"
+      },
+      "RightRing" : {
+        "id" : "silverRing-0xeda799dd"
+      },
+      "Quiver" : {
+        "id" : "arrow"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "shortSword",
+        "quality" : "Decent",
+        "quantity" : 1
+      }, {
+        "id" : "arrow",
+        "quantity" : 217
+      }, {
+        "id" : "potionHealing",
+        "quality" : "Decent",
+        "quantity" : 2
+      }
+    ],
+    "createdItems" : [
+      {
+        "baseItemID" : "shortbow",
+        "createdItemID" : "shortbow-0xc3ca2df1",
+        "scripts" : [
+          "entity.addStandaloneDamageBonus('Fire', 1, 3);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Fire",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_fire",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "helmet_leather_base",
+        "createdItemID" : "helmet_leather_base-0x5960c32e",
+        "scripts" : [
+          "entity.addDamageReduction('Cold',  2);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Cold Resistance",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_ice",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "cloak",
+        "createdItemID" : "cloak-0xff58c335",
+        "scripts" : [
+          "entity.addDamageReduction('Acid',  2);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Acid Resistance",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_acid",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "belt",
+        "createdItemID" : "belt-0x72e24b77",
+        "scripts" : [
+          "entity.addSkillBonus('Search',  5);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Search",
+        "valueModifier" : 130,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_search",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "silverRing",
+        "createdItemID" : "silverRing-0xeda799dd",
+        "scripts" : [
+          "entity.addBonus('Concealment',  5);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Invisibility",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_invisibility",
+          "color" : "#ffffffff"
+        }
+      }
+    ]
+  },
+  "unspentSkillPoints" : 2,
+  "experiencePoints" : 3124,
+  "quickbar" : {
+    "lastViewSet" : 0,
+    "slots" : {
+      "slot0" : {
+        "type" : "use",
+        "itemID" : "potionHealing",
+        "itemQuality" : "Decent"
+      },
+      "slot1" : {
+        "type" : "equip",
+        "itemID" : "shortSword",
+        "itemQuality" : "Decent"
+      },
+      "slot2" : {
+        "type" : "equip",
+        "itemID" : "shortbow-0xc3ca2df1",
+        "itemQuality" : "Decent"
+      },
+      "slot3" : {
+        "type" : "ability",
+        "abilityID" : "Hide"
+      },
+      "slot4" : {
+        "type" : "ability",
+        "abilityID" : "RapidShot"
+      }
+    }
+  }
+}

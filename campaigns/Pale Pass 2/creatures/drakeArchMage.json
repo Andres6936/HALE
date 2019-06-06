@@ -1,0 +1,99 @@
+{
+  "name" : "Drake Arch Mage",
+  "gender" : "Male",
+  "race" : "Drake",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/drake03",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 17,
+    "dexterity" : 13,
+    "constitution" : 16,
+    "intelligence" : 17,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Search" : 50
+  },
+  "abilities" : [
+    {
+      "id" : "Shield",
+      "levelObtained" : 1
+    }, {
+      "id" : "ElementalShield",
+      "levelObtained" : 1
+    }, {
+      "id" : "FlamingFingers",
+      "levelObtained" : 1
+    }, {
+      "id" : "Firebolt",
+      "levelObtained" : 1
+    }, {
+      "id" : "Fireball",
+      "levelObtained" : 1
+    }, {
+      "id" : "Meteor",
+      "levelObtained" : 1
+    }, {
+      "id" : "AbsorbEnergy",
+      "levelObtained" : 1
+    }, {
+      "id" : "ResistSpells",
+      "levelObtained" : 1
+    }, {
+      "id" : "FireImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor20",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Mage" : 16,
+    "baseRoleID" : "Mage"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedClaw",
+        "quality" : "Fine"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    8000, 14000
+  ],
+  "loot" : [
+    {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel10Fine",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsFine",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

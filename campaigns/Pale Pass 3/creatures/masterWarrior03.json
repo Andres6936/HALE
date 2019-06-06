@@ -1,0 +1,87 @@
+{
+  "name" : "Warrior",
+  "gender" : "Male",
+  "race" : "Human",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ff3f3737",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      
+    ]
+  },
+  "attributes" : {
+    "strength" : 16,
+    "dexterity" : 13,
+    "constitution" : 14,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Search" : 60
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 17,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "crossbow",
+        "quality" : "Superb"
+      },
+      "Armor" : {
+        "id" : "armor_plate_base",
+        "quality" : "Superb"
+      },
+      "Gloves" : {
+        "id" : "gloves_mail_base",
+        "quality" : "Superb"
+      },
+      "Cloak" : {
+        "id" : "cloak"
+      },
+      "Boots" : {
+        "id" : "boots_mail_base",
+        "quality" : "Superb"
+      },
+      "Quiver" : {
+        "id" : "bolt"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "bolt"
+        "quantity" : 37
+      }
+    ]
+  },
+  "reward" : [
+    10000, 20000
+  ],
+  "loot" : [
+    {
+      "id" : "LootMagicFine",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

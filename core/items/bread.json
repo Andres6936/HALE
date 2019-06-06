@@ -1,0 +1,13 @@
+{
+  "name" : "Bread",
+  "description" : "A loaf of bread.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Bread",
+    "color" : "#ffffffff"
+  },
+  "value" : 200,
+  "weight" : 450,
+  "isIngredient" : true,
+  "isQuest" : false
+}

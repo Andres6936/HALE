@@ -1,0 +1,37 @@
+{
+  "externalScript" : "spells/tremor",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : true,
+  "spellLevel" : 2,
+  "name" : "Tremor",
+  "type" : "Evocation",
+  "icon" : {
+    "sprite" : "icons/tremor"
+  },
+  "description" : "A seismic shockwave is sent out, hitting all creatures in a narrow cone 8 hexes long.  All targets must succeed at a physical resistance check or be stunned for 1 round.",
+  "isActivateable" : true,
+  "quickbarGroup" : "Evocation",
+  "isFixed" : true,
+  "cooldown" : 9,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 20,
+    "priority" : 3,
+    "actionType" : "Debuff",
+    "groupType" : "Multiple",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Crush"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 4
+      }
+    ]
+  }
+}

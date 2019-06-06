@@ -1,0 +1,53 @@
+{
+  "name" : "Cold Resistance",
+  "description" : "Adds a cold resistance enchantment to an item.  The amount of the bonus depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 40,
+  "ingredients" : {
+    "bar_gold" : 1,
+    "crystal_blue" : 1,
+    "tongue" : 1
+  },
+  "result" : {
+    "postfix" : " of Cold Resistance",
+    "ingredientItemTypes" : [ "Armor", "Helmet", "Boots", "Shield" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_ice"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 30,
+		"valueModifier" : 150,
+        "enchantment" : "entity.addDamageReduction('Cold',  2);"
+      }, {
+        "skillRankRequirement" : 50,
+		"valueModifier" : 170,
+        "enchantment" : "entity.addDamageReduction('Cold',  4);"
+      }, {
+        "skillRankRequirement" : 70,
+		"valueModifier" : 190,
+        "enchantment" : "entity.addDamageReduction('Cold',  6);"
+      }, {
+        "skillRankRequirement" : 90,
+		"valueModifier" : 205,
+        "enchantment" : "entity.addDamageReduction('Cold',  8);"
+      }, {
+        "skillRankRequirement" : 110,
+		"valueModifier" : 220,
+        "enchantment" : "entity.addDamageReduction('Cold',  10);"
+      }, {
+        "skillRankRequirement" : 130,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addDamageReduction('Cold',  12);"
+      }, {
+        "skillRankRequirement" : 150,
+		"valueModifier" : 240,
+        "enchantment" : "entity.addDamageReduction('Cold',  14);"
+      }, {
+        "skillRankRequirement" : 170,
+		"valueModifier" : 250,
+        "enchantment" : "entity.addDamageReduction('Cold',  16);"
+      }
+    ]
+  }
+}

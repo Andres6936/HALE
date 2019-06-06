@@ -1,0 +1,76 @@
+{
+  "name" : "Shield",
+  "abilities" : {
+    "ShieldDefense" : {
+      "x" : 1.0,
+      "y" : 0.0
+    },
+    "ShieldCombat" : {
+      "x" : 1.0,
+      "y" : 1.0
+    },
+    "ShieldBash" : {
+      "x" : 0.0,
+      "y" : 1.0
+    },
+    "ImprovedShieldBash" : {
+      "x" : 0.0,
+      "y" : 3.0
+    },
+    "DefensiveFighting" : {
+      "x" : 2.0,
+      "y" : 1.5
+    },
+    "TotalDefense" : {
+      "x" : 2.0,
+      "y" : 3.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "ThreeDown",
+      "x" : 1.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 0.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneUp",
+      "x" : 2.0,
+      "y" : 1.2
+    }, {
+      "type" : "OneUp",
+      "x" : 2.0,
+      "y" : 1.3
+    }, {
+      "type" : "OneUp",
+      "x" : 2.0,
+      "y" : 1.5
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 1.5
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 1.7
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 1.9
+    }
+  ]
+}

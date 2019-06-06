@@ -1,0 +1,48 @@
+{
+  "name" : "Duelist",
+  "abilities" : {
+    "Duel" : {
+      "x" : 1.0,
+      "y" : 0.0
+    },
+    "DeadlyDuel" : {
+      "x" : 0.0,
+      "y" : 1.0
+    },
+    "Parry" : {
+      "x" : 2.0,
+      "y" : 1.0
+    },
+    "MultiDuel" : {
+      "x" : 1.0,
+      "y" : 2.0
+    },
+    "Piercer" : {
+      "x" : 3.0,
+      "y" : 0.0
+    },
+    "Slasher" : {
+      "x" : 4.0,
+      "y" : 0.0
+    },
+    "CriticalStrike" : {
+      "x" : 5.0,
+      "y" : 1.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "ThreeDown",
+      "x" : 1.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 1.0,
+      "y" : 1.0
+    }
+  ]
+}

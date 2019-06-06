@@ -1,0 +1,17 @@
+{
+  "name" : "Potion of Damage Reduction",
+  "description" : "This potion will grant a bonus to damage reduction against all physical attacks.  The amount of the bonus is dependant on the quality of the potion.",
+  "script" : "items/potionDamageReduction",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/P_Medicine04",
+    "color" : "#ffffffff"
+  },
+  "value" : 20000,
+  "weight" : 300,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "Drink",
+  "useAP" : 4000,
+  "defaultQuality" : "Good"
+}

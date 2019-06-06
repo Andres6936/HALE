@@ -1,0 +1,38 @@
+{
+  "respawnTime" : 24,
+  "radius" : 1,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 4,
+  "maxRandomCreatures" : 5,
+  "creatures" : [
+    {
+      "id" : "skeletonArcher",
+      "x" : 0,
+      "y" : -1
+    }, {
+      "id" : "skeletonChampion",
+      "x" : 1,
+      "y" : -1
+    }, {
+      "id" : "skeletonChampion02",
+      "x" : 1,
+      "y" : 0
+    }, {
+      "id" : "skeletonDivine",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "skeletonFireMage",
+      "x" : -1,
+      "y" : 0
+    }, {
+      "id" : "skeletonMage",
+      "x" : 0,
+      "y" : 1
+    }, {
+      "id" : "wraithDread",
+      "x" : -1,
+      "y" : -1
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name" : "Lady of Aravil",
+  "gender" : "Male",
+  "race" : "Elf",
+  "portrait" : "Elf/lady",
+  "conversation" : "conversations/aravilLady",
+  "icon" : {
+    "sprite" : "creatures/human25",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 9,
+    "dexterity" : 14,
+    "constitution" : 12,
+    "intelligence" : 15,
+    "wisdom" : 14,
+    "charisma" : 16
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Noble" : 18
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true
+}

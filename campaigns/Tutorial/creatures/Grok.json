@@ -1,0 +1,45 @@
+{ "name" : "Grok",
+  
+  "icon" : {
+	"skinColor" : "#fff6d39b",
+	"clothingColor" : "#ff00ff00",
+	"subIcons" : [
+	  { "type" : "Hair",
+	    "sprite" : "subIcons/hair007",
+	    "color" : "#ffc4ab78"
+      }
+	]
+  },
+  
+  "gender" : "Male",
+  "race" : "Human",
+  "portrait" : "Human/outlaw",
+  
+  "roles" : {
+    "baseRoleID" : "Warrior",
+	"Warrior" : 1
+  },
+  
+  "attributes" : {
+    "strength" : 18,
+	"dexterity" : 13,
+	"constitution" : 13,
+	"intelligence" : 10,
+	"wisdom" : 10,
+	"charisma" : 10
+  },
+  
+  "abilities" : [
+	{ "id" : "MightyBlow",
+      "levelObtained" : 1
+    }
+  ]
+  
+  "inventory" : {
+    "equipped" : {
+	  "Armor" : {
+	    "id" : "clothes"
+	  }
+	}
+  }
+}

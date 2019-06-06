@@ -1,0 +1,17 @@
+{
+  "items" : [
+    {
+      "id" : "potionStrength",
+      "quality" : "Superb",
+      "quantity" : 1
+    }, {
+      "id" : "potionHealing",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "scoutCommanderInsignia",
+      "quality" : "Good",
+      "quantity" : 1
+    }
+  ]
+}

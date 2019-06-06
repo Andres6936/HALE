@@ -1,0 +1,113 @@
+{
+  "name" : "Skeleton Priest",
+  "gender" : "Male",
+  "race" : "Skeleton",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/skeleton01",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 13,
+    "constitution" : 15,
+    "intelligence" : 10,
+    "wisdom" : 16,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "AcidSplash",
+      "levelObtained" : 1
+    }, {
+      "id" : "Curse",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCurse",
+      "levelObtained" : 1
+    }, {
+      "id" : "ImproveWeapon",
+      "levelObtained" : 1
+    }, {
+      "id" : "FlamingWeapon",
+      "levelObtained" : 1
+    }, {
+      "id" : "Blindness",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction5",
+      "levelObtained" : 1
+    }, {
+      "id" : "PhysicalVulnerability",
+      "levelObtained" : 1
+    }, {
+      "id" : "Vulnerability",
+      "levelObtained" : 1
+    }, {
+      "id" : "Cure",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassRegeneration",
+      "levelObtained" : 1
+    }, {
+      "id" : "Regeneration",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCure",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 14,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "crossbow",
+        "quality" : "Fine"
+      },
+      "Armor" : {
+        "id" : "armor_mail_base",
+        "quality" : "Fine"
+      },
+      "Quiver" : {
+        "id" : "bolt"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "bolt"
+        "quantity" : 44
+      }
+    ]
+  },
+  "reward" : [
+    10000, 20000
+  ],
+  "loot" : [
+    {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

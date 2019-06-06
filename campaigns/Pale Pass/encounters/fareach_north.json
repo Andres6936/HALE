@@ -1,0 +1,23 @@
+{
+  "radius" : 4,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "peasant06",
+      "x" : 1,
+      "y" : -2
+    }, {
+      "id" : "fareach_blacksmith",
+      "x" : -3,
+      "y" : 2
+    }, {
+      "id" : "peasant03",
+      "x" : -1,
+      "y" : 1
+    }, {
+      "id" : "fareach_Alchemist",
+      "x" : 4,
+      "y" : -1
+    }
+  ]
+}

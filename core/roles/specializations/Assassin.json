@@ -1,0 +1,32 @@
+{
+  "name" : "Assassin",
+  "icon" : {
+    "sprite" : "icons/assassin"
+  },
+  "isPlayer" : true,
+  "isBase" : false,
+  "stats" : {
+    "hpPerLevel" : 3,
+    "damageBonusPerLevel" : 3,
+    "attackBonusPerLevel" : 3,
+    "skillPointsPerLevel" : 10,
+    "maximumLevel" : 10
+  },
+  "prereqs" : {
+    "abilities" : [
+      "ImprovedBackstab"
+    ],
+    "roles" : [
+      {
+        "id" : "Rogue",
+        "level" : 8
+      }
+    ]
+  },
+  "abilitySelectionsFromList" : {
+    "Assassin" : [
+      1, 3, 5, 7, 9
+    ],
+	"General" : [ 2, 5, 8 ]
+  }
+}

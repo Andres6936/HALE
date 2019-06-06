@@ -1,0 +1,42 @@
+{
+  "name" : "Potion of True Sight",
+  "description" : "Creates a potion allowing you to see through concealment.  The amount of bonus is dependant upon your Alchemy skill.",
+  "skill" : "Alchemy",
+  "skillRankRequirement" : 35,
+  "ingredients" : {
+    "empty_bottle" : 1,
+    "water_jug" : 1,
+    "crystal_green" : 2
+  },
+  "result" : {
+    "id" : "potionTrueSight",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 25
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 45
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 65
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 85
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 105
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 125
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 140
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 160
+      }
+    ]
+  }
+}

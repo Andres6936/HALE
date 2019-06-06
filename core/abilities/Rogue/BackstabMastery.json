@@ -1,0 +1,20 @@
+{
+  "name" : "Backstab Mastery",
+  "type" : "Rogue Abilities",
+  "icon" : {
+    "sprite" : "icons/backstabMastery"
+  },
+  "description" : "You have mastered the technique of the backstab, improving your ability in all ways.  You gain a greater bonus to damage and to attack on backstab attempts, can make ranged backstabs up to 4 hexes away from your target, and your crippling backstabs are harder to resist.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "CripplingBackstab", "RangedBackstab"
+    ],
+    "roles" : [
+      {
+        "id" : "Rogue",
+        "level" : 12
+      }
+    ]
+  }
+}

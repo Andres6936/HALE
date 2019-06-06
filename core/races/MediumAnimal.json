@@ -1,0 +1,8 @@
+{ "name" : "Medium Animal",
+  "baseMovementCost" : 1000,
+  "defaultWeapon" : "unarmedMediumThreatens",
+  
+  "racialTypes" : [
+    "Animal"
+  ]
+}

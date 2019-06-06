@@ -1,0 +1,44 @@
+{
+  "externalScript" : "spells/root",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 5,
+  "name" : "Root",
+  "type" : "Druid Abilities",
+  "icon" : {
+    "sprite" : "icons/root"
+  },
+  "description" : "Powerful limbs spring forth from the ground and envelope you, granting you great strength and defensive power, but affixing you in your current position for the duration of the spell.  You gain a 4 plus one per 4 caster levels bonus to Strength and Constitution, and a 20 plus caster level bonus to Attack and Defense for the duration of the spell.  You gain damage reduction of 10 points plus one per 4 caster levels against all physical damage, and 50% immunity to Cold, Electrical, and Acid damage.  However, you are immobilized for the duration of the spell.  The effect lasts for 5 to 10 rounds.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Conjuration",
+  "isFixed" : true,
+  "cooldown" : 12,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 50,
+    "priority" : 5,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Tanglefoot"
+    ],
+    "roles" : [
+      {
+        "id" : "Druid",
+        "level" : 4
+      }
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 13
+      }
+    ]
+  }
+}

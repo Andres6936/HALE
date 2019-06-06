@@ -1,0 +1,13 @@
+{
+  "name" : "Green Crystal",
+  "description" : "A chunk of rock with green crystals embedded in it, useful for some crafting recipes.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_CrystalGrey",
+    "color" : "#ff23d900"
+  },
+  "value" : 2500,
+  "weight" : 400,
+  "isIngredient" : true,
+  "isQuest" : false
+}

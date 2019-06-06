@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addSpellDamageBonus('Electrical', 'Stackable', 20); effect.getBonuses().addSpellDamageBonus('Fire', 'Stackable', 20); effect.getBonuses().addSpellDamageBonus('Cold', 'Stackable', 20); parent.applyEffect(effect); }",
+  "name" : "Elemental Mastery",
+  "type" : "Elementalist Abilities",
+  "icon" : {
+    "sprite" : "icons/elementalMastery"
+  },
+  "description" : "Your proficiency with Fire, Ice, and Lightning spells increases.  Your damage bonuses when casting those types of spells further increases to a total of 40%.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "FireMage", "IceMage", "LightningMage"
+    ],
+    "roles" : [
+      {
+        "id" : "Elementalist",
+        "level" : 7
+      }
+    ]
+  }
+}

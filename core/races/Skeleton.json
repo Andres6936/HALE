@@ -1,0 +1,14 @@
+{ "name" : "Skeleton",
+  "baseMovementCost" : 1000,
+  "defaultWeapon" : "unarmedMedium",
+  
+  "racialTypes" : [
+    "Humanoid", "Undead"
+  ],
+  
+  "iconOffsets" : {
+    "Shield" : [ 24, 12 ],
+	"OffHandWeapon" : [ 28, 7 ],
+	"MainHandWeapon" : [ 1, 8 ]
+  }
+}

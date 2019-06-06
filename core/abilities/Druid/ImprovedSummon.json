@@ -1,0 +1,26 @@
+{
+  "name" : "Improved Summon",
+  "type" : "Druid Abilities",
+  "icon" : {
+    "sprite" : "icons/improvedSummon"
+  },
+  "description" : "Your summoned creatures become more powerful, gaining levels at a faster rate.  All summoned creatures now have a creature level equal to your caster level.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40,
+    "actionType" : "Summon",
+    "groupType" : "Single",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Summon"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

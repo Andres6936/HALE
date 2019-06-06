@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('BaseStr', 'Stackable', 1); parent.applyEffect(effect); }",
+  "name" : "Strength Training III",
+  "type" : "General",
+  "icon" : {
+    "sprite" : "icons/trainStrength3"
+  },
+  "description" : "You gain an additional permanent +1 bonus to Strength.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "StrengthTraining2"
+    ],
+    "stats" : [
+      {
+        "type" : "CreatureLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

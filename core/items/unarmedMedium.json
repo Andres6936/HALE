@@ -1,0 +1,18 @@
+{ "class" : "Weapon",
+  "name" : "Unarmed",
+  
+  "type" : "Weapon",
+  "weaponType" : "Melee",
+  "handed" : "Light",
+  "defaultQuality" : "Good",
+  "baseWeapon" : "Unarmed",
+  "threatensAoOs" : false,
+  "minRange" : 1,
+  "maxRange" : 1,
+  "damageType" : "Blunt",
+  "minDamage" : 1,
+  "maxDamage" : 3,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800
+}

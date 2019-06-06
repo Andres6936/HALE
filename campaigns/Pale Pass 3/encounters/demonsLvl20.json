@@ -1,0 +1,50 @@
+{
+  "respawnTime" : 24,
+  "radius" : 2,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 5,
+  "maxRandomCreatures" : 6,
+  "creatures" : [
+    {
+      "id" : "hellHound",
+      "x" : -2,
+      "y" : 1
+    }, {
+      "id" : "hellHound",
+      "x" : 2,
+      "y" : 1
+    }, {
+      "id" : "masterWarrior01",
+      "x" : -1,
+      "y" : 1
+    }, {
+      "id" : "masterWarrior02",
+      "x" : 0,
+      "y" : 2
+    }, {
+      "id" : "masterWarrior03",
+      "x" : 1,
+      "y" : 1
+    }, {
+      "id" : "demonBlue",
+      "x" : 0,
+      "y" : -2
+    }, {
+      "id" : "demonGreen",
+      "x" : -1,
+      "y" : -2
+    }, {
+      "id" : "demonRed",
+      "x" : 1,
+      "y" : -2
+    }, {
+      "id" : "demonEye",
+      "x" : 0,
+      "y" : -1
+    }, {
+      "id" : "demonSlayer",
+      "x" : -2,
+      "y" : 0
+    }
+  ]
+}

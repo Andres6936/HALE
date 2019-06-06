@@ -1,0 +1,13 @@
+{
+  "name" : "Silver Bar",
+  "description" : "A silver bar for use in some crafting recipes.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_BarSilver",
+    "color" : "#ffffffff"
+  },
+  "value" : 100000,
+  "weight" : 4000,
+  "isIngredient" : true,
+  "isQuest" : false
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "Werewolf Foot",
+  "description" : "The foot of a powerful werewolf.  You should take this to the captain of the guard of Aravil.",
+  "script" : "items/werewolfFoot",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Bag",
+    "color" : "#ffffffff"
+  },
+  "value" : 0,
+  "weight" : 1000,
+  "isIngredient" : false,
+  "isQuest" : true
+}

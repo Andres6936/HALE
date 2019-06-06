@@ -1,0 +1,53 @@
+{
+  "name" : "Focus Crystal",
+  "gender" : "Male",
+  "race" : "Object",
+  "script" : "ai/focusCrystal",
+  "icon" : {
+    "sprite" : "creatures/crystal",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 1,
+    "dexterity" : 10,
+    "constitution" : 20,
+    "intelligence" : 1,
+    "wisdom" : 1,
+    "charisma" : 1
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "SlashingImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "PiercingImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction5",
+      "levelObtained" : 1
+    }, {
+      "id" : "ElectricalImmunity100",
+      "levelObtained" : 1
+    }, {
+      "id" : "FireImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "CriticalHitImmunity",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "MonsterStrong" : 20
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "Greataxe",
+  "description" : "A huge axe, suitable for use in two hands.  This weapon deals out tremendous damage.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Axe009",
+    "color" : "#ffffffff"
+  },
+  "value" : 40000,
+  "weight" : 5000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-axe05",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "TwoHanded",
+  "baseWeapon" : "Greataxe",
+  "threatensAoOs" : true,
+  "damageType" : "Slashing",
+  "minDamage" : 3,
+  "maxDamage" : 12,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 3,
+  "attackCost" : 4200,
+  "rangePenalty" : 0
+}

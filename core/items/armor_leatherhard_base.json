@@ -1,0 +1,23 @@
+{
+  "name" : "Hardened Leather Armor",
+  "description" : "A suit of leather armor that has been boiled.  This makes the leather tougher but also stiffer.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/A_Armour01",
+    "color" : "#ffffffff"
+  },
+  "value" : 14000,
+  "weight" : 2500,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Armor",
+  "subIcon" : {
+    "sprite" : "subIcons/armor-07",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Light",
+  "armorClass" : 10,
+  "armorPenalty" : 10,
+  "movementPenalty" : 0
+}

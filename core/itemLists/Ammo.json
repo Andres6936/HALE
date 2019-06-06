@@ -1,0 +1,14 @@
+{
+  "items" : [
+    {
+      "id" : "arrow"
+      "quantity" : 2147483647
+    }, {
+      "id" : "bolt"
+      "quantity" : 2147483647
+    }, {
+      "id" : "slingstone"
+      "quantity" : 2147483647
+    }
+  ]
+}

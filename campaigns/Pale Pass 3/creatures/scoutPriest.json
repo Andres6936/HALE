@@ -1,0 +1,106 @@
+{
+  "name" : "Priest",
+  "gender" : "Male",
+  "race" : "Human",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ff3f3737",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      
+    ]
+  },
+  "attributes" : {
+    "strength" : 15,
+    "dexterity" : 13,
+    "constitution" : 14,
+    "intelligence" : 10,
+    "wisdom" : 17,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Search" : 60
+  },
+  "abilities" : [
+    {
+      "id" : "Sleep",
+      "levelObtained" : 1
+    }, {
+      "id" : "Paralyze",
+      "levelObtained" : 1
+    }, {
+      "id" : "Slow",
+      "levelObtained" : 1
+    }, {
+      "id" : "HardenArmor",
+      "levelObtained" : 1
+    }, {
+      "id" : "Haste",
+      "levelObtained" : 1
+    }, {
+      "id" : "Cure",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCure",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 13,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "morningstar",
+        "quality" : "Fine"
+      },
+      "OffHand" : {
+        "id" : "shield_light_base",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_plate_base",
+        "quality" : "Fine"
+      },
+      "Gloves" : {
+        "id" : "gloves_mail_base",
+        "quality" : "Fine"
+      },
+      "Cloak" : {
+        "id" : "cloak"
+      },
+      "Boots" : {
+        "id" : "boots_mail_base",
+        "quality" : "Fine"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    10000, 20000
+  ],
+  "loot" : [
+    {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsFine",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

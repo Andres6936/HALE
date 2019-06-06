@@ -1,0 +1,84 @@
+{
+  "name" : "Berserker",
+  "abilities" : {
+    "Rage" : {
+      "x" : 1.0,
+      "y" : 0.0
+    },
+    "UnstoppableRage" : {
+      "x" : 0.0,
+      "y" : 1.0
+    },
+    "ImprovedRage" : {
+      "x" : 1.0,
+      "y" : 1.0
+    },
+    "SteadfastRage" : {
+      "x" : 2.0,
+      "y" : 2.0
+    },
+    "EpicRage" : {
+      "x" : 0.5,
+      "y" : 3.0
+    },
+    "Bruiser" : {
+      "x" : 3.0,
+      "y" : 1.0
+    },
+    "StrengthTraining1" : {
+      "x" : 3.5,
+      "y" : 0.0
+    },
+    "StrengthTraining2" : {
+      "x" : 4.0,
+      "y" : 1.0
+    },
+    "StrengthTraining3" : {
+      "x" : 4.0,
+      "y" : 2.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "TwoDown",
+      "x" : 3.5,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 1.0
+    }, {
+      "type" : "ThreeDown",
+      "x" : 1.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 2.0,
+      "y" : 1.0
+    }, {
+      "type" : "TwoUp",
+      "x" : 0.5,
+      "y" : 3.0
+    }, {
+      "type" : "Through",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 0.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 1.0
+    }
+  ]
+}

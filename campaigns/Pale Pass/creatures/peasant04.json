@@ -1,0 +1,35 @@
+{
+  "name" : "Peasant",
+  "gender" : "Male",
+  "race" : "Human",
+  "portrait" : "Human/peasant",
+  "icon" : {
+    "sprite" : "creatures/human14",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 11,
+    "constitution" : 12,
+    "intelligence" : 9,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Commoner" : 1
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  }
+}

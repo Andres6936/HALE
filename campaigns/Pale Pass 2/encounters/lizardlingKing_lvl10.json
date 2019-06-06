@@ -1,0 +1,39 @@
+{
+  "radius" : 3,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "lizardlingKing",
+      "x" : -1,
+      "y" : 0
+    }, {
+      "id" : "lizardlingShaman",
+      "x" : 1,
+      "y" : -1
+    }, {
+      "id" : "lizardlingArcher",
+      "x" : -1,
+      "y" : -2
+    }, {
+      "id" : "lizardlingArcher",
+      "x" : 3,
+      "y" : 0
+    }, {
+      "id" : "lizardlingWarrior",
+      "x" : -3,
+      "y" : -1
+    }, {
+      "id" : "lizardlingWarrior",
+      "x" : 1,
+      "y" : 1
+    }, {
+      "id" : "lizardlingWarrior",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "lizardlingWarrior",
+      "x" : 1,
+      "y" : 0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "radius" : 0,
+  "faction" : "Hostile",
+  "creatures" : [
+    {
+      "id" : "occulus",
+      "x" : 0,
+      "y" : 0
+    }
+  ]
+}

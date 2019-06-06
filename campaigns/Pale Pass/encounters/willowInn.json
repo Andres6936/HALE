@@ -1,0 +1,31 @@
+{
+  "radius" : 6,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "willowInn_barkeep",
+      "x" : -6,
+      "y" : -2
+    }, {
+      "id" : "willowInn_barmaid",
+      "x" : -5,
+      "y" : 2
+    }, {
+      "id" : "willowInn_guest01",
+      "x" : 0,
+      "y" : 2
+    }, {
+      "id" : "willowInn_guest02",
+      "x" : 1,
+      "y" : 2
+    }, {
+      "id" : "willowInn_guest03",
+      "x" : 4,
+      "y" : 0
+    }, {
+      "id" : "willowInn_guest04",
+      "x" : -1,
+      "y" : -2
+    }
+  ]
+}

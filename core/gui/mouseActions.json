@@ -1,0 +1,17 @@
+{
+  "Cancel"          : "cursor.cancel",
+  "TargetSelect"    : "cursor.crosshairs",
+  "TargetSelectAdd" : "cursor.add",
+  "Select"          : "cursor.finger",
+  "Move"            : "cursor.boots",
+  "Door"            : "cursor.door",
+  "Container"       : "cursor.container",
+  "Talk"            : "cursor.dialog",
+  "Attack"          : "cursor.sword",
+  "Travel"          : "cursor.travel",
+  "PickLock"        : "cursor.lockpick",
+  "RecoverTrap"     : "cursor.recover",
+  "DisarmTrap"      : "cursor.disarm",
+  "ExamineItem"     : "cursor.examine",
+  "ExamineCreature" : "cursor.examine"
+}

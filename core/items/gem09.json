@@ -1,0 +1,13 @@
+{
+  "name" : "Purple agate",
+  "description" : "A good example of a purple agate stone, worth a bit of coin.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_GemAgate",
+    "color" : "#ffffffff"
+  },
+  "value" : 2500,
+  "weight" : 10,
+  "isIngredient" : true,
+  "isQuest" : false
+}

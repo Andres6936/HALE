@@ -1,0 +1,35 @@
+{
+  "externalScript" : "abilities/furiousBlows",
+  "name" : "Furious Blows",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/furiousBlows"
+  },
+  "description" : "Your blows strike with great fury but lack precision.  You gain a 3% damage bonus per Monk level and Wisdom bonus, but are very unlikely to score any critical hits and suffer a -20 penalty to attack.  Note that this ability or Precise Blows can be gained by a given character, not both.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : true,
+  "isCancelable" : true,
+  "cooldown" : 0,
+  "ai" : {
+    "power" : 20,
+    "priority" : 5,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Monk",
+        "level" : 10
+      }
+    ],
+	"abilities" : [ "ImprovedStrike2" ]
+  },
+  "restrictions" : {
+    "abilities" : [ "PreciseBlows" ]
+  }
+}

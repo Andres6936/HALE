@@ -1,0 +1,32 @@
+{
+  "name" : "Handaxe",
+  "description" : "A small axe that does piercing damage, suitable for use as an off hand weapon.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Axe002",
+    "color" : "#ffffffff"
+  },
+  "value" : 15000,
+  "weight" : 1200,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-axe01",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "Light",
+  "baseWeapon" : "Handaxe",
+  "threatensAoOs" : true,
+  "damageType" : "Piercing",
+  "minDamage" : 1,
+  "maxDamage" : 5,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 3,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

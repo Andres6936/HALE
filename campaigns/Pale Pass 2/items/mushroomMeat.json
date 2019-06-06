@@ -1,0 +1,13 @@
+{
+  "name" : "Mushroom Meat",
+  "description" : "The meat from a mushroom man.  It is apparently edible, at least to goblins.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Mushroom",
+    "color" : "#ffffffff"
+  },
+  "value" : 1500,
+  "weight" : 300,
+  "isIngredient" : false,
+  "isQuest" : false
+}

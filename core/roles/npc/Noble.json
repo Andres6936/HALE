@@ -1,0 +1,27 @@
+{
+  "name" : "Noble",
+  "isPlayer" : false,
+  "isBase" : true,
+  "stats" : {
+    "hpPerLevel" : 4,
+    "hpAtLevelOne" : 8,
+    "damageBonusPerLevel" : 4,
+    "attackBonusPerLevel" : 4,
+    "skillPointsPerLevel" : 5
+  },
+  "abilitiesAdded" : {
+    "ProficiencyLightArmor" : 1,
+    "ProficiencyMediumArmor" : 1,
+    "ProficiencyHeavyArmor" : 1,
+    "ProficiencyShields" : 1,
+    "ProficiencyTowerShields" : 1,
+    "ProficiencyAxes" : 1,
+    "ProficiencyMaces" : 1,
+    "ProficiencyBows" : 1,
+    "ProficiencyHammers" : 1,
+    "ProficiencyLargeSwords" : 1,
+    "ProficiencySimpleWeapons" : 1,
+    "ProficiencySmallSwords" : 1,
+    "ProficiencySpears" : 1
+  }
+}

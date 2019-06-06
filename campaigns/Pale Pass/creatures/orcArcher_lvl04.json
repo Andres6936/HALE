@@ -1,0 +1,72 @@
+{
+  "name" : "Orc",
+  "gender" : "Male",
+  "race" : "Orc",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/orc01",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 15,
+    "constitution" : 8,
+    "intelligence" : 7,
+    "wisdom" : 9,
+    "charisma" : 6
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "ProficiencyBows",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Monster" : 4
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "shortbow",
+        "quality" : "Decent"
+      },
+      "Quiver" : {
+        "id" : "arrow"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "arrow"
+        "quantity" : 17
+      }
+    ]
+  },
+  "reward" : [
+    2000, 3000
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel1",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel1",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

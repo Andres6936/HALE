@@ -1,0 +1,57 @@
+{
+  "name" : "Deep Dwarf",
+  "gender" : "Male",
+  "race" : "Dwarf",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ff433f22",
+    "clothingColor" : "#ffff0000",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair016",
+        "color" : "#ff5c87a2"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 9,
+    "constitution" : 12,
+    "intelligence" : 11,
+    "wisdom" : 9,
+    "charisma" : 9
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor10",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Commoner" : 8
+  },
+  "inventory" : {
+    "equipped" : {
+      "Armor" : {
+        "id" : "armor_clothes"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true,
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

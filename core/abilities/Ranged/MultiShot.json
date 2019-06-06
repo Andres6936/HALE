@@ -1,0 +1,37 @@
+{
+  "externalScript" : "abilities/multiShot",
+  "name" : "Multi-Shot",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/multiShot"
+  },
+  "description" : "As a standard attack action, you fire multiple arrows at once against a single target.  Each arrow fired is rolled as an individual attack with the usual bonuses and penalties.  You fire two arrows plus one per 25 points of your character's level attack bonus.  This ability can be used with shortbows, longbows, and crossbows.",
+  "upgrades" : [
+      { "ability" : "Scattershot",
+        "description" : "With Scattershot, your Multi-Shot ability now causes shards of shrapnel to launch out in all directions.  All creatures within 2 hexes of the target take 1 to 10 plus one per three character levels in damage."
+        "override" : true }
+  ],
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "cooldown" : 5,
+  "actionPointCost" : "Same as an attack",
+  "ai" : {
+    "power" : 30,
+    "priority" : 3,
+    "actionType" : "Damage",
+    "groupType" : "Single",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "RapidShot"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 10
+      }
+    ]
+  }
+}

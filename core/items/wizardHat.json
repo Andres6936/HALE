@@ -1,0 +1,24 @@
+{
+  "name" : "Hat",
+  "description" : "A pointy shaped hat.",
+  "class" : "Armor",
+  "coversBeard" : false,
+  "coversHair" : false,
+  "icon" : {
+    "sprite" : "items/C_Hat02",
+    "color" : "#ffffffff"
+  },
+  "value" : 600,
+  "weight" : 800,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Helmet",
+  "subIcon" : {
+    "sprite" : "subIcons/helmet-05",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "None",
+  "armorClass" : 0,
+  "armorPenalty" : 0,
+  "movementPenalty" : 0
+}

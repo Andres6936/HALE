@@ -1,0 +1,42 @@
+{
+  "externalScript" : "spells/shock",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : true,
+  "spellLevel" : 1,
+  "name" : "Shock",
+  "type" : "Evocation",
+  "icon" : {
+    "sprite" : "icons/shock"
+  },
+  "description" : "You charge your hands up with electricity and attempt to touch an opponent.  If you succeed, the target takes 8 to 16 damage plus one per caster level.  Otherwise, the electricity harmlessly dissipates.",
+  "upgrades" : [
+    { "ability" : "LightningBolt",
+      "description" : "With Lightning Bolt, all creatures within 1 hex of a selected hostile target take 8 to 16 plus one per caster level damage",
+      "override" : true
+    },
+    { "ability" : "DisablingLightning",
+      "description" : "With Disabling Lightning, Shock now temporarily cripples opponents for 3 rounds.  Affected targets suffer a 10 plus one per caster level penalty to Spell Failure and Attack."}
+  ],
+  "isActivateable" : true,
+  "quickbarGroup" : "Evocation",
+  "isFixed" : true,
+  "cooldown" : 8,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 10,
+    "priority" : 2,
+    "actionType" : "Damage",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 1
+      }
+    ]
+  }
+}

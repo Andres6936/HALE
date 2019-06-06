@@ -1,0 +1,32 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "worldMapLocation" : "Fareach",
+  "from" : {
+    "area" : "Orc Cave",
+    "x" : 5,
+    "y" : 28,
+    "partyPositions" : [
+      [ 0, -2 ], [ 1, -2 ], [ 0, -1 ], [ 1, -1 ]
+    ]
+  },
+  "to" : {
+    "area" : "Forest Road",
+    "x" : 44,
+    "y" : 1,
+    "partyPositions" : [
+      [ -1, 2 ], [ -2, 2 ], [ -1, 1 ], [ -2, 1 ]
+    ]
+  }
+}

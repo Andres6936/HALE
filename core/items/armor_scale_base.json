@@ -1,0 +1,23 @@
+{
+  "name" : "Scale Armor",
+  "description" : "Armor made of many small scales.  It provides better protection than leather armor and is relatively inexpensive to construct.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/A_Armor04",
+    "color" : "#ffffffff"
+  },
+  "value" : 50000,
+  "weight" : 7500,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Armor",
+  "subIcon" : {
+    "sprite" : "subIcons/armor-05",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Medium",
+  "armorClass" : 15,
+  "armorPenalty" : 18,
+  "movementPenalty" : 8
+}

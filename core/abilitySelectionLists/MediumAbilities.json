@@ -1,0 +1,12 @@
+{
+  "name" : "Medium",
+  "abilities" : {
+    "Invocation" : {
+      "x" : 0.0,
+      "y" : 0.0
+    },
+  },
+  "connectors" : [
+
+  ]
+}

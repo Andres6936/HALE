@@ -1,0 +1,96 @@
+{
+  "name" : "Weapons & Armor",
+  "abilities" : {
+    "ProficiencyLightArmor" : {
+      "x" : 0.0,
+      "y" : 0.0
+    },
+    "ProficiencyMediumArmor" : {
+      "x" : 0.0,
+      "y" : 1.0
+    },
+    "ProficiencyHeavyArmor" : {
+      "x" : 0.0,
+      "y" : 2.0
+    },
+    "ProficiencyShields" : {
+      "x" : 1.0,
+      "y" : 0.0
+    },
+    "ProficiencyTowerShields" : {
+      "x" : 1.0,
+      "y" : 1.0
+    },
+    "ProficiencySimpleWeapons" : {
+      "x" : 2.5,
+      "y" : 0.0
+    },
+    "ProficiencySpears" : {
+      "x" : 3.5,
+      "y" : 0.0
+    },
+    "ProficiencyHammers" : {
+      "x" : 2.0,
+      "y" : 1.0
+    },
+    "ProficiencyBows" : {
+      "x" : 3.0,
+      "y" : 1.0
+    },
+    "ProficiencySmallSwords" : {
+      "x" : 4.0,
+      "y" : 1.0
+    },
+    "ProficiencyMaces" : {
+      "x" : 2.0,
+      "y" : 2.0
+    },
+    "ProficiencyAxes" : {
+      "x" : 3.0,
+      "y" : 2.0
+    },
+    "ProficiencyLargeSwords" : {
+      "x" : 4.0,
+      "y" : 2.0
+    },
+    "ProficiencyFlail" : {
+      "x" : 2.0,
+      "y" : 3.0
+    },
+    "ProficiencyWaraxe" : {
+      "x" : 3.0,
+      "y" : 3.0
+    },
+    "ProficiencyBastardSword" : {
+      "x" : 4.0,
+      "y" : 3.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 2.0
+    }
+  ]
+}

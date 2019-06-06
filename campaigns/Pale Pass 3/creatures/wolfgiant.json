@@ -1,0 +1,41 @@
+{
+  "name" : "Giant Wolf",
+  "gender" : "Male",
+  "race" : "LargeAnimal",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/wolf-dire",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 21,
+    "dexterity" : 10,
+    "constitution" : 17,
+    "intelligence" : 3,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor30",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Monster" : 10
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "largeClaw",
+        "quality" : "Superb"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  }
+}

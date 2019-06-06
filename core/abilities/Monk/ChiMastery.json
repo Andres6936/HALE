@@ -1,0 +1,16 @@
+{
+  "name" : "Chi Mastery",
+  "type" : "Defensive",
+  "icon" : {
+    "sprite" : "icons/chiMastery"
+  },
+  "description" : "You have gained a mastery of your internal chi, and are able to expel unwanted or negative energies.  You gain spell resistance of your Monk level times 4 while using Body Mastery.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40
+  },
+  "prereqs" : {
+    "abilities" : [ "BodyMastery" ],
+	"roles" : [ {"id" : "Monk", "level" : 12 } ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "Bone",
+  "description" : "A large bone from an animal.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Bone",
+    "color" : "#ffffffff"
+  },
+  "value" : 1,
+  "weight" : 500,
+  "isIngredient" : true,
+  "isQuest" : false
+}

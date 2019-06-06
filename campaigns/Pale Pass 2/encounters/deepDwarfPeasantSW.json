@@ -1,0 +1,31 @@
+{
+  "radius" : 5,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "deepDwarfPeasant05",
+      "x" : -4,
+      "y" : 0
+    }, {
+      "id" : "deepDwarfPeasant06",
+      "x" : -3,
+      "y" : 2
+    }, {
+      "id" : "deepDwarfPeasant04",
+      "x" : 0,
+      "y" : 3
+    }, {
+      "id" : "deepDwarfPeasant01",
+      "x" : 4,
+      "y" : 0
+    }, {
+      "id" : "deepDwarfPeasant02",
+      "x" : 3,
+      "y" : -1
+    }, {
+      "id" : "deepDwarfPeasant03",
+      "x" : 1,
+      "y" : -4
+    }
+  ]
+}

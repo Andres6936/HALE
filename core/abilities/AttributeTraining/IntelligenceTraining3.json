@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('BaseInt', 'Stackable', 1); parent.applyEffect(effect); }",
+  "name" : "Intelligence Training III",
+  "type" : "General",
+  "icon" : {
+    "sprite" : "icons/trainIntelligence3"
+  },
+  "description" : "You gain an additional permanent +1 bonus to Intelligence.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "IntelligenceTraining2"
+    ],
+    "stats" : [
+      {
+        "type" : "CreatureLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

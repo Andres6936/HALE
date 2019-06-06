@@ -1,0 +1,24 @@
+{ "class" : "Trap",
+  "name" : "Spike Trap",
+  "icon" : {
+    "sprite" : "items/T_spike",
+	"color" : "#ffffffff"
+  },
+  
+  "description" : "A basic spike trap.",
+  
+  "value" : 100,
+  "weight" : 2000,
+  "defaultQuality" : "Good",
+  "script" : "items/tutorial_trap",
+  
+  "damageType" : "Piercing",
+  "minDamage" : 9,
+  "maxDamage" : 9,
+  
+  "findDifficulty" : 200,
+  "placeDifficulty" : 1,
+  "disarmDifficulty" : 1,
+  "recoverDifficulty" : 1,
+  "reflexDifficulty" : 200
+}

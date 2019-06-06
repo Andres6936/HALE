@@ -1,0 +1,32 @@
+{
+  "name" : "Flail",
+  "description" : "A spiked ball linked to a rod by a chain, this is a powerful one handed weapon that requires special training to use.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Mace005",
+    "color" : "#ffffffff"
+  },
+  "value" : 32000,
+  "weight" : 3800,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-flail01",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "OneHanded",
+  "baseWeapon" : "Flail",
+  "threatensAoOs" : true,
+  "damageType" : "Blunt",
+  "minDamage" : 2,
+  "maxDamage" : 7,
+  "criticalThreat" : 93,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

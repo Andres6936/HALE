@@ -1,0 +1,26 @@
+{
+  "name" : "Restore Morale",
+  "type" : "Restoration",
+  "icon" : {
+    "sprite" : "icons/restoreMorale"
+  },
+  "description" : "Restore Morale upgrades your Renewal spell, negating effects of spells which cause penalties to Attack, Attack Cost, Defense, Armor Penalty, Skill Checks, Resistances, and Spell Failure.  Up to 5 points plus 1 point per 2 caster levels of penalties in each category are negated.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 20,
+    "actionType" : "Tactical",
+    "groupType" : "Single",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Renewal"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 4
+      }
+    ]
+  }
+}

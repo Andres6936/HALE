@@ -1,0 +1,16 @@
+{
+  "name" : "Searing Impact",
+  "type" : "Storm Hand Abilities",
+  "icon" : {
+    "sprite" : "icons/searingImpact"
+  },
+  "description" : "This ability upgrades your Burning Palm stance.  On each successful attack, your opponent must succeed at a Physical Resistance check or suffer 1 point of Constitution damage for 5 rounds.  The difficulty of the check depends on your Storm Hand level and Wisdom.  This ability stacks, so further attacks can continue to accumulate more Constitution damage.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [ "BurningPalm" ],
+	"roles" : [ { "id" : "Storm Hand", "level" : 5 } ]
+  }
+}

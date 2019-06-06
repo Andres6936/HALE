@@ -1,0 +1,23 @@
+{
+  "externalScript" : "abilities/rapidShot",
+  "name" : "Rapid Shot",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/rapidShot"
+  },
+  "description" : "You fire shots from Bows (but not crossbows) and Slings rapidly, but with decreased accuracy.  While this mode is active, you gain a 15% attack speed bonus but a -20 attack penalty with those weapons.",,
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : true,
+  "isCancelable" : true,
+  "cooldown" : 0,
+  "ai" : {
+    "power" : 20,
+    "priority" : 5,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  }
+}

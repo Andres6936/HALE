@@ -1,0 +1,54 @@
+{
+  "name" : "Drake King",
+  "gender" : "Male",
+  "race" : "Drake",
+  "portrait" : "Monster/inferno",
+  "conversation" : "conversations/drakeKing",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/drake02",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 22,
+    "dexterity" : 10,
+    "constitution" : 18,
+    "intelligence" : 12,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Search" : 40
+  },
+  "abilities" : [
+    {
+      "id" : "FireImmunity100",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor20",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 17,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedClaw",
+        "quality" : "Superb"
+      },
+      "Armor" : {
+        "id" : "armor_mail_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    9000, 16000
+  ]
+}

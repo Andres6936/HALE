@@ -1,0 +1,17 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('Movement', 'Stackable', 30); parent.applyEffect(effect); }",
+  "name" : "Fleet of Foot",
+  "type" : "Monk Abilities",
+  "icon" : {
+    "sprite" : "icons/fleetOfFoot"
+  },
+  "description" : "The monk moves with almost superhuman quickness, gaining a +30 general movement bonus.",
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Monk",
+        "level" : 1
+      }
+    ]
+  }
+}

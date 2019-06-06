@@ -1,0 +1,47 @@
+{
+  "items" : [
+    {
+      "id" : "gem01",
+      "quantity" : 1
+    }, {
+      "id" : "gem02",
+      "quantity" : 1
+    }, {
+      "id" : "gem03",
+      "quantity" : 1
+    }, {
+      "id" : "gem04",
+      "quantity" : 1
+    }, {
+      "id" : "gem05",
+      "quantity" : 1
+    }, {
+      "id" : "gem06",
+      "quantity" : 1
+    }, {
+      "id" : "gem07",
+      "quantity" : 1
+    }, {
+      "id" : "gem08",
+      "quantity" : 1
+    }, {
+      "id" : "gem09",
+      "quantity" : 1
+    }, {
+      "id" : "gem10",
+      "quantity" : 1
+    }, {
+      "id" : "stone",
+      "quantity" : 1
+    }, {
+      "id" : "crystal_blue",
+      "quantity" : 1
+    }, {
+      "id" : "crystal_green",
+      "quantity" : 1
+    }, {
+      "id" : "crystal_red",
+      "quantity" : 1
+    }
+  ]
+}

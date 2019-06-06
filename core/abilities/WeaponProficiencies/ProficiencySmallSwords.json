@@ -1,0 +1,10 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addWeaponProficiency('Dagger'); effect.getBonuses().addWeaponProficiency('Short Sword'); parent.applyEffect(effect); }",
+  "name" : "Proficiency, Small Swords",
+  "type" : "Weapon Proficiencies",
+  "icon" : {
+    "sprite" : "icons/proficiencySmallSwords"
+  },
+  "description" : "You are able to use short swords and daggers in combat.",
+  "isActivateable" : false
+}

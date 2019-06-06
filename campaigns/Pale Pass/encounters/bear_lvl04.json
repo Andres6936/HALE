@@ -1,0 +1,12 @@
+{
+  "respawnTime" : 24,
+  "radius" : 1,
+  "faction" : "Hostile",
+  "creatures" : [
+    {
+      "id" : "bear",
+      "x" : 0,
+      "y" : 0
+    }
+  ]
+}

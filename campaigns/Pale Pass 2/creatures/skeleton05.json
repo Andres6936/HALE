@@ -1,0 +1,108 @@
+{
+  "name" : "Skeleton",
+  "gender" : "Male",
+  "race" : "Skeleton",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/skeleton04",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 16,
+    "dexterity" : 12,
+    "constitution" : 15,
+    "intelligence" : 10,
+    "wisdom" : 17,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "Enfeeble",
+      "levelObtained" : 1
+    }, {
+      "id" : "Curse",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCurse",
+      "levelObtained" : 1
+    }, {
+      "id" : "ImproveWeapon",
+      "levelObtained" : 1
+    }, {
+      "id" : "FlamingWeapon",
+      "levelObtained" : 1
+    }, {
+      "id" : "AbsorbEnergy",
+      "levelObtained" : 1
+    }, {
+      "id" : "ResistSpells",
+      "levelObtained" : 1
+    }, {
+      "id" : "SlashingImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "PiercingImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "CriticalHitImmunity",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 8,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "morningstar",
+        "quality" : "Good"
+      },
+      "OffHand" : {
+        "id" : "shield_heavy_base",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_mail_base",
+        "quality" : "Decent"
+      },
+      "Gloves" : {
+        "id" : "gloves_mail_base",
+        "quality" : "Decent"
+      },
+      "Helmet" : {
+        "id" : "helmet_mail_base",
+        "quality" : "Decent"
+      },
+      "Boots" : {
+        "id" : "boots_mail_base",
+        "quality" : "Decent"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    3000, 6500
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name" : "Spike Trap",
+  "description" : "A spike trap that impales foes.  The amount of the damage is dependant on the quality of the trap.",
+  "script" : "items/trap",
+  "class" : "Trap",
+  "icon" : {
+    "sprite" : "items/T_spike",
+    "color" : "#ffffffff"
+  },
+  "value" : 5000,
+  "weight" : 3000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "Place Trap",
+  "useAP" : 8000,
+  "defaultQuality" : "Good",
+  "damageType" : "Piercing",
+  "minDamage" : 5,
+  "maxDamage" : 15,
+  "findDifficulty" : 60,
+  "placeDifficulty" : 60,
+  "disarmDifficulty" : 60,
+  "recoverDifficulty" : 80,
+  "reflexDifficulty" : 75
+}

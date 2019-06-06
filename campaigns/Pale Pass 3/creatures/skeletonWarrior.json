@@ -1,0 +1,89 @@
+{
+  "name" : "Skeleton Warrior",
+  "gender" : "Male",
+  "race" : "Skeleton",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/skeleton03",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 16,
+    "dexterity" : 13,
+    "constitution" : 13,
+    "intelligence" : 3,
+    "wisdom" : 10,
+    "charisma" : 3
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "DualWieldingMastery",
+      "levelObtained" : 1
+    }, {
+      "id" : "ExpertDualWielding",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWielding",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWieldingDefense",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction5",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 14,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "battleaxe",
+        "quality" : "Fine"
+      },
+      "Armor" : {
+        "id" : "armor_mail_base",
+        "quality" : "Fine"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    12000, 20000
+  ],
+  "loot" : [
+    {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsFine",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

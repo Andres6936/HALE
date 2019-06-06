@@ -1,0 +1,17 @@
+{
+  "name" : "Door",
+  "description" : "A door that retracts into the ground.",
+  "class" : "Door",
+  "closedIcon" : {
+    "sprite" : "doors/gate-rusty-opaque-sw"
+  },
+  "openIcon" : {
+    "sprite" : "doors/gate-rusty-sw_open"
+  },
+  "isLocked" : true,
+  "lockDifficulty" : 0,
+  "keyID" : "sonorinDesertKey",
+  "keyRequired" : true,
+  "removeKeyOnUnlock" : true,
+  "isTransparent" : false
+}

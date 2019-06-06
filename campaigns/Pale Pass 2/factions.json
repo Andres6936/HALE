@@ -1,0 +1,28 @@
+{ "factions" : [
+	{ "id" : "Player" },
+	
+	{ "id" : "Neutral" },
+	
+	{ "id" : "Merchants" },
+	
+	{ "id" : "Object" },
+	
+	{ "id" : "Lizardlings",
+	  "relationships" : [
+	    { "id" : "Player",
+		  "relationship" : "Hostile"
+		}
+	  ]
+	},
+	
+	{ "id" : "Hostile",
+	    "relationships" : [
+			{   "id" : "Player",
+				"relationship": "Hostile"
+			},
+			{   "id" : "Neutral",
+				"relationship" : "Hostile"
+			}
+	    ]
+	}
+] };

@@ -1,0 +1,38 @@
+{
+  "externalScript" : "spells/conjureArmor",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 2,
+  "name" : "Conjure Armor",
+  "type" : "Conjuration",
+  "icon" : {
+    "sprite" : "icons/conjureArmor"
+  },
+  "description" : "The caster touches one creature and calls forth a magical set of armor directly onto that creature's body for 5 to 10 rounds.  The armor cannot be removed until it disappears when the spell duration expires.  The caster may select a set of leather, mail, plate, or heavy plate armor.  The items gains one rank of quality for every 3 caster levels.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Conjuration",
+  "isFixed" : true,
+  "cooldown" : 9,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 15,
+    "priority" : 5,
+    "actionType" : "Tactical",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Shield"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 4
+      }
+    ]
+  }
+}

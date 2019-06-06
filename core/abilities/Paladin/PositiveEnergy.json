@@ -1,0 +1,23 @@
+{
+  "name" : "Positive Energy",
+  "type" : "Paladin Abilities",
+  "icon" : {
+    "sprite" : "icons/positiveEnergy"
+  },
+  "description" : "The Paladin's Leadership aura becomes charged with positive energy.  Every round, all allies within the aura are healed for a number of points equal to the Paladin's Charisma score minus 10 times two.  In addition, affected allies become especially effective against undead, gaining bonuses of 10 points plus one per Paladin level plus 2 per point of Charisma above 10 to Attack against Undead and twice that bonus in damage against Undead.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Leadership"
+    ],
+    "roles" : [
+      {
+        "id" : "Paladin",
+        "level" : 3
+      }
+    ]
+  }
+}

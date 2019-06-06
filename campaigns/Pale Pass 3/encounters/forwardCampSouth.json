@@ -1,0 +1,39 @@
+{
+  "radius" : 5,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "aravilArcher",
+      "x" : 0,
+      "y" : 2
+    }, {
+      "id" : "aravilArcher",
+      "x" : 1,
+      "y" : 3
+    }, {
+      "id" : "aravilArcher",
+      "x" : 1,
+      "y" : 4
+    }, {
+      "id" : "aravilSoldier",
+      "x" : 4,
+      "y" : 2
+    }, {
+      "id" : "aravilSoldier",
+      "x" : 3,
+      "y" : 0
+    }, {
+      "id" : "aravilSoldier",
+      "x" : 4,
+      "y" : -2
+    }, {
+      "id" : "aravilSoldier",
+      "x" : -1,
+      "y" : -3
+    }, {
+      "id" : "aravilSoldier",
+      "x" : -5,
+      "y" : -1
+    }
+  ]
+}

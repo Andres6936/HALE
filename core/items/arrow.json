@@ -1,0 +1,23 @@
+{
+  "name" : "Arrow",
+  "description" : "An arrow, useful as ammunition for bows.",
+  "class" : "Ammo",
+  "icon" : {
+    "sprite" : "items/S_Bow15",
+    "color" : "#ffffffff"
+  },
+  "value" : 20,
+  "weight" : 100,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Ammo",
+  "subIcon" : {
+    "sprite" : "subIcons/ammo-01",
+    "color" : "#ffffffff"
+  },
+  "projectileIcon" : {
+    "sprite" : "subIcons/projectile_arrow01",
+    "color" : "#ffffffff"
+  },
+  "weapons" : [ "Longbow", "Shortbow" ]
+}

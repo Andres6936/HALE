@@ -1,0 +1,37 @@
+{
+  "name" : "Javelin",
+  "description" : "A light spear designed to be thrown.  This weapon is frequently used at the beginning of combat, before closing and switching to melee weapons.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Spear001",
+    "color" : "#ffffffff"
+  },
+  "value" : 1000,
+  "weight" : 1000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-spear03",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Thrown",
+  "minRange" : 1,
+  "maxRange" : 5,
+  "handed" : "OneHanded",
+  "baseWeapon" : "Javelin",
+  "threatensAoOs" : false,
+  "damageType" : "Piercing",
+  "minDamage" : 1,
+  "maxDamage" : 6,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 3,
+  "attackCost" : 2800,
+  "rangePenalty" : 40,
+  "maxStrengthBonus" : 0,
+  "projectileIcon" : {
+    "sprite" : "subIcons/projectile_javelin01",
+    "color" : "#ffffffff"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "Tide Walker",
+  "type" : "Storm Hand Abilities",
+  "icon" : {
+    "sprite" : "icons/tideWalker"
+  },
+  "description" : "This ability upgrades your Flowing Body stance.  You gain an additional Action Point bonus and Movement bonus equal to your Storm Hand level plus your Wisdom bonus.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [ "FlowingBody" ],
+	"roles" : [ { "id" : "Storm Hand", "level" : 5 } ]
+  }
+}

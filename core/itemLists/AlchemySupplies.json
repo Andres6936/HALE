@@ -1,0 +1,86 @@
+{
+  "items" : [
+    {
+      "id" : "empty_bottle",
+      "quantity" : 20
+    }, {
+      "id" : "grain_alcohol",
+      "quantity" : 10
+    }, {
+      "id" : "herb_medicinal",
+      "quantity" : 10
+    }, {
+      "id" : "water_jug",
+      "quantity" : 20
+    }, {
+      "id" : "shell",
+      "quantity" : 2
+    }, {
+      "id" : "foxtail",
+      "quantity" : 6
+    }, {
+      "id" : "feather",
+      "quantity" : 6
+    }, {
+      "id" : "claw",
+      "quantity" : 6
+    }, {
+      "id" : "gem01",
+      "quantity" : 4
+    }, {
+      "id" : "gem02",
+      "quantity" : 4
+    }, {
+      "id" : "gem03",
+      "quantity" : 4
+    }, {
+      "id" : "gem04",
+      "quantity" : 4
+    }, {
+      "id" : "gem05",
+      "quantity" : 4
+    }, {
+      "id" : "gem07",
+      "quantity" : 4
+    }, {
+      "id" : "gem08",
+      "quantity" : 4
+    }, {
+      "id" : "gem09",
+      "quantity" : 4
+    }, {
+      "id" : "gem10",
+      "quantity" : 4
+    }, {
+      "id" : "oilFlamable",
+      "quantity" : 6
+    }, {
+      "id" : "crystal_blue",
+      "quantity" : 5
+    }, {
+      "id" : "crystal_green",
+      "quantity" : 5
+    }, {
+      "id" : "crystal_red",
+      "quantity" : 5
+    }, {
+	  "id" : "amulet",
+	  "quantity" : 10
+	}, {
+	  "id" : "goldRing",
+	  "quantity" : 10
+	},
+	{ "id" : "silverRing",
+	  "quantity" : 10
+	},
+	{ "id" : "bone",
+	  "quantity" : 5
+	},
+	{ "id" : "paper",
+	  "quantity" : 10
+	},
+	{ "id" : "tongue",
+	  "quantity" : 4
+	}
+  ]
+}

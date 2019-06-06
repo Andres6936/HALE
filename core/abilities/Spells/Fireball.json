@@ -1,0 +1,26 @@
+{
+  "name" : "Fireball",
+  "type" : "Evocation",
+  "icon" : {
+    "sprite" : "icons/fireball"
+  },
+  "description" : "Fireball upgrades your Firebolt spell, causing it to do 6 to 12 plus one per caster level damage to all targets within a 4 hex radius.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30,
+    "actionType" : "Damage",
+    "groupType" : "Multiple",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Firebolt"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

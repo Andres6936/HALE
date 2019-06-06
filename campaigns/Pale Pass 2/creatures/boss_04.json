@@ -1,0 +1,79 @@
+{
+  "name" : "Zenlel",
+  "gender" : "Male",
+  "race" : "Elf",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffd0b891",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair006",
+        "color" : "#ff93733e"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 12,
+    "dexterity" : 20,
+    "constitution" : 14,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "PreciseShot",
+      "levelObtained" : 1
+    }, {
+      "id" : "CripplingShot",
+      "levelObtained" : 1
+    }, {
+      "id" : "PointBlankShot",
+      "levelObtained" : 1
+    }, {
+      "id" : "MultiShot",
+      "levelObtained" : 1
+    }, {
+      "id" : "Longshot",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 14,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "Quiver" : {
+        "id" : "arrow"
+      },
+      "MainHand" : {
+        "id" : "compositeLongbow",
+        "quality" : "Fine"
+      },
+      "Armor" : {
+        "id" : "armor_leatherhard_base",
+        "quality" : "Good"
+      },
+      "Gloves" : {
+        "id" : "gloves_leather_base",
+        "quality" : "Fine"
+      },
+      "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Fine"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "arrow"
+        "quantity" : 99
+      }
+    ]
+  }
+}

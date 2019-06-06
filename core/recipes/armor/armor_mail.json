@@ -1,0 +1,43 @@
+{
+  "name" : "Mail Armor",
+  "description" : "Creates mail armor. The quality is dependant on your Craft Armor skill.",
+  "skill" : "CraftArmor",
+  "skillRankRequirement" : 35,
+  "ingredients" : {
+    "leather" : 2,
+    "thread" : 10,
+    "coal" : 6,
+    "bar_iron" : 6
+  },
+  "result" : {
+    "id" : "armor_scale_base",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 25
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 45
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 65
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 85
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 105
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 125
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 145
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 165
+      }
+    ]
+  }
+}

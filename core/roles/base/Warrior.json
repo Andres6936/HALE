@@ -1,0 +1,49 @@
+{
+  "name" : "Warrior",
+  "icon" : {
+    "sprite" : "icons/warrior"
+  },
+  "isPlayer" : true,
+  "isBase" : true,
+  "stats" : {
+    "hpPerLevel" : 5,
+    "hpAtLevelOne" : 15,
+    "damageBonusPerLevel" : 5,
+    "attackBonusPerLevel" : 5,
+    "skillPointsPerLevel" : 5
+  },
+  "defaultSelections" : {
+    "Str" : 8,
+    "Dex" : 3,
+    "Con" : 3,
+    "Int" : 0,
+    "Wis" : 0,
+    "Cha" : 0,
+    "skills" : [
+      "CraftWeapons", "CraftArmor", "Search", "Speech", "Alchemy"
+    ]
+  },
+  "abilitiesAdded" : {
+    "ProficiencyLightArmor" : 1,
+    "ProficiencyMediumArmor" : 1,
+    "ProficiencyHeavyArmor" : 1,
+    "ProficiencyShields" : 1,
+    "ProficiencyTowerShields" : 1,
+    "ProficiencyAxes" : 1,
+    "ProficiencyMaces" : 1,
+    "ProficiencyBows" : 1,
+    "ProficiencyHammers" : 1,
+    "ProficiencyLargeSwords" : 1,
+    "ProficiencySimpleWeapons" : 1,
+    "ProficiencySmallSwords" : 1,
+    "ProficiencySpears" : 1
+  },
+  "abilitySelectionsFromList" : {
+    "Warrior" : [
+      1, 1, 3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 19, 21, 22, 24, 25, 27, 28, 30,
+	  31, 33, 34, 36, 37, 39, 40, 42, 43, 45, 46, 48, 49, 51, 52, 54, 55, 57, 58
+    ],
+	"General" : [ 2, 5, 8, 11, 14, 17, 20, 23, 26, 29,
+	              32, 35, 38, 41, 44, 47, 50, 53, 56, 59 ]
+  }
+}

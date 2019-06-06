@@ -1,0 +1,18 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('BaseWis', 'Stackable', 1); parent.applyEffect(effect); }",
+  "name" : "Wisdom Training I",
+  "type" : "General",
+  "icon" : {
+    "sprite" : "icons/trainWisdom1"
+  },
+  "description" : "You gain a permanent +1 bonus to Wisdom.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CreatureLevel",
+        "value" : 2
+      }
+    ]
+  }
+}

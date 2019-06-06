@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBaseWeaponBonus('Mace', 'CriticalMultiplier', 1); effect.getBonuses().addBaseWeaponBonus('Morningstar', 'CriticalMultiplier', 1); effect.getBonuses().addBaseWeaponBonus('Flail', 'CriticalMultiplier', 1); parent.applyEffect(effect); }",
+  "name" : "Master Training, Maces",
+  "type" : "Weapon Training",
+  "icon" : {
+    "sprite" : "icons/masterMaces"
+  },
+  "description" : "You do an additional 1x damage on critical hits with maces, morningstars, and flails.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "ExpertTrainingMaces"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 60
+      }
+    ]
+  }
+}

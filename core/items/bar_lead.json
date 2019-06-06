@@ -1,0 +1,13 @@
+{
+  "name" : "Lead Bar",
+  "description" : "A bar of lead, useful in some crafting recipes.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_BarSilver",
+    "color" : "#ffb5f3fe"
+  },
+  "value" : 10000,
+  "weight" : 6000,
+  "isIngredient" : true,
+  "isQuest" : false
+}

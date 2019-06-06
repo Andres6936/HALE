@@ -1,0 +1,30 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+      { "sprite" : "animations/transition1" },
+      { "sprite" : "animations/transition2" },
+      { "sprite" : "animations/transition3" },
+      { "sprite" : "animations/transition4" },
+      { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "worldMapLocation" : "ChaolDorn",
+  "from" : {
+    "area" : "ChaolDorn",
+    "label" : "Chaol Dorn",
+    "x" : 14,
+    "y" : 14,
+    "partyPositions" : [ [ -2, 0 ], [ -1, 0 ], [ -1, -1 ], [ 1, 0 ] ]
+  },
+  "to" : {
+    "area" : "HardyHearth",
+    "label" : "The Hardy Hearth",
+    "x" : 3,
+    "y" : 17,
+    "partyPositions" : [ [ 2, -1 ], [ 1, 0 ], [ 0, 1 ], [ 2, 0 ] ]
+  }
+}

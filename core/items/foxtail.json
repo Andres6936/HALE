@@ -1,0 +1,13 @@
+{
+  "name" : "Fox tail",
+  "description" : "A tail from a fox.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_FoxTail",
+    "color" : "#ffffffff"
+  },
+  "value" : 100,
+  "weight" : 10,
+  "isIngredient" : true,
+  "isQuest" : false
+}

@@ -1,0 +1,40 @@
+{
+  "externalScript" : "spells/enhanceAttributes",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 2,
+  "name" : "Enhance Attributes",
+  "type" : "Enchantment",
+  "icon" : {
+    "sprite" : "icons/enhanceAttributes"
+  },
+  "description" : "The caster touches a single creature.  That creatures gains a bonus of 1 plus 1 point per 4 caster levels to Intelligence, Wisdom, and Charisma for 5 to 10 rounds.",
+  "upgrades" : [
+    { "ability" : "AnimalPower",
+      "description" : "With Animal Power, Strength, Constitution, and Dexterity are additionally enhanced for the duration of the spell.",
+      "override" : true }
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Enchantment",
+  "isFixed" : true,
+  "cooldown" : 9,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 15,
+    "priority" : 8,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 4
+      }
+    ]
+  }
+}

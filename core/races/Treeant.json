@@ -1,0 +1,8 @@
+{ "name" : "Treeant",
+  "baseMovementCost" : 1200,
+  "defaultWeapon" : "unarmedLargeThreatens",
+  
+  "racialTypes" : [
+    "Plant"
+  ]
+}

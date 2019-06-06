@@ -1,0 +1,19 @@
+{
+  "name" : "Cloak",
+  "description" : "Creates a simple cloak.",
+  "skill" : "CraftArmor",
+  "skillRankRequirement" : 10,
+  "ingredients" : {
+    "leather" : 4,
+    "thread" : 5
+  },
+  "result" : {
+    "id" : "cloak",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "skillRankRequirement" : 10
+      }
+    ]
+  }
+}

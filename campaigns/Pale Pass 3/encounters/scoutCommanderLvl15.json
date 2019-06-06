@@ -1,0 +1,35 @@
+{
+  "radius" : 2,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "scoutCommander",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "hellHound",
+      "x" : -1,
+      "y" : 0
+    }, {
+      "id" : "hellHound",
+      "x" : 1,
+      "y" : 0
+    }, {
+      "id" : "scoutPriest",
+      "x" : -1,
+      "y" : -2
+    }, {
+      "id" : "scoutMage01",
+      "x" : 1,
+      "y" : -2
+    }, {
+      "id" : "scoutWarrior02",
+      "x" : -2,
+      "y" : 0
+    }, {
+      "id" : "scoutWarrior03",
+      "x" : 2,
+      "y" : 0
+    }
+  ]
+}

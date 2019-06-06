@@ -1,0 +1,95 @@
+{
+  "name" : "Bandit",
+  "gender" : "Male",
+  "race" : "Human",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair007",
+        "color" : "#fff6e419"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 12,
+    "dexterity" : 10,
+    "constitution" : 11,
+    "intelligence" : 10,
+    "wisdom" : 14,
+    "charisma" : 8
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "MeleeCasting",
+      "levelObtained" : 1
+    }, {
+      "id" : "Sleep",
+      "levelObtained" : 1
+    }, {
+      "id" : "Slow",
+      "levelObtained" : 1
+    }, {
+      "id" : "HardenArmor",
+      "levelObtained" : 1
+    }, {
+      "id" : "Cure",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 5,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "warhammer",
+        "quality" : "Decent"
+      },
+      "OffHand" : {
+        "id" : "shield_heavy_base",
+        "quality" : "Decent"
+      },
+      "Armor" : {
+        "id" : "armor_scale_base",
+        "quality" : "Decent"
+      },
+      "Gloves" : {
+        "id" : "gloves_leather_base",
+        "quality" : "Decent"
+      },
+      "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Decent"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    2500, 4000
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel10",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

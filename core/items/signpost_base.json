@@ -1,0 +1,9 @@
+{
+  "name" : "Sign Post",
+  "description" : "A sign post.",
+  "class" : "Container",
+  "openIcon" : {
+    "sprite" : "null"
+  },
+  "isWorkbench" : false
+}

@@ -1,0 +1,23 @@
+{
+  "name" : "Greater Focus",
+  "type" : "Ranger Abilities",
+  "icon" : {
+    "sprite" : "icons/greaterFocus"
+  },
+  "description" : "Your Ranger level is treated as double its actual value for purposes of computing your Ranged Focus.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40
+  },
+  "prereqs" : {
+    "abilities" : [
+      "DefensiveFocus"
+    ],
+    "roles" : [
+      {
+        "id" : "Ranger",
+        "level" : 7
+      }
+    ]
+  }
+}

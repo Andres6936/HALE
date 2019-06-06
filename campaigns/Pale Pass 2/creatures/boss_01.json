@@ -1,0 +1,97 @@
+{
+  "name" : "Delena",
+  "gender" : "Female",
+  "race" : "Human",
+  "portrait" : "Human/thief+female",
+  "conversation" : "conversations/boss_01",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffeee68b",
+    "clothingColor" : "#fff60000",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair003",
+        "color" : "#ffdfcf1f"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 16,
+    "dexterity" : 12,
+    "constitution" : 16,
+    "intelligence" : 11,
+    "wisdom" : 17,
+    "charisma" : 14
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "ProficiencyTowerShields",
+      "levelObtained" : 1
+    }, {
+      "id" : "EnhanceAttributes",
+      "levelObtained" : 1
+    }, {
+      "id" : "AnimalPower",
+      "levelObtained" : 1
+    }, {
+      "id" : "ProficiencyFlail",
+      "levelObtained" : 1
+    }, {
+      "id" : "Chameleon",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassChameleon",
+      "levelObtained" : 1
+    }, {
+      "id" : "ShieldCombat",
+      "levelObtained" : 1
+    }, {
+      "id" : "ShieldDefense",
+      "levelObtained" : 1
+    }, {
+      "id" : "Cure",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCure",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 15,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "flail",
+        "quality" : "Fine"
+      },
+      "OffHand" : {
+        "id" : "shield_tower_base",
+        "quality" : "Fine"
+      },
+      "Armor" : {
+        "id" : "armor_mail_base",
+        "quality" : "Fine"
+      },
+      "Gloves" : {
+        "id" : "gloves_plate_base",
+        "quality" : "Fine"
+      },
+      "Boots" : {
+        "id" : "boots_plate_base",
+        "quality" : "Fine"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    10000, 25000
+  ]
+}

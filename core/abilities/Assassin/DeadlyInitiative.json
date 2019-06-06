@@ -1,0 +1,14 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('Initiative', 'Stackable', 40); parent.applyEffect(effect); }",
+  "name" : "Deadly Initiative",
+  "type" : "Assassin Abilities",
+  "icon" : {
+    "sprite" : "icons/deadlyInitiative"
+  },
+  "description" : "You gain a substantial +40 bonus to initiative, making you far more likely to get the drop on enemies and take your turn first in combat.",
+  "prereqs" : {
+    "abilities" : [
+      "CombatReady", "DexterityTraining1"
+    ]
+  }
+}

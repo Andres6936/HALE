@@ -1,0 +1,52 @@
+{
+  "name" : "Enhance Action Points",
+  "description" : "Adds an action points bonus to an item.  The amount of the bonus depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 45,
+  "ingredients" : {
+    "feather" : 1,
+	"gem05" : 2
+  },
+  "result" : {
+    "postfix" : " of Action",
+    "ingredientItemTypes" : [ "Armor", "Boots", "Cloak" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_actionPoints"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 35,
+		"valueModifier" : 160,
+        "enchantment" : "entity.addBonus('ActionPoint',  2);"
+      }, {
+        "skillRankRequirement" : 55,
+		"valueModifier" : 190,
+        "enchantment" : "entity.addBonus('ActionPoint',  4);"
+      }, {
+        "skillRankRequirement" : 75,
+		"valueModifier" : 205,
+        "enchantment" : "entity.addBonus('ActionPoint',  6);"
+      }, {
+        "skillRankRequirement" : 85,
+		"valueModifier" : 220,
+        "enchantment" : "entity.addBonus('ActionPoint',  8);"
+      }, {
+        "skillRankRequirement" : 115,
+		"valueModifier" : 235,
+        "enchantment" : "entity.addBonus('ActionPoint',  10);"
+      }, {
+        "skillRankRequirement" : 135,
+		"valueModifier" : 250,
+        "enchantment" : "entity.addBonus('ActionPoint',  12);"
+      }, {
+        "skillRankRequirement" : 155,
+		"valueModifier" : 265,
+        "enchantment" : "entity.addBonus('ActionPoint',  14);"
+      }, {
+        "skillRankRequirement" : 175,
+		"valueModifier" : 280,
+        "enchantment" : "entity.addBonus('ActionPoint',  16);"
+      }
+    ]
+  }
+}

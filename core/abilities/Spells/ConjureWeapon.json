@@ -1,0 +1,38 @@
+{
+  "externalScript" : "spells/conjureWeapon",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 3,
+  "name" : "Conjure Weapon",
+  "type" : "Conjuration",
+  "icon" : {
+    "sprite" : "icons/conjureWeapon"
+  },
+  "description" : "The caster touches one creature and calls forth a magical weapon directly into that creature's hands for 5 to 10 rounds.  The weapon cannot be removed until it disappears when the spell duration expires.  The caster may select from a variety of weapons, with the weapon gaining one rank of quality for every 3 caster levels.  The weapon is magically enchanted to provide +10 to Attack.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Conjuration",
+  "isFixed" : true,
+  "cooldown" : 10,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 20,
+    "priority" : 5,
+    "actionType" : "Tactical",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Shield"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name" : "Steadfast Rage",
+  "type" : "Berserker Abilities",
+  "icon" : {
+    "sprite" : "icons/steadfastRage"
+  },
+  "description" : "You no longer suffer the effects of exhaustion after your Rage.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Rage"
+    ],
+    "roles" : [
+      {
+        "id" : "Berserker",
+        "level" : 5
+      }
+    ]
+  }
+}

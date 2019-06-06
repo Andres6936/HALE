@@ -1,0 +1,43 @@
+{
+  "radius" : 6,
+  "faction" : "Hostile",
+  "creatures" : [
+    {
+      "id" : "ghoul",
+      "x" : -4,
+      "y" : 3
+    }, {
+      "id" : "ghoul",
+      "x" : -5,
+      "y" : 2
+    }, {
+      "id" : "ghoul",
+      "x" : 5,
+      "y" : -3
+    }, {
+      "id" : "ghoul",
+      "x" : 5,
+      "y" : -2
+    }, {
+      "id" : "skeleton08",
+      "x" : -3,
+      "y" : 3
+    }, {
+      "id" : "skeleton03",
+      "x" : -6,
+      "y" : 3
+    }, {
+      "id" : "skeleton02",
+      "x" : -4,
+      "y" : 4
+    }, {
+      "id" : "skeleton07",
+      "x" : 6,
+      "y" : -2
+    }, {
+      "id" : "skeleton04",
+      "x" : 6,
+      "y" : -1
+    }
+  ]
+}

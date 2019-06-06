@@ -1,0 +1,53 @@
+{
+  "name" : "Enhance Spell Damage",
+  "description" : "Adds an spell damage bonus to an item.  The amount of the bonus depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 55,
+  "ingredients" : {
+    "bar_gold" : 1,
+    "crystal_red" : 1,
+	"crystal_green" : 1
+  },
+  "result" : {
+    "postfix" : " of Spell Damage",
+    "ingredientItemTypes" : [ "Gloves", "Ring", "Amulet" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_spellDamage"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 35,
+		"valueModifier" : 170,
+        "enchantment" : "entity.addBonus('SpellDamage',  2);"
+      }, {
+        "skillRankRequirement" : 55,
+		"valueModifier" : 200,
+        "enchantment" : "entity.addBonus('SpellDamage',  4);"
+      }, {
+        "skillRankRequirement" : 75,
+		"valueModifier" : 215,
+        "enchantment" : "entity.addBonus('SpellDamage',  6);"
+      }, {
+        "skillRankRequirement" : 95,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addBonus('SpellDamage',  8);"
+      }, {
+        "skillRankRequirement" : 115,
+		"valueModifier" : 245,
+        "enchantment" : "entity.addBonus('SpellDamage',  10);"
+      }, {
+        "skillRankRequirement" : 135,
+		"valueModifier" : 260,
+        "enchantment" : "entity.addBonus('SpellDamage',  12);"
+      }, {
+        "skillRankRequirement" : 155,
+		"valueModifier" : 275,
+        "enchantment" : "entity.addBonus('SpellDamage',  14);"
+      }, {
+        "skillRankRequirement" : 175,
+		"valueModifier" : 290,
+        "enchantment" : "entity.addBonus('SpellDamage',  16);"
+      }
+    ]
+  }
+}

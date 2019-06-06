@@ -1,0 +1,13 @@
+{
+  "name" : "Obsidian",
+  "description" : "A good example of an obsidian stone, worth a bit of coin.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Rock01",
+    "color" : "#ffffffff"
+  },
+  "value" : 2000,
+  "weight" : 10,
+  "isIngredient" : true,
+  "isQuest" : false
+}

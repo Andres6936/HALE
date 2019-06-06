@@ -1,0 +1,35 @@
+{
+  "radius" : 5,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "aravilGateGuard",
+      "x" : 3,
+      "y" : -4
+    }, {
+      "id" : "aravilGateGuard",
+      "x" : 5,
+      "y" : -3
+    }, {
+      "id" : "aravilGateGuard",
+      "x" : 3,
+      "y" : -1
+    }, {
+      "id" : "aravilGateGuard",
+      "x" : 0,
+      "y" : -2
+    }, {
+      "id" : "peasant05",
+      "x" : -1,
+      "y" : 1
+    }, {
+      "id" : "peasant04",
+      "x" : -3,
+      "y" : 3
+    }, {
+      "id" : "peasant02",
+      "x" : -5,
+      "y" : -2
+    }
+  ]
+}

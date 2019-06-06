@@ -1,0 +1,25 @@
+{
+  "name" : "Leather Helmet",
+  "description" : "A helmet made of sturdy leather , providing some protection for the wearer's head.",
+  "class" : "Armor",
+  "coversBeard" : false,
+  "coversHair" : true,
+  "icon" : {
+    "sprite" : "items/C_Elm01",
+    "color" : "#ffffffff"
+  },
+  "value" : 2400,
+  "weight" : 800,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Helmet",
+  "subIcon" : {
+    "sprite" : "subIcons/helmet-03",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Light",
+  "armorClass" : 2,
+  "armorPenalty" : 1,
+  "movementPenalty" : 0
+}

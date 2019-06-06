@@ -1,0 +1,107 @@
+{
+  "enchantmentChance" : 25,
+  "enchantmentSkillModifier" : 75,
+  "items" : [
+    {
+      "id" : "dagger",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "shortSword",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "longsword",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "bastardSword",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "greatsword",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "handaxe",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "battleaxe",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "waraxe",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "greataxe",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "club",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "mace",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "morningstar",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "flail",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "lighthammer",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "warhammer",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "maul",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "shortspear",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "longspear",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "quarterstaff",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "javelin",
+      "quality" : "Exceptional",
+      "quantity" : 40
+    }, {
+      "id" : "sling",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "crossbow",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "shortbow",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "longbow",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }, {
+      "id" : "compositeLongbow",
+      "quality" : "Exceptional",
+      "quantity" : 1
+    }
+  ]
+}

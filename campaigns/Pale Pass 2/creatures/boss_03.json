@@ -1,0 +1,91 @@
+{
+  "name" : "Rana",
+  "gender" : "Female",
+  "race" : "Elf",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair013",
+        "color" : "#ffeec507"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 9,
+    "dexterity" : 14,
+    "constitution" : 12,
+    "intelligence" : 19,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "Shield",
+      "levelObtained" : 1
+    }, {
+      "id" : "CrushingVines",
+      "levelObtained" : 1
+    }, {
+      "id" : "DeadlyVines",
+      "levelObtained" : 1
+    }, {
+      "id" : "Tanglefoot",
+      "levelObtained" : 1
+    }, {
+      "id" : "ElementalShield",
+      "levelObtained" : 1
+    }, {
+      "id" : "Crush",
+      "levelObtained" : 1
+    }, {
+      "id" : "IcicleStab",
+      "levelObtained" : 1
+    }, {
+      "id" : "Shock",
+      "levelObtained" : 1
+    }, {
+      "id" : "FlamingFingers",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCrush",
+      "levelObtained" : 1
+    }, {
+      "id" : "Freeze",
+      "levelObtained" : 1
+    }, {
+      "id" : "GlacialWave",
+      "levelObtained" : 1
+    }, {
+      "id" : "Haste",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Mage" : 15,
+    "baseRoleID" : "Mage"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "quarterstaff",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_clothes"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    8000, 16000
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name" : "Note",
+  "description" : "A note written on parchment",
+  "conversation" : "conversations/sonorinDesertNote",
+  "script" : "items/readBook",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Note",
+    "color" : "#ffffffff"
+  },
+  "value" : 500,
+  "weight" : 30,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "Read",
+  "useAP" : 4000
+}

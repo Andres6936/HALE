@@ -1,0 +1,8 @@
+{ "name" : "Ghost",
+  "baseMovementCost" : 1000,
+  "defaultWeapon" : "unarmedMedium",
+  
+  "racialTypes" : [
+    "Undead", "Incorporal"
+  ]
+}

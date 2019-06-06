@@ -1,0 +1,116 @@
+{
+  "name" : "Enchantment",
+  "abilities" : {
+    "DivineLuck" : {
+      "x" : 1.0,
+      "y" : 0.0
+    },
+    "DivineBurst" : {
+      "x" : 0.0,
+      "y" : 2.0
+    },
+    "DivineAura" : {
+      "x" : 1.0,
+      "y" : 3.0
+    },
+    "Resistance" : {
+      "x" : 2.0,
+      "y" : 1.0
+    },
+    "Slow" : {
+      "x" : 3.0,
+      "y" : 0.0
+    },
+    "Sleep" : {
+      "x" : 3.0,
+      "y" : 1.0
+    },
+    "Paralyze" : {
+      "x" : 3.0,
+      "y" : 2.0
+    },
+    "Curse" : {
+      "x" : 4.5,
+      "y" : 0.0
+    },
+    "Enfeeble" : {
+      "x" : 4.0,
+      "y" : 1.0
+    },
+    "MassCurse" : {
+      "x" : 5.0,
+      "y" : 3.0
+    },
+    "EnhanceAttributes" : {
+      "x" : 6.0,
+      "y" : 1.0
+    },
+    "AnimalPower" : {
+      "x" : 6.0,
+      "y" : 2.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "ThreeDown",
+      "x" : 1.0,
+      "y" : 0.0
+    }, {
+      "type" : "Through",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 1.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 1.0
+    }, {
+      "type" : "TwoDown",
+      "x" : 4.5,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 5.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 5.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 5.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 5.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 6.0,
+      "y" : 1.0
+    }
+  ]
+}

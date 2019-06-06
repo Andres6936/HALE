@@ -1,0 +1,25 @@
+{
+  "name" : "Freeze Trap",
+  "description" : "A trap that does freezing damage as well as slowing down its target.  The amount of the damage and the duration of the freeze effect is dependant on the quality of the trap.",
+  "script" : "items/freezeTrap",
+  "class" : "Trap",
+  "icon" : {
+    "sprite" : "items/T_ice",
+    "color" : "#ffffffff"
+  },
+  "value" : 20000,
+  "weight" : 2000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "Place Trap",
+  "useAP" : 8000,
+  "defaultQuality" : "Good",
+  "damageType" : "Cold",
+  "minDamage" : 8,
+  "maxDamage" : 18,
+  "findDifficulty" : 90,
+  "placeDifficulty" : 100,
+  "disarmDifficulty" : 105,
+  "recoverDifficulty" : 110,
+  "reflexDifficulty" : 105
+}

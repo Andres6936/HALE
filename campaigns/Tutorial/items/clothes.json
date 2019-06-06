@@ -1,0 +1,19 @@
+{ "class" : "Armor",
+  "name" : "Clothes",
+  "icon" : {
+    "sprite" : "items/A_Clothing02",
+	"color" : "#ffffffff"
+  },
+  
+  "subIcon" : {
+    "sprite" : "subIcons/armor-11",
+	"color" : "#ffffffff"
+  },
+  
+  "description" : "A basic set of clothing.",
+  
+  "value" : 500,
+  
+  "type" : "Armor",
+  "armorType" : "None"
+}

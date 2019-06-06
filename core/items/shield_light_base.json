@@ -1,0 +1,24 @@
+{
+  "name" : "Light Shield",
+  "description" : "A small, lightweight wooden shield, providing some defense without sacrificing much mobility.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/E_Wood02",
+    "color" : "#ffffffff"
+  },
+  "value" : 8000,
+  "weight" : 2000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Shield",
+  "subIcon" : {
+    "sprite" : "subIcons/shield-smallshield01",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Shield",
+  "armorClass" : 10,
+  "armorPenalty" : 8,
+  "movementPenalty" : 0,
+  "shieldAttackPenalty" : 0
+}

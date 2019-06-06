@@ -1,0 +1,23 @@
+{
+  "name" : "Leather Gloves",
+  "description" : "Gloves made of sturdy leather to protect the wearer's hands.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/Ac_Gloves01",
+    "color" : "#ffffffff"
+  },
+  "value" : 1700,
+  "weight" : 400,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Gloves",
+  "subIcon" : {
+    "sprite" : "subIcons/gloves-02",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Light",
+  "armorClass" : 2,
+  "armorPenalty" : 1,
+  "movementPenalty" : 0
+}

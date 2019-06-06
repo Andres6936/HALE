@@ -1,0 +1,13 @@
+{
+  "name" : "Block of Wood",
+  "description" : "A block of wood, useful in crafting various items.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_BarBrown",
+    "color" : "#ffa3844f"
+  },
+  "value" : 4000,
+  "weight" : 2000,
+  "isIngredient" : true,
+  "isQuest" : false
+}

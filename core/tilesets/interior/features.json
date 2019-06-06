@@ -1,0 +1,27 @@
+{
+  "source" : "features",
+  "images" : {
+    "chair-ne" : [ 0, 0, 72, 72 ],
+    "chair-nw" : [ 72, 0, 72, 72 ],
+    "chair-se" : [ 144, 0, 72, 72 ],
+    "chair-sw" : [ 216, 0, 72, 72 ],
+    "table" : [ 288, 0, 72, 72 ],
+    "bookshelf-empty" : [ 0, 72, 72, 72 ],
+    "bookshelf" : [ 72, 72, 72, 72 ],
+    "tavern-counter" : [ 144, 72, 72, 72 ],
+    "bookshelf2-empty" : [ 0, 144, 72, 72 ],
+    "bookshelf2" : [ 72, 144, 72, 72 ],
+    "crate" : [ 144, 144, 72, 72 ],
+    "barrel" : [ 0, 216, 72, 72 ],
+    "barrels" : [ 72, 216, 72, 72 ],
+    "archery-target" : [ 144, 216, 72, 72 ],
+    "practice-dummy" : [ 0, 288, 72, 72 ],
+    "jar-large" : [ 72, 288, 72, 72 ],
+    "jar-small" : [ 144, 288, 72, 72 ],
+    "bed" : [ 432, 0, 108, 108 ],
+    "tavern-counter2" : [ 230, 172, 130, 130 ],
+    "table-set" : [ 216, 72, 100, 100 ],
+    "door-ne" : [ 374, 172, 72, 76 ],
+    "door-nw" : [ 446, 172, 72, 76 ]
+  }
+}

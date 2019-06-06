@@ -1,0 +1,10 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addDamageImmunity('Slashing', 50); parent.applyEffect(effect); }",
+  "name" : "Slashing Immunity 50%",
+  "type" : "Racial Abilities",
+  "icon" : {
+    "sprite" : "icons/naturalArmor"
+  },
+  "description" : "Some creatures are naturally resistant to slashing weapons.",
+  "isActivateable" : false
+}

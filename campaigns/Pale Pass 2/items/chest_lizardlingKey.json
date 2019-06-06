@@ -1,0 +1,21 @@
+{
+  "name" : "Chest",
+  "description" : "A chest that can hold a variety of items within.",
+  "class" : "Container",
+  "closedIcon" : {
+    "sprite" : "items/C_Chest03Closed"
+  },
+  "openIcon" : {
+    "sprite" : "items/C_Chest03Open"
+  },
+  "isWorkbench" : false,
+  "loot" : [
+    {
+      "id" : "LootLizardling",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

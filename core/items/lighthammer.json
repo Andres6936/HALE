@@ -1,0 +1,32 @@
+{
+  "name" : "Light Hammer",
+  "description" : "A small hammer that does crushing damage, suitable for use as an offhand weapon.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Mace003",
+    "color" : "#ffffffff"
+  },
+  "value" : 13000,
+  "weight" : 2400,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-light-hammer01",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "Light",
+  "baseWeapon" : "Light Hammer",
+  "threatensAoOs" : true,
+  "damageType" : "Blunt",
+  "minDamage" : 1,
+  "maxDamage" : 5,
+  "criticalThreat" : 93,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

@@ -1,0 +1,46 @@
+{
+  "externalScript" : "spells/regeneration",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 2,
+  "name" : "Regeneration",
+  "type" : "Restoration",
+  "icon" : {
+    "sprite" : "icons/regeneration"
+  },
+  "description" : "A targeted friendly creature is touched by the caster.  Each round for the next 5 rounds, the creature is healed for an amount such that the total healing is four to eight hit points per caster level.",
+  "upgrades" : [
+    { "ability" : "MassRegeneration",
+      "description" : "With Mass Regeneration, all allies within 4 hexes are now affected.",
+      "override" : true
+    },
+    { "ability" : "MonstrousRegeneration",
+      "description" : " With Monstrous Regeneration, the total hit points healed is increased to one to twelve hit points per caster level."}
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Restoration",
+  "isFixed" : true,
+  "cooldown" : 10,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 25,
+    "priority" : 10,
+    "actionType" : "Heal",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Cure"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 4
+      }
+    ]
+  }
+}

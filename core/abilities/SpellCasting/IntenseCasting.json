@@ -1,0 +1,28 @@
+{
+  "externalScript" : "abilities/intenseCasting",
+  "name" : "Intense Casting",
+  "type" : "Spell Casting",
+  "icon" : {
+    "sprite" : "icons/intenseCasting"
+  },
+  "description" : "You enter a state where you push the power of every spell you cast to the limit, increasing spell damage, spell healing, and spell duration.  However, this causes you to suffer increased spell failure.  You can select a damage, healing, and duration bonus of 5, 10, or 15 percent for a corresponding spell failure penalty of 10, 15, or 20 percent.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : true,
+  "isCancelable" : true,
+  "cooldown" : 0,
+  "ai" : {
+    "power" : 30,
+    "priority" : 10,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "MeleeCasting", "ProficientCasting"
+    ]
+  }
+}

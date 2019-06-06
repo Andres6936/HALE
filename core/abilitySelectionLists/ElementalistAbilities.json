@@ -1,0 +1,64 @@
+{
+  "name" : "Elementalist",
+  "abilities" : {
+    "FireMage" : {
+      "x" : 0.5,
+      "y" : 0.0
+    },
+    "BurningFlames" : {
+      "x" : 0.0,
+      "y" : 1.0
+    },
+    "IceMage" : {
+      "x" : 2.0,
+      "y" : 0.0
+    },
+    "LightningMage" : {
+      "x" : 3.5,
+      "y" : 0.0
+    },
+    "DisablingLightning" : {
+      "x" : 4.0,
+      "y" : 1.0
+    },
+    "ElementalDefense" : {
+      "x" : 5.0,
+      "y" : 1.0
+    },
+    "ElementalMastery" : {
+      "x" : 2.0,
+      "y" : 2.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "TwoDown",
+      "x" : 0.5,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 0.0
+    }, {
+      "type" : "TwoDown",
+      "x" : 3.5,
+      "y" : 0.0
+    }, {
+      "type" : "ThreeUp",
+      "x" : 2.0,
+      "y" : 2.0
+    }, {
+      "type" : "Through",
+      "x" : 1.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 2.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 3.0,
+      "y" : 1.0
+    }
+  ]
+}

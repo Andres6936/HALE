@@ -1,0 +1,22 @@
+{
+  "name" : "Robe",
+  "description" : "A robe commonly worn by mages.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/A_Clothing03",
+    "color" : "#ffffffff"
+  },
+  "value" : 1200,
+  "weight" : 1000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Armor",
+  "subIcon" : {
+    "sprite" : "subIcons/armor-08",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "None",
+  "armorClass" : 0,
+  "armorPenalty" : 0,
+  "movementPenalty" : 0
+}

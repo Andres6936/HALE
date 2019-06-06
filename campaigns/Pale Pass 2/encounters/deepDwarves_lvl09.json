@@ -1,0 +1,42 @@
+{
+  "respawnTime" : 24,
+  "radius" : 2,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 3,
+  "maxRandomCreatures" : 5,
+  "creatures" : [
+    {
+      "id" : "deepDwarf",
+      "x" : -1,
+      "y" : -2
+    }, {
+      "id" : "deepDwarf02",
+      "x" : 0,
+      "y" : -2
+    }, {
+      "id" : "deepDwarf03",
+      "x" : -2,
+      "y" : -1
+    }, {
+      "id" : "deepDwarf04",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "deepDwarf05",
+      "x" : 0,
+      "y" : -1
+    }, {
+      "id" : "deepDwarfRanged",
+      "x" : 1,
+      "y" : -2
+    }, {
+      "id" : "deepDwarf02Ranged",
+      "x" : 2,
+      "y" : -1
+    }, {
+      "id" : "deepDwarf03Ranged",
+      "x" : 1,
+      "y" : -1
+    }
+  ]
+}

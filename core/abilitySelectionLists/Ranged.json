@@ -1,0 +1,84 @@
+{
+  "name" : "Ranged",
+  "abilities" : {
+    "RapidShot" : {
+      "x" : 1.0,
+      "y" : 0.0
+    },
+    "PiercingShot" : {
+      "x" : 0.0,
+      "y" : 2.0
+    },
+    "CripplingShot" : {
+      "x" : 1.0,
+      "y" : 1.0
+    },
+    "DevastatingShot" : {
+      "x" : 1.0,
+      "y" : 3.0
+    },
+    "MultiShot" : {
+      "x" : 2.0,
+      "y" : 1.0
+    },
+    "Scattershot" : {
+      "x" : 2.0,
+      "y" : 3.0
+    },
+    "PointBlankShot" : {
+      "x" : 3.0,
+      "y" : 0.5
+    },
+    "PreciseShot" : {
+      "x" : 4.0,
+      "y" : 0.0
+    },
+    "Longshot" : {
+      "x" : 4.0,
+      "y" : 1.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "ThreeDown",
+      "x" : 1.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "Through",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 2.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 0.0
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name" : "Crossbow",
+  "description" : "Creates a crossbow. The quality is dependant on your Craft Weapons skill.",
+  "skill" : "CraftWeapons",
+  "skillRankRequirement" : 25,
+  "ingredients" : {
+    "bar_iron" : 1,
+    "bar_wood" : 1,
+    "coal" : 3,
+    "wire" : 2
+  },
+  "result" : {
+    "id" : "crossbow",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 20
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 40
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 60
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 80
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 100
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 120
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 135
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 155
+      }
+    ]
+  }
+}

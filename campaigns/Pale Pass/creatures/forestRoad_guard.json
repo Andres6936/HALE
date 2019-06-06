@@ -1,0 +1,65 @@
+{
+  "name" : "Guard",
+  "gender" : "Male",
+  "race" : "HumanOnlyHandSubIcons",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/human10",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 13,
+    "dexterity" : 10,
+    "constitution" : 11,
+    "intelligence" : 9,
+    "wisdom" : 10,
+    "charisma" : 9
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 2,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "longsword",
+        "quality" : "Decent"
+      },
+      "OffHand" : {
+        "id" : "shield_light_base",
+        "quality" : "Mediocre"
+      },
+      "Armor" : {
+        "id" : "armor_mail_base",
+        "quality" : "Mediocre"
+      },
+      "Gloves" : {
+        "id" : "gloves_leather_base",
+        "quality" : "Mediocre"
+      },
+      "Helmet" : {
+        "id" : "helmet_mail_base",
+        "quality" : "Mediocre"
+      },
+      "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Mediocre"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  }
+}

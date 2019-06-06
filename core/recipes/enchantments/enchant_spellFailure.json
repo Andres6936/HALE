@@ -1,0 +1,52 @@
+{
+  "name" : "Enhance Spell Success",
+  "description" : "Adds an spell success bonus to an item.  The amount of the bonus depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 25,
+  "ingredients" : {
+    "bar_gold" : 1,
+    "crystal_green" : 2
+  },
+  "result" : {
+    "postfix" : " of Casting Success",
+    "ingredientItemTypes" : [ "Gloves", "Amulet", "Cloak" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_spellFailure"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 25,
+		"valueModifier" : 170,
+        "enchantment" : "entity.addBonus('SpellFailure',  4);"
+      }, {
+        "skillRankRequirement" : 45,
+		"valueModifier" : 200,
+        "enchantment" : "entity.addBonus('SpellFailure',  8);"
+      }, {
+        "skillRankRequirement" : 55,
+		"valueModifier" : 215,
+        "enchantment" : "entity.addBonus('SpellFailure',  12);"
+      }, {
+        "skillRankRequirement" : 85,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addBonus('SpellFailure',  16);"
+      }, {
+        "skillRankRequirement" : 105,
+		"valueModifier" : 245,
+        "enchantment" : "entity.addBonus('SpellFailure',  20);"
+      }, {
+        "skillRankRequirement" : 125,
+		"valueModifier" : 260,
+        "enchantment" : "entity.addBonus('SpellFailure',  24);"
+      }, {
+        "skillRankRequirement" : 145,
+		"valueModifier" : 275,
+        "enchantment" : "entity.addBonus('SpellFailure',  28);"
+      }, {
+        "skillRankRequirement" : 165,
+		"valueModifier" : 290,
+        "enchantment" : "entity.addBonus('SpellFailure',  32);"
+      }
+    ]
+  }
+}

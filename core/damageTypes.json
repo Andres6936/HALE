@@ -1,0 +1,19 @@
+{
+	"comment" : "Note that 'Physical' below is the 'all physical' damage type and is treated specially in the code"
+
+	"Physical" : "Physical",
+
+	"Slashing" : "Physical",
+	"Piercing" : "Physical",
+	"Blunt"    : "Physical",
+
+	"Acid"       : "Energy",
+	"Cold"       : "Energy",
+	"Electrical" : "Energy",
+	"Fire"       : "Energy",
+	"Sonic"      : "Energy",
+	"Force"      : "Energy",
+	"Divine"     : "Energy",
+	"Poison"     : "Energy",
+	"Effect"     : "Energy"
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "Greatsword",
+  "description" : "A sword too large to use in a single hand, this weapon does tremendous damage.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Sword006",
+    "color" : "#ffffffff"
+  },
+  "value" : 50000,
+  "weight" : 4000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-sword07",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "TwoHanded",
+  "baseWeapon" : "Greatsword",
+  "threatensAoOs" : true,
+  "damageType" : "Slashing",
+  "minDamage" : 3,
+  "maxDamage" : 12,
+  "criticalThreat" : 91,
+  "criticalMultiplier" : 2,
+  "attackCost" : 4200,
+  "rangePenalty" : 0
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "Paralyze",
+  "type" : "Enchantment",
+  "icon" : {
+    "sprite" : "icons/paralyze"
+  },
+  "description" : "Paralyze further upgrades your Slow ability.  Upon failing its mental resistance check, the target creature becomes paralyzed for the duration of the spell.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Sleep"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

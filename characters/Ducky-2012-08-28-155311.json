@@ -1,0 +1,185 @@
+{
+  "name" : "Ducky",
+  "isPregenerated" : true,
+  "gender" : "Female",
+  "race" : "Human",
+  "portrait" : "Human\/mage+female",
+  "icon" : {
+    "skinColor" : "#fff6d39b",
+    "clothingColor" : "#ffff00ff",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons\/hair013",
+        "color" : "#ffee7600"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 13,
+    "constitution" : 13,
+    "intelligence" : 18,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Alchemy" : 35,
+    "Enchanting" : 35,
+    "Search" : 20
+  },
+  "abilities" : [
+    {
+      "id" : "Summon",
+      "levelObtained" : 5
+    }, {
+      "id" : "Shield",
+      "levelObtained" : 3
+    }, {
+      "id" : "FastSpellRecovery1",
+      "levelObtained" : 5
+    }, {
+      "id" : "ProficientCasting",
+      "levelObtained" : 2
+    }, {
+      "id" : "Crush",
+      "levelObtained" : 1
+    }, {
+      "id" : "FlamingFingers",
+      "levelObtained" : 4
+    }, {
+      "id" : "Firebolt",
+      "levelObtained" : 2
+    }, {
+      "id" : "Haste",
+      "levelObtained" : 7
+    }, {
+      "id" : "Chameleon",
+      "levelObtained" : 6
+    }
+  ],
+  "roles" : {
+    "baseRoleID" : "Mage",
+    "Mage" : 7
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "crossbow",
+        "quality" : "Decent"
+      },
+      "Armor" : {
+        "id" : "armor_robe-0x92f4ead9",
+      },
+      "Helmet" : {
+        "id" : "wizardHat-0x832299ce"
+      },
+	  "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Decent"
+      },
+      "Amulet" : {
+        "id" : "amulet-0xbf3577d3"
+      },
+      "Quiver" : {
+        "id" : "bolt"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "quarterstaff",
+        "quality" : "Decent",
+        "quantity" : 1
+      }, {
+        "id" : "bolt",
+        "quantity" : 87
+      }, {
+        "id" : "potionHealing",
+        "quality" : "Decent",
+        "quantity" : 1
+      }
+    ],
+    "createdItems" : [
+	  {
+        "baseItemID" : "armor_robe",
+        "createdItemID" : "armor_robe-0x92f4ead9",
+        "scripts" : [
+          "entity.addBonus('ArmorClass', 'Deflection',  2);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Defense",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_armor",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "wizardHat",
+        "createdItemID" : "wizardHat-0x832299ce",
+        "scripts" : [
+          "entity.addBonus('ConcealmentIgnoring',  5);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of True Sight",
+        "valueModifier" : 160,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_concealmentIgnoring",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "amulet",
+        "createdItemID" : "amulet-0xbf3577d3",
+        "scripts" : [
+          "entity.addBonus('SpellCooldown',  1);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Fast Casting",
+        "valueModifier" : 170,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_spellCooldown",
+          "color" : "#ffffffff"
+        }
+      }
+    ]
+  },
+  "unspentSkillPoints" : 1,
+  "experiencePoints" : 3124,
+  "quickbar" : {
+    "lastViewSet" : 0,
+    "slots" : {
+      "slot0" : {
+        "type" : "use",
+        "itemID" : "potionHealing",
+        "itemQuality" : "Decent"
+      },
+      "slot1" : {
+        "type" : "ability",
+        "abilityID" : "Crush"
+      },
+      "slot2" : {
+        "type" : "ability",
+        "abilityID" : "Firebolt"
+      },
+      "slot3" : {
+        "type" : "ability",
+        "abilityID" : "FlamingFingers"
+      },
+      "slot4" : {
+        "type" : "ability",
+        "abilityID" : "Shield"
+      },
+      "slot5" : {
+        "type" : "ability",
+        "abilityID" : "Summon"
+      },
+      "slot6" : {
+        "type" : "ability",
+        "abilityID" : "Chameleon"
+      },
+      "slot7" : {
+        "type" : "ability",
+        "abilityID" : "Haste"
+      }
+    }
+  }
+}

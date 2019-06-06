@@ -1,0 +1,26 @@
+{
+  "name" : "Deadly Vines",
+  "type" : "Conjuration",
+  "icon" : {
+    "sprite" : "icons/deadlyVines"
+  },
+  "description" : "Deadly Vines upgrades your tanglefoot spell.  Hostile creatures in the area of effect are now thrashed with vines covered in razor sharp spikes while in the area of effect, taking 1 to 6 plus one per four caster levels damage each round.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40,
+    "actionType" : "Debuff",
+    "groupType" : "Multiple",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Tanglefoot"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

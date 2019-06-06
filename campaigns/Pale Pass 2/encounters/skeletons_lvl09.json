@@ -1,0 +1,58 @@
+{
+  "respawnTime" : 24,
+  "radius" : 2,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 4,
+  "maxRandomCreatures" : 5,
+  "creatures" : [
+    {
+      "id" : "skeleton05",
+      "x" : 0,
+      "y" : 2
+    }, {
+      "id" : "skeleton06",
+      "x" : 1,
+      "y" : 1
+    }, {
+      "id" : "skeleton07",
+      "x" : 2,
+      "y" : 1
+    }, {
+      "id" : "skeleton08",
+      "x" : -1,
+      "y" : 1
+    }, {
+      "id" : "skeleton",
+      "x" : -2,
+      "y" : -1
+    }, {
+      "id" : "skeleton",
+      "x" : -1,
+      "y" : -2
+    }, {
+      "id" : "skeleton02",
+      "x" : 0,
+      "y" : -2
+    }, {
+      "id" : "skeleton02",
+      "x" : -2,
+      "y" : 0
+    }, {
+      "id" : "skeleton03",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "skeleton03",
+      "x" : 0,
+      "y" : -1
+    }, {
+      "id" : "skeleton04",
+      "x" : 1,
+      "y" : -2
+    }, {
+      "id" : "skeleton04",
+      "x" : 1,
+      "y" : -1
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{ "templates" :
+  {
+    "startConversation" : {
+	  "types" : [ "Conversation" ],
+	  "function" : "startConversation",
+	  "arguments" : [ "game", "parent", "target", "conversation" ],
+	  "content" : [
+	    "conversation.addText(\"INSERT_TEXT\");",
+		"conversation.addResponse(\"INSERT_RESPONSE\", \"INSERT_FUNCTION\");"
+	  ]
+	},
+	"onExit" : {
+	  "types" : [ "Conversation" ],
+	  "function" : "onExit",
+	  "arguments" : [ "game", "parent", "talker", "conversation" ],
+	  "content" : [
+	    "conversation.exit();"
+	  ]
+	},
+	
+	"startQuest" : {
+	  "types" : [ "Quest" ],
+	  "function" : "startQuest",
+	  "arguments" : [ "game" ],
+	  "content" : [
+	    "var quest = game.getQuestEntry(\"INSERT_NAME\")",
+		"var entry = quest.createSubEntry(\"INSERT_ENTRY_NAME\")",
+		"entry.addText(\"INSERT_TEXT_HERE\")",
+	  ]
+	},
+	
+	"onAreaLoadFirstTime" : {
+	  "types" : [ "Trigger" ],
+	  "function" : "onAreaLoadFirstTime",
+	  "arguments" : [ "game", "area", "transition" ]
+	},
+	"onAreaLoad" : {
+	  "types" : [ "Trigger" ],
+	  "function" : "onAreaLoad",
+	  "arguments" : [ "game", "area", "transition" ]
+	},
+	"onAreaExit" : {
+	  "types" : [ "Trigger" ],
+	  "function" : "onAreaExit",
+	  "arguments" : [ "game", "area", "transition" ]
+	},
+	"onPlayerEnterFirstTime" : {
+	  "types" : [ "Trigger" ],
+	  "function" : "onPlayerEnterFirstTime",
+	  "arguments" : [ "game", "player", "trigger" ]
+	},
+	"onPlayerEnter" : {
+	  "types" : [ "Trigger" ],
+	  "function" : "onPlayerEnter",
+	  "arguments" : [ "game", "player", "trigger" ]
+	},
+	"onPlayerExit" : {
+	  "types" : [ "Trigger" ],
+	  "function" : "onPlayerExit",
+	  "arguments" : [ "game", "player", "trigger" ]
+	},
+	
+	"canUse" : {
+	  "types" : [ "Item" ],
+	  "function" : "canUse",
+	  "arguments" : [ "game", "item", "parent" ]
+	},
+	"onUse" : {
+	  "types" : [ "Item" ],
+	  "function" : "onUse",
+	  "arguments" : [ "game", "item", "parent" ]
+	},
+	"onSpringTrap" : {
+	  "types" : [ "Item" ],
+	  "function" : "onSpringTrap",
+	  "arguments" : [ "game", "trap", "target" ]
+	},
+	"onTrapReflexFailed" : {
+	  "types" : [ "Item" ],
+	  "function" : "onTrapReflexFailed",
+	  "arguments" : [ "game", "trap", "target" ]
+	},
+	"onOpen" : {
+	  "types" : [ "Item" ],
+	  "function" : "onOpen",
+	  "arguments" : [ "game", "item", "opener" ]
+	},
+	"onClose" : {
+	  "types" : [ "Item" ],
+	  "function" : "onClose",
+	  "arguments" : [ "game", "item", "opener" ]
+	},
+	"onUnlock" : {
+	  "types" : [ "Item" ],
+	  "function" : "onUnlock",
+	  "arguments" : [ "game", "item", "unlocker" ]
+	},
+	"onAttack" : {
+	  "types" : [ "Item" ],
+	  "function" : "onAttack",
+	  "arguments" : [ "game", "weapon", "attack" ]
+	},
+	"onAttackHit" : {
+	  "types" : [ "Item" ],
+	  "function" : "onAttackHit",
+	  "arguments" : [ "game", "weapon", "attack", "damage" ]
+	},
+	"onAddItem" : {
+	  "types" : [ "Item" ],
+	  "function" : "onAddItem",
+	  "arguments" : [ "game", "parent", "item" ]
+	},
+	"onEquipItem" : {
+	  "types" : [ "Item" ],
+	  "function" : "onEquipItem",
+	  "arguments" : [ "game", "parent", "item" ]
+	},
+	"onUnequipItem" : {
+	  "types" : [ "Item" ],
+	  "function" : "onUnequipItem",
+	  "arguments" : [ "game", "parent", "item" ]
+	},
+	
+	"Healing Potion" : {
+	  "types" : [ "Item" ],
+	  "function" : "onUse",
+	  "arguments" : [ "game", "item", "target" ],
+	  "content" : [
+	    "var quality = item.getQuality().getModifier() + 100;",
+		"var hp = game.dice().d( (10 * quality) / 100, 3);",
+		"",
+		"game.addMessage(\"blue\", target.getName() + \" drinks a potion.\");",
+		"",
+		"target.healDamage(hp);",
+		"target.inventory.remove(item);",
+		"game.ai.provokeAttacksOfOpportunity(target);"
+	  ]
+	},
+	"Charisma Potion" : {
+	  "types" : [ "Item" ],
+	  "function" : "onUse",
+	  "arguments" : [ "game", "item", "target" ],
+	  "content" : [
+	    "var quality = item.getQuality().getModifier() + 100;",
+		"var chaBonus = parseInt(3 * quality / 100);"
+		"",
+		"game.addMessage(\"blue\", target.getName() + \" drinks a potion.\");",
+		"",
+		"var effect = target.createEffect();",
+		"effect.setTitle(item.getName());",
+		"effect.setDuration(10 + quality / 100);",
+		"effect.getBonuses().addBonus('Cha', chaBonus);"
+		"target.applyEffect(effect);",
+		"",
+		"target.inventory.remove(item);",
+		"game.ai.provokeAttacksOfOpportunity(target);"
+	  ]
+	},
+	"Book" : {
+	  "types" : [ "Item" ],
+	  "function" : "onUse",
+	  "arguments" : [ "game", "item", "target" ],
+	  "content" : [
+	    "item.startConversation(target);"
+	  ]
+	},
+	"Scroll canUse" : {
+	  "types" : [ "Item" ],
+	  "function" : "canUse",
+	  "arguments" : [ "game", "item", "target" ],
+	  "content" : [
+	    "return target.timer.canActivateAbility(\"INSERT_ABILITY_ID\");"
+	  ]
+	},
+	"Scroll onUse" : {
+	  "types" : [ "Item" ],
+	  "function" : "onUse",
+	  "arguments" : [ "game", "item", "target" ],
+	  "content" : [
+	    "var quality = item.getQuality().getModifier() + 100;",
+		"var caster = game.createScrollCaster(\"INSERT_ABILITY_ID\")",
+		"",
+		"caster.setItemToUse(item);",
+		"caster.setParent(target);",
+		"caster.setCasterLevel(quality / 25);",
+		"caster.activate();"
+	  ]
+	},
+	"Trap canUse" : {
+	  "types" : [ "Item" ],
+	  "function" : "canUse",
+	  "arguments" : [ "game", "item", "target" ],
+	  "content" : [
+	    "return trap.canAttemptPlace(parent);"
+	  ]
+	},
+	"Trap onUse" : {
+	  "types" : [ "Item" ],
+	  "function" : "onUse",
+	  "arguments" : [ "game", "item", "target" ],
+	  "content" : [
+	    "trap.attemptPlace(parent);"
+	  ]
+	},
+	"Run AI Turn" : {
+	  "types" : [ "AI" ],
+	  "function" : "runTurn",
+	  "arguments" : [ "game", "parent" ]
+	},
+	"Attack of Opportunity" : {
+	  "types" : [ "AI" ],
+	  "function" : "takeAttackOfOpportunity",
+	  "arguments" : [ "game", "parent", "target" ],
+	  "content" : [ "return true;" ]
+	},
+	"onCreatureDeath" : {
+	  "types" : [ "AI" ],
+	  "function" : "onCreatureDeath",
+	  "arguments" : [ "game", "parent" ]
+	}
+  },
+  "insertable" : {
+    "Add a scaled XP award" : {
+	  "types" : [ "Trigger", "Quest", "Conversation", "AI" ],
+	  "content" : [ "game.addPartyXP(INSERT_NUMBER * game.ruleset().getValue(\"EncounterXPFactor\"));" ]
+	}
+    "Start a specific conversation" : {
+	  "types" : [ "Trigger", "Quest", "Item", "AI" ],
+	  "content" : [ "game.startConversation(INSERT_PARENT, INSERT_TARGET, \"INSERT_SCRIPT_ID\");" ]
+	},
+    "Scroll the view to center on a Creature" : {
+	  "types" : [ "Conversation", "Trigger", "Quest" ],
+	  "content" : [ "game.scrollToCreature(\"INSERT_CREATURE_ID\");" ]
+	},
+    "Store a user variable with the parent" : {
+	  "types" : [ "Conversation", "Item", "Trigger", "AI" ],
+	  "content" : [ "parent.put(\"INSERT_VARIABLE_ID\", \"INSERT_VARIABLE_VALUE\");" ]
+	},
+	"Get a user variable from the parent" : {
+	  "types" : [ "Conversation", "Item", "Trigger", "AI" ],
+	  "content" : [ "parent.get(\"INSERT_VARIABLE_ID\");" ]
+	},
+	"Store a user variable with the quest" : {
+	  "types" : [ "Quest" ],
+	  "content" : [ "quest.put(\"INSERT_VARIABLE_ID\", \"INSERT_VARIABLE_VALUE\");" ]
+	},
+	"Get a user variable from the quest" : {
+	  "types" : [ "Quest" ],
+	  "content" : [ "quest.get(\"INSERT_VARIABLE_ID\");" ]
+	},
+	"Add paragraph of text" : {
+	  "types" : [ "Conversation" ],
+	  "content" : [ "conversation.addText(\"INSERT_TEXT\");" ]
+	},
+	"Add unformatted text" : {
+	  "types" : [ "Conversation" ],
+	  "content" : [ "conversation.addString(\"INSERT_TEXT\");" ]
+	},
+	"Add a response option" : {
+	  "types" : [ "Conversation" ],
+	  "content" : [ "conversation.addResponse(\"INSERT_TEXT\", \"INSERT_FUNCTION_CALLBACK\");" ]
+	},
+	"Add a formatted response option" : {
+	  "types" : [ "Conversation" ],
+	  "content" : [ "conversation.addResponse(\"<span style=\\\"font-family: red\\\">INSERT_TEXT</span>\", \"INSERT_FUNCTION_CALLBACK\");" ]
+	},
+	"Exit the conversation" : {
+	  "types" : [ "Conversation" ],
+	  "content" : [ "conversation.exit();" ]
+	},
+	"Show a merchant" : {
+	  "types" : [ "Conversation", "Trigger", "Item", "Quest" ],
+	  "content" : [ "game.showMerchant(\"INSERT_MERCHANT_ID\");" ]
+	},
+	"Remove an item from the party" : {
+	  "types" : [ "Conversation", "Trigger", "Quest", "AI" ],
+	  "content" : [ "game.getParty().removeItem(\"INSERT_ITEM_ID\");" ]
+	},
+	"Run an external script" : {
+	  "types" : [ "Conversation", "Trigger", "Item", "Quest", "AI" ],
+	  "content" : [ "game.runExternalScript(\"INSERT_SCRIPT_ID\", \"INSERT_FUNCTION_ID\");" ]
+	},
+	"Run an external script after a delay" : {
+	  "types" : [ "Conversation", "Trigger", "Item", "Quest", "AI" ],
+	  "content" : [ "game.runExternalScriptWait(\"INSERT_SCRIPT_ID\", \"INSERT_FUNCTION_ID\", INSERT_TIME_IN_SECONDS);" ]
+	},
+	"Player Conversation check" : {
+	  "types" : [ "Conversation" ],
+	  "content" : [ "var check = game.campaign().getBestPartySkillCheck(\"Speech\");" ]
+	},
+	"Make the creature hostile" : {
+	  "types" : [ "Conversation", "AI" ],
+	  "content" : [ "parent.getEncounter().setFaction(\"Hostile\");" ]
+	},
+	"Get or create a quest entry" : {
+	  "types" : [ "Conversation", "Quest" ],
+	  "content" : [ "var quest = game.getQuestEntry(\"INSERT_QUEST_ID\");" ]
+	},
+	"Get a quest sub entry" : {
+	  "types" : [ "Conversation", "Quest" ],
+	  "content" : [ "var subQuest = quest.getSubEntry(\"INSERT_SUBQUEST_ID\");" ]
+	},
+	"Create a quest sub entry" : {
+	  "types" : [ "Quest" ],
+	  "content" : [ "var subQuest = quest.createSubEntry(\"INSERT_SUBENTRY_ID\");" ]
+	},
+	"Check for the existance of a quest sub entry" : {
+	  "types" : [ "Quest" ],
+	  "content" : [ "quest.hasSubEntry(\"INSERT_SUBQUEST_ID\")" ]
+	},
+	"Add Text to a sub entry" : {
+	  "types" : [ "Quest" ],
+	  "content" : [ "subQuest.addText(\"INSERT_SUBQUEST_TEXT\");" ]
+	},
+	"Add external text to a sub entry" : {
+	  "types" : [ "Quest" ],
+	  "content" : [ "subQuest.addExternalText(\"INSERT_FILE_OR_RESOURCE_NAME\");" ]
+	},
+	"Mark a quest as completed" : {
+	  "types" : [ "Quest" ],
+	  "content" : [ "quest.setCompleted();" ]
+	},
+	"Mark all quest sub entries completed" : {
+	  "types" : [ "Quest" ],
+	  "content" : [ "quest.setCurrentSubEntriesCompleted();" ]
+	},
+	"Temporarily show an area" : {
+		"types" : [ "Conversation", "Quest", "Trigger" ],
+		"content" : [ "game.revealArea(INSERT_X_COORDINATE, INSERT_Y_COORDINATE, INSERT_RADIUS, INSERT_DURATION);" ]
+	},
+	"Make a transition activateable" : {
+	  "types" : [ "Conversation", "Quest", "Trigger", "Item", "AI" ],
+	  "content" : [ "game.activateTransition(\"INSERT_TRANSITION_ID\");" ]
+	},
+	"Reveal a world map location" : {
+	  "types" : [ "Conversation", "Quest", "Trigger", "Item", "AI" ],
+	  "content" : [ "game.revealWorldMapLocation(\"INSERT_LOCATION_ID\");" ]
+	},
+	"Show an HTML Popup" : {
+	  "types" : [ "Quest", "Trigger", "AI" ],
+	  "content" : [
+	    "var popup = game.createHTMLPopup(\"INSERT_FILE_OR_RESOURCE_NAME\");",
+		"popup.setSize(INSERT_WIDTH, INSERT_HEIGHT);",
+		"popup.show();"
+	  ]
+	},
+	"Show a cutscene" : {
+	  "types" : [ "Trigger", "Quest", "AI" ],
+	  "content" : [ "game.showCutscene(\"INSERT_CUTSCENE_ID\")" ]
+	},
+	"Find an entity by ID" : {
+	  "types" : [ "Quest", "Trigger", "Conversation", "AI" ],
+	  "content" : [ "game.currentArea().getEntityWithID(\"INSERT_ENTITY_ID\");" ]
+	},
+	"Start a conversation with an entity" : {
+	  "types" : [ "Trigger" ],
+	  "content" : [ "game.currentArea().getEntityWithID(\"INSERT_ENTITY_ID\").startConversation(player);" ]
+	}
+	"Add a message" : {
+	  "types" : [ "Quest", "Trigger", "Conversation", "Item", "AI" ]
+	  "content" : [ "game.addMessage(\"INSERT_FONT_COLOR\", \"INSERT_MESSAGE\");" ]
+	}
+  }
+}

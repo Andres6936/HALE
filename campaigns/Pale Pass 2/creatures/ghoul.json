@@ -1,0 +1,59 @@
+{
+  "name" : "Ghoul",
+  "gender" : "Male",
+  "race" : "Zombie",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/ghoul",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 16,
+    "dexterity" : 9,
+    "constitution" : 15,
+    "intelligence" : 3,
+    "wisdom" : 2,
+    "charisma" : 1
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "ColdImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction5",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor20",
+      "levelObtained" : 1
+    }, {
+      "id" : "CriticalHitImmunity",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "UndeadWarrior" : 9
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedGhoul",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name" : "Small Wolf",
+  "gender" : "Male",
+  "race" : "MediumAnimal",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/wolf-small",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 11,
+    "dexterity" : 11,
+    "constitution" : 12,
+    "intelligence" : 3,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Monster" : 1
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "mediumClaw",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name" : "Tower Shield",
+  "description" : "Almost as big as a man, a tower shield provides a large bonus to defense but at the expense of a great deal of mobility and an attack penalty.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/E_Wood04",
+    "color" : "#ffffffff"
+  },
+  "value" : 50000,
+  "weight" : 20000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Shield",
+  "subIcon" : {
+    "sprite" : "subIcons/shield-towershield01",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Tower Shield",
+  "armorClass" : 25,
+  "armorPenalty" : 45,
+  "movementPenalty" : 10,
+  "shieldAttackPenalty" : 10
+}

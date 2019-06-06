@@ -1,0 +1,14 @@
+{
+  "name" : "Merchant's Goods",
+  "description" : "The goods that were stolen from the Merchant on the Forest Road.",
+  "script" : "items/stolenGoods",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Bag",
+    "color" : "#ffffffff"
+  },
+  "value" : 0,
+  "weight" : 10000,
+  "isIngredient" : false,
+  "isQuest" : true,
+}

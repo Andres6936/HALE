@@ -1,0 +1,32 @@
+{
+  "externalScript" : "abilities/stunningBlow",
+  "name" : "Stunning Blow",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/stunningBlow"
+  },
+  "description" : "You attempt a special unarmed strike against a single opponent in melee range.  The attack has the same AP cost as one of your normal attacks.  If the attack suceeds, the enemy must suceed at a Mental Resistance check or be stunned for 2 rounds, unable to take any action.  The difficulty of the check depends on your monk level and Wisdom.",
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : false,
+  "isCancelable" : false,
+  "cooldown" : 3,
+  "actionPointCost" : "Same as an attack",
+  "ai" : {
+    "power" : 15,
+    "priority" : 5,
+    "actionType" : "Damage",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Monk",
+        "level" : 3
+      }
+    ],
+	"abilities" : [ "ImprovedStrike1" ]
+  }
+}

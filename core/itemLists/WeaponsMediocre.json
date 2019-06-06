@@ -1,0 +1,91 @@
+{
+  "enchantmentChance" : 10,
+  "enchantmentSkillModifier" : 0,
+  "items" : [
+    {
+      "id" : "battleaxe",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "club",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "crossbow",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "dagger",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "greataxe",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "greatsword",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "handaxe",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "javelin",
+      "quality" : "Mediocre",
+      "quantity" : 40
+    }, {
+      "id" : "lighthammer",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "longbow",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "longspear",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "longsword",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "mace",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "maul",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "morningstar",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "quarterstaff",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "shortbow",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "shortspear",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "shortSword",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "sling",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "warhammer",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }
+  ]
+}

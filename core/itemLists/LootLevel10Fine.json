@@ -1,0 +1,196 @@
+{
+  "enchantmentChance" : 40,
+  "enchantmentSkillModifier" : 45,
+  "items" : [
+    {
+      "id" : "gem06",
+      "quantity" : 2
+    }, {
+      "id" : "goldRing",
+      "quantity" : 2
+    }, {
+      "id" : "potionHealing",
+      "quality" : "Good",
+      "quantity" : 3
+    }, {
+      "id" : "potionHealing",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "arrow"
+      "quantity" : 50
+    }, {
+      "id" : "bolt"
+      "quantity" : 50
+    }, {
+      "id" : "slingstone"
+      "quantity" : 50
+    }, {
+      "id" : "wizardHat",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "silverRing",
+      "quantity" : 2
+    }, {
+      "id" : "potionCon",
+      "quality" : "Good",
+      "quantity" : 1
+    }, {
+      "id" : "potionStrength",
+      "quality" : "Good",
+      "quantity" : 1
+    }, {
+      "id" : "cloak",
+      "quantity" : 1
+    }, {
+      "id" : "belt",
+      "quantity" : 1
+    }, {
+      "id" : "amulet",
+      "quantity" : 1
+    }, {
+      "id" : "goldRing",
+      "quantity" : 1
+    }, {
+	  "id" : "armor_robe",
+	  "quantity" : 1
+	}, {
+      "id" : "gloves_leather_base",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "gloves_mail_base",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "gloves_plate_base",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "helmet_leather_base",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "helmet_mail_base",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "helmet_plate_base",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "boots_leather_base",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "boots_mail_base",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "boots_plate_base",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "shield_buckler_base",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "shield_light_base",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "shield_heavy_base",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "javelin",
+      "quality" : "Fine",
+      "quantity" : 10
+    }, {
+      "id" : "crossbow",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "longbow",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "shortbow",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "battleaxe",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "club",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "dagger",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "flail",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "greataxe",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "greatsword",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "bastardSword",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "handaxe",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "lighthammer",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "longspear",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "longsword",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "mace",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "maul",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "quarterstaff",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "shortspear",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "shortSword",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "waraxe",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "warhammer",
+      "quality" : "Fine",
+      "quantity" : 1
+    }
+  ]
+}

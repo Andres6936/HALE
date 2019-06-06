@@ -1,0 +1,32 @@
+{
+  "name" : "Mass Paralyze",
+  "type" : "Enchantment",
+  "icon" : {
+    "sprite" : "icons/massParalyze"
+  },
+  "description" : "Mass Paralyze further upgrades your Slow ability.  The spell now affects all hostile targets up to 4 hexes away.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 50,
+    "actionType" : "Debuff",
+    "groupType" : "Multiple",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Paralyze"
+    ],
+    "roles" : [
+      {
+        "id" : "Avenger",
+        "level" : 5
+      }
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 13
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+      { "sprite" : "animations/transition1" },
+      { "sprite" : "animations/transition2" },
+      { "sprite" : "animations/transition3" },
+      { "sprite" : "animations/transition4" },
+      { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "worldMapLocation" : "ChaolDorn",
+  "from" : {
+    "area" : "ChaolDorn",
+    "label" : "Chaol Dorn",
+    "x" : 20,
+    "y" : 26,
+    "partyPositions" : [ [ -2, -1 ], [ -1, -1 ], [ -2, 0 ], [ 0, -1 ] ]
+  },
+  "to" : {
+    "area" : "DungeonLevel1",
+    "label" : "The Dungeon",
+    "x" : 3,
+    "y" : 2,
+    "partyPositions" : [ [ 0, 1 ] ]
+  }
+}

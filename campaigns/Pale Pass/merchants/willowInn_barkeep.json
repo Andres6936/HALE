@@ -1,0 +1,17 @@
+{
+  "name" : "Barkeep",
+  "usesSpeechSkill" : true,
+  "confirmOnExit" : false,
+  "respawnHours" : 48,
+  "buyValuePercentage" : 60,
+  "sellValuePercentage" : 120,
+  "items" : [
+    {
+      "id" : "EquipmentMediocre",
+      "probability" : {
+        "value" : 70,
+        "mode" : "PerItem"
+      }
+    }
+  ]
+}

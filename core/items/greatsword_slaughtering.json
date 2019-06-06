@@ -1,0 +1,34 @@
+{
+  "name" : "Greatsword of Slaughter",
+  "description" : "A huge and powerful greatsword that does bonus damage with every hit.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Sword005",
+    "color" : "#ffffffff"
+  },
+  "value" : 350000,
+  "weight" : 4000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-sword07",
+    "color" : "#ffbbfcf9"
+  },
+  "enchantments" : [
+    "entity.addStandaloneDamageBonus('Slashing', 2, 6); entity.addBonus('WeaponAttack', 40);"
+  ],
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "TwoHanded",
+  "baseWeapon" : "Greatsword",
+  "threatensAoOs" : true,
+  "damageType" : "Slashing",
+  "minDamage" : 5,
+  "maxDamage" : 21,
+  "criticalThreat" : 91,
+  "criticalMultiplier" : 2,
+  "attackCost" : 4200,
+  "rangePenalty" : 0
+}

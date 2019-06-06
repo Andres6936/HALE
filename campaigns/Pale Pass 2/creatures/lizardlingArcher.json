@@ -1,0 +1,85 @@
+{
+  "name" : "Lizardling Archer",
+  "gender" : "Male",
+  "race" : "Lizardling",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/lizardling02",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 11,
+    "dexterity" : 18,
+    "constitution" : 12,
+    "intelligence" : 8,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor20",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 8,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "shortbow",
+        "quality" : "Good"
+      },
+      "Quiver" : {
+        "id" : "arrow"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "arrow"
+        "quantity" : 97
+      }
+    ]
+  },
+  "reward" : [
+    3000, 7000
+  ],
+  "loot" : [
+    {
+      "id" : "LootMagicGood",
+      "probability" : {
+        "value" : 2,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsGood",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

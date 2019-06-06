@@ -1,0 +1,45 @@
+{
+  "externalScript" : "spells/juggernaut",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 3,
+  "name" : "Juggernaut",
+  "type" : "War Wizard Abilities",
+  "icon" : {
+    "sprite" : "icons/juggernaut"
+  },
+  "description" : "The caster becomes a nearly unstoppable engine of melee destruction. He or she gains a bonus of 5 plus one per 2 War Wizard levels to Strength, a 4 per War Wizard level bonus to Attack, a 8 per War Wizard level bonus to Damage, and gains immunity to Immobilization. While Juggernaut is active, the caster suffers a 30 percent Spell Failure penalty.  The effect lasts for 2 rounds plus one per 3 War Wizard levels.",
+  "upgrades" : [
+	  { "ability" : "Destroyer",
+	    "description" : "With Destroyer, all of your attacks do an additional 1 to 2 damage per War Wizard level.  The pure force damage from this ability cannot be resisted."}
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Enchantment",
+  "isFixed" : true,
+  "cooldown" : 8,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 40,
+    "priority" : 10,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "War Wizard",
+        "level" : 2
+      }
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

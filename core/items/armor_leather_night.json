@@ -1,0 +1,26 @@
+{
+  "name" : "Night Armor",
+  "description" : "Well crafted leather armor enchanted for use by a skilled rogue.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/A_Clothing02",
+    "color" : "#ff4b2806"
+  },
+  "value" : 150000,
+  "weight" : 2000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "",
+  "type" : "Armor",
+  "subIcon" : {
+    "sprite" : "subIcons/armor-04",
+    "color" : "#ff4b2806"
+  },
+  "enchantments" : [
+    "entity.addBonus('Dex', 'Enhancement', 1);", "entity.addSkillBonus('Hide', 'Enhancement', 10);"
+  ],
+  "armorType" : "Light",
+  "armorClass" : 10,
+  "armorPenalty" : 2,
+  "movementPenalty" : 0
+}

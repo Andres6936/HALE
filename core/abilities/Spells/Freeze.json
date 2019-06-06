@@ -1,0 +1,39 @@
+{
+  "externalScript" : "spells/freeze",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : true,
+  "spellLevel" : 1,
+  "name" : "Freeze",
+  "type" : "Evocation",
+  "icon" : {
+    "sprite" : "icons/freeze"
+  },
+  "description" : "A single target up to 5 hexes away is attacked with freezing ice.  The target takes 1 to 10 plus 1 per caster level of Cold damage.  In addition, the target must succeed at a Physical Resistance check or suffer an action point penalty of 15 + caster level for 3 rounds.",
+  "upgrades" : [
+      { "ability" : "GlacialWave",
+        "description" : "With Glacial Wave, Freeze now affects all creatures within 5 hexes of the caster.  Targets must succeed at a physical resistance check or be frozen solid (paralyzed) for 2 to 4 rounds.  Even if the check is succesful, each creature suffers an Action Point penalty of 15 plus the caster level as well as taking 6 to 12 plus one per caster level cold damage.  Creatures friendly to the caster take only half damage and do not suffer the other negative effects.",
+        "override" : true }
+  ],
+  "isActivateable" : true,
+  "quickbarGroup" : "Evocation",
+  "isFixed" : true,
+  "cooldown" : 8,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 10,
+    "priority" : 2,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 1
+      }
+    ]
+  }
+}

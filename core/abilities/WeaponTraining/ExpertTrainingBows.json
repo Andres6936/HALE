@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBaseWeaponBonus('Shortbow', 'CriticalChance', 5); effect.getBonuses().addBaseWeaponBonus('Longbow', 'CriticalChance', 5); parent.applyEffect(effect); }",
+  "name" : "Expert Training, Bows",
+  "type" : "Weapon Training",
+  "icon" : {
+    "sprite" : "icons/expertBows"
+  },
+  "description" : "You gain an additional +5 chance to inflict critical hits with shortbows and longbows.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "AdvancedTrainingBows"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 45
+      }
+    ]
+  }
+}

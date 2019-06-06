@@ -1,0 +1,13 @@
+{
+  "name" : "Red Crystal",
+  "description" : "A chunk of rock with red crystals embedded in it, useful for some crafting recipes.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_CrystalRed",
+    "color" : "#ffffffff"
+  },
+  "value" : 2500,
+  "weight" : 400,
+  "isIngredient" : true,
+  "isQuest" : false
+}

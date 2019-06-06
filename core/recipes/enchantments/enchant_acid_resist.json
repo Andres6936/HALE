@@ -1,0 +1,53 @@
+{
+  "name" : "Acid Resistance",
+  "description" : "Adds an acid resistance enchantment to an item.  The amount of the bonus depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 55,
+  "ingredients" : {
+    "bar_silver" : 1,
+    "crystal_green" : 1,
+    "gem02" : 1
+  },
+  "result" : {
+    "postfix" : " of Acid Resistance",
+    "ingredientItemTypes" : [ "Cloak", "Ring", "Belt", "Shield" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_acid"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 30,
+		"valueModifier" : 150,
+        "enchantment" : "entity.addDamageReduction('Acid',  2);"
+      }, {
+        "skillRankRequirement" : 50,
+		"valueModifier" : 170,
+        "enchantment" : "entity.addDamageReduction('Acid',  4);"
+      }, {
+        "skillRankRequirement" : 70,
+		"valueModifier" : 190,
+        "enchantment" : "entity.addDamageReduction('Acid',  6);"
+      }, {
+        "skillRankRequirement" : 90,
+		"valueModifier" : 205,
+        "enchantment" : "entity.addDamageReduction('Acid',  8);"
+      }, {
+        "skillRankRequirement" : 110,
+		"valueModifier" : 220,
+        "enchantment" : "entity.addDamageReduction('Acid',  10);"
+      }, {
+        "skillRankRequirement" : 130,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addDamageReduction('Acid',  12);"
+      }, {
+        "skillRankRequirement" : 150,
+		"valueModifier" : 240,
+        "enchantment" : "entity.addDamageReduction('Acid',  14);"
+      }, {
+        "skillRankRequirement" : 170,
+		"valueModifier" : 250,
+        "enchantment" : "entity.addDamageReduction('Acid',  16);"
+      }
+    ]
+  }
+}

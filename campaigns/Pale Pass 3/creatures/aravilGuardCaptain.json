@@ -1,0 +1,64 @@
+{
+  "name" : "Captain of the Guard",
+  "gender" : "Male",
+  "race" : "Human",
+  "portrait" : "Human/deoran",
+  "conversation" : "conversations/aravilGuardCaptain",
+  "icon" : {
+    "skinColor" : "#fff4f5b6",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair011",
+        "color" : "#ff53412f"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 15,
+    "dexterity" : 11,
+    "constitution" : 13,
+    "intelligence" : 13,
+    "wisdom" : 11,
+    "charisma" : 11
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 17,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "warhammer",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_plate_base",
+        "quality" : "Good"
+      },
+      "Gloves" : {
+        "id" : "gloves_mail_base",
+        "quality" : "Good"
+      },
+      "Helmet" : {
+        "id" : "helmet_plate_base",
+        "quality" : "Good"
+      },
+      "Boots" : {
+        "id" : "boots_mail_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true
+}

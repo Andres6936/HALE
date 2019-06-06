@@ -1,0 +1,35 @@
+{
+  "name" : "Merchant",
+  "usesSpeechSkill" : true,
+  "confirmOnExit" : false,
+  "respawnHours" : 0,
+  "buyValuePercentage" : 50,
+  "sellValuePercentage" : 150,
+  "items" : [
+    {
+      "id" : "Ammo",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerItem"
+      }
+    }, {
+      "id" : "ArmorMediocre",
+      "probability" : {
+        "value" : 80,
+        "mode" : "PerItem"
+      }
+    }, {
+      "id" : "WeaponsMediocre",
+      "probability" : {
+        "value" : 80,
+        "mode" : "PerItem"
+      }
+    }, {
+      "id" : "EquipmentMediocre",
+      "probability" : {
+        "value" : 80,
+        "mode" : "PerItem"
+      }
+    }
+  ]
+}

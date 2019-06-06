@@ -1,0 +1,10 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addDamageReduction('Physical', 10); parent.applyEffect(effect); }",
+  "name" : "Damage Reduction 10",
+  "type" : "Racial Abilities",
+  "icon" : {
+    "sprite" : "icons/naturalArmor"
+  },
+  "description" : "This creature's thick skin is like armor, absorbing 10 points of all physical damage.",
+  "isActivateable" : false
+}

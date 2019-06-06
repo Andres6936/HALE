@@ -1,0 +1,52 @@
+{
+  "name" : "Greater Ghoul",
+  "gender" : "Male",
+  "race" : "Zombie",
+  "portrait" : "Monster/ghoul",
+  "conversation" : "conversations/ghoulGreaterBodyTrial",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/ghast1",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 17,
+    "dexterity" : 8,
+    "constitution" : 20,
+    "intelligence" : 6,
+    "wisdom" : 5,
+    "charisma" : 1
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor30",
+      "levelObtained" : 1
+    }, {
+      "id" : "ColdImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction5",
+      "levelObtained" : 1
+    }, {
+      "id" : "CriticalHitImmunity",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "UndeadWarrior" : 16
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedGhoul",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  }
+}

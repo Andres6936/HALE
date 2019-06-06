@@ -1,0 +1,22 @@
+{
+  "externalScript" : "abilities/aid",
+  "name" : "Aid",
+  "type" : "Paladin Abilities",
+  "icon" : {
+    "sprite" : "icons/aid"
+  },
+  "description" : "The Paladin selects a single adjacent ally.  For the next 2 rounds, neither the Paladin nor the target may move.  However, the target gains a Deflection bonus of 4 points per point of Charisma above 10 plus 4 points per Paladin level to Defense, Melee Spell Success, and Attack, as well Critical Hit Immunity.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "cooldown" : 5,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 30,
+    "priority" : 5,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  }
+}

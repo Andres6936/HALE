@@ -1,0 +1,11 @@
+{
+  "radius" : 0,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "ancientTombEntranceSpirit",
+      "x" : 0,
+      "y" : 0
+    }
+  ]
+}

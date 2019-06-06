@@ -1,0 +1,25 @@
+{
+  "name" : "General",
+  "subLists" : {
+    "Misc" : {
+      "x" : 0.0,
+      "y" : 0.5
+    },
+    "AttributeTraining" : {
+      "x" : 0.0,
+      "y" : 3.0
+    },
+    "Skills" : {
+      "x" : 6.5,
+      "y" : 3.0
+    },
+    "Proficiencies" : {
+      "x" : 0.0,
+      "y" : 6.5
+    },
+    "SpellCasting" : {
+      "x" : 5.5,
+      "y" : 6.5
+    }
+  }
+}

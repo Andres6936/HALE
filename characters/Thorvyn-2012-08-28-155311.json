@@ -1,0 +1,185 @@
+{
+  "name" : "Thorvyn",
+  "isPregenerated" : true,
+  "gender" : "Male",
+  "race" : "Dwarf",
+  "portrait" : "Dwarf\/burin",
+  "icon" : {
+    "skinColor" : "#ffffc794",
+    "clothingColor" : "#ff00ffff",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons\/hair016",
+        "color" : "#ff8b4513"
+      }, {
+        "type" : "Beard",
+        "sprite" : "subIcons\/beard002",
+        "color" : "#ff8b4513"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 18,
+    "dexterity" : 12,
+    "constitution" : 15,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 9
+  },
+  "skills" : {
+    "CraftArmor" : 35
+  },
+  "abilities" : [
+    {
+      "id" : "ForcefulBlows",
+      "levelObtained" : 4
+    }, {
+      "id" : "ChargeAttack",
+      "levelObtained" : 7
+    }, {
+      "id" : "MightyBlow",
+      "levelObtained" : 1
+    }, {
+      "id" : "Disarm",
+      "levelObtained" : 3
+    }, {
+      "id" : "BlindFighting",
+      "levelObtained" : 5
+    }, {
+      "id" : "ReflexiveAttacks",
+      "levelObtained" : 2
+    }, {
+      "id" : "ShieldDefense",
+      "levelObtained" : 6
+    }
+  ],
+  "roles" : {
+    "baseRoleID" : "Warrior",
+    "Warrior" : 7
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "battleaxe-0xbcbd734a",
+        "quality" : "Decent"
+      },
+      "OffHand" : {
+        "id" : "shield_heavy_base",
+        "quality" : "Decent"
+      },
+      "Armor" : {
+        "id" : "armor_plate_base",
+        "quality" : "Decent"
+      },
+      "Gloves" : {
+        "id" : "gloves_plate_base",
+        "quality" : "Decent"
+      },
+      "Helmet" : {
+        "id" : "helmet_plate_base",
+        "quality" : "Decent"
+      },
+      "Boots" : {
+        "id" : "boots_plate_base-0x6d63ef78",
+        "quality" : "Decent"
+      },
+      "Belt" : {
+        "id" : "belt-0xff58c335"
+      },
+      "Amulet" : {
+        "id" : "amulet-0x1deadba3"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "potionHealing",
+        "quality" : "Decent",
+        "quantity" : 3
+      }
+    ],
+    "createdItems" : [
+      {
+        "baseItemID" : "battleaxe",
+        "createdItemID" : "battleaxe-0xbcbd734a",
+        "scripts" : [
+          "entity.addStandaloneDamageBonus('Acid', 1, 3);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Acid",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_acid",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "boots_plate_base",
+        "createdItemID" : "boots_plate_base-0x6d63ef78",
+        "scripts" : [
+          "entity.addBonus('ReflexResistance', 4);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Reflex Resistance",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_reflex",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "belt",
+        "createdItemID" : "belt-0xff58c335",
+        "scripts" : [
+          "entity.addDamageReduction('Acid',  2);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Acid Resistance",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_acid",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "amulet",
+        "createdItemID" : "amulet-0x1deadba3",
+        "scripts" : [
+          "entity.addBonus('PhysicalResistance', 4);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Physical Resistance",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_physical",
+          "color" : "#ffffffff"
+        }
+      }
+    ]
+  },
+  "unspentSkillPoints" : 0,
+  "experiencePoints" : 3124,
+  "quickbar" : {
+    "lastViewSet" : 0,
+    "slots" : {
+      "slot0" : {
+        "type" : "use",
+        "itemID" : "potionHealing",
+        "itemQuality" : "Decent"
+      },
+      "slot1" : {
+        "type" : "ability",
+        "abilityID" : "MightyBlow"
+      },
+      "slot2" : {
+        "type" : "ability",
+        "abilityID" : "Disarm"
+      },
+      "slot3" : {
+        "type" : "ability",
+        "abilityID" : "ForcefulBlows"
+      },
+      "slot4" : {
+        "type" : "ability",
+        "abilityID" : "ChargeAttack"
+      }
+    }
+  }
+}

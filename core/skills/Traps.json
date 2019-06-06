@@ -1,0 +1,15 @@
+{
+  "name" : {
+    "noun" : "Traps",
+    "presentTenseVerb" : "Trap",
+    "pastTenseVerb" : "Crafted"
+  },
+  "icon" : {
+    "sprite" : "icons/traps"
+  },
+  "isUsableUntrained" : false,
+  "suffersArmorPenalty" : false,
+  "keyAttribute" : "Dex",
+  "isCraft" : true,
+  "restrictToRole" : "Rogue"
+}

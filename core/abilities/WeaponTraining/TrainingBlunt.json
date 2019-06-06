@@ -1,0 +1,10 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addWeaponAttackBonus('Blunt', 'Stackable', 10); parent.applyEffect(effect); }",
+  "name" : "Blunt Weapons Training",
+  "type" : "Weapon Training",
+  "icon" : {
+    "sprite" : "icons/trainingBlunt"
+  },
+  "description" : "You gain an additional +10 to attack with all Blunt weapons, including maces and hammers.",
+  "isActivateable" : false
+}

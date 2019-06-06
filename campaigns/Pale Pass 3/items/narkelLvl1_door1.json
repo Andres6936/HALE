@@ -1,0 +1,17 @@
+{
+  "name" : "Door",
+  "description" : "A large metal retracting door.",
+  "class" : "Door",
+  "closedIcon" : {
+    "sprite" : "doors/rural_gate-se"
+  },
+  "openIcon" : {
+    "sprite" : "doors/rural_gate-se-open"
+  },
+  "isLocked" : true,
+  "lockDifficulty" : 0,
+  "keyID" : "narkelLvl1_doorKey",
+  "keyRequired" : true,
+  "removeKeyOnUnlock" : false,
+  "isTransparent" : false
+}

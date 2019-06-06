@@ -1,0 +1,23 @@
+{
+  "externalScript" : "abilities/mightyBlow",
+  "name" : "Mighty Blow",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/mightyBlow"
+  },
+  "description" : "You attempt to deliver a single powerful blow with a melee weapon to an opponent.  The attack takes the normal amount of Action Points for an attack with your current weapon.  You gain a +20 attack bonus, and if you connect, a +80 damage bonus.",
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : false,
+  "isCancelable" : false,
+  "cooldown" : 4,
+  "actionPointCost" : "Same as an attack",
+  "ai" : {
+    "power" : 10,
+    "priority" : 5,
+    "actionType" : "Damage",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  }
+}

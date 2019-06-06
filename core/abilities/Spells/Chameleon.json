@@ -1,0 +1,45 @@
+{
+  "externalScript" : "spells/chameleon",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 2,
+  "name" : "Chameleon",
+  "type" : "Alteration",
+  "icon" : {
+    "sprite" : "icons/chameleon"
+  },
+  "description" : "A single touched target blends into their surroundings, gaining 15 percent plus 1 percent per two caster levels concealment for 5 to 10 rounds.",
+  "upgrades" : [
+    { "ability" : "ImprovedChameleon",
+      "description" : "With Improved Chameleon, your Chameleon spell now confers 15 plus 1 percent per caster level concealment.",
+      "override" : true
+    },
+    { "ability" : "MassChameleon",
+      "description" : "With Mass Chameleon, your Chameleon spell now affects all friendly targets within 3 hexes of the caster."
+      "override" : true
+    }
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Alteration",
+  "isFixed" : true,
+  "cooldown" : 10,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 20,
+    "priority" : 8,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 4
+      }
+    ]
+  }
+}

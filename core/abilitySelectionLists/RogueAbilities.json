@@ -1,0 +1,88 @@
+{
+  "name" : "Rogue",
+  "abilities" : {
+    "Backstab" : {
+      "x" : 0.5,
+      "y" : 0.0
+    },
+    "ImprovedBackstab" : {
+      "x" : 0.0,
+      "y" : 1.0
+    },
+    "RangedBackstab" : {
+      "x" : 1.0,
+      "y" : 1.0
+    },
+    "CripplingBackstab" : {
+      "x" : 0.0,
+      "y" : 2.0
+    },
+    "BackstabMastery" : {
+      "x" : 0.5,
+      "y" : 3.0
+    },
+	"Hide" : {
+	  "x" : 2.5,
+	  "y" : 0.0
+	},
+    "Feint" : {
+      "x" : 2.0,
+      "y" : 1.0
+    },
+    "Tumble" : {
+      "x" : 3.0,
+      "y" : 2.0
+    },
+    "ImprovedFlanking" : {
+      "x" : 2.5,
+      "y" : 3.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "TwoDown",
+      "x" : 0.5,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "TwoDown",
+      "x" : 2.5,
+      "y" : 0.0
+    }, {
+      "type" : "TwoUp",
+      "x" : 0.5,
+      "y" : 3.0
+    }, {
+      "type" : "TwoUp",
+      "x" : 2.5,
+      "y" : 3.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 2.0,
+      "y" : 2.0
+    }, {
+	  "type" : "OneDown",
+	  "x" : 3.0,
+	  "y" : 1.0
+	}, {
+	  "type" : "Through",
+	  "x" : 3.0,
+	  "y" : 1.0
+	}
+  ]
+}

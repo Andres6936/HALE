@@ -1,0 +1,92 @@
+{
+  "name" : "General",
+  "abilities" : {
+    "Athletic" : {
+      "x" : 0.0,
+      "y" : 0.0
+    },
+    "LoadBearer" : {
+      "x" : 1.0,
+      "y" : 0.0
+    },
+    "PackMule" : {
+      "x" : 1.0,
+      "y" : 1.0
+    },
+    "QuickDraw" : {
+      "x" : 2.0,
+      "y" : 0.0
+    },
+    "ReflexiveAttacks" : {
+      "x" : 3.0,
+      "y" : 0.0
+    },
+    "FastActions" : {
+      "x" : 2.5,
+      "y" : 1.0
+    },
+    "BlindFighting" : {
+      "x" : 4.0,
+      "y" : 0.0
+    },
+    "CombatReady" : {
+      "x" : 5.0,
+      "y" : 0.0
+    },
+    "CombatFinesse" : {
+      "x" : 4.5,
+      "y" : 1.0
+    },
+    "ToughBody" : {
+      "x" : 6.0,
+      "y" : 0.0
+    },
+    "StrongSoul" : {
+      "x" : 7.0,
+      "y" : 0.0
+    },
+    "LightningReflexes" : {
+      "x" : 8.0,
+      "y" : 0.0
+    },
+    "AbsorbBlows" : {
+      "x" : 6.0,
+      "y" : 1.0
+    },
+    "EnergyResistance" : {
+      "x" : 7.0,
+      "y" : 1.0
+    },
+    "Dodger" : {
+      "x" : 8.0,
+      "y" : 1.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 0.0
+    }, {
+      "type" : "TwoUp",
+      "x" : 2.5,
+      "y" : 1.0
+    }, {
+      "type" : "TwoUp",
+      "x" : 4.5,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 6.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 7.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 8.0,
+      "y" : 0.0
+    }
+  ]
+}

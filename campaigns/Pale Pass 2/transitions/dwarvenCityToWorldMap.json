@@ -1,0 +1,27 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "worldMapLocation" : "Dwarven City",
+  "from" : {
+    "area" : "Dwarven City",
+    "x" : 25,
+    "y" : 48,
+    "partyPositions" : [
+      [ 1, -3 ], [ 0, -2 ], [ 1, -2 ], [ 0, -1 ]
+    ]
+  },
+  "to" : {
+    "worldMap" : true
+  }
+}

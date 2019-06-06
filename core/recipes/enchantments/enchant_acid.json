@@ -1,0 +1,53 @@
+{
+  "name" : "Acid Damage",
+  "description" : "Adds acid damage to a weapon.  The amount of damage depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 35,
+  "ingredients" : {
+    "gem06" : 1,
+    "gem02" : 3,
+    "bar_gold" : 1
+  },
+  "result" : {
+    "postfix" : " of Acid",
+    "ingredientItemTypes" : [ "Weapon" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_acid"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 20,
+		"valueModifier" : 150,
+        "enchantment" : "entity.addStandaloneDamageBonus('Acid', 1, 3);"
+      }, {
+        "skillRankRequirement" : 40,
+		"valueModifier" : 170,
+        "enchantment" : "entity.addStandaloneDamageBonus('Acid', 1, 4);"
+      }, {
+        "skillRankRequirement" : 60,
+		"valueModifier" : 180,
+        "enchantment" : "entity.addStandaloneDamageBonus('Acid', 1, 5);"
+      }, {
+        "skillRankRequirement" : 80,
+		"valueModifier" : 190,
+        "enchantment" : "entity.addStandaloneDamageBonus('Acid', 2, 6);"
+      }, {
+        "skillRankRequirement" : 100,
+		"valueModifier" : 200,
+        "enchantment" : "entity.addStandaloneDamageBonus('Acid', 2, 7);"
+      }, {
+        "skillRankRequirement" : 120,
+		"valueModifier" : 210,
+        "enchantment" : "entity.addStandaloneDamageBonus('Acid', 2, 8);"
+      }, {
+        "skillRankRequirement" : 140,
+		"valueModifier" : 220,
+        "enchantment" : "entity.addStandaloneDamageBonus('Acid', 3, 9);"
+      }, {
+        "skillRankRequirement" : 160,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addStandaloneDamageBonus('Acid', 3, 10);"
+      }
+    ]
+  }
+}

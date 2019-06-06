@@ -1,0 +1,107 @@
+{
+  "name" : "Skeleton Archer",
+  "gender" : "Male",
+  "race" : "Skeleton",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/skeleton04",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 14,
+    "dexterity" : 18,
+    "constitution" : 13,
+    "intelligence" : 3,
+    "wisdom" : 10,
+    "charisma" : 3
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "PreciseShot",
+      "levelObtained" : 1
+    }, {
+      "id" : "CripplingShot",
+      "levelObtained" : 1
+    }, {
+      "id" : "PointBlankShot",
+      "levelObtained" : 1
+    }, {
+      "id" : "PiercingShot",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWieldingMastery",
+      "levelObtained" : 1
+    }, {
+      "id" : "ExpertDualWielding",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWielding",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWieldingDefense",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction5",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 14,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "longbow",
+        "quality" : "Fine"
+      },
+      "Armor" : {
+        "id" : "armor_mail_base",
+        "quality" : "Fine"
+      },
+      "Quiver" : {
+        "id" : "arrow"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "arrow"
+        "quantity" : 45
+      }
+    ]
+  },
+  "reward" : [
+    12000, 20000
+  ],
+  "loot" : [
+    {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsFine",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

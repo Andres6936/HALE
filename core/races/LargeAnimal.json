@@ -1,0 +1,8 @@
+{ "name" : "Large Animal",
+  "baseMovementCost" : 800,
+  "defaultWeapon" : "unarmedLargeThreatens",
+  
+  "racialTypes" : [
+    "Animal"
+  ]
+}

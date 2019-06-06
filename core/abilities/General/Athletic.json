@@ -1,0 +1,10 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('Movement', 'Stackable', 10); effect.getBonuses().addArmorBonus('Medium', 'MovementPenalty', 'Stackable', 40); effect.getBonuses().addArmorBonus('Heavy', 'MovementPenalty', 'Stackable', 40); parent.applyEffect(effect); }",
+  "name" : "Athletic",
+  "type" : "General",
+  "icon" : {
+    "sprite" : "icons/athletic"
+  },
+  "description" : "You are able to run faster, especially in heavier armor.  You gain a +10 general movement bonus, and also ignore 40% of any movement penalty due to medium or heavy armor.",
+  "isActivateable" : false
+}

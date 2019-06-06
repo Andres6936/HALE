@@ -1,0 +1,17 @@
+{
+  "name" : "Door",
+  "description" : "A large metal retracting door.",
+  "class" : "Door",
+  "closedIcon" : {
+    "sprite" : "doors/gate-rusty-opaque-se"
+  },
+  "openIcon" : {
+    "sprite" : "doors/gate-rusty-se-open"
+  },
+  "isLocked" : true,
+  "lockDifficulty" : 0,
+  "keyID" : "deepTunnelsKey",
+  "keyRequired" : true,
+  "removeKeyOnUnlock" : true,
+  "isTransparent" : false
+}

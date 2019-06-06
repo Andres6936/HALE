@@ -1,0 +1,27 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "worldMapLocation" : "Tomb of Narkel",
+  "from" : {
+    "area" : "Tomb Entrance",
+    "x" : 1,
+    "y" : 23,
+    "partyPositions" : [
+      [ 1, -2 ], [ 1, -1 ], [ 0, -1 ], [ 0, 0 ]
+    ]
+  },
+  "to" : {
+    "worldMap" : true
+  }
+}

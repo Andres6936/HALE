@@ -1,0 +1,34 @@
+{
+  "externalScript" : "abilities/whirlwindAttack",
+  "name" : "Whirlwind Attack",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/whirlwindAttack"
+  },
+  "description" : "As a standard attack action, you launch into a spinning whirlwind, attacking all enemies adjacent to you.  Each attack is made at a -10 attack penalty.  This ability can only be used with a melee weapon.",
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : false,
+  "isCancelable" : false,
+  "cooldown" : 8,
+  "actionPointCost" : "See Description",
+  "ai" : {
+    "power" : 40,
+    "priority" : 3,
+    "actionType" : "Damage",
+    "groupType" : "Multiple",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "ChargeAttack", "Disarm"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 50
+      }
+    ]
+  }
+}

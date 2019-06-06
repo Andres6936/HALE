@@ -1,0 +1,38 @@
+{
+  "externalScript" : "spells/deflectProjectiles",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 4,
+  "name" : "Deflect Projectiles",
+  "type" : "Alteration",
+  "icon" : {
+    "sprite" : "icons/deflectProjectiles"
+  },
+  "description" : "The caster touches a single creature.  The creature gains 100% immunity from projectile attacks for 3 rounds plus 1 round per 5 caster levels.  This includes thrown weapons, arrows, bolts, and sling stones.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Alteration",
+  "isFixed" : true,
+  "cooldown" : 11,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 40,
+    "priority" : 9,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "AbsorbEnergy"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

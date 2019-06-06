@@ -1,0 +1,32 @@
+{
+  "name" : "Maul",
+  "description" : "A huge and very heavy hammer that does a large amount of crushing damage.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Mace013",
+    "color" : "#ffffffff"
+  },
+  "value" : 32000,
+  "weight" : 8000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-maul01",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "TwoHanded",
+  "baseWeapon" : "Maul",
+  "threatensAoOs" : true,
+  "damageType" : "Blunt",
+  "minDamage" : 3,
+  "maxDamage" : 12,
+  "criticalThreat" : 93,
+  "criticalMultiplier" : 2,
+  "attackCost" : 4200,
+  "rangePenalty" : 0
+}

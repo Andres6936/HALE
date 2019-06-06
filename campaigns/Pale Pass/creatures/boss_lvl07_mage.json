@@ -1,0 +1,90 @@
+{
+  "name" : "Mage",
+  "gender" : "Male",
+  "race" : "Human",
+  "script" : "ai/sonorinDesertBoss",
+  "icon" : {
+    "sprite" : "creatures/human20",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 12,
+    "constitution" : 12,
+    "intelligence" : 18,
+    "wisdom" : 10,
+    "charisma" : 11
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "Shield",
+      "levelObtained" : 1
+    }, {
+      "id" : "ElementalShield",
+      "levelObtained" : 1
+    }, {
+      "id" : "MeleeCasting",
+      "levelObtained" : 1
+    }, {
+      "id" : "Crush",
+      "levelObtained" : 1
+    }, {
+      "id" : "Firebolt",
+      "levelObtained" : 1
+    }, {
+      "id" : "Freeze",
+      "levelObtained" : 1
+    }, {
+      "id" : "Sleep",
+      "levelObtained" : 1
+    }, {
+      "id" : "Paralyze",
+      "levelObtained" : 1
+    }, {
+      "id" : "Slow",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Mage" : 8,
+    "baseRoleID" : "Mage"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "sling",
+        "quality" : "Good"
+      },
+      "Quiver" : {
+        "id" : "slingstone"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "slingstone"
+        "quantity" : 79
+      }
+    ]
+  },
+  "reward" : [
+    4000, 6000
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel10",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

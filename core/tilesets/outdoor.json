@@ -1,0 +1,1493 @@
+{ "name" : "Outdoor",
+  "directory" : "tilesets/outdoor",
+  "entityLayer" : "entity",
+  "interfaceLayer" : "ceiling",
+
+  "defaultVisibilityRadius" : 8,
+  "defaultTerrainType" : "Grass",
+  
+  "layers" : [
+    { "id" : "base",
+	  "spriteSheets" : [ "base" ]
+	},
+	{ "id" : "borders",
+	  "spriteSheets" : [ "borders" ]
+	},
+	{ "id" : "wall-base",
+	  "spriteSheets" : [ "wall-base" ],
+	},
+	{ "id" : "entity",
+	  "spriteSheets" : [ "walls", "features", "doorsAndWindows", "cliffs" ]
+	},
+	{ "id" : "ceiling",
+	  "spriteSheets" : [ "ceiling", "trees" ]
+	}
+  ],
+  
+  "features" : {
+    "Water Lilies" : {
+	  "tiles" : [
+	    { "id" : "features/lilies0", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/lilies1", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/lilies2", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/lilies3", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/lilies4", "layer" : "entity", "probability" : 1 }
+	  ],
+	  "terrainTypes" : [ "Water" ]
+	},
+	"Reef" : {
+	  "tiles" : [
+	    { "id" : "features/reef0", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/reef1", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/reef2", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/reef3", "layer" : "entity", "probability" : 1 }
+	  ],
+	  "terrainTypes" : [ "Water" ]
+	},
+    "Altar" : {
+	  "previewTile" : { "id" : "features/altar", "layer" : "entity" },
+	  "tiles" : [
+	    { "id" : "features/altar", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/altar-evil", "layer" : "entity", "probability" : 1 }
+	  ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Archery Target" : {
+	  "tiles" : [ { "id" : "features/archery-target", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Barrels" : {
+	  "tiles" : [
+	    { "id" : "features/barrel", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/barrels", "layer" : "entity", "probability" : 1 }
+	  ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Well" : {
+	  "tiles" : [ { "id" : "features/well", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Crate" : {
+	  "tiles" : [ { "id" : "features/crate", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Bones" : {
+	  "passable" : true,
+	  "tiles" : [ { "id" : "features/bones", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Bonestack" : {
+	  "tiles" : [ { "id" : "features/bonestack", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Bonespike" : {
+	  "tiles" : [ { "id" : "features/bonespike", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Lantern" : {
+	  "tiles" : [
+	    { "id" : "features/lantern", "layer" : "entity", "probability" : 1 },
+	    { "id" : "features/lantern-lit", "layer" : "entity", "probability" : 1 }
+	  ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Cage" : {
+	  "tiles" : [ { "id" : "features/cage", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Coffin" : {
+	  "tiles" : [ { "id" : "features/coffin", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Bars SE-NW" : {
+	  "tiles" : [ { "id" : "features/bars-se-nw", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Bars SW-NE" : {
+	  "tiles" : [ { "id" : "features/bars-sw-ne", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Statue" : {
+	  "tiles" : [ { "id" : "features/dragon-statue", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Practice Dummy" : {
+	  "tiles" : [ { "id" : "features/practice-dummy", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Jar" : {
+	  "tiles" : [
+	    { "id" : "features/jar-large", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/jar-small", "layer" : "entity", "probability" : 1 }
+      ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Banner" : {
+	  "tiles" : [ { "id" : "features/banner", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Mushrooms" : {
+	  "passable" : true,
+	  "tiles" : [ { "id" : "features/mushrooms", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Coins" : {
+	  "passable" : true,
+	  "tiles" : [
+	    { "id" : "features/coins-large", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/coins-medium", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/coins-small", "layer" : "entity", "probability" : 1 }
+	  ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Nest" : {
+	  "tiles" : [
+	    { "id" : "features/nest-empty", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/nest", "layer" : "entity", "probability" : 1 }
+	  ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Boulder" : {
+	  "tiles" : [
+	    { "id" : "features/boulder1", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/boulder2", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/boulder3", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/boulder4", "layer" : "entity", "probability" : 1 }
+	  ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Monolith" : {
+	  "tiles" : [
+	    { "id" : "features/monolith1", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/monolith2", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/monolith3", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/monolith4", "layer" : "entity", "probability" : 1 }
+	  ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Foliage" : {
+	  "passable" : true,
+	  "tiles" : [
+	    { "id" : "features/foliage01", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/foliage02", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/foliage03", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/foliage04", "layer" : "entity", "probability" : 1 }
+	  ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Snow" ]
+	},
+	"Shrub" : {
+	  "tiles" : [
+	    { "id" : "features/shrub01", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/shrub02", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/shrub03", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/shrub04", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/shrub05", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/shrub06", "layer" : "entity", "probability" : 1 },
+	  ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Snow" ]
+	},
+	"Desert Plants" : {
+	  "passable" : true,
+	  "tiles" : [
+	    { "id" : "features/desertplant0", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/desertplant1", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/desertplant2", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/desertplant3", "layer" : "entity", "probability" : 1 }
+	  ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Snow" ]
+	},
+	"Anvil" : {
+	  "tiles" : [ { "id" : "features/anvil", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Chopping Block" : {
+	  "tiles" : [ { "id" : "features/chopblock", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Wood Pile" : {
+	  "tiles" : [
+	    { "id" : "features/firewood1", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/firewood2", "layer" : "entity", "probability" : 1 }
+	  ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Campfire" : {
+	  "tiles" : [ { "id" : "features/campfire", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Small Box" : {
+	  "tiles" : [
+	    { "id" : "features/box01", "layer" : "entity", "probability" : 1 },
+		{ "id" : "features/box02", "layer" : "entity", "probability" : 1 }
+	  ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Giant Mushroom" : {
+		"transparent" : false,
+		"tiles" : [
+		  { "id" : "trees/mushroom01", "layer" : "ceiling", "probability" : 1 },
+		  { "id" : "trees/mushroom02", "layer" : "ceiling", "probability" : 1 },
+		  { "id" : "trees/mushroom03", "layer" : "ceiling", "probability" : 1 },
+		  { "id" : "trees/mushroom04", "layer" : "ceiling", "probability" : 1 },
+		  { "id" : "trees/mushroom05", "layer" : "ceiling", "probability" : 1 },
+		  { "id" : "trees/mushroom06", "layer" : "ceiling", "probability" : 1 }
+		],
+		"terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Stone", "Snow" ]
+	},
+	"Tree" : {
+	  "transparent" : false,
+	  "tiles" : [
+	    { "id" : "trees/tree01", "layer" : "ceiling", "probability" : 1 },
+		{ "id" : "trees/tree02", "layer" : "ceiling", "probability" : 1 },
+		{ "id" : "trees/tree03", "layer" : "ceiling", "probability" : 1 },
+		{ "id" : "trees/tree04", "layer" : "ceiling", "probability" : 1 },
+		{ "id" : "trees/treetall01", "layer" : "ceiling", "probability" : 1 },
+		{ "id" : "trees/treetall02", "layer" : "ceiling", "probability" : 1 },
+		{ "id" : "trees/treetall03", "layer" : "ceiling", "probability" : 1 },
+		{ "id" : "trees/treetall04", "layer" : "ceiling", "probability" : 1 }
+      ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Snow" ]
+	},
+	"Palm Tree" : {
+	  "tiles" : [
+	    { "id" : "trees/palmtree01", "layer" : "ceiling", "probability" : 1 },
+		{ "id" : "trees/palmtree02", "layer" : "ceiling", "probability" : 1 },
+		{ "id" : "trees/palmtree03", "layer" : "ceiling", "probability" : 1 },
+		{ "id" : "trees/palmtree04", "layer" : "ceiling", "probability" : 1 }
+      ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Snow" ]
+	},
+	"Dead Tree" : {
+	  "tiles" : [
+	    { "id" : "trees/deadtree01", "layer" : "ceiling", "probability" : 1 },
+		{ "id" : "trees/deadtree02", "layer" : "ceiling", "probability" : 1 },
+		{ "id" : "trees/deadtree03", "layer" : "ceiling", "probability" : 1 },
+		{ "id" : "trees/deadtree04", "layer" : "ceiling", "probability" : 1 }
+      ],
+	  "terrainTypes" : [ "Path", "Path Clean", "Path Grass", "Dirt", "Grass Dry", "Leaves", "Grass", "Desert", "Snow" ]
+	},
+	"Door SW" : {
+	  "tiles" : [ { "id" : "doorsAndWindows/door-sw", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Building" ]
+	},
+	"Door SE" : {
+	  "tiles" : [ { "id" : "doorsAndWindows/door-se", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Building" ]
+	},
+	"Roof Window SW" : {
+	  "tiles" : [ { "id" : "doorsAndWindows/roof-window-sw", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Building" ]
+	},
+	"Roof Window SE" : {
+	  "tiles" : [ { "id" : "doorsAndWindows/roof-window-se", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Building" ]
+	},
+	"Roof Windows SE" : {
+	  "tiles" : [ { "id" : "doorsAndWindows/roof-window2-se", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Building" ]
+	},
+	"Bay Window SW" : {
+	  "tiles" : [ { "id" : "doorsAndWindows/window-bay-sw", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Building" ]
+	},
+	"Bay Window SE" : {
+	  "tiles" : [ { "id" : "doorsAndWindows/window-bay-se", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Building" ]
+	},
+	"Window SW" : {
+	  "tiles" : [ { "id" : "doorsAndWindows/window-se", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Building" ]
+	},
+	"Window SE" : {
+	  "tiles" : [ { "id" : "doorsAndWindows/window-sw", "layer" : "entity", "probability" : 1 } ],
+	  "terrainTypes" : [ "Building" ]
+	}
+  },
+  
+  "terrain" : {
+    "Snow" : {
+	  "tiles" : [
+	    { "id" : "base/snow0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/snow1", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/snow2", "layer" : "base", "probability" : 1 }
+	  ],
+	  "borders" : [
+	    { "with" : "Path", "id" : "BorderSnow" },
+		{ "with" : "Path Clean", "id" : "BorderSnow" },
+		{ "with" : "Path Grass", "id" : "BorderSnow" },
+		{ "with" : "Water", "id" : "BorderSnow" },
+		{ "with" : "Dirt", "id" : "BorderSnow" },
+		{ "with" : "Grass Dry", "id" : "BorderSnow" },
+		{ "with" : "Leaves", "id" : "BorderSnow" },
+		{ "with" : "Grass", "id" : "BorderSnow" },
+		{ "with" : "Stone", "id" : "BorderSnow" },
+		{ "with" : "Ice", "id" : "BorderSnow" },
+	  ]
+	},
+	"Ice" : {
+	  "tiles" : [
+	    { "id" : "base/ice0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/ice1", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/ice2", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/ice3", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/ice4", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/ice5", "layer" : "base", "probability" : 1 },
+	  ],
+	  "borders" : [
+	    { "with" : "Path", "id" : "BorderIce" },
+		{ "with" : "Path Clean", "id" : "BorderIce" },
+		{ "with" : "Path Grass", "id" : "BorderIce" },
+		{ "with" : "Water", "id" : "BorderIce" },
+		{ "with" : "Dirt", "id" : "BorderIce" },
+		{ "with" : "Grass Dry", "id" : "BorderIce" },
+		{ "with" : "Leaves", "id" : "BorderIce" },
+		{ "with" : "Grass", "id" : "BorderIce" },
+		{ "with" : "Stone", "id" : "BorderIce" },
+	  ]
+	},
+	"Snow Hills" : {
+	  "tiles" : [
+	    { "id" : "base/snowhills0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/snowhills1", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/snowhills2", "layer" : "base", "probability" : 1 }
+	  ],
+	  "borders" : [
+	    { "with" : "Path", "id" : "BorderSnowHills" },
+		{ "with" : "Path Clean", "id" : "BorderSnowHills" },
+		{ "with" : "Path Grass", "id" : "BorderSnowHills" },
+		{ "with" : "Water", "id" : "BorderSnowHills" },
+		{ "with" : "Dirt", "id" : "BorderSnowHills" },
+		{ "with" : "Grass Dry", "id" : "BorderSnowHills" },
+		{ "with" : "Leaves", "id" : "BorderSnowHills" },
+		{ "with" : "Grass", "id" : "BorderSnowHills" },
+		{ "with" : "Stone", "id" : "BorderSnowHills" },
+		{ "with" : "Ice", "id" : "BorderSnowHills" },
+		{ "with" : "Snow", "id" : "BorderSnowHills" },
+		{ "with" : "Hills", "id" : "BorderSnowHills" }
+	  ]
+	},
+    "Stone" : {
+	  "tiles" : [
+	    { "id" : "base/stone0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/stone1", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/stone2", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/stone3", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/stone4", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/stone5", "layer" : "base", "probability" : 1 }
+	  ],
+	  "borders" : [
+	    { "with" : "Path", "id" : "BorderStone" },
+		{ "with" : "Path Clean", "id" : "BorderStone" },
+		{ "with" : "Path Grass", "id" : "BorderStone" },
+		{ "with" : "Water", "id" : "BorderStone" },
+		{ "with" : "Dirt", "id" : "BorderStone" },
+		{ "with" : "Grass Dry", "id" : "BorderStone" },
+		{ "with" : "Leaves", "id" : "BorderStone" },
+		{ "with" : "Grass", "id" : "BorderStone" },
+		{ "with" : "Desert", "id" : "BorderStone" },
+		{ "with" : "Hills", "id" : "BorderStone" }
+	  ]
+	},
+    "Path" : {
+	  "tiles" : [
+	    { "id" : "base/path0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/path1", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/path2", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/path3", "layer" : "base", "probability" : 1 }
+      ],
+	  "borders" : [
+	    { "with" : "Water", "id" : "BorderPath" },
+		{ "with" : "Dirt", "id" : "BorderPath" },
+		{ "with" : "Grass Dry", "id" : "BorderPath" },
+		{ "with" : "Leaves", "id" : "BorderPath" },
+		{ "with" : "Grass", "id" : "BorderPath" },
+		{ "with" : "Path Grass", "id" : "BorderPath" }
+	  ]
+	},
+	"Path Clean" : {
+	  "tiles" : [
+	    { "id" : "base/pathclean0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/pathclean1", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/pathclean2", "layer" : "base", "probability" : 1 }
+      ],
+	  "borders" : [
+	    { "with" : "Water", "id" : "BorderPathClean" },
+		{ "with" : "Dirt", "id" : "BorderPathClean" },
+		{ "with" : "Grass Dry", "id" : "BorderPathClean" },
+		{ "with" : "Leaves", "id" : "BorderPathClean" },
+		{ "with" : "Grass", "id" : "BorderPathClean" },
+		{ "with" : "Path", "id" : "BorderPathClean" }
+	  ]
+	},
+	"Path Grass" : {
+	  "tiles" : [
+	    { "id" : "base/pathgrass0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/pathgrass1", "layer" : "base", "probability" : 1 }
+      ],
+	  "borders" : [
+	    { "with" : "Water", "id" : "BorderPathGrass" },
+		{ "with" : "Dirt", "id" : "BorderPathGrass" },
+		{ "with" : "Grass Dry", "id" : "BorderPathGrass" },
+		{ "with" : "Leaves", "id" : "BorderPathGrass" },
+		{ "with" : "Grass", "id" : "BorderPathGrass" },
+		{ "with" : "Path", "id" : "BorderPathGrass" }
+	  ]
+	},
+	"Water" : {
+	  "passable" : false,
+	  "tiles" : [
+	    { "id" : "base/water0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/water1", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/water2", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/water3", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/water4", "layer" : "base", "probability" : 1 }
+      ]
+	},
+	"Dirt" : {
+	  "tiles" : [
+	    { "id" : "base/dirt0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/dirt1", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/dirt2", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/dirt3", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/dirt4", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/dirt5", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/dirt6", "layer" : "base", "probability" : 1 }
+	  ],
+	  "borders" : [
+	    { "with" : "Water", "id" : "BorderDirt" }
+	  ]
+	},
+	"Grass Dry" : {
+	  "tiles" : [
+	    { "id" : "base/grassdry0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/grassdry1", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/grassdry2", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/grassdry3", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/grassdry4", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/grassdry5", "layer" : "base", "probability" : 1 }
+	  ],
+	  "borders" : [
+	    { "with" : "Water", "id" : "BorderGrassDry" },
+		{ "with" : "Dirt", "id" : "BorderGrassDry" },
+		{ "with" : "Grass", "id" : "BorderGrassDry" }
+	  ]
+	},
+	"Leaves" : {
+	  "tiles" : [
+	    { "id" : "base/leaves0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/leaves1", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/leaves2", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/leaves3", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/leaves4", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/leaves5", "layer" : "base", "probability" : 1 }
+	  ],
+	  "borders" : [
+	    { "with" : "Water", "id" : "BorderLeaves" },
+		{ "with" : "Dirt", "id" : "BorderLeaves" },
+		{ "with" : "Grass Dry", "id" : "BorderLeaves" },
+		{ "with" : "Grass", "id" : "BorderLeaves" }
+	  ]
+	},
+	"Desert" : {
+	  "tiles" : [
+	    { "id" : "base/desert0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/desert1", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/desert2", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/desert3", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/desert4", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/desert5", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/desert6", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/desert7", "layer" : "base", "probability" : 1 }
+	  ],
+	  "borders" : [
+	    { "with" : "Path", "id" : "BorderDesert" },
+		{ "with" : "Path Clean", "id" : "BorderDesert" },
+		{ "with" : "Path Grass", "id" : "BorderDesert" },
+		{ "with" : "Water", "id" : "BorderDesert" },
+		{ "with" : "Dirt", "id" : "BorderDesert" },
+		{ "with" : "Grass Dry", "id" : "BorderDesert" },
+		{ "with" : "Leaves", "id" : "BorderDesert" },
+		{ "with" : "Grass", "id" : "BorderDesert" }
+	  ]
+	},
+	"Hills" : {
+	  "tiles" : [
+	    { "id" : "base/hills0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/hills1", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/hills2", "layer" : "base", "probability" : 1 }
+	  ],
+	  "borders" : [
+	    { "with" : "Path", "id" : "BorderHills" },
+		{ "with" : "Path Clean", "id" : "BorderHills" },
+		{ "with" : "Path Grass", "id" : "BorderHills" },
+		{ "with" : "Water", "id" : "BorderHills" },
+		{ "with" : "Dirt", "id" : "BorderHills" },
+		{ "with" : "Grass Dry", "id" : "BorderHills" },
+		{ "with" : "Leaves", "id" : "BorderHills" },
+		{ "with" : "Grass", "id" : "BorderHills" },
+		{ "with" : "Desert", "id" : "BorderHills" }
+	  ]
+	},
+	"Desert Hills" : {
+	  "tiles" : [
+	    { "id" : "base/deserthills0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/deserthills1", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/deserthills2", "layer" : "base", "probability" : 1 }
+	  ],
+	  "borders" : [
+	    { "with" : "Path", "id" : "BorderDesertHills" },
+		{ "with" : "Path Clean", "id" : "BorderDesertHills" },
+		{ "with" : "Path Grass", "id" : "BorderDesertHills" },
+		{ "with" : "Water", "id" : "BorderDesertHills" },
+		{ "with" : "Dirt", "id" : "BorderDesertHills" },
+		{ "with" : "Grass Dry", "id" : "BorderDesertHills" },
+		{ "with" : "Leaves", "id" : "BorderDesertHills" },
+		{ "with" : "Grass", "id" : "BorderDesertHills" },
+		{ "with" : "Desert", "id" : "BorderDesertHills" },
+		{ "with" : "Hills", "id" : "BorderDesertHills" }
+	  ]
+	},
+	"Grass": {
+	  "tiles" : [
+	    { "id" : "base/grass0", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/grass1", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/grass2", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/grass3", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/grass4", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/grass5", "layer" : "base", "probability" : 1 },
+		{ "id" : "base/grass6", "layer" : "base", "probability" : 1 }
+	  ],
+	  "borders" : [
+	    { "with" : "Water", "id" : "BorderGrass" },
+		{ "with" : "Dirt", "id" : "BorderGrass" }
+	  ]
+	},
+	"Wall" : {
+	  "passable" : false,
+	  "transparent" : false,
+          "previewTile" : { "id" : "walls/wall-stone-n-ne", "layer" : "entity" },
+	  "tiles" : [ { "id" : "wall-base/wall", "layer" : "wall-base", "probability" : 1 } ],
+	  "borders" : [
+	    { "with" : "Path", "id" : "BorderWall" },
+		{ "with" : "Path Clean", "id" : "BorderWall" },
+		{ "with" : "Path Grass", "id" : "BorderWall" },
+		{ "with" : "Water", "id" : "BorderWall" },
+		{ "with" : "Dirt", "id" : "BorderWall" },
+		{ "with" : "Grass Dry", "id" : "BorderWall" },
+		{ "with" : "Leaves", "id" : "BorderWall" },
+		{ "with" : "Grass", "id" : "BorderWall" },
+		{ "with" : "Desert", "id" : "BorderWall" },
+		{ "with" : "Hills", "id" : "BorderWall" },
+		{ "with" : "Desert Hills", "id" : "BorderWall" },
+		{ "with" : "Stone", "id" : "BorderWall" },
+		{ "with" : "Snow", "id" : "BorderWall" },
+		{ "with" : "Ice", "id" : "BorderWall" },
+		{ "with" : "Snow Hills", "id" : "BorderWall" }
+	  ]
+	},
+	"Building" : {
+	  "passable" : false,
+	  "transparent" : false,
+	  "previewTile" : { "id" : "walls/building03", "layer" : "entity" },
+	  "tiles" : [ { "id" : "wall-base/building", "layer" : "wall-base", "probability" : 1 } ],
+	  "borders" : [
+	    { "with" : "Path", "id" : "BorderBuilding" },
+		{ "with" : "Path Clean", "id" : "BorderBuilding" },
+		{ "with" : "Path Grass", "id" : "BorderBuilding" },
+		{ "with" : "Water", "id" : "BorderBuilding" },
+		{ "with" : "Dirt", "id" : "BorderBuilding" },
+		{ "with" : "Grass Dry", "id" : "BorderBuilding" },
+		{ "with" : "Leaves", "id" : "BorderBuilding" },
+		{ "with" : "Grass", "id" : "BorderBuilding" },
+		{ "with" : "Wall", "id" : "BorderBuilding" },
+		{ "with" : "Desert", "id" : "BorderBuilding" },
+		{ "with" : "Hills", "id" : "BorderBuilding" },
+		{ "with" : "Desert Hills", "id" : "BorderBuilding" },
+		{ "with" : "Stone", "id" : "BorderBuilding" },
+		{ "with" : "Snow", "id" : "BorderBuilding" },
+		{ "with" : "Ice", "id" : "BorderBuilding" },
+		{ "with" : "Snow Hills", "id" : "BorderBuilding" },
+		{ "with" : "Building", "id" : "BorderBuildingSelf" }
+	  ]
+	}
+  },
+  
+  "elevation" : [
+	{ "MustHave" : [ "NorthEast" ],
+	  "MustNotHave" : [ "SouthEast" ],
+      "tiles" : [ { "id" : "cliffs/concave-bl", "layer" : "entity", "position" : "SouthEast" } ],
+	  "impassable" : "SouthEast",
+	},
+	{ "MustHave" : [ "NorthWest" ],
+	  "MustNotHave" : [ "SouthWest" ],
+      "tiles" : [ { "id" : "cliffs/concave-br", "layer" : "entity", "position" : "SouthWest" } ],
+	  "impassable" : "SouthWest",
+	},
+	{ "MustHave" : [ "NorthEast" ],
+	  "MustNotHave" : [ "North" ],
+	  "tiles" : [ { "id" : "cliffs/concave-l", "layer" : "entity", "position" : "Center" } ],
+	  "impassable" : "Center"
+	},
+	{ "MustHave" : [ "NorthWest" ],
+	  "MustNotHave" : [ "North" ],
+	  "tiles" : [ { "id" : "cliffs/concave-r", "layer" : "entity", "position" : "Center" } ],
+	  "impassable" : "Center"
+	},
+	{ "MustHave" : [ "SouthEast" ],
+	  "MustNotHave" : [ "NorthEast" ],
+	  "tiles" : [ { "id" : "cliffs/concave-tl", "layer" : "entity", "position" : "Center" } ]
+	},
+	{ "MustHave" : [ "SouthWest" ],
+	  "MustNotHave" : [ "NorthWest" ],
+	  "tiles" : [ { "id" : "cliffs/concave-tr", "layer" : "entity", "position" : "NorthWest" } ]
+	},
+	{ "MustHave" : [ "South", "SouthWest" ],
+      "tiles" : [ { "id" : "cliffs/convex-bl", "layer" : "entity", "position" : "Center" } ]
+	},
+	{ "MustHave" : [ "South", "SouthEast" ],
+	  "tiles" : [ { "id" : "cliffs/convex-br", "layer" : "entity", "position" : "Center" } ]
+	},
+	{ "MustHave" : [ "NorthWest", "SouthWest" ],
+	  "tiles" : [ { "id" : "cliffs/convex-l", "layer" : "entity", "position" : "Center" } ],
+	  "impassable" : "Center"
+	},
+    { "MustHave" : [ "NorthEast", "SouthEast" ],
+      "tiles" : [ { "id" : "cliffs/convex-r", "layer" : "entity", "position" : "Center" } ],
+	  "impassable" : "Center"
+    },
+	{ "MustHave" : [ "North", "NorthWest" ],
+      "tiles" : [ { "id" : "cliffs/convex-tl", "layer" : "entity", "position" : "Center" } ],
+	  "impassable" : "Center"
+	},
+	{ "MustHave" : [ "North", "NorthEast" ],
+      "tiles" : [ { "id" : "cliffs/convex-tr", "layer" : "entity", "position" : "Center" } ],
+	  "impassable" : "Center"
+	},
+  ],
+  
+  "borders" : {
+    "BorderBuildingSelf" : [
+	  { "MustHave" : [ ],
+	    "MustNotHave" : [ "South", "SouthEast", "SouthWest" ],
+		"tiles" : [ { "id" : "ceiling/building-roof-01", "layer" : "ceiling", "position" : "Center" } ]
+      }
+	],
+    "BorderBuilding" : [
+	  { "MustHave" : [ "SouthWest" ],
+	    "MustNotHave" : [ "SouthEast" ],
+		"tiles" : [
+		  { "id" : "walls/building01", "layer" : "entity", "position" : "Center" },
+		  { "id" : "ceiling/building-roof-04", "layer" : "ceiling", "position" : "Center" }
+		]
+	  },
+	  { "MustHave" : [ "SouthEast" ],
+	    "MustNotHave" : [ "SouthWest" ],
+		"tiles" : [ { "id" : "walls/building02", "layer" : "entity", "position" : "Center" } ]
+      },
+	  { "MustHave" : [ "SouthEast", "SouthWest" ],
+		"tiles" : [
+		  { "id" : "walls/building03", "layer" : "entity", "position" : "Center" },
+		  { "id" : "ceiling/building-roof-04", "layer" : "ceiling", "position" : "Center" }
+		]
+      },
+	  { "MustHave" : [ "South" ],
+	    "MustNotHave" : [ "SouthEast", "SouthWest" ],
+		"tiles" : [ { "id" : "walls/building04", "layer" : "entity", "position" : "Center" } ]
+      },
+	  { "MustHave" : [ "NorthWest" ],
+	    "MustNotHave" : [ "NorthEast" ],
+		"tiles" : [ { "id" : "ceiling/building-roof-02", "layer" : "ceiling", "position" : "North" } ]
+      },
+	  { "MustHave" : [ "NorthWest", "NorthEast" ],
+		"tiles" : [ { "id" : "ceiling/building-roof-03", "layer" : "ceiling", "position" : "NorthWest" } ]
+      },
+	  { "MustHave" : [ "NorthEast" ],
+	    "MustNotHave" : [ "NorthWest" ],
+		"tiles" : [ { "id" : "ceiling/building-roof-05", "layer" : "ceiling", "position" : "NorthWest" } ]
+      },
+	  { "MustHave" : [ "NorthEast" ],
+	    "MustNotHave" : [ "NorthEast-SouthEast", "SouthEast" ],
+		"tiles" : [ { "id" : "ceiling/building-roof-05", "layer" : "ceiling", "position" : "Center" } ]
+      },
+	  { "MustHave" : [ "NorthWest" ],
+	    "MustNotHave" : [ "NorthWest-SouthWest", "SouthWest" ],
+		"tiles" : [ { "id" : "ceiling/building-roof-02", "layer" : "ceiling", "position" : "NorthWest" } ]
+      }
+	]
+    "BorderWall" : [
+	  { "MustHave" : [ "South", "SouthEast", "SouthWest" ],
+	    "tiles" : [ { "id" : "walls/wall-stone-n", "layer" : "entity", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "SouthWest-NorthWest" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "walls/wall-stone-n-ne", "layer" : "entity", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "SouthEast-NorthEast" ],
+	    "MustNotHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "walls/wall-stone-nw-n", "layer" : "entity", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "South" ],
+	    "MustNotHave" : [ "SouthEast", "SouthWest" ],
+	    "tiles" : [ { "id" : "walls/wall-stone-nw-n-ne", "layer" : "entity", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "NorthWest", "South" ],
+	    "tiles" : [ { "id" : "walls/wall-stone-ne", "layer" : "entity", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "NorthEast", "South" ],
+	    "tiles" : [ { "id" : "walls/wall-stone-nw", "layer" : "entity", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "NorthEast-North", "NorthEast-NorthEast" ],
+	    "MustNotHave" : [ "North", "SouthEast", "SouthEast-NorthEast" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-se-s-sw-nw", "layer" : "ceiling", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "NorthWest-North", "NorthWest-SouthWest" ],
+	    "MustNotHave" : [ "North", "SouthWest" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-ne-se-s", "layer" : "ceiling", "position" : "NorthWest" } ]
+      },
+	  { "MustHave" : [ "NorthWest", "NorthWest-North", "NorthWest-NorthWest" ],
+	    "MustNotHave" : [ "North", "SouthWest", "SouthWest-NorthWest" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-ne-se-s-sw", "layer" : "ceiling", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "NorthEast-North", "NorthEast-SouthEast" ],
+	    "MustNotHave" : [ "North", "SouthEast" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-s-sw-nw", "layer" : "ceiling", "position" : "NorthEast" } ]
+      },
+	  { "MustHave" : [ "North" ],
+	    "MustNotHave" : [ "NorthEast", "NorthWest" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-se-s-sw", "layer" : "ceiling", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "North-North" ],
+	    "MustNotHave" : [ "NorthEast", "NorthWest", "NorthEast-North", "NorthWest-North" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-n-s", "layer" : "ceiling", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest" ],
+	    "MustNotHave" : [ "North", "North-NorthWest" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-n-ne-se-s-fg", "layer" : "ceiling", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast", "NorthWest" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-s", "layer" : "ceiling", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "NorthWest-SouthWest", "North" ],
+	    "MustNotHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-se-s", "layer" : "ceiling", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "NorthEast-SouthEast", "North" ],
+	    "MustNotHave" : [ "SouthEast" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-s-sw", "layer" : "ceiling", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "NorthWest-SouthWest" ],
+	    "MustNotHave" : [ "SouthWest", "North", "North-NorthWest" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-se-s", "layer" : "ceiling", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "NorthEast-SouthEast" ],
+	    "MustNotHave" : [ "SouthEast", "North", "North-NorthEast" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-s-sw", "layer" : "ceiling", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "NorthEast" ],
+	    "MustNotHave" : [ "North", "North-NorthEast" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-s-sw-ne-n-fg", "layer" : "ceiling", "position" : "NorthEast"} ]
+	  },
+	  
+	  { "MustHave" : [ "NorthWest", "North", "SouthWest" ],
+	    "MustNotHave" : [ "South" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-se", "layer" : "ceiling", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "North", "SouthEast" ],
+	    "MustNotHave" : [ "South" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-sw", "layer" : "ceiling", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "SouthWest" ],
+	    "MustNotHave" : [ "NorthWest-North" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-se", "layer" : "ceiling", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "SouthEast" ],
+	    "MustNotHave" : [ "NorthEast-North" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-sw", "layer" : "ceiling", "position" : "NorthEast" } ]
+	  },
+	  
+	  { "MustHave" : [ "NorthWest", "North", "SouthWest", "South" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-se2", "layer" : "ceiling", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "North", "SouthEast", "South" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-sw2", "layer" : "ceiling", "position" : "NorthEast" } ]
+	  },
+	  
+	  { "MustHave" : [ "NorthWest", "SouthWest", "NorthWest-North" ],
+	    "MustNotHave" : [ "North", "South" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-ne-se", "layer" : "ceiling", "position" : "NorthWest" } ]
+      },
+	  { "MustHave" : [ "NorthEast", "SouthEast", "NorthEast-North" ],
+	    "MustNotHave" : [ "North", "South" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-sw-ne", "layer" : "ceiling", "position" : "NorthEast" } ]
+      },
+	  { "MustHave" : [ "NorthWest", "SouthWest", "South", "NorthWest-North" ],
+	    "MustNotHave" : [ "North" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-ne-se2", "layer" : "ceiling", "position" : "NorthWest" } ]
+      },
+	  { "MustHave" : [ "NorthEast", "SouthEast", "South", "NorthEast-North" ],
+	    "MustNotHave" : [ "North" ],
+	    "tiles" : [ { "id" : "ceiling/wall-stone-sw-ne2", "layer" : "ceiling", "position" : "NorthEast" } ]
+      },
+	],
+	"BorderDesert" : [
+	  { "MustHave" : [ "North" ],
+	    "tiles" : [ { "id" : "borders/desert-s", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/desert-se", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/desert-sw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "South" ],
+	    "tiles" : [ { "id" : "borders/desert-n", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/desert-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast" ],
+	    "tiles" : [ { "id" : "borders/desert-nw", "layer" : "borders", "position" : "SouthEast" } ]
+	  }
+	],
+	"BorderStone" : [
+	  { "MustHave" : [ "North" ],
+	    "tiles" : [ { "id" : "borders/stone-s", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/stone-se", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/stone-sw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "South" ],
+	    "tiles" : [ { "id" : "borders/stone-n", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/stone-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast" ],
+	    "tiles" : [ { "id" : "borders/stone-nw", "layer" : "borders", "position" : "SouthEast" } ]
+	  }
+	],
+	"BorderHills" : [
+	  { "MustHave" : [ "North" ],
+	    "tiles" : [ { "id" : "borders/hills-s", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/hills-se", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/hills-sw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "South" ],
+	    "tiles" : [ { "id" : "borders/hills-n", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/hills-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast" ],
+	    "tiles" : [ { "id" : "borders/hills-nw", "layer" : "borders", "position" : "SouthEast" } ]
+	  }
+	],
+	"BorderDesertHills" : [
+	  { "MustHave" : [ "North" ],
+	    "tiles" : [ { "id" : "borders/deserthills-s", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/deserthills-se", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/deserthills-sw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "South" ],
+	    "tiles" : [ { "id" : "borders/deserthills-n", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/deserthills-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast" ],
+	    "tiles" : [ { "id" : "borders/deserthills-nw", "layer" : "borders", "position" : "SouthEast" } ]
+	  }
+	],
+	"BorderSnow" : [
+	  { "MustHave" : [ "North" ],
+	    "tiles" : [ { "id" : "borders/snow-s", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/snow-se", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/snow-sw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "South" ],
+	    "tiles" : [ { "id" : "borders/snow-n", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/snow-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast" ],
+	    "tiles" : [ { "id" : "borders/snow-nw", "layer" : "borders", "position" : "SouthEast" } ]
+	  }
+	],
+	"BorderIce" : [
+	  { "MustHave" : [ "North" ],
+	    "tiles" : [ { "id" : "borders/ice-s", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/ice-se", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/ice-sw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "South" ],
+	    "tiles" : [ { "id" : "borders/ice-n", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/ice-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast" ],
+	    "tiles" : [ { "id" : "borders/ice-nw", "layer" : "borders", "position" : "SouthEast" } ]
+	  }
+	],
+	"BorderSnowHills" : [
+	  { "MustHave" : [ "North" ],
+	    "tiles" : [ { "id" : "borders/snowhills-s", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/snowhills-se", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/snowhills-sw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "South" ],
+	    "tiles" : [ { "id" : "borders/snowhills-n", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/snowhills-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast" ],
+	    "tiles" : [ { "id" : "borders/snowhills-nw", "layer" : "borders", "position" : "SouthEast" } ]
+	  }
+	],
+    "BorderDirt" : [
+	  { "MustHave" : [ "South", "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/dirt-n", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South", "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/dirt-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "NorthWest" ],
+	    "MustNotHave" : [ "South"  ],
+	    "tiles" : [ { "id" : "borders/dirt-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "SouthWest-NorthWest", "North-NorthWest" ],
+	    "MustNotHave" : [ "SouthWest", "North" ],
+	    "tiles" : [ { "id" : "borders/dirt-ne-se-s", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "NorthWest-NorthWest" ],
+	    "MustNotHave" : [ "SouthWest", "North", "SouthWest-NorthWest" ],
+	    "tiles" : [ { "id" : "borders/dirt-ne-se-s-sw", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South", "NorthWest-SouthWest" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/dirt-n-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South-SouthWest", "SouthWest-NorthWest" ],
+	    "MustNotHave" : [ "NorthWest", "South" ],
+	    "tiles" : [ { "id" : "borders/dirt-n-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "SouthWest-SouthWest" ],
+	    "MustNotHave" : [ "NorthWest", "South", "South-SouthWest" ],
+	    "tiles" : [ { "id" : "borders/dirt-n-ne-se-s", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "MustNotHave" : [ "NorthWest", "South", "South-SouthWest", "SouthWest-SouthWest", "SouthWest-NorthWest" ],
+	    "tiles" : [ { "id" : "borders/dirt-n-ne-se-s-sw-nw", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "South" ],
+	    "tiles" : [ { "id" : "borders/dirt-nw", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "South", "NorthEast-SouthEast" ],
+	    "MustNotHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/dirt-nw-n", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "South", "SouthEast-South", "SouthWest-South" ],
+	    "MustNotHave" : [ "SouthEast", "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/dirt-nw-n-ne", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "South", "South-South" ],
+	    "MustNotHave" : [ "SouthEast", "SouthWest", "SouthEast-South" ],
+	    "tiles" : [ { "id" : "borders/dirt-nw-n-ne-se", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast", "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/dirt-s", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "North" ],
+	    "tiles" : [ { "id" : "borders/dirt-se", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "North", "NorthWest-SouthWest" ],
+	    "MustNotHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/dirt-se-s", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "North", "North-NorthWest", "North-NorthEast" ],
+	    "MustNotHave" : [ "NorthWest", "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/dirt-se-s-sw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "North-North" ],
+	    "MustNotHave" : [ "NorthWest", "NorthEast", "North-NorthWest" ],
+	    "tiles" : [ { "id" : "borders/dirt-se-s-sw-nw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast", "North-NorthWest" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/dirt-s-sw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast", "North-North" ],
+	    "MustNotHave" : [ "NorthWest", "North-NorthWest" ],
+	    "tiles" : [ { "id" : "borders/dirt-s-sw-nw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "NorthEast-NorthEast" ],
+	    "MustNotHave" : [ "SouthEast", "North", "North-NorthEast" ],
+	    "tiles" : [ { "id" : "borders/dirt-s-sw-nw-n", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "North", "SouthEast" ],
+	    "tiles" : [ { "id" : "borders/dirt-sw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "SouthEast" ],
+	    "MustNotHave" : [ "North" ],
+	    "tiles" : [ { "id" : "borders/dirt-sw-nw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "SouthEast-NorthEast", "SouthEast-SouthEast" ],
+	    "MustNotHave" : [ "NorthEast", "South" ],
+	    "tiles" : [ { "id" : "borders/dirt-sw-nw-n", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "SouthEast-SouthEast" ],
+	    "MustNotHave" : [ "NorthEast", "South", "SouthEast-NorthEast" ],
+	    "tiles" : [ { "id" : "borders/dirt-sw-nw-n-ne", "layer" : "borders", "position" : "SouthEast" } ]
+	  }
+	],
+	"BorderPath" : [
+	  { "MustHave" : [ "South", "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/path-n", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South", "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/path-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "NorthWest" ],
+	    "MustNotHave" : [ "South"  ],
+	    "tiles" : [ { "id" : "borders/path-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "SouthWest-NorthWest" ],
+	    "MustNotHave" : [ "SouthWest", "North" ],
+	    "tiles" : [ { "id" : "borders/path-ne-se-s", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South", "NorthWest-SouthWest" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/path-n-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "MustNotHave" : [ "NorthWest", "South" ],
+	    "tiles" : [ { "id" : "borders/path-n-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "MustNotHave" : [ "NorthWest", "South", "South-SouthWest", "SouthWest-SouthWest", "SouthWest-NorthWest" ],
+	    "tiles" : [ { "id" : "borders/path-n-ne-se-s-sw-nw", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "South" ],
+	    "tiles" : [ { "id" : "borders/path-nw", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "South", "NorthEast-SouthEast" ],
+	    "MustNotHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/path-nw-n", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "South" ],
+	    "MustNotHave" : [ "SouthEast", "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/path-nw-n-ne", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast", "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/path-s", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "North" ],
+	    "tiles" : [ { "id" : "borders/path-se", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "North" ],
+	    "MustNotHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/path-se-s", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "North", "North-NorthWest" ],
+	    "MustNotHave" : [ "NorthWest", "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/path-se-s-sw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/path-s-sw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "North-North" ],
+	    "MustNotHave" : [ "NorthWest", "North-NorthWest" ],
+	    "tiles" : [ { "id" : "borders/path-s-sw-nw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "North", "SouthEast" ],
+	    "tiles" : [ { "id" : "borders/path-sw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "SouthEast" ],
+	    "MustNotHave" : [ "North" ],
+	    "tiles" : [ { "id" : "borders/path-sw-nw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "SouthEast-NorthEast" ],
+	    "MustNotHave" : [ "NorthEast", "South" ],
+	    "tiles" : [ { "id" : "borders/path-sw-nw-n", "layer" : "borders", "position" : "SouthEast" } ]
+	  }
+	],
+	"BorderPathClean" : [
+	  { "MustHave" : [ "South", "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/pathclean-n", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South", "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/pathclean-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "NorthWest" ],
+	    "MustNotHave" : [ "South"  ],
+	    "tiles" : [ { "id" : "borders/pathclean-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "SouthWest-NorthWest" ],
+	    "MustNotHave" : [ "SouthWest", "North" ],
+	    "tiles" : [ { "id" : "borders/pathclean-ne-se-s", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South", "NorthWest-SouthWest" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/pathclean-n-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "MustNotHave" : [ "NorthWest", "South" ],
+	    "tiles" : [ { "id" : "borders/pathclean-n-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "MustNotHave" : [ "NorthWest", "South", "South-SouthWest", "SouthWest-SouthWest", "SouthWest-NorthWest" ],
+	    "tiles" : [ { "id" : "borders/pathclean-n-ne-se-s-sw-nw", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "South" ],
+	    "tiles" : [ { "id" : "borders/pathclean-nw", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "South", "NorthEast-SouthEast" ],
+	    "MustNotHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/pathclean-nw-n", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "South" ],
+	    "MustNotHave" : [ "SouthEast", "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/pathclean-nw-n-ne", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast", "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/pathclean-s", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "North" ],
+	    "tiles" : [ { "id" : "borders/pathclean-se", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "North" ],
+	    "MustNotHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/pathclean-se-s", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "North", "North-NorthWest" ],
+	    "MustNotHave" : [ "NorthWest", "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/pathclean-se-s-sw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/pathclean-s-sw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "North-North" ],
+	    "MustNotHave" : [ "NorthWest", "North-NorthWest" ],
+	    "tiles" : [ { "id" : "borders/pathclean-s-sw-nw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "North", "SouthEast" ],
+	    "tiles" : [ { "id" : "borders/pathclean-sw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "SouthEast" ],
+	    "MustNotHave" : [ "North" ],
+	    "tiles" : [ { "id" : "borders/pathclean-sw-nw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "SouthEast-NorthEast" ],
+	    "MustNotHave" : [ "NorthEast", "South" ],
+	    "tiles" : [ { "id" : "borders/pathclean-sw-nw-n", "layer" : "borders", "position" : "SouthEast" } ]
+	  }
+	],
+	"BorderPathGrass" : [
+	  { "MustHave" : [ "South", "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-n", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South", "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "NorthWest" ],
+	    "MustNotHave" : [ "South"  ],
+	    "tiles" : [ { "id" : "borders/pathgrass-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "SouthWest-NorthWest" ],
+	    "MustNotHave" : [ "SouthWest", "North" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-ne-se-s", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South", "NorthWest-SouthWest" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-n-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "MustNotHave" : [ "NorthWest", "South" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-n-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "MustNotHave" : [ "NorthWest", "South", "South-SouthWest", "SouthWest-SouthWest", "SouthWest-NorthWest" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-n-ne-se-s-sw-nw", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "South" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-nw", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "South", "NorthEast-SouthEast" ],
+	    "MustNotHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-nw-n", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "South" ],
+	    "MustNotHave" : [ "SouthEast", "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-nw-n-ne", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast", "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-s", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "North" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-se", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "North" ],
+	    "MustNotHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-se-s", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "North", "North-NorthWest" ],
+	    "MustNotHave" : [ "NorthWest", "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-se-s-sw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-s-sw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "North-North" ],
+	    "MustNotHave" : [ "NorthWest", "North-NorthWest" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-s-sw-nw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "North", "SouthEast" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-sw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "SouthEast" ],
+	    "MustNotHave" : [ "North" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-sw-nw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "SouthEast-NorthEast" ],
+	    "MustNotHave" : [ "NorthEast", "South" ],
+	    "tiles" : [ { "id" : "borders/pathgrass-sw-nw-n", "layer" : "borders", "position" : "SouthEast" } ]
+	  }
+	],
+	"BorderGrass" : [
+	  { "MustHave" : [ "South", "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/grass-n", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South", "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/grass-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "NorthWest" ],
+	    "MustNotHave" : [ "South"  ],
+	    "tiles" : [ { "id" : "borders/grass-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "SouthWest-NorthWest" ],
+	    "MustNotHave" : [ "SouthWest", "North" ],
+	    "tiles" : [ { "id" : "borders/grass-ne-se-s", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South", "NorthWest-SouthWest" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/grass-n-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "MustNotHave" : [ "NorthWest", "South" ],
+	    "tiles" : [ { "id" : "borders/grass-n-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "MustNotHave" : [ "NorthWest", "South", "South-SouthWest", "SouthWest-SouthWest", "SouthWest-NorthWest" ],
+	    "tiles" : [ { "id" : "borders/grass-s-sw-nw-n-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "South" ],
+	    "tiles" : [ { "id" : "borders/grass-nw", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "South", "NorthEast-SouthEast" ],
+	    "MustNotHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/grass-nw-n", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "South" ],
+	    "MustNotHave" : [ "SouthEast", "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/grass-nw-n-ne", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast", "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/grass-s", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "North" ],
+	    "tiles" : [ { "id" : "borders/grass-se", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "North" ],
+	    "MustNotHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/grass-se-s", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "North", "North-NorthWest" ],
+	    "MustNotHave" : [ "NorthWest", "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/grass-se-s-sw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/grass-s-sw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "North-North" ],
+	    "MustNotHave" : [ "NorthWest", "North-NorthWest" ],
+	    "tiles" : [ { "id" : "borders/grass-s-sw-nw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "North", "SouthEast" ],
+	    "tiles" : [ { "id" : "borders/grass-sw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "SouthEast" ],
+	    "MustNotHave" : [ "North" ],
+	    "tiles" : [ { "id" : "borders/grass-sw-nw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "SouthEast-NorthEast" ],
+	    "MustNotHave" : [ "NorthEast", "South" ],
+	    "tiles" : [ { "id" : "borders/grass-sw-nw-n", "layer" : "borders", "position" : "SouthEast" } ]
+	  }
+	],
+	"BorderGrassDry" : [
+	  { "MustHave" : [ "South", "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/grassdry-n", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South", "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/grassdry-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "NorthWest" ],
+	    "MustNotHave" : [ "South"  ],
+	    "tiles" : [ { "id" : "borders/grassdry-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "SouthWest-NorthWest" ],
+	    "MustNotHave" : [ "SouthWest", "North" ],
+	    "tiles" : [ { "id" : "borders/grassdry-ne-se-s", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South", "NorthWest-SouthWest" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/grassdry-n-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "MustNotHave" : [ "NorthWest", "South" ],
+	    "tiles" : [ { "id" : "borders/grassdry-n-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "South" ],
+	    "tiles" : [ { "id" : "borders/grassdry-nw", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "South", "NorthEast-SouthEast" ],
+	    "MustNotHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/grassdry-nw-n", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "South" ],
+	    "MustNotHave" : [ "SouthEast", "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/grassdry-nw-n-ne", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast", "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/grassdry-s", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "North" ],
+	    "tiles" : [ { "id" : "borders/grassdry-se", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "North" ],
+	    "MustNotHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/grassdry-se-s", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "North", "North-NorthWest" ],
+	    "MustNotHave" : [ "NorthWest", "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/grassdry-se-s-sw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/grassdry-s-sw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "North-North" ],
+	    "MustNotHave" : [ "NorthWest", "North-NorthWest" ],
+	    "tiles" : [ { "id" : "borders/grassdry-s-sw-nw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "North", "SouthEast" ],
+	    "tiles" : [ { "id" : "borders/grassdry-sw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "SouthEast" ],
+	    "MustNotHave" : [ "North" ],
+	    "tiles" : [ { "id" : "borders/grassdry-sw-nw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "SouthEast-NorthEast" ],
+	    "MustNotHave" : [ "NorthEast", "South" ],
+	    "tiles" : [ { "id" : "borders/grassdry-sw-nw-n", "layer" : "borders", "position" : "SouthEast" } ]
+	  }
+	],
+	"BorderLeaves" : [
+	  { "MustHave" : [ "South", "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/leaves-n", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South", "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/leaves-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "NorthWest" ],
+	    "MustNotHave" : [ "South"  ],
+	    "tiles" : [ { "id" : "borders/leaves-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "SouthWest-NorthWest" ],
+	    "MustNotHave" : [ "SouthWest", "North" ],
+	    "tiles" : [ { "id" : "borders/leaves-ne-se-s", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest", "South", "NorthWest-SouthWest" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/leaves-n-ne", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthWest" ],
+	    "MustNotHave" : [ "NorthWest", "South" ],
+	    "tiles" : [ { "id" : "borders/leaves-n-ne-se", "layer" : "borders", "position" : "SouthWest" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "South" ],
+	    "tiles" : [ { "id" : "borders/leaves-nw", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "South", "NorthEast-SouthEast" ],
+	    "MustNotHave" : [ "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/leaves-nw-n", "layer" : "borders", "position" : "SouthEast" } ]
+	  },
+	  { "MustHave" : [ "South" ],
+	    "MustNotHave" : [ "SouthEast", "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/leaves-nw-n-ne", "layer" : "borders", "position" : "South" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast", "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/leaves-s", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "North" ],
+	    "tiles" : [ { "id" : "borders/leaves-se", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "NorthWest", "North" ],
+	    "MustNotHave" : [ "SouthWest" ],
+	    "tiles" : [ { "id" : "borders/leaves-se-s", "layer" : "borders", "position" : "NorthWest" } ]
+	  },
+	  { "MustHave" : [ "North", "North-NorthWest" ],
+	    "MustNotHave" : [ "NorthWest", "NorthEast" ],
+	    "tiles" : [ { "id" : "borders/leaves-se-s-sw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "NorthEast" ],
+	    "MustNotHave" : [ "NorthWest" ],
+	    "tiles" : [ { "id" : "borders/leaves-s-sw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "North", "North-North" ],
+	    "MustNotHave" : [ "NorthWest", "North-NorthWest" ],
+	    "tiles" : [ { "id" : "borders/leaves-s-sw-nw", "layer" : "borders", "position" : "North" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "North", "SouthEast" ],
+	    "tiles" : [ { "id" : "borders/leaves-sw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "NorthEast", "SouthEast" ],
+	    "MustNotHave" : [ "North" ],
+	    "tiles" : [ { "id" : "borders/leaves-sw-nw", "layer" : "borders", "position" : "NorthEast" } ]
+	  },
+	  { "MustHave" : [ "SouthEast", "SouthEast-NorthEast" ],
+	    "MustNotHave" : [ "NorthEast", "South" ],
+	    "tiles" : [ { "id" : "borders/leaves-sw-nw-n", "layer" : "borders", "position" : "SouthEast" } ]
+	  }
+	]
+  }
+};

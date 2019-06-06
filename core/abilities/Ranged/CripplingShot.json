@@ -1,0 +1,37 @@
+{
+  "externalScript" : "abilities/cripplingShot",
+  "name" : "Crippling Shot",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/cripplingShot"
+  },
+  "description" : "You fire a single shot from any ranged weapon at a specified target.  The shot is made with a +20 bonus to attack.  If the shot hits, the target must succeed at a reflex check or become pinned and immobilized for 3 rounds.  If the target succeeds at the check, they still suffer a 50% movement penalty for 3 rounds.",
+  "upgrades" : [
+      { "ability" : "DevastatingShot",
+        "description" : "With Devastating Shot, your Crippling Shot is now made with a +40 Attack Bonus and a +160 Damage Bonus.",
+		"override" : true }
+  ],
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "cooldown" : 5,
+  "actionPointCost" : "Same as an attack",
+  "ai" : {
+    "power" : 30,
+    "priority" : 8,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "RapidShot"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 10
+      }
+    ]
+  }
+}

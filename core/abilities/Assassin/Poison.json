@@ -1,0 +1,30 @@
+{
+  "externalScript" : "abilities/poison",
+  "name" : "Poison",
+  "type" : "Assassin Abilities",
+  "icon" : {
+    "sprite" : "icons/poison"
+  },
+  "description" : "You coat your weapon in a deadly poison.  For a number of attacks equal to 3 plus your Assassin level, the attack poisons the target.  Unless the target makes a physical resistance check, they will take 1 to 6 damage per round for 2 rounds.  The poison wears off it has not been used after 5 rounds.  You must be wielding a weapon (either melee or ranged) to activate this ability.",
+  "upgrades" : [
+    { "ability" : "LingeringPoison",
+      "description" : "With Lingering Poison, your poison ability now lasts for up to 8 rounds on your weapon.  The effects of the poison on your target last for 3 rounds instead of 2.",
+      "override" : false },
+	{ "ability" : "LethalPoison",
+      "description" : "With Lethal Poison, your poison does an additional 1 point of damage per 2 Assassin levels per round.",
+      "override" : false }
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "cooldown" : 5,
+  "actionPointCost" : 5000,
+  "ai" : {
+    "power" : 20,
+    "priority" : 10,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  }
+}

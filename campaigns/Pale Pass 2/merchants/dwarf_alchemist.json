@@ -1,0 +1,29 @@
+{
+  "name" : "Alchemist",
+  "usesSpeechSkill" : true,
+  "confirmOnExit" : false,
+  "respawnHours" : 24,
+  "buyValuePercentage" : 45,
+  "sellValuePercentage" : 160,
+  "items" : [
+    {
+      "id" : "AlchemySupplies",
+      "probability" : {
+        "value" : 70,
+        "mode" : "PerItem"
+      }
+    }, {
+      "id" : "PotionsFine",
+      "probability" : {
+        "value" : 80,
+        "mode" : "PerItem"
+      }
+    }, {
+      "id" : "PotionsGood",
+      "probability" : {
+        "value" : 60,
+        "mode" : "PerItem"
+      }
+    }
+  ]
+}

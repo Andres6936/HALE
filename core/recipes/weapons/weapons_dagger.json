@@ -1,0 +1,42 @@
+{
+  "name" : "Dagger",
+  "description" : "Creates a dagger.  The quality is dependant on your Craft Weapons skill.",
+  "skill" : "CraftWeapons",
+  "skillRankRequirement" : 15,
+  "ingredients" : {
+    "bar_iron" : 1,
+    "bar_wood" : 1,
+    "coal" : 3
+  },
+  "result" : {
+    "id" : "dagger",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 10
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 30
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 50
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 70
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 90
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 110
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 130
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 150
+      }
+    ]
+  }
+}

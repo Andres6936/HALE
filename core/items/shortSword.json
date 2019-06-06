@@ -1,0 +1,32 @@
+{
+  "name" : "Short Sword",
+  "description" : "A short blade used for stabbing rather than slashing, the short sword is effective as a light or off hand weapon.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Sword001",
+    "color" : "#ffffffff"
+  },
+  "value" : 18000,
+  "weight" : 1000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-sword02",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "Light",
+  "baseWeapon" : "Short Sword",
+  "threatensAoOs" : true,
+  "damageType" : "Piercing",
+  "minDamage" : 1,
+  "maxDamage" : 5,
+  "criticalThreat" : 91,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

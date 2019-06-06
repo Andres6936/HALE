@@ -1,0 +1,43 @@
+{
+  "name" : "Plate Helmet",
+  "description" : "Creates a plate helmet.  The quality is dependant on your Craft Armor skill.",
+  "skill" : "CraftArmor",
+  "skillRankRequirement" : 45,
+  "ingredients" : {
+    "leather" : 1,
+    "thread" : 2,
+    "bar_iron" : 4,
+    "coal" : 6
+  },
+  "result" : {
+    "id" : "helmet_plate_base",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 40
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 60
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 80
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 100
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 120
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 130
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 145
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 160
+      }
+    ]
+  }
+}

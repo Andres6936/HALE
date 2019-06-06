@@ -1,0 +1,303 @@
+{
+  "name" : "Ducky",
+  "isPregenerated" : true,
+  "gender" : "Female",
+  "race" : "Human",
+  "portrait" : "Human\/mage+female",
+  "icon" : {
+    "skinColor" : "#fff6d39b",
+    "clothingColor" : "#ffff00ff",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons\/hair013",
+        "color" : "#ffee7600"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 13,
+    "constitution" : 13,
+    "intelligence" : 18,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Search" : 65,
+    "Alchemy" : 70,
+    "Enchanting" : 70,
+    "CraftArmor" : 5,
+    "Speech" : 10
+  },
+  "abilities" : [
+    {
+      "id" : "Shield",
+      "levelObtained" : 3
+    }, {
+      "id" : "Summon",
+      "levelObtained" : 5
+    }, {
+      "id" : "ProficientCasting",
+      "levelObtained" : 2
+    }, {
+      "id" : "FastSpellRecovery2",
+      "levelObtained" : 11
+    }, {
+      "id" : "FastSpellRecovery1",
+      "levelObtained" : 5
+    }, {
+      "id" : "MeleeCasting",
+      "levelObtained" : 14
+    }, {
+      "id" : "SelfSufficient",
+      "levelObtained" : 8
+    }, {
+      "id" : "Crush",
+      "levelObtained" : 1
+    }, {
+      "id" : "FlamingFingers",
+      "levelObtained" : 4
+    }, {
+      "id" : "Firebolt",
+      "levelObtained" : 2
+    }, {
+      "id" : "Fireball",
+      "levelObtained" : 8
+    }, {
+      "id" : "Meteor",
+      "levelObtained" : 14
+    }, {
+      "id" : "Chameleon",
+      "levelObtained" : 6
+    }, {
+      "id" : "Haste",
+      "levelObtained" : 7
+    }, {
+      "id" : "MassChameleon",
+      "levelObtained" : 10
+    }, {
+      "id" : "LayerOfBark",
+      "levelObtained" : 12
+    }, {
+      "id" : "ImprovedSummon",
+      "levelObtained" : 13
+    }, {
+      "id" : "Cure",
+      "levelObtained" : 9
+    }
+  ],
+  "roles" : {
+    "baseRoleID" : "Mage",
+    "Mage" : 10,
+    "Druid" : 4
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "crossbow",
+        "quality" : "Fine"
+      },
+      "Armor" : {
+        "id" : "armor_robe-0x77532a"
+      },
+      "Helmet" : {
+        "id" : "wizardHat-0x832299ce"
+      },
+      "Cloak" : {
+        "id" : "cloak-0xb534ae91"
+      },
+	  "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Fine"
+      }
+      "Belt" : {
+        "id" : "belt-0x2777514a"
+      },
+      "Amulet" : {
+        "id" : "amulet-0xbf3577d3"
+      },
+      "RightRing" : {
+        "id" : "silverRing-0x9ceb29d9"
+      },
+      "LeftRing" : {
+        "id" : "goldRing-0xa065bb10"
+      },
+      "Quiver" : {
+        "id" : "bolt"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "bolt",
+        "quantity" : 108
+      }, {
+        "id" : "quarterstaff-0xdad23520",
+        "quality" : "Fine",
+        "quantity" : 1
+      }, {
+        "id" : "scrollRaiseDead",
+        "quantity" : 1
+      }, {
+        "id" : "potionHealing",
+        "quality" : "Fine",
+        "quantity" : 1
+      }
+    ],
+    "createdItems" : [
+	  {
+        "baseItemID" : "armor_robe",
+        "createdItemID" : "armor_robe-0x77532a",
+        "scripts" : [
+          "entity.addBonus('ArmorClass', 'Deflection',  8);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Defense",
+        "valueModifier" : 190,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_armor",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "wizardHat",
+        "createdItemID" : "wizardHat-0x832299ce",
+        "scripts" : [
+          "entity.addBonus('ConcealmentIgnoring',  5);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of True Sight",
+        "valueModifier" : 160,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_concealmentIgnoring",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "cloak",
+        "createdItemID" : "cloak-0xb534ae91",
+        "scripts" : [
+          "entity.addBonus('Initiative',  8);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Initiative",
+        "valueModifier" : 180,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_initiative",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "belt",
+        "createdItemID" : "belt-0x2777514a",
+        "scripts" : [
+          "entity.addDamageReduction('Electrical',  2);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Electrical Resistance",
+        "valueModifier" : 150,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_lightning",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "amulet",
+        "createdItemID" : "amulet-0xbf3577d3",
+        "scripts" : [
+          "entity.addBonus('SpellCooldown',  1);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Fast Casting",
+        "valueModifier" : 170,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_spellCooldown",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "silverRing",
+        "createdItemID" : "silverRing-0x9ceb29d9",
+        "scripts" : [
+          "entity.addBonus('MentalResistance', 8);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Mental Resistance",
+        "valueModifier" : 170,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_mental",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "goldRing",
+        "createdItemID" : "goldRing-0xa065bb10",
+        "scripts" : [
+          "entity.addBonus('SpellDamage',  2);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Spell Damage",
+        "valueModifier" : 170,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_spellDamage",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "quarterstaff",
+        "createdItemID" : "quarterstaff-0xdad23520",
+        "scripts" : [
+          "entity.addStandaloneDamageBonus('Electrical', 1, 4);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Lightning",
+        "valueModifier" : 170,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_lightning",
+          "color" : "#ffffffff"
+        }
+      }
+    ]
+  },
+  "unspentSkillPoints" : 2,
+  "experiencePoints" : 21292,
+  "quickbar" : {
+    "lastViewSet" : 0,
+    "slots" : {
+      "slot0" : {
+        "type" : "use",
+        "itemID" : "potionHealing",
+        "itemQuality" : "Fine"
+      },
+      "slot1" : {
+        "type" : "ability",
+        "abilityID" : "Crush"
+      },
+      "slot2" : {
+        "type" : "ability",
+        "abilityID" : "Firebolt"
+      },
+      "slot3" : {
+        "type" : "ability",
+        "abilityID" : "FlamingFingers"
+      },
+      "slot4" : {
+        "type" : "ability",
+        "abilityID" : "Shield"
+      },
+      "slot5" : {
+        "type" : "ability",
+        "abilityID" : "Summon"
+      },
+      "slot6" : {
+        "type" : "ability",
+        "abilityID" : "Chameleon"
+      },
+      "slot7" : {
+        "type" : "ability",
+        "abilityID" : "Haste"
+      },
+      "slot8" : {
+        "type" : "ability",
+        "abilityID" : "Cure"
+      },
+      "slot9" : {
+        "type" : "ability",
+        "abilityID" : "LayerOfBark"
+      }
+    }
+  }
+}

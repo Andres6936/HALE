@@ -1,0 +1,37 @@
+{
+  "externalScript" : "spells/firebolt",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : true,
+  "spellLevel" : 1,
+  "name" : "Firebolt",
+  "type" : "Evocation",
+  "icon" : {
+    "sprite" : "icons/firebolt"
+  },
+  "description" : "A missile of fire flies from the caster to the target, doing 6 to 12 damage plus one per caster level.  The target must be within 8 hexes of the caster.",
+  "upgrades" : [
+    { "ability" : "Fireball",
+      "description" : "With Fireball, Firebolt now explodes on impact, doing damage to all targets within 4 hexes.",
+      "override" : true},
+    { "ability" : "Meteor",
+      "description" : "With Meteor, a swarm of meteors descends on an area with a 5 hex radius, doing 10 to 20 additional damage to all hostile targets and only one third as much damage to friendly targets.",
+      "override" : true},
+    { "ability" : "BurningFlames",
+      "description" : "With Burning Flames, targets now catch on fire, taking 1 point per 4 caster levels of Fire damage for 2 rounds."}
+  ],
+  "isActivateable" : true,
+  "quickbarGroup" : "Evocation",
+  "isFixed" : true,
+  "isMode" : false,
+  "cooldown" : 8,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 10,
+    "priority" : 2,
+    "actionType" : "Damage",
+    "groupType" : "Single",
+    "rangeType" : "Long"
+  }
+}

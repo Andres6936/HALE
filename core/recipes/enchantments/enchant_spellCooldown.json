@@ -1,0 +1,33 @@
+{
+  "name" : "Enhance Spell Cooldowns",
+  "description" : "Adds an spell cooldown bonus to an item.  The amount of the bonus depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 45,
+  "ingredients" : {
+    "bar_gold" : 1,
+    "crystal_green" : 1,
+	"crystal_blue" : 1
+  },
+  "result" : {
+    "postfix" : " of Fast Casting",
+    "ingredientItemTypes" : [ "Amulet", "Ring" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_spellCooldown"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 35,
+		"valueModifier" : 170,
+        "enchantment" : "entity.addBonus('SpellCooldown',  1);"
+      }, {
+        "skillRankRequirement" : 95,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addBonus('SpellCooldown',  2);"
+      }, {
+        "skillRankRequirement" : 175,
+		"valueModifier" : 290,
+        "enchantment" : "entity.addBonus('SpellCooldown',  3);"
+      }
+    ]
+  }
+}

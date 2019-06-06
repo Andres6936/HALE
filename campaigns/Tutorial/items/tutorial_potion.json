@@ -1,0 +1,17 @@
+{ "class" : "Item",
+  "name" : "Healing Potion",
+  "icon" : {
+    "sprite" : "items/P_Blue02",
+	"color" : "#ffffffff"
+  },
+  
+  "description" : "This potion will restore health when consumed.",
+  
+  "value" : 1000,
+  "weight": 200,
+  
+  "defaultQuality" : "Good",
+  "script" : "items/healingPotion",
+  "useText" : "Drink",
+  "useAP" : 4000
+}

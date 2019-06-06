@@ -1,0 +1,48 @@
+{
+  "name" : "Merchant",
+  "usesSpeechSkill" : true,
+  "confirmOnExit" : false,
+  "respawnHours" : 24,
+  "buyValuePercentage" : 60,
+  "sellValuePercentage" : 140,
+  "items" : [
+    {
+      "id" : "SmithingSupplies",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerItem"
+      }
+    }, {
+      "id" : "AlchemySupplies",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerItem"
+      }
+    }, {
+      "id" : "PotionsSuperb",
+      "probability" : {
+        "value" : 40,
+        "mode" : "PerItem"
+      }
+    }, {
+      "id" : "WeaponsSuperb",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerItem"
+      }
+    }, {
+      "id" : "ArmorSuperb",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerItem"
+      }
+    },
+	{
+	  "id" : "LootMagicSuperb",
+	  "probability" : {
+	    "value" : 30,
+		"mode" : "PerItem"
+	  }
+	}
+  ]
+}

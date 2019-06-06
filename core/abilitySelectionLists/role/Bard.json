@@ -1,0 +1,9 @@
+{
+  "name" : "Bard",
+  "subLists" : {
+    "BardAbilities" : {
+      "x" : 0.0,
+      "y" : 0.5
+    }
+  }
+}

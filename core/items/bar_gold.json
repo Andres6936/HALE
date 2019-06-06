@@ -1,0 +1,13 @@
+{
+  "name" : "Gold Bar",
+  "description" : "A valuable bar of solid gold.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_BarBrown",
+    "color" : "#ffeab951"
+  },
+  "value" : 300000,
+  "weight" : 6000,
+  "isIngredient" : true,
+  "isQuest" : false
+}

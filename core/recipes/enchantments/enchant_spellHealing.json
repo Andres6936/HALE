@@ -1,0 +1,52 @@
+{
+  "name" : "Enhance Spell Healing",
+  "description" : "Adds an spell healing bonus to an item.  The amount of the bonus depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 50,
+  "ingredients" : {
+    "bar_gold" : 1,
+	"crystal_blue" : 2
+  },
+  "result" : {
+    "postfix" : " of Healing",
+    "ingredientItemTypes" : [ "Gloves", "Ring" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_spellHealing"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 35,
+		"valueModifier" : 170,
+        "enchantment" : "entity.addBonus('SpellHealing', 3);"
+      }, {
+        "skillRankRequirement" : 55,
+		"valueModifier" : 200,
+        "enchantment" : "entity.addBonus('SpellHealing', 6);"
+      }, {
+        "skillRankRequirement" : 75,
+		"valueModifier" : 215,
+        "enchantment" : "entity.addBonus('SpellHealing', 9);"
+      }, {
+        "skillRankRequirement" : 95,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addBonus('SpellHealing', 12);"
+      }, {
+        "skillRankRequirement" : 115,
+		"valueModifier" : 245,
+        "enchantment" : "entity.addBonus('SpellHealing', 15);"
+      }, {
+        "skillRankRequirement" : 135,
+		"valueModifier" : 260,
+        "enchantment" : "entity.addBonus('SpellHealing', 18);"
+      }, {
+        "skillRankRequirement" : 155,
+		"valueModifier" : 275,
+        "enchantment" : "entity.addBonus('SpellHealing', 21);"
+      }, {
+        "skillRankRequirement" : 175,
+		"valueModifier" : 290,
+        "enchantment" : "entity.addBonus('SpellHealing', 24);"
+      }
+    ]
+  }
+}

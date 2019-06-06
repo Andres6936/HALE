@@ -1,0 +1,17 @@
+{
+  "name" : "Lingering Poison",
+  "type" : "Assassin Abilities",
+  "icon" : {
+    "sprite" : "icons/lingeringPoison"
+  },
+  "description" : "Your poison ability now lasts for up to 8 rounds on your weapon.  The effects of the poison on your target last for 3 rounds instead of 2.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Poison"
+    ]
+  }
+}

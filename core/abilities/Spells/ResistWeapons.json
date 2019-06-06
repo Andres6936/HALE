@@ -1,0 +1,26 @@
+{
+  "name" : "Resist Weapons",
+  "type" : "Alteration",
+  "icon" : {
+    "sprite" : "icons/resistWeapons"
+  },
+  "description" : "Your Harden Armor spell is improved.  You choose one type of Physical damage (Slashing, Piercing, or Blunt).  The armor gains 20% plus 1% per caster level Damage Immunity to the chosen form of damage for 5 to 10 rounds, in addition to the damage reduction from Harden Armor.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "HardenArmor"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

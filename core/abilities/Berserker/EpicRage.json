@@ -1,0 +1,23 @@
+{
+  "name" : "Epic Rage",
+  "type" : "Berserker Abilities",
+  "icon" : {
+    "sprite" : "icons/epicRage"
+  },
+  "description" : "Your rage is further improved.  You gain an Action Point bonus of 5 plus 2 points per Berserker Level.  Your bonus to Strength further improves to +8.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 50
+  },
+  "prereqs" : {
+    "abilities" : [
+      "ImprovedRage", "UnstoppableRage"
+    ],
+    "roles" : [
+      {
+        "id" : "Berserker",
+        "level" : 7
+      }
+    ]
+  }
+}

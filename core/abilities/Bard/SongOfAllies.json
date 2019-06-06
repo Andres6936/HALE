@@ -1,0 +1,20 @@
+{
+  "name" : "Song of Allies",
+  "type" : "Bard Abilities",
+  "icon" : {
+    "sprite" : "icons/songOfAllies"
+  },
+  "description" : "The Song of Allies upgrades all of your Bardsongs.  All allies within 8 hexes of the Bard gain a bonus to Constitution of one point per two points of Charisma above 10 when you sing any bardsong.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "SongOfLuck"
+    ],
+    "roles" : [
+      {
+        "id" : "Bard",
+        "level" : 5
+      }
+    ]
+  }
+}

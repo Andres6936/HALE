@@ -1,0 +1,43 @@
+{
+  "externalScript" : "spells/curse",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : true,
+  "spellLevel" : 1,
+  "name" : "Curse",
+  "type" : "Enchantment",
+  "icon" : {
+    "sprite" : "icons/curse"
+  },
+  "description" : "The caster attempts to touch a single target.  If they succeed, the target is cursed with a 10 + caster level penalty to Defense for 4 to 8 rounds.",
+  "upgrades" : [
+      { "ability" : "Enfeeble",
+        "description" : "With Enfeeble, your curse now affects the target's attributes, applying a 1 plus 1 per 6 caster level penalty to Dexterity and Constitution."},
+      { "ability" : "MassCurse",
+        "description" : "With Mass Curse, all hostiles within 4 hexes of the caster are now affected by the curse, with no touch attack needed."
+        "override" : true },
+      { "ability" : "Drain",
+        "description" : "With Drain, every point of Dexterity and Constitution drained from a target with Enfeeble is added back to you for the duration of the spell.  With Mass Curse, this spell bolsters all of your allies within range."}
+  ],
+  "isActivateable" : true,
+  "quickbarGroup" : "Enchantment",
+  "isFixed" : true,
+  "cooldown" : 8,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 10,
+    "priority" : 4,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 1
+      }
+    ]
+  }
+}

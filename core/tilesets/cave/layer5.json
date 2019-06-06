@@ -1,0 +1,9 @@
+{
+  "source" : "layer5",
+  "images" : {
+    "wall-rough-concave-bl" : [ 0, 0, 108, 144 ],
+    "wall-rough-concave-br" : [ 108, 0, 108, 144 ],
+    "wall-rough-convex-tl" : [ 216, 0, 108, 144 ],
+    "wall-rough-convex-tr" : [ 324, 0, 108, 144 ]
+  }
+}

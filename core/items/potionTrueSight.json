@@ -1,0 +1,17 @@
+{
+  "name" : "Potion of True Sight",
+  "description" : "This potion will grant you the ability to see through concealment.  The amount of the bonus is dependant on the quality of the potion.",
+  "script" : "items/potionTrueSight",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/P_Yellow01",
+    "color" : "#ffffffff"
+  },
+  "value" : 25000,
+  "weight" : 300,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "Drink",
+  "useAP" : 4000,
+  "defaultQuality" : "Good"
+}

@@ -1,0 +1,41 @@
+{
+  "name" : "Yeti",
+  "gender" : "Male",
+  "race" : "LargeAnimal",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/yeti",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 23,
+    "dexterity" : 8,
+    "constitution" : 14,
+    "intelligence" : 4,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor20",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Monster" : 1
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "mediumClaw",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  }
+}

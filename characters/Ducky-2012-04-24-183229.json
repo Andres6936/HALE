@@ -1,0 +1,57 @@
+{
+  "name" : "Ducky",
+  "isPregenerated" : true,
+  "gender" : "Female",
+  "race" : "Human",
+  "portrait" : "Human/mage+female",
+  "icon" : {
+    "skinColor" : "#fff6d39b",
+    "clothingColor" : "#ffff00ff",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair013",
+        "color" : "#ffee7600"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 13,
+    "constitution" : 13,
+    "intelligence" : 18,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Enchanting" : 5,
+    "Alchemy" : 5
+  },
+  "abilities" : [
+    {
+      "id" : "Crush",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Mage" : 1,
+    "baseRoleID" : "Mage"
+  },
+  "inventory" : {
+    "equipped" : {
+      "Armor" : {
+        "id" : "armor_clothes"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "experiencePoints" : 0,
+  "unspentSkillPoints" : 3,
+  "quickbar" : {
+    "slots" : {
+
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "Iron Bar",
+  "description" : "An iron bar for use in crafting weapons and armor.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_BarBrown",
+    "color" : "#ffffffff"
+  },
+  "value" : 10000,
+  "weight" : 3000,
+  "isIngredient" : true,
+  "isQuest" : false
+}

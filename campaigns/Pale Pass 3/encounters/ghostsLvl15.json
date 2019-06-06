@@ -1,0 +1,29 @@
+{
+  "radius" : 1,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 3,
+  "maxRandomCreatures" : 4,
+  "creatures" : [
+    {
+      "id" : "wraith",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "wraith",
+      "x" : 0,
+      "y" : -1
+    }, {
+      "id" : "wraithDread",
+      "x" : 1,
+      "y" : 0
+    }, {
+      "id" : "wraithDread",
+      "x" : 1,
+      "y" : -1
+    }, {
+      "id" : "wraithDread",
+      "x" : 0,
+      "y" : 0
+    }
+  ]
+}

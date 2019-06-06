@@ -1,0 +1,52 @@
+{
+  "name" : "Enhance Intelligence",
+  "description" : "Adds an intelligence enchantment to an item.  The amount of the bonus depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 45,
+  "ingredients" : {
+    "bar_gold" : 1,
+    "gem09" : 1
+  },
+  "result" : {
+    "postfix" : " of Intelligence",
+    "ingredientItemTypes" : [ "Helmet", "Ring" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_intelligence"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 35,
+		"valueModifier" : 170,
+        "enchantment" : "entity.addBonus('Int',  1);"
+      }, {
+        "skillRankRequirement" : 55,
+		"valueModifier" : 200,
+        "enchantment" : "entity.addBonus('Int',  2);"
+      }, {
+        "skillRankRequirement" : 75,
+		"valueModifier" : 215,
+        "enchantment" : "entity.addBonus('Int',  3);"
+      }, {
+        "skillRankRequirement" : 95,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addBonus('Int',  4);"
+      }, {
+        "skillRankRequirement" : 115,
+		"valueModifier" : 245,
+        "enchantment" : "entity.addBonus('Int',  5);"
+      }, {
+        "skillRankRequirement" : 135,
+		"valueModifier" : 260,
+        "enchantment" : "entity.addBonus('Int',  6);"
+      }, {
+        "skillRankRequirement" : 155,
+		"valueModifier" : 275,
+        "enchantment" : "entity.addBonus('Int',  7);"
+      }, {
+        "skillRankRequirement" : 175,
+		"valueModifier" : 290,
+        "enchantment" : "entity.addBonus('Int',  8);"
+      }
+    ]
+  }
+}

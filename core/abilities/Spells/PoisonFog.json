@@ -1,0 +1,26 @@
+{
+  "name" : "Poison Fog",
+  "type" : "Conjuration",
+  "icon" : {
+    "sprite" : "icons/poisonFog"
+  },
+  "description" : "Poision Fog upgrades your Concealing Fog spell.  Creatures in the fog now suffer a penalty to Strength and Constitution.  The penalty starts at -1, and increases by 1 point for each round the creature remains in the fog.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30,
+    "actionType" : "Debuff",
+    "groupType" : "Multiple",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "ConcealingFog"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

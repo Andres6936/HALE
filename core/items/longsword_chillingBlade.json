@@ -1,0 +1,34 @@
+{
+  "name" : "The Chilling Blade",
+  "description" : "A longsword that has been enchanted to do cold damage.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Sword017",
+    "color" : "#ffffffff"
+  },
+  "value" : 350000,
+  "weight" : 2000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-sword03",
+    "color" : "#ff67f5e1"
+  },
+  "enchantments" : [
+    "entity.addStandaloneDamageBonus('Cold', 2, 6); entity.addBonus('WeaponAttack', 30);"
+  ],
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "OneHanded",
+  "baseWeapon" : "Longsword",
+  "threatensAoOs" : true,
+  "damageType" : "Slashing",
+  "minDamage" : 3,
+  "maxDamage" : 10,
+  "criticalThreat" : 91,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

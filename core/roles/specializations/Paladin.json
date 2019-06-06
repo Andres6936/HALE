@@ -1,0 +1,41 @@
+{
+  "name" : "Paladin",
+  "icon" : {
+    "sprite" : "icons/paladin"
+  },
+  "isPlayer" : true,
+  "isBase" : false,
+  "stats" : {
+    "hpPerLevel" : 4,
+    "damageBonusPerLevel" : 4,
+    "attackBonusPerLevel" : 4,
+    "skillPointsPerLevel" : 5,
+    "maximumLevel" : 10
+  },
+  "prereqs" : {
+    "skills" : [
+      {
+        "id" : "Speech",
+        "ranks" : 30
+      }
+    ],
+    "roles" : [
+      {
+        "id" : "Warrior",
+        "level" : 7
+      }, {
+        "id" : "Priest",
+        "level" : 7
+      }, {
+	    "id" : "Monk",
+		"level" : 7
+	  }
+    ]
+  },
+  "abilitySelectionsFromList" : {
+    "Paladin" : [
+      1, 3, 5, 7, 9
+    ],
+	"General" : [ 2, 5, 8 ]
+  }
+}

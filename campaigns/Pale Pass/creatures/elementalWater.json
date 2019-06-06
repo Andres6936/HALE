@@ -1,0 +1,56 @@
+{
+  "name" : "Water Elemental",
+  "gender" : "Male",
+  "race" : "Elemental",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/elemental",
+    "color" : "#ff33cbb5"
+  },
+  "attributes" : {
+    "strength" : 17,
+    "dexterity" : 19,
+    "constitution" : 17,
+    "intelligence" : 1,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "SlashingImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "ColdImmunity100",
+      "levelObtained" : 1
+    }, {
+      "id" : "PiercingImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction5",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor10",
+      "levelObtained" : 1
+    }, {
+      "id" : "CriticalHitImmunity",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Monster" : 10
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedWaterElemental",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  }
+}

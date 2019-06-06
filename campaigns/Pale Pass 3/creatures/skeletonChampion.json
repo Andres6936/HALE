@@ -1,0 +1,100 @@
+{
+  "name" : "Skeleton Champion",
+  "gender" : "Male",
+  "race" : "Skeleton",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/skeleton03",
+        "color" : "#fff8d0d0"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 18,
+    "dexterity" : 13,
+    "constitution" : 15,
+    "intelligence" : 3,
+    "wisdom" : 10,
+    "charisma" : 3
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "MightyBlow",
+      "levelObtained" : 1
+    }, {
+      "id" : "WhirlwindAttack",
+      "levelObtained" : 1
+    }, {
+      "id" : "Slasher",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction5",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 15,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "greataxe",
+        "quality" : "Fine"
+      },
+      "Armor" : {
+        "id" : "armor_plate_base",
+        "quality" : "Fine"
+      },
+      "Gloves" : {
+        "id" : "gloves_mail_base",
+        "quality" : "Fine"
+      },
+      "Boots" : {
+        "id" : "boots_mail_base",
+        "quality" : "Fine"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    12000, 20000
+  ],
+  "loot" : [
+    {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootMagicFine",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsFine",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

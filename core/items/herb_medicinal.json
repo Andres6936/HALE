@@ -1,0 +1,15 @@
+{
+  "name" : "Medicinal herb",
+  "description" : "An herb with some magical medicinal properties.  This item can be used to heal a small amount of damage, or as an ingredient in more powerful healing concoctions.",
+  "script" : "items/healingIngredient",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Herb",
+    "color" : "#ffffffff"
+  },
+  "value" : 600,
+  "weight" : 100,
+  "isIngredient" : true,
+  "isQuest" : false,
+  "useText" : "Use"
+}

@@ -1,0 +1,36 @@
+{
+  "externalScript" : "abilities/rangedFocus",
+  "name" : "Ranged Focus",
+  "type" : "Ranger Abilities",
+  "icon" : {
+    "sprite" : "icons/rangedFocus"
+  },
+  "description" : "You enter into a state of improved focus lasting for 3 rounds plus one round per 3 Ranger levels.  While in the state, you gain a bonus of 10 plus your Ranger level to attack and 20 plus twice your Ranger level to damage with all ranged weapons.",
+  "upgrades" : [
+      { "ability" : "DefensiveFocus",
+        "description" : "With Defensive Focus, you now gain a 10 plus Ranger level bonus to Defense."},
+      { "ability" : "GreaterFocus",
+        "description" : "With Greater Focus, your Ranger level is treated as double its actual value for the purposes of your Focus.",
+		"override" : true }
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "cooldown" : 8,
+  "ai" : {
+    "power" : 20,
+    "priority" : 10,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Ranger",
+        "level" : 3
+      }
+    ]
+  }
+}

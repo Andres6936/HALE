@@ -1,0 +1,17 @@
+{
+  "name" : "Cave door",
+  "description" : "A door that retracts into the ground.",
+  "class" : "Door",
+  "closedIcon" : {
+    "sprite" : "doors/gate-rusty-opaque-se"
+  },
+  "openIcon" : {
+    "sprite" : "doors/gate-rusty-se-open"
+  },
+  "isLocked" : true,
+  "lockDifficulty" : 0,
+  "keyID" : "orcCavesKey",
+  "keyRequired" : true,
+  "removeKeyOnUnlock" : true,
+  "isTransparent" : false
+}

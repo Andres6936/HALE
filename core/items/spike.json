@@ -1,0 +1,13 @@
+{
+  "name" : "Spike",
+  "description" : "A metal spike, useful in crafting various items.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Spike",
+    "color" : "#ffffffff"
+  },
+  "value" : 1000,
+  "weight" : 100,
+  "isIngredient" : true,
+  "isQuest" : false
+}

@@ -1,0 +1,53 @@
+{
+  "name" : "King Serpent",
+  "gender" : "Male",
+  "race" : "LargeAnimal",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/serpent02",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 23,
+    "dexterity" : 17,
+    "constitution" : 18,
+    "intelligence" : 3,
+    "wisdom" : 5,
+    "charisma" : 9
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor5",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "MonsterStrong" : 13
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedLargeThreatens",
+        "quality" : "Superb"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    2000, 3000
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 25,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name" : "Clagraw Queen",
+  "gender" : "Male",
+  "race" : "LargeAnimal",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/killerbeetleman",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 19,
+    "dexterity" : 13,
+    "constitution" : 16,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "FireImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor20",
+      "levelObtained" : 1
+    }, {
+      "id" : "ColdVulnerability25",
+      "levelObtained" : 1
+    }, {
+      "id" : "CriticalHitImmunity",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Monster" : 8
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedClaw",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    1000, 2000
+  ]
+}

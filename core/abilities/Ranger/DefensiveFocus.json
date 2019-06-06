@@ -1,0 +1,23 @@
+{
+  "name" : "Defensive Focus",
+  "type" : "Ranger Abilities",
+  "icon" : {
+    "sprite" : "icons/defensiveFocus"
+  },
+  "description" : "Your Ranged Focus ability is upgraded.  Now, you also gain a bonus to Defense of 10 plus your Ranger level while in your Focus.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [
+      "RangedFocus"
+    ],
+    "roles" : [
+      {
+        "id" : "Ranger",
+        "level" : 5
+      }
+    ]
+  }
+}

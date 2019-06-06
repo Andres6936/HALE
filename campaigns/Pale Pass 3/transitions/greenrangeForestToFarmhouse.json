@@ -1,0 +1,31 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : false,
+  "isTwoWay" : true,
+  "from" : {
+    "area" : "Greenrange Forest",
+    "x" : 15,
+    "y" : 5,
+    "partyPositions" : [
+      [ 1, 1 ], [ 1, 0 ], [ 0, 1 ], [ 0, 0 ]
+    ]
+  },
+  "to" : {
+    "area" : "Farmhouse",
+    "x" : 14,
+    "y" : 9,
+    "partyPositions" : [
+      [ -1, -2 ], [ -1, -1 ], [ 0, -1 ], [ 0, 0 ]
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name" : "Goblin Chieftan",
+  "gender" : "Male",
+  "race" : "Goblin",
+  "portrait" : "Monster/goblin01",
+  "conversation" : "conversations/goblin_chieftan",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ff722626",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/goblin01",
+        "color" : "#ffd6f2b5"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 15,
+    "dexterity" : 13,
+    "constitution" : 13,
+    "intelligence" : 12,
+    "wisdom" : 16,
+    "charisma" : 13
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "ExpertDualWielding",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWielding",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 8,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "quarterstaff",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true,
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

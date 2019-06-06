@@ -1,0 +1,13 @@
+{
+  "name" : "Wraith Essence",
+  "description" : "The Essence of the powerful wraith you fought in the Abandoned House in Aravil.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_GemGoldCircle",
+    "color" : "#ffffffff"
+  },
+  "value" : 0,
+  "weight" : 0,
+  "isIngredient" : false,
+  "isQuest" : true
+}

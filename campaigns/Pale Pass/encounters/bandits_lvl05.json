@@ -1,0 +1,38 @@
+{
+  "respawnTime" : 24,
+  "radius" : 1,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 3,
+  "maxRandomCreatures" : 4,
+  "creatures" : [
+    {
+      "id" : "bandit_lvl04",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "bandit_lvl04_2",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "bandit_lvl04_3",
+      "x" : 1,
+      "y" : 0
+    }, {
+      "id" : "bandit_lvl04_leader",
+      "x" : -1,
+      "y" : 0
+    }, {
+      "id" : "bandit_lvl04",
+      "x" : 0,
+      "y" : -1
+    }, {
+      "id" : "bandit_lvl04_2",
+      "x" : 1,
+      "y" : -1
+    }, {
+      "id" : "bandit_lvl04_3",
+      "x" : 0,
+      "y" : 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name" : "Mithril Mail Armor",
+  "description" : "Armor made of rings of interlocking mithril, a magically light and strong metal.  This armor affords excellent protection.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/A_Armor07",
+    "color" : "#ffffffff"
+  },
+  "value" : 320000,
+  "weight" : 6500,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Armor",
+  "subIcon" : {
+    "sprite" : "subIcons/armor-05",
+    "color" : "#ffc2c4b5"
+  },
+  "armorType" : "Medium",
+  "armorClass" : 32,
+  "armorPenalty" : 5,
+  "movementPenalty" : 0
+}

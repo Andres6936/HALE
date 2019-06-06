@@ -1,0 +1,75 @@
+{
+  "name" : "Goblin Warrior",
+  "gender" : "Male",
+  "race" : "Goblin",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ff722626",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/goblin02",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 12,
+    "dexterity" : 15,
+    "constitution" : 11,
+    "intelligence" : 6,
+    "wisdom" : 9,
+    "charisma" : 7
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "TotalDefense",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 5,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "shortSword",
+        "quality" : "Good"
+      },
+      "OffHand" : {
+        "id" : "shield_light_base",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_leather_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    5000, 9000
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

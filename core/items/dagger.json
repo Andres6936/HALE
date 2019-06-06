@@ -1,0 +1,32 @@
+{
+  "name" : "Dagger",
+  "description" : "A small blade shorter than 12 inches designed for stabbing.  This weapon is easy to conceal and use.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Dagger002",
+    "color" : "#ffffffff"
+  },
+  "value" : 12000,
+  "weight" : 600,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-sword01",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "Light",
+  "baseWeapon" : "Dagger",
+  "threatensAoOs" : true,
+  "damageType" : "Piercing",
+  "minDamage" : 1,
+  "maxDamage" : 4,
+  "criticalThreat" : 91,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

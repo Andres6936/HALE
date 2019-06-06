@@ -1,0 +1,33 @@
+{
+  "externalScript" : "abilities/rage",
+  "name" : "Rage",
+  "type" : "Berserker Abilities",
+  "icon" : {
+    "sprite" : "icons/rage"
+  },
+  "description" : "You fly into a rage, becoming a powerful killing machine for 3 rounds plus one round per 2 Berserker levels.  You gain a +3 bonus to Strength, and an additional 25% damage bonus on all melee attacks (except for attacks with light weapons).  However, you also suffer a 25 point penalty to Defense and Attack.  After the rage ends, you become exhausted for 3 to 6 rounds, suffering a -2 penalty to Strength and a 25 point Action Penalty.",
+  "upgrades" : [
+      { "ability" : "UnstoppableRage",
+        "description" : "With Unstoppable Rage, you become immune to any effect causing immobilization, as well as critical hits.  You also gain spell resistance equal to 10 plus twice your Berserker level." },
+      { "ability" : "ImprovedRage",
+        "description" : "With Improved Rage, your bonus to Strength increases to +6.  Furthermore, your Rage lasts for an additional 2 rounds.",
+        "override" : true },
+      { "ability" : "SteadfastRage",
+        "description" : "With Steadfast Rage, you no longer suffer the effects of exhaustion after your Rage." },
+      { "ability" : "EpicRage",
+        "description" : "With Epic Rage, you gain an Action Point bonus of 5 plus 2 points per Berserker Level.  Your bonus to Strength further improves to +8.",
+		"override" : true }
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "cooldown" : 8,
+  "ai" : {
+    "power" : 20,
+    "priority" : 10,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  }
+}

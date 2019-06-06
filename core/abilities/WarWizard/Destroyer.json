@@ -1,0 +1,30 @@
+{
+  "name" : "Destroyer",
+  "type" : "War Wizard Abilities",
+  "icon" : {
+    "sprite" : "icons/destroyer"
+  },
+  "description" : "Destroyer upgrades your Juggernaut spell.  For the duration of the spell, all of your attacks do an additional 1 to 2 damage per War Wizard level.  The pure force damage from this ability cannot be resisted.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 50,
+    "priority" : 10,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "War Wizard",
+        "level" : 5
+      }
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 13
+      }
+    ]
+  }
+}

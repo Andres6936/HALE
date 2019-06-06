@@ -1,0 +1,26 @@
+{
+  "name" : "Distracting Fog",
+  "type" : "Conjuration",
+  "icon" : {
+    "sprite" : "icons/distractingFog"
+  },
+  "description" : "Distracting Fog upgrades your Concealing Fog spell.  All creatures in the area see constant illusory distracting images and hear strange noises.  They suffer a 10 point penalty to Mental Resistance, and a 10 point plus one per caster level penalty to Attack and to Spell Failure.  Creatures are only affected as long as they remain in the fog.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30,
+    "actionType" : "Debuff",
+    "groupType" : "Multiple",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "ConcealingFog"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

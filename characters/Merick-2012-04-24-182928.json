@@ -1,0 +1,57 @@
+{
+  "name" : "Merick",
+  "isPregenerated" : true,
+  "gender" : "Male",
+  "race" : "Human",
+  "portrait" : "Human/FlareMaleHero3",
+  "icon" : {
+    "skinColor" : "#ffffc794",
+    "clothingColor" : "#ffff0000",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair002",
+        "color" : "#ff545454"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 13,
+    "dexterity" : 10,
+    "constitution" : 13,
+    "intelligence" : 10,
+    "wisdom" : 17,
+    "charisma" : 12
+  },
+  "skills" : {
+    "CraftWeapons" : 5,
+    "Speech" : 5
+  },
+  "abilities" : [
+    {
+      "id" : "DivineLuck",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 1,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "Armor" : {
+        "id" : "armor_clothes"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "experiencePoints" : 0,
+  "unspentSkillPoints" : 0,
+  "quickbar" : {
+    "slots" : {
+
+    }
+  }
+}

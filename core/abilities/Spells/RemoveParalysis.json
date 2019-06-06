@@ -1,0 +1,27 @@
+{
+  "name" : "Remove Paralysis",
+  "type" : "Restoration",
+  "icon" : {
+    "sprite" : "icons/removeParalysis"
+  },
+  "description" : "Remove Paralyis upgrades your Renewal spell.  All effects causing immobilization, helplessness, or an action point penalty, including slow, sleep, and paralysis, are immediately removed from all targets.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30,
+    "priority" : 1,
+    "actionType" : "Tactical",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Renewal"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addArmorProficiency('Medium'); parent.applyEffect(effect); }",
+  "name" : "Proficiency, Medium Armor",
+  "type" : "Armor Proficiencies",
+  "icon" : {
+    "sprite" : "icons/proficiencyMediumArmor"
+  },
+  "description" : "You are able to use medium armor, such as mail or scale.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "armor" : [
+      "Light"
+    ]
+  },
+  "restrictions" : {
+    "roles" : [
+      {
+        "id" : "Monk",
+        "level" : 1
+      }
+    ]
+  }
+}

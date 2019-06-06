@@ -1,0 +1,27 @@
+{
+  "radius" : 3,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "deepDwarf",
+      "x" : -3,
+      "y" : 0
+    }, {
+      "id" : "deepDwarf",
+      "x" : 1,
+      "y" : 2
+    }, {
+      "id" : "deepDwarf01Priest",
+      "x" : -1,
+      "y" : -3
+    }, {
+      "id" : "deepDwarf03Ranged",
+      "x" : 3,
+      "y" : -1
+    }, {
+      "id" : "deepDwarfKing",
+      "x" : 0,
+      "y" : -1
+    }
+  ]
+}

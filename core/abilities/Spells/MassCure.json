@@ -1,0 +1,26 @@
+{
+  "name" : "Mass Cure",
+  "type" : "Restoration",
+  "icon" : {
+    "sprite" : "icons/massCure"
+  },
+  "description" : "Mass cure upgrades your Cure spell.  All allies within 4 hexes of the caster are now healed.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30,
+    "actionType" : "Heal",
+    "groupType" : "Multiple",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Cure"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

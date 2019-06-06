@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('ShieldAttack', 'Stackable', 10); parent.applyEffect(effect); }",
+  "name" : "Shield Combat",
+  "type" : "Defensive",
+  "icon" : {
+    "sprite" : "icons/shieldCombat"
+  },
+  "description" : "The Attack Penalty you suffer from the use of Heavy Shields and Tower Shields is reduced by up to 10 points.  This will not reduce the total penalty to less than 0.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "ShieldDefense"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 15
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "items" : [
+    {
+      "id" : "potionCha",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "potionCon",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "potionDamageReduction",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "potionDex",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "potionInt",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "potionStrength",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "potionHealing",
+      "quality" : "Fine",
+      "quantity" : 2
+    }, {
+      "id" : "potionTrueSight",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "potionWis",
+      "quality" : "Fine",
+      "quantity" : 1
+    }
+  ]
+}

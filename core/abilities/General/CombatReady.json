@@ -1,0 +1,9 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('Initiative', 'Stackable', 20); parent.applyEffect(effect); }",
+  "name" : "Combat Ready",
+  "type" : "General",
+  "icon" : {
+    "sprite" : "icons/combatReady"
+  },
+  "description" : "You are always ready for action, gaining a +20 bonus to Initiative.  This makes your turn more likely to come up first in combat."
+}

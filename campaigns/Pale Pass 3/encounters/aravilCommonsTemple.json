@@ -1,0 +1,27 @@
+{
+  "radius" : 5,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "aravilPriest",
+      "x" : -5,
+      "y" : -3
+    }, {
+      "id" : "peasant03",
+      "x" : 0,
+      "y" : -3
+    }, {
+      "id" : "peasant02",
+      "x" : 4,
+      "y" : -2
+    }, {
+      "id" : "peasant10",
+      "x" : 3,
+      "y" : 2
+    }, {
+      "id" : "peasant07",
+      "x" : -1,
+      "y" : 4
+    }
+  ]
+}

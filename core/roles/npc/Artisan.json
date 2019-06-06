@@ -1,0 +1,16 @@
+{
+  "name" : "Artisan",
+  "isPlayer" : false,
+  "isBase" : true,
+  "stats" : {
+    "hpPerLevel" : 3,
+    "hpAtLevelOne" : 6,
+    "damageBonusPerLevel" : 2,
+    "attackBonusPerLevel" : 2,
+    "skillPointsPerLevel" : 15
+  },
+  "abilitiesAdded" : {
+    "ProficiencyLightArmor" : 1,
+    "ProficiencySimpleWeapons" : 1
+  }
+}

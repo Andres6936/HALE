@@ -1,0 +1,37 @@
+{
+  "externalScript" : "spells/blindness",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : true,
+  "spellLevel" : 3,
+  "name" : "Blindness",
+  "type" : "Alteration",
+  "icon" : {
+    "sprite" : "icons/blindness"
+  },
+  "description" : "A targeted creature up to 4 hexes away must succeed at a Physical Resistance check or become blind for 2 to 4 rounds.  The affected creature suffers a 100% concealment penalty for all of its attacks and most spell casting.",
+  "isActivateable" : true,
+  "quickbarGroup" : "Alteration",
+  "isFixed" : true,
+  "cooldown" : 10,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 30,
+    "priority" : 7,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Deafen"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

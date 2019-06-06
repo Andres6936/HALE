@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBaseWeaponBonus('Javelin', 'CriticalMultiplier', 1); effect.getBonuses().addBaseWeaponBonus('Short Spear', 'CriticalMultiplier', 1); effect.getBonuses().addBaseWeaponBonus('Long Spear', 'CriticalMultiplier', 1); parent.applyEffect(effect); }",
+  "name" : "Master Training, Spears",
+  "type" : "Weapon Training",
+  "icon" : {
+    "sprite" : "icons/masterSpears"
+  },
+  "description": "You do an additional 1x damage on critical hits with javelins, short spears, and long spears.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "ExpertTrainingSpears"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 60
+      }
+    ]
+  }
+}

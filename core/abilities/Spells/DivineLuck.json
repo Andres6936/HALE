@@ -1,0 +1,43 @@
+{
+  "externalScript" : "spells/divineLuck",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 1,
+  "name" : "Divine Luck",
+  "type" : "Enchantment",
+  "icon" : {
+    "sprite" : "icons/divineLuck"
+  },
+  "description" : "All allies within 4 hexes of the caster gain a bonus of 5 + caster level to attack and 10 + 2 * caster level to damage for 5 to 10 rounds.",
+  "upgrades" : [
+    { "ability" : "Resistance",
+      "description" : "With Resistance, Divine Luck now provides a 10 + caster level bonus to Mental, Physical, and Reflex Resistance checks to all affected targets."},
+    { "ability" : "DivineAura",
+      "description" : "With Divine Aura, Divine Luck now travels as an aura with the caster.  All creatures within the Aura are affected.  Furthermore, all hostile creatures within the aura are affected with penalties to Attack, Damage, and Resistances (if you have the ability 'Resistance') corresponding to the bonuses affecting friendly creatures.",
+      "override" : true }
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Enchantment",
+  "isFixed" : true,
+  "isMode" : false,
+  "cooldown" : 8,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 10,
+    "priority" : 10,
+    "actionType" : "Buff",
+    "groupType" : "Multiple",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "source" : "doorsAndWindows",
+  "images" : {
+    "door-sw" : [ 0, 0, 100, 130 ],
+    "door-se" : [ 100, 0, 100, 130 ],
+    "roof-window-sw" : [ 200, 0, 100, 130 ],
+    "roof-window-se" : [ 300, 0, 100, 130 ],
+    "roof-window2-se" : [ 400, 0, 100, 130 ],
+    "window-bay-sw" : [ 0, 130, 100, 130 ],
+    "window-bay-se" : [ 100, 130, 100, 130 ],
+    "window-sw" : [ 200, 130, 100, 130 ],
+    "window-se" : [ 300, 130, 100, 130 ]
+  }
+}

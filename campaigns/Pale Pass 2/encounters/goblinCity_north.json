@@ -1,0 +1,35 @@
+{
+  "radius" : 4,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "goblin_guard",
+      "x" : -2,
+      "y" : -3
+    }, {
+      "id" : "goblin_guard",
+      "x" : 2,
+      "y" : -3
+    }, {
+      "id" : "goblin_peasant01",
+      "x" : -2,
+      "y" : 0
+    }, {
+      "id" : "goblin_peasant02",
+      "x" : -2,
+      "y" : 1
+    }, {
+      "id" : "goblin_peasant01",
+      "x" : 2,
+      "y" : 3
+    }, {
+      "id" : "goblin_peasant01",
+      "x" : 4,
+      "y" : -1
+    }, {
+      "id" : "goblin_cook",
+      "x" : -4,
+      "y" : 0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "Glacial Wave",
+  "type" : "Evocation",
+  "icon" : {
+    "sprite" : "icons/glacialWave"
+  },
+  "description" : "Glacial Wave upgrades your Freeze spell.  A wave of magical cold radiates rapidly out from the caster with a radius of 5 hexes, sucking all heat out of the area.  Creatures within the area must succeed at a physical resistance check or be frozen solid (paralyzed) for 2 to 4 rounds.  Even if the check is succesful, each creature suffers an Action Point penalty of 15 plus the caster level as well as taking 6 to 12 plus one per caster level cold damage.  Creatures friendly to the caster take only half damage and do not suffer the other negative effects.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 50,
+    "actionType" : "Damage",
+    "groupType" : "Multiple",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Freeze"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 13
+      }
+    ]
+  }
+}

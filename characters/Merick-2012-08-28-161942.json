@@ -1,0 +1,280 @@
+{
+  "name" : "Merick",
+  "isPregenerated" : true,
+  "gender" : "Male",
+  "race" : "Human",
+  "portrait" : "Human\/FlareMaleHero3",
+  "icon" : {
+    "skinColor" : "#ffffc794",
+    "clothingColor" : "#ffff0000",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons\/hair002",
+        "color" : "#ff545454"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 13,
+    "dexterity" : 10,
+    "constitution" : 13,
+    "intelligence" : 10,
+    "wisdom" : 17,
+    "charisma" : 12
+  },
+  "skills" : {
+    "CraftWeapons" : 55,
+    "Speech" : 70
+  },
+  "abilities" : [
+    {
+      "id" : "ArmorCasting1",
+      "levelObtained" : 5
+    }, {
+      "id" : "ArmorCasting2",
+      "levelObtained" : 11
+    }, {
+      "id" : "MeleeCasting",
+      "levelObtained" : 2
+    }, {
+      "id" : "ToughBody",
+      "levelObtained" : 8
+    }, {
+      "id" : "WisdomTraining1",
+      "levelObtained" : 14
+    }, {
+      "id" : "Curse",
+      "levelObtained" : 9
+    }, {
+      "id" : "Sleep",
+      "levelObtained" : 6
+    }, {
+      "id" : "Slow",
+      "levelObtained" : 4
+    }, {
+      "id" : "DivineLuck",
+      "levelObtained" : 1
+    }, {
+      "id" : "AntiMagic",
+      "levelObtained" : 10
+    }, {
+      "id" : "Vulnerability",
+      "levelObtained" : 12
+    }, {
+      "id" : "Cure",
+      "levelObtained" : 3
+    }, {
+      "id" : "Regeneration",
+      "levelObtained" : 13
+    }, {
+      "id" : "MassCure",
+      "levelObtained" : 7
+    }
+  ],
+  "roles" : {
+    "baseRoleID" : "Priest",
+    "Priest" : 11,
+    "Avenger" : 3
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "morningstar-0xdad23520",
+        "quality" : "Fine"
+      },
+      "OffHand" : {
+        "id" : "shield_heavy_base-0xb846a0ba",
+        "quality" : "Fine"
+      },
+      "Armor" : {
+        "id" : "armor_mail_base",
+        "quality" : "Fine"
+      },
+      "Gloves" : {
+        "id" : "gloves_mail_base",
+        "quality" : "Fine"
+      },
+      "Helmet" : {
+        "id" : "helmet_mail_base-0x832299ce",
+        "quality" : "Fine"
+      },
+      "Cloak" : {
+        "id" : "cloak-0x515f946c"
+      },
+      "Boots" : {
+        "id" : "boots_mail_base",
+        "quality" : "Fine"
+      },
+      "Belt" : {
+        "id" : "belt-0xb5b00e24"
+      },
+      "Amulet" : {
+        "id" : "amulet-0xbf3577d3"
+      },
+      "RightRing" : {
+        "id" : "goldRing-0x59382ae5"
+      },
+      "LeftRing" : {
+        "id" : "goldRing-0xfecb0aa4"
+      }
+    },
+    "unequipped" : [
+      {
+        "id" : "scrollRaiseDead",
+        "quantity" : 1
+      }, {
+        "id" : "potionHealing",
+        "quality" : "Fine",
+        "quantity" : 2
+      }
+    ],
+    "createdItems" : [
+      {
+        "baseItemID" : "morningstar",
+        "createdItemID" : "morningstar-0xdad23520",
+        "scripts" : [
+          "entity.addStandaloneDamageBonus('Electrical', 1, 4);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Lightning",
+        "valueModifier" : 170,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_lightning",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "shield_heavy_base",
+        "createdItemID" : "shield_heavy_base-0xb846a0ba",
+        "scripts" : [
+          "entity.addDamageReduction('Blunt',  1);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Blunt Resistance",
+        "valueModifier" : 160,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_blunt",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "helmet_mail_base",
+        "createdItemID" : "helmet_mail_base-0x832299ce",
+        "scripts" : [
+          "entity.addBonus('ConcealmentIgnoring',  5);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of True Sight",
+        "valueModifier" : 160,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_concealmentIgnoring",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "cloak",
+        "createdItemID" : "cloak-0x515f946c",
+        "scripts" : [
+          "entity.addDamageReduction('Slashing',  1);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Slashing Resistance",
+        "valueModifier" : 160,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_slashing",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "belt",
+        "createdItemID" : "belt-0xb5b00e24",
+        "scripts" : [
+          "entity.addBonus('Con',  1);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Hardiness",
+        "valueModifier" : 170,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_constitution",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "amulet",
+        "createdItemID" : "amulet-0xbf3577d3",
+        "scripts" : [
+          "entity.addBonus('SpellCooldown',  1);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Fast Casting",
+        "valueModifier" : 170,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_spellCooldown",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "goldRing",
+        "createdItemID" : "goldRing-0x59382ae5",
+        "scripts" : [
+          "entity.addBonus('Wis',  1);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Wisdom",
+        "valueModifier" : 170,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_wisdom",
+          "color" : "#ffffffff"
+        }
+      }, {
+        "baseItemID" : "goldRing",
+        "createdItemID" : "goldRing-0xfecb0aa4",
+        "scripts" : [
+          "entity.addBonus('SpellHealing', 3);"
+        ],
+        "namePrefix" : "",
+        "namePostfix" : " of Healing",
+        "valueModifier" : 170,
+        "overlayIcon" : {
+          "sprite" : "items\/enchant_spellHealing",
+          "color" : "#ffffffff"
+        }
+      }
+    ]
+  },
+  "unspentSkillPoints" : 0,
+  "experiencePoints" : 21292,
+  "quickbar" : {
+    "lastViewSet" : 0,
+    "slots" : {
+      "slot0" : {
+        "type" : "use",
+        "itemID" : "potionHealing",
+        "itemQuality" : "Fine"
+      },
+      "slot1" : {
+        "type" : "ability",
+        "abilityID" : "DivineLuck"
+      },
+      "slot2" : {
+        "type" : "ability",
+        "abilityID" : "Slow"
+      },
+      "slot3" : {
+        "type" : "ability",
+        "abilityID" : "Cure"
+      },
+      "slot4" : {
+        "type" : "ability",
+        "abilityID" : "Curse"
+      },
+      "slot5" : {
+        "type" : "ability",
+        "abilityID" : "AntiMagic"
+      },
+      "slot6" : {
+        "type" : "ability",
+        "abilityID" : "Vulnerability"
+      },
+      "slot7" : {
+        "type" : "ability",
+        "abilityID" : "Regeneration"
+      }
+    }
+  }
+}

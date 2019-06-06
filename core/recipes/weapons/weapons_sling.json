@@ -1,0 +1,42 @@
+{
+  "name" : "Sling",
+  "description" : "Creates a sling.  The quality is dependant on your Craft Weapons skill.",
+  "skill" : "CraftWeapons",
+  "skillRankRequirement" : 1,
+  "ingredients" : {
+    "leather" : 2,
+    "thread" : 2,
+    "wire" : 1
+  },
+  "result" : {
+    "id" : "sling",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 1
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 15
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 35
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 55
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 75
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 95
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 115
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 135
+      }
+    ]
+  }
+}

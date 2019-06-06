@@ -1,0 +1,32 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "worldMapLocation" : "Aravil West Gate",
+  "from" : {
+    "area" : "Aravil West Gate",
+    "x" : 28,
+    "y" : 3,
+    "partyPositions" : [
+      [ -3, 1 ], [ -2, 1 ], [ -1, 0 ], [ 0, 0 ]
+    ]
+  },
+  "to" : {
+    "area" : "Aravil Commons",
+    "x" : 1,
+    "y" : 14,
+    "partyPositions" : [
+      [ 2, -1 ], [ 2, 0 ], [ 1, -1 ], [ 0, 0 ]
+    ]
+  }
+}

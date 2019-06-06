@@ -1,0 +1,26 @@
+{
+  "name" : "Summon Elemental",
+  "type" : "Conjuration",
+  "icon" : {
+    "sprite" : "icons/summonElemental"
+  },
+  "description" : "Summon Elemental upgrades your Summon spell.  In addition to your previous choices, you may now summon a powerful elemental spirit from the plane of Fire, Water, Air, or Earth.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40,
+    "actionType" : "Summon",
+    "groupType" : "Single",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Summon"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

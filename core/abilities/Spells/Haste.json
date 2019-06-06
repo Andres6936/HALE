@@ -1,0 +1,35 @@
+{
+  "externalScript" : "spells/haste",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 3,
+  "name" : "Haste",
+  "type" : "Alteration",
+  "icon" : {
+    "sprite" : "icons/haste"
+  },
+  "description" : "A single touched target suddenly finds the entire world around them moving more slowly than usual.  The target gains an Action Point bonus of 15 plus one per three caster levels, allowing them to move further, make more attacks, or cast more spells in a single combat round.  The effect lasts for 3 rounds plus one round per 4 caster levels.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Alteration",
+  "isFixed" : true,
+  "cooldown" : 10,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 30,
+    "priority" : 8,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

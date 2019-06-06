@@ -1,0 +1,43 @@
+{
+  "name" : "Shortbow",
+  "description" : "Creates a shortbow. The quality is dependant on your Craft Weapons skill.",
+  "skill" : "CraftWeapons",
+  "skillRankRequirement" : 30,
+  "ingredients" : {
+    "bar_iron" : 1,
+    "bar_wood" : 2,
+    "coal" : 3,
+    "wire" : 2
+  },
+  "result" : {
+    "id" : "shortbow",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 25
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 45
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 65
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 85
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 105
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 125
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 140
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 160
+      }
+    ]
+  }
+}

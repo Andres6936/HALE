@@ -1,0 +1,15 @@
+{
+  "name" : {
+    "noun" : "Enchanting",
+    "presentTenseVerb" : "Enchant",
+    "pastTenseVerb" : "Enchanted"
+  },
+  "icon" : {
+    "sprite" : "icons/enchanting"
+  },
+  "isUsableUntrained" : false,
+  "suffersArmorPenalty" : false,
+  "keyAttribute" : "Int",
+  "isCraft" : true,
+  "restrictToRole" : "Mage"
+}

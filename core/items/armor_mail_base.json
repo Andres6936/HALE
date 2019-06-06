@@ -1,0 +1,23 @@
+{
+  "name" : "Mail Armor",
+  "description" : "Widely available armor consisting of thousands of interlocking rings of metal covering all the vital areas of the wearer's body.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/A_Armor07",
+    "color" : "#ffffffff"
+  },
+  "value" : 80000,
+  "weight" : 6500,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Armor",
+  "subIcon" : {
+    "sprite" : "subIcons/armor-05",
+    "color" : "#ffc2c4b5"
+  },
+  "armorType" : "Medium",
+  "armorClass" : 20,
+  "armorPenalty" : 18,
+  "movementPenalty" : 10
+}

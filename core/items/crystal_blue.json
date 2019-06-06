@@ -1,0 +1,13 @@
+{
+  "name" : "Blue Crystal",
+  "description" : "A chunk of rock with blue crystals embedded in it, useful for some crafting recipes.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_CrystalBlue",
+    "color" : "#ffffffff"
+  },
+  "value" : 2500,
+  "weight" : 400,
+  "isIngredient" : true,
+  "isQuest" : false
+}

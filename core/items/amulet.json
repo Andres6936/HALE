@@ -1,0 +1,14 @@
+{
+  "name" : "Amulet",
+  "description" : "A amulet that can be worn around the neck.",
+  "class" : "EquippableItem",
+  "icon" : {
+    "sprite" : "items/Ac_Necklace02",
+    "color" : "#ffffffff"
+  },
+  "value" : 1000,
+  "weight" : 500,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Amulet"
+}

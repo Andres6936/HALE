@@ -1,0 +1,50 @@
+{
+  "name" : "Conduit Mage",
+  "gender" : "Male",
+  "race" : "Human",
+  "portrait" : "Human/necromancer",
+  "conversation" : "conversations/demonGateMage",
+  "script" : "ai/demonGateMage",
+  "icon" : {
+    "sprite" : "creatures/human21",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 14,
+    "constitution" : 14,
+    "intelligence" : 18,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor30",
+      "levelObtained" : 1
+    }, {
+      "id" : "SpellResistance30",
+      "levelObtained" : 1
+    }, {
+      "id" : "PhysicalImmunity50",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Mage" : 20,
+    "baseRoleID" : "Mage"
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    15000, 25000
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "enchantmentChance" : 18,
+  "enchantmentSkillModifier" : 45,
+  "items" : [
+    {
+      "id" : "dagger",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "shortSword",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "longsword",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "bastardSword",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "greatsword",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "handaxe",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "battleaxe",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "waraxe",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "greataxe",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "club",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "mace",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "morningstar",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "flail",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "lighthammer",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "warhammer",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "maul",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "shortspear",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "longspear",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "quarterstaff",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "javelin",
+      "quality" : "Fine",
+      "quantity" : 40
+    }, {
+      "id" : "sling",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "crossbow",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "shortbow",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "longbow",
+      "quality" : "Fine",
+      "quantity" : 1
+    }, {
+      "id" : "compositeLongbow",
+      "quality" : "Fine",
+      "quantity" : 1
+    }
+  ]
+}

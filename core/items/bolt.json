@@ -1,0 +1,23 @@
+{
+  "name" : "Bolt",
+  "description" : "A crossbow bolt, used as ammunition in crossbows.",
+  "class" : "Ammo",
+  "icon" : {
+    "sprite" : "items/S_Bow16",
+    "color" : "#ffffffff"
+  },
+  "value" : 20,
+  "weight" : 100,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Ammo",
+  "subIcon" : {
+    "sprite" : "subIcons/ammo-01",
+    "color" : "#ffffffff"
+  },
+  "projectileIcon" : {
+    "sprite" : "subIcons/projectile_bolt01",
+    "color" : "#ffffffff"
+  },
+  "weapons" : [ "Crossbow" ]
+}

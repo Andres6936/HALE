@@ -1,0 +1,35 @@
+{
+  "externalScript" : "spells/layerOfBark",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 4,
+  "name" : "Layer of Bark",
+  "type" : "Druid Abilities",
+  "icon" : {
+    "sprite" : "icons/layerOfBark"
+  },
+  "description" : "The caster becomes enveloped in magically enchanced bark.  The bark absorbs 75% of all Physical damage on the target for 1 round plus one round per 4 caster levels.  However, the target also suffers a 25% increased vulnerability to fire.",
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Alteration",
+  "isFixed" : true,
+  "cooldown" : 11,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 40,
+    "priority" : 7,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

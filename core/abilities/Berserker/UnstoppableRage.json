@@ -1,0 +1,23 @@
+{
+  "name" : "Unstoppable Rage",
+  "type" : "Berserker Abilities",
+  "icon" : {
+    "sprite" : "icons/unstoppableRage"
+  },
+  "description" : "Your Rage is improved.  During the rage, you become immune to any effect causing immobilization, as well as critical hits.  You also gain spell resistance equal to 10 plus twice your Berserker level.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Rage"
+    ],
+    "roles" : [
+      {
+        "id" : "Berserker",
+        "level" : 3
+      }
+    ]
+  }
+}

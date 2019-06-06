@@ -1,0 +1,103 @@
+{
+  "name" : "Lizardling Shaman",
+  "gender" : "Male",
+  "race" : "Lizardling",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/lizardling04",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 12,
+    "dexterity" : 15,
+    "constitution" : 12,
+    "intelligence" : 8,
+    "wisdom" : 15,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "Firebolt",
+      "levelObtained" : 1
+    }, {
+      "id" : "EnhanceAttributes",
+      "levelObtained" : 1
+    }, {
+      "id" : "Sleep",
+      "levelObtained" : 1
+    }, {
+      "id" : "Slow",
+      "levelObtained" : 1
+    }, {
+      "id" : "AnimalPower",
+      "levelObtained" : 1
+    }, {
+      "id" : "Blindness",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor20",
+      "levelObtained" : 1
+    }, {
+      "id" : "Cure",
+      "levelObtained" : 1
+    }, {
+      "id" : "Regeneration",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 8,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "quarterstaff",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    3000, 7000
+  ],
+  "loot" : [
+    {
+      "id" : "LootMagicGood",
+      "probability" : {
+        "value" : 2,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsGood",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

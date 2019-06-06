@@ -1,0 +1,23 @@
+{
+  "name" : "Multi-Duel",
+  "type" : "Duelist Abilities",
+  "icon" : {
+    "sprite" : "icons/multiDuel"
+  },
+  "description" : "You are now able to select two Duel targets instead of one.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Duel"
+    ],
+    "roles" : [
+      {
+        "id" : "Duelist",
+        "level" : 5
+      }
+    ]
+  }
+}

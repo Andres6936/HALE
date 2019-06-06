@@ -1,0 +1,23 @@
+{
+  "radius" : 4,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "demonGateMage",
+      "x" : -2,
+      "y" : 3
+    }, {
+      "id" : "demonGateMage",
+      "x" : 2,
+      "y" : 3
+    }, {
+      "id" : "demonGateMage",
+      "x" : -2,
+      "y" : -3
+    }, {
+      "id" : "demonGateMage",
+      "x" : 2,
+      "y" : -3
+    }
+  ]
+}

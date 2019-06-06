@@ -1,0 +1,35 @@
+{
+  "name" : "Composite Longbow",
+  "description" : "A longbow designed to be pulled further back than normal.  This weapon allows the user to add part of their strength bonus to damage.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Bow03",
+    "color" : "#ffffffff"
+  },
+  "value" : 100000,
+  "weight" : 1500,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "",
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "type" : "OffHandWeapon",
+    "sprite" : "subIcons/weapon-bow02",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Ranged",
+  "minRange" : 1,
+  "maxRange" : 12,
+  "handed" : "TwoHanded",
+  "baseWeapon" : "Longbow",
+  "threatensAoOs" : false,
+  "damageType" : "Piercing",
+  "minDamage" : 2,
+  "maxDamage" : 7,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 3,
+  "attackCost" : 2800,
+  "rangePenalty" : 18,
+  "maxStrengthBonus" : 20
+}

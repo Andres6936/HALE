@@ -1,0 +1,18 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBaseWeaponBonus(\"Unarmed\", \"Attack\", +10); parent.applyEffect(effect); }",
+  "name" : "Unerring Strike",
+  "type" : "Monk Abilities",
+  "icon" : {
+    "sprite" : "icons/unerringStrike"
+  },
+  "description" : "Your gain an additional +10 to attack with your unarmed strike.",
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Monk",
+        "level" : 6
+      }
+    ],
+	"abilities" : [ "ImprovedStrike1" ]
+  }
+}

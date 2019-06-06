@@ -1,0 +1,31 @@
+{
+  "radius" : 5,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "dwarf_smith",
+      "x" : -1,
+      "y" : 3
+    }, {
+      "id" : "dwarf_healer",
+      "x" : -3,
+      "y" : -3
+    }, {
+      "id" : "dwarf_alchemist",
+      "x" : 5,
+      "y" : -1
+    }, {
+      "id" : "deepDwarfPeasant01",
+      "x" : 1,
+      "y" : -4
+    }, {
+      "id" : "deepDwarfPeasant06",
+      "x" : 1,
+      "y" : 1
+    }, {
+      "id" : "deepDwarfPeasant03",
+      "x" : -3,
+      "y" : -1
+    }
+  ]
+}

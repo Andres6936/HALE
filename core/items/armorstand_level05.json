@@ -1,0 +1,33 @@
+{
+  "name" : "Armor Stand",
+  "description" : "A stand typically used to hold armor.",
+  "class" : "Container",
+  "closedIcon" : {
+    "sprite" : "items/C_ArmorStandGold"
+  },
+  "openIcon" : {
+    "sprite" : "items/C_ArmorStandEmpty"
+  },
+  "isWorkbench" : false,
+  "loot" : [
+    {
+      "id" : "ArmorDecent",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 25,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 8,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

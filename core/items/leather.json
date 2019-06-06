@@ -1,0 +1,13 @@
+{
+  "name" : "Leather",
+  "description" : "A piece of leather usable for crafting.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_paper",
+    "color" : "#ffc08c6b"
+  },
+  "value" : 300,
+  "weight" : 100,
+  "isIngredient" : true,
+  "isQuest" : false
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "Key",
+  "description" : "The key you found on the mercenary in the Sonorin Desert",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Key05",
+    "color" : "#ffffffff"
+  },
+  "value" : 200,
+  "weight" : 10,
+  "isIngredient" : false,
+  "isQuest" : true
+}

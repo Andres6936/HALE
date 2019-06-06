@@ -1,0 +1,8 @@
+{ "name" : "Werewolf",
+  "baseMovementCost" : 1000,
+  "defaultWeapon" : "unarmedClaw",
+  
+  "racialTypes" : [
+    "Humanoid", "Lycanthrope"
+  ]
+}

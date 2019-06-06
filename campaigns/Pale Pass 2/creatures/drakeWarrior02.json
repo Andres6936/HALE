@@ -1,0 +1,75 @@
+{
+  "name" : "Drake Warrior",
+  "gender" : "Male",
+  "race" : "Drake",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/drake05",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 17,
+    "dexterity" : 13,
+    "constitution" : 14,
+    "intelligence" : 8,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "FireImmunity50",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor20",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 12,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "Armor" : {
+        "id" : "armor_mail_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    8000, 14000
+  ],
+  "loot" : [
+    {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootLevel10Fine",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsFine",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "name" : "Koral",
+  "gender" : "Female",
+  "race" : "Human",
+  "portrait" : "custom/enchantress",
+  "conversation" : "conversations/Companion-Koral",
+  "icon" : {
+    "skinColor" : "#ff92e4fe",
+    "clothingColor" : "#ff008000",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair002",
+        "color" : "#ff08771c"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 14,
+    "dexterity" : 14,
+    "constitution" : 13,
+    "intelligence" : 10,
+    "wisdom" : 11,
+    "charisma" : 16
+  },
+  "skills" : {
+    "Search" : 5,
+    "Speech" : 5
+  },
+  "abilities" : [
+    {
+      "id" : "Shield",
+      "levelObtained" : 1
+    }, {
+      "id" : "Slow",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "baseRoleID" : "Adept",
+    "Adept" : 1
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "shortspear",
+        "quality" : "Good"
+      },
+      "Armor" : {
+        "id" : "armor_leather_base",
+        "quality" : "Good"
+      },
+      "Gloves" : {
+        "id" : "gloves_leather_base",
+        "quality" : "Good"
+      },
+      "Boots" : {
+        "id" : "boots_leather_base",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "unspentSkillPoints" : 0,
+  "experiencePoints" : 0,
+  "quickbar" : {
+    "lastViewSet" : 0,
+    "slots" : {
+
+    }
+  }
+}

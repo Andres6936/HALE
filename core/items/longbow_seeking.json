@@ -1,0 +1,36 @@
+{
+  "name" : "Seeking Longbow",
+  "description" : "This longbow is enchanted, causing arrows fired from it to magically home in on their targets.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Bow08",
+    "color" : "#ffffffff"
+  },
+  "value" : 250000,
+  "weight" : 1400,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Weapon",
+  "subIcon" : {
+    "type" : "OffHandWeapon",
+    "sprite" : "subIcons/weapon-bow02",
+    "color" : "#ffedb7a0"
+  },
+  "enchantments" : [
+    "entity.addBonus('WeaponAttack', 40);"
+  ],
+  "weaponType" : "Ranged",
+  "minRange" : 1,
+  "maxRange" : 12,
+  "handed" : "TwoHanded",
+  "baseWeapon" : "Longbow",
+  "threatensAoOs" : false,
+  "damageType" : "Piercing",
+  "minDamage" : 4,
+  "maxDamage" : 12,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 3,
+  "attackCost" : 2800,
+  "rangePenalty" : 16,
+  "maxStrengthBonus" : 20
+}

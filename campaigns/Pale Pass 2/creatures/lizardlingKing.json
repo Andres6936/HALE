@@ -1,0 +1,102 @@
+{
+  "name" : "Lizardling King",
+  "gender" : "Male",
+  "race" : "Lizardling",
+  "portrait" : "Monster/lizardling01",
+  "conversation" : "conversations/lizardlingKing",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/lizardling01",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 13,
+    "dexterity" : 16,
+    "constitution" : 13,
+    "intelligence" : 12,
+    "wisdom" : 17,
+    "charisma" : 12
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "Firebolt",
+      "levelObtained" : 1
+    }, {
+      "id" : "DivineBurst",
+      "levelObtained" : 1
+    }, {
+      "id" : "AnimalPower",
+      "levelObtained" : 1
+    }, {
+      "id" : "HardenArmor",
+      "levelObtained" : 1
+    }, {
+      "id" : "Blindness",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor20",
+      "levelObtained" : 1
+    }, {
+      "id" : "Cure",
+      "levelObtained" : 1
+    }, {
+      "id" : "Regeneration",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 11,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "quarterstaff",
+        "quality" : "Fine"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    3000, 7000
+  ],
+  "loot" : [
+    {
+      "id" : "LootMagicFine",
+      "probability" : {
+        "value" : 2,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsGood",
+      "probability" : {
+        "value" : 5,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 20,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

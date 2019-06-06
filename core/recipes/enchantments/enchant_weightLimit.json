@@ -1,0 +1,53 @@
+{
+  "name" : "Enhance Carrying Capacity",
+  "description" : "Adds a carrying capacity enchantment to an item.  The amount of the bonus depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 30,
+  "ingredients" : {
+    "bar_lead" : 1,
+    "crystal_green" : 1,
+    "bone" : 2
+  },
+  "result" : {
+    "postfix" : " of Carrying",
+    "ingredientItemTypes" : [ "Belt", "Armor", "Gloves" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_weightLimit"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 30,
+		"valueModifier" : 150,
+        "enchantment" : "entity.addBonus('WeightLimit',  5);"
+      }, {
+        "skillRankRequirement" : 50,
+		"valueModifier" : 180,
+        "enchantment" : "entity.addBonus('WeightLimit',  10);"
+      }, {
+        "skillRankRequirement" : 70,
+		"valueModifier" : 195,
+        "enchantment" : "entity.addBonus('WeightLimit',  15);"
+      }, {
+        "skillRankRequirement" : 90,
+		"valueModifier" : 210,
+        "enchantment" : "entity.addBonus('WeightLimit',  20);"
+      }, {
+        "skillRankRequirement" : 110,
+		"valueModifier" : 225,
+        "enchantment" : "entity.addBonus('WeightLimit',  25);"
+      }, {
+        "skillRankRequirement" : 130,
+		"valueModifier" : 240,
+        "enchantment" : "entity.addBonus('WeightLimit',  30);"
+      }, {
+        "skillRankRequirement" : 150,
+		"valueModifier" : 255,
+        "enchantment" : "entity.addBonus('WeightLimit',  35);"
+      }, {
+        "skillRankRequirement" : 170,
+		"valueModifier" : 270,
+        "enchantment" : "entity.addBonus('WeightLimit',  40);"
+      }
+    ]
+  }
+}

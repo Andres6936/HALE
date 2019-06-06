@@ -1,0 +1,65 @@
+{
+  "enchantmentChance" : 70,
+  "enchantmentSkillModifier" : 50,
+  "items" : [
+    {
+	  "id" : "armor_robe",
+	  "quantity" : 1
+	},
+    {
+      "id" : "goldRing",
+      "quantity" : 1
+    }, {
+      "id" : "silverRing",
+      "quantity" : 1
+    }, {
+      "id" : "amulet",
+      "quantity" : 1
+    }, {
+      "id" : "belt",
+      "quantity" : 1
+    }, {
+      "id" : "cloak",
+      "quantity" : 1
+    }, {
+      "id" : "wizardHat",
+      "quantity" : 1
+    }, {
+      "id" : "goldRing",
+      "quantity" : 1
+    }, {
+      "id" : "silverRing",
+      "quantity" : 1
+    }, {
+      "id" : "amulet",
+      "quantity" : 1
+    }, {
+      "id" : "belt",
+      "quantity" : 1
+    }, {
+      "id" : "cloak",
+      "quantity" : 1
+    }, {
+      "id" : "wizardHat",
+      "quantity" : 1
+    }, {
+      "id" : "goldRing",
+      "quantity" : 1
+    }, {
+      "id" : "silverRing",
+      "quantity" : 1
+    }, {
+      "id" : "amulet",
+      "quantity" : 1
+    }, {
+      "id" : "belt",
+      "quantity" : 1
+    }, {
+      "id" : "cloak",
+      "quantity" : 1
+    }, {
+      "id" : "wizardHat",
+      "quantity" : 1
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "externalScript" : "abilities/hide",
+  "name" : "Hide",
+  "type" : "Rogue Abilities",
+  "icon" : {
+    "sprite" : "icons/hide"
+  },
+  "description" : "You are able to hide from enemies, using stealth to sneak around them or perform a surprise attack.",
+  "upgrades" : [
+      { "ability" : "HideInPlainSight",
+        "description" : "With Hide in Plain Sight, you no longer suffer a penalty to Hide attempts while in plain view of hostiles."}
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : true,
+  "isCancelable" : true,
+  "cooldown" : 5,
+  "actionPointCost" : 8000,
+  "ai" : {
+    "power" : 10,
+    "priority" : 1
+  }
+}

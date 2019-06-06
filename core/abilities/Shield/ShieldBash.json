@@ -1,0 +1,37 @@
+{
+  "externalScript" : "abilities/shieldBash",
+  "name" : "Shield Bash",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/shieldBash"
+  },
+  "description" : "You attempt to bash a single opponent with your shield as a standard attack.  If you succeed, the opponent must succeed at a physical resistance check based on your level attack bonus or be stunned for 2 rounds.",
+  "upgrades" : [
+      { "ability" : "ImprovedShieldBash",
+        "description" : "With Improved Shield Bash, you now gain a +10 bonus to attack on a shield bash attempt, the physical resistance check is more difficult, and the stun effect lasts for 1 additional round.",
+		"override" : true }
+  ],
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "cooldown" : 5,
+  "actionPointCost" : "Same as an attack",
+  "ai" : {
+    "power" : 15,
+    "priority" : 8,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "ShieldDefense"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 15
+      }
+    ]
+  }
+}

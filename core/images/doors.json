@@ -1,0 +1,16 @@
+{
+  "source" : "doors",
+  "images" : {
+    "rural_gate-se" : [ 0, 0, 72, 100 ],
+    "rural_gate-sw" : [ 72, 0, 72, 100 ],
+    "rural_gate-se-open" : [ 0, 100, 72, 100 ],
+    "rural_gate-sw-open" : [ 72, 100, 72, 100 ],
+    "empty" : [ 0, 200, 1, 1 ],
+    "gate-rusty-opaque-se" : [ 144, 0, 60, 100 ],
+    "gate-rusty-opaque-sw" : [ 204, 0, 60, 100 ],
+    "gate-rusty-se" : [ 264, 0, 60, 100 ],
+    "gate-rusty-se-open" : [ 324, 0, 60, 100 ],
+    "gate-rusty-sw" : [ 384, 0, 60, 100 ],
+    "gate-rusty-sw_open" : [ 444, 0, 60, 100 ]
+  }
+}

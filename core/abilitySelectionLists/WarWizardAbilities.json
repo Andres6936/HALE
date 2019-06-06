@@ -1,0 +1,191 @@
+{
+  "name" : "War Wizard",
+  "abilities" : {
+    "ImproveWeapon" : {
+      "x" : 0.5,
+      "y" : 0.0
+    },
+    "FlamingWeapon" : {
+      "x" : 0.0,
+      "y" : 2.0
+    },
+    "HardenArmor" : {
+      "x" : 1.0,
+      "y" : 1.0
+    },
+    "ResistWeapons" : {
+      "x" : 1.0,
+      "y" : 2.0
+    },
+    "DeflectProjectiles" : {
+      "x" : 2.0,
+      "y" : 3.0
+    },
+    "AbsorbEnergy" : {
+      "x" : 2.5,
+      "y" : 0.0
+    },
+    "ResistSpells" : {
+      "x" : 3.0,
+      "y" : 2.0
+    },
+    "Shield" : {
+      "x" : 5.5,
+      "y" : 0.0
+    },
+    "ConjureArmor" : {
+      "x" : 5.0,
+      "y" : 1.0
+    },
+    "ConjureWeapon" : {
+      "x" : 4.0,
+      "y" : 2.0
+    },
+    "ElementalShield" : {
+      "x" : 6.0,
+      "y" : 3.0
+    },
+    "EnergyImmunity" : {
+      "x" : 3.0,
+      "y" : 4.0
+    },
+    "Invulnerability" : {
+      "x" : 1.5,
+      "y" : 4.0
+    },
+    "WarShield" : {
+      "x" : 7.0,
+      "y" : 2.0
+    },
+    "Juggernaut" : {
+      "x" : 8.0,
+      "y" : 2.0
+    },
+	"Destroyer" : {
+	  "x" : 8.0,
+	  "y" : 4.0
+	}
+  },
+  "connectors" : [
+    {
+      "type" : "TwoDown",
+      "x" : 0.5,
+      "y" : 0.0
+    }, {
+      "type" : "Through",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 1.0
+    }, {
+      "type" : "TwoDown",
+      "x" : 2.5,
+      "y" : 0.0
+    }, {
+      "type" : "Through",
+      "x" : 2.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 2.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 3.0,
+      "y" : 1.0
+    }, {
+      "type" : "FourDown",
+      "x" : 5.5,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 4.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 6.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 6.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 6.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 6.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 3.0
+    }, {
+      "type" : "Through",
+      "x" : 3.0,
+      "y" : 3.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "Through",
+      "x" : 1.0,
+      "y" : 3.0
+    }, {
+      "type" : "TwoUp",
+      "x" : 1.5,
+      "y" : 4.0
+    }, {
+      "type" : "OneDown",
+      "x" : 7.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 7.0,
+      "y" : 1.0
+    },
+	{
+	  "type" : "OneDown",
+	  "x" : 8.0,
+	  "y" : 2.0
+	},
+	{
+	  "type" : "OneDown",
+	  "x" : 8.0,
+	  "y" : 3.0
+	},
+	{
+	  "type" : "Through",
+	  "x" : 8.0,
+	  "y" : 3.0
+	}
+  ]
+}

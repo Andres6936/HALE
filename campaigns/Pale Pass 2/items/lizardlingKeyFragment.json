@@ -1,0 +1,14 @@
+{
+  "name" : "Lizardling Key Fragment",
+  "description" : "The fragment of the gate key that was held by the Lizardlings.",
+  "script" : "items/lizardlingKeyFragment",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Key02",
+    "color" : "#ff88ede8"
+  },
+  "value" : 0,
+  "weight" : 0,
+  "isIngredient" : false,
+  "isQuest" : true
+}

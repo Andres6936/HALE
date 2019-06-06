@@ -1,0 +1,41 @@
+{
+  "name" : "Chest",
+  "description" : "A chest that can hold a variety of items within.",
+  "class" : "Container",
+  "closedIcon" : {
+    "sprite" : "items/C_Chest03Closed"
+  },
+  "openIcon" : {
+    "sprite" : "items/C_Chest03Open"
+  },
+  "isLocked" : true,
+  "lockDifficulty" : 175,
+  "isWorkbench" : false,
+  "loot" : [
+    {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 40,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootMagicSuperb",
+      "probability" : {
+        "value" : 8,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootPotionsSuperb",
+      "probability" : {
+        "value" : 35,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

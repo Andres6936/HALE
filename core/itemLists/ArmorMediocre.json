@@ -1,0 +1,63 @@
+{
+  "enchantmentChance" : 10,
+  "enchantmentSkillModifier" : 0,
+  "items" : [
+    {
+	  "id" : "armor_robe",
+	  "quantity" : 1
+	},
+    {
+      "id" : "armor_leather_base",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "armor_leatherhard_base",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "armor_scale_base",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "gloves_leather_base",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "gloves_mail_base",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "helmet_leather_base",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "helmet_mail_base",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "boots_leather_base",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "boots_mail_base",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "shield_buckler_base",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "shield_light_base",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "shield_heavy_base",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }, {
+      "id" : "armor_mail_base",
+      "quality" : "Mediocre",
+      "quantity" : 1
+    }
+  ]
+}

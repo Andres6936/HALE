@@ -1,0 +1,14 @@
+{
+  "name" : "Tomb Key Fragment",
+  "description" : "The fragment of the gate key that was held in the Ancient Tomb.",
+  "script" : "items/tombKeyFragment",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Key02",
+    "color" : "#ffffffff"
+  },
+  "value" : 0,
+  "weight" : 0,
+  "isIngredient" : false,
+  "isQuest" : true
+}

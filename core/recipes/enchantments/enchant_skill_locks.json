@@ -1,0 +1,53 @@
+{
+  "name" : "Enhance Locks Skill",
+  "description" : "Adds a locks enchantment to an item.  The amount of the bonus depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 25,
+  "ingredients" : {
+    "gem07" : 1,
+    "thread" : 1,
+    "paper" : 2
+  },
+  "result" : {
+    "postfix" : " of Locks",
+    "ingredientItemTypes" : [ "Gloves", "Ring" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_locks"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 15,
+		"valueModifier" : 135,
+        "enchantment" : "entity.addSkillBonus('Locks',  5);"
+      }, {
+        "skillRankRequirement" : 35,
+		"valueModifier" : 155,
+        "enchantment" : "entity.addSkillBonus('Locks',  10);"
+      }, {
+        "skillRankRequirement" : 55,
+		"valueModifier" : 175,
+        "enchantment" : "entity.addSkillBonus('Locks',  15);"
+      }, {
+        "skillRankRequirement" : 75,
+		"valueModifier" : 190,
+        "enchantment" : "entity.addSkillBonus('Locks',  20);"
+      }, {
+        "skillRankRequirement" : 95,
+		"valueModifier" : 205,
+        "enchantment" : "entity.addSkillBonus('Locks',  25);"
+      }, {
+        "skillRankRequirement" : 115,
+		"valueModifier" : 215,
+        "enchantment" : "entity.addSkillBonus('Locks',  30);"
+      }, {
+        "skillRankRequirement" : 135,
+		"valueModifier" : 225,
+        "enchantment" : "entity.addSkillBonus('Locks',  35);"
+      }, {
+        "skillRankRequirement" : 155,
+		"valueModifier" : 235,
+        "enchantment" : "entity.addSkillBonus('Locks',  40);"
+      }
+    ]
+  }
+}

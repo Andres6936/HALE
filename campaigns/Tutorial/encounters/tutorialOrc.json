@@ -1,0 +1,10 @@
+{ "radius" : 0,
+  "faction" : "Hostile",
+  "challengeRating" : 1,
+  "creatures" : [
+    { "id" : "tutorialOrc",
+	  "x" : 0,
+	  "y" : 0
+	}
+  ]
+}

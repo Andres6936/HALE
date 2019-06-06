@@ -1,0 +1,68 @@
+{
+  "name" : "Paladin",
+  "abilities" : {
+    "CharismaTraining1" : {
+      "x" : 0.5,
+      "y" : 0.0
+    },
+    "CharismaTraining2" : {
+      "x" : 0.0,
+      "y" : 1.0
+    },
+    "CharismaTraining3" : {
+      "x" : 0.0,
+      "y" : 2.0
+    },
+    "Leadership" : {
+      "x" : 2.0,
+      "y" : 0.0
+    },
+    "PositiveEnergy" : {
+      "x" : 2.5,
+      "y" : 1.0
+    },
+    "PersonalMagnetism" : {
+      "x" : 1.25,
+      "y" : 2.0
+    },
+    "Aid" : {
+      "x" : 3.5,
+      "y" : 0.0
+    },
+    "Smite" : {
+      "x" : 4.5,
+      "y" : 1.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "TwoDown",
+      "x" : 0.5,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 0.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 1.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.5,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 1.5,
+      "y" : 1.0
+    }, {
+      "type" : "TwoDown",
+      "x" : 2.0,
+      "y" : 0.0
+    }
+  ]
+}

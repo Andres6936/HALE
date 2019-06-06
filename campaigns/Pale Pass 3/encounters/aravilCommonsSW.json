@@ -1,0 +1,19 @@
+{
+  "radius" : 5,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "peasant03",
+      "x" : 2,
+      "y" : 1
+    }, {
+      "id" : "peasant05",
+      "x" : -3,
+      "y" : 3
+    }, {
+      "id" : "peasant08",
+      "x" : -2,
+      "y" : -4
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "inlineScript" : "function onApply(game, parent) { parent.addDefaultWeapon('monkStrike1'); }",
+  "name" : "Improved Strike I",
+  "type" : "Monk Abilities",
+  "icon" : {
+    "sprite" : "icons/improvedStrike1"
+  },
+  "description" : "The monk's special training gives them a more powerful unarmed strike, doing 1 to 5 base damage instead of 1 to 3.",
+  "prereqs" : {
+    "roles" : [
+      {
+        "id" : "Monk",
+        "level" : 1
+      }
+    ]
+  }
+}

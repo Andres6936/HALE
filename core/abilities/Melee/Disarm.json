@@ -1,0 +1,32 @@
+{
+  "externalScript" : "abilities/disarm",
+  "name" : "Disarm",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/disarm"
+  },
+  "description" : "You attempt to disarm a single opponent with your melee weapon, causing their equipped weapon to fall to the ground under their feet.  You make a melee touch attack against your opponent, with a +30 bonus if they are wielding a ranged weapon.  If you hit, your opponent must succeed at a Reflex Resistance check or drop their weapon.",,
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "cooldown" : 4,
+  "actionPointCost" : "Same as an attack",
+  "ai" : {
+    "power" : 20,
+    "priority" : 3,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "MightyBlow"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 15
+      }
+    ]
+  }
+}

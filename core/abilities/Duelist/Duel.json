@@ -1,0 +1,29 @@
+{
+  "externalScript" : "abilities/duel",
+  "name" : "Duel",
+  "type" : "Duelist Abilities",
+  "icon" : {
+    "sprite" : "icons/duel"
+  },
+  "description" : "The Duelist selects a single target within line of sight.  For the next 3 rounds, the duelist focuses on that creature, gaining a 10 plus four per Duelist level bonus to Attack and Defense against the selected target.  Creatures that are immune to critical hits are immune to the effects of this ability.  This ability only functions with melee weapon attacks.",
+  "upgrades" : [
+    { "ability" : "DeadlyDuel",
+      "description" : "With Deadly Duel, you gain a damage bonus equal to your Duelist level against your Duel target."},
+    { "ability" : "Parry",
+      "description" : "With Parry, your Duel target suffers a 10 plus 2 times Duelist level penalty to attacks against all targets, as long as you are adjacent to the Duel target."},
+    { "ability" : "MultiDuel",
+      "description" : "With Multi-Duel, you may select two Duel targets instead of one."}
+  ],
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "cooldown" : 3,
+  "actionPointCost" : 1200,
+  "ai" : {
+    "power" : 20,
+    "priority" : 10,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Long"
+  }
+}

@@ -1,0 +1,14 @@
+{ "name" : "Ogre",
+  "baseMovementCost" : 1000,
+  "defaultWeapon" : "unarmedMedium",
+  
+  "racialTypes" : [
+    "Humanoid", "Beast"
+  ],
+  
+  "iconOffsets" : {
+    "Shield" : [ 25, 15 ],
+	"OffHandWeapon" : [ 27, 8 ],
+	"MainHandWeapon" : [ -3, 8 ]
+  }
+}

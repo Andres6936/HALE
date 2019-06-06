@@ -1,0 +1,37 @@
+{
+  "name" : "Smith",
+  "gender" : "Male",
+  "race" : "Dwarf",
+  "portrait" : "Dwarf/durstorn",
+  "conversation" : "conversations/aravilSmith",
+  "icon" : {
+    "sprite" : "creatures/dwarf03",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 14,
+    "dexterity" : 10,
+    "constitution" : 15,
+    "intelligence" : 12,
+    "wisdom" : 13,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Artisan" : 15
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true
+}

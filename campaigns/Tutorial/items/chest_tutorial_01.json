@@ -1,0 +1,13 @@
+{ "name" : "Chest",
+  "closedIcon" : {
+    "sprite" : "items/C_Chest01Closed"
+  },
+  "openIcon" : {
+    "sprite" : "items/C_Chest01Open"
+  }
+  
+  "description" : "A simple chest.",
+  
+  "isWorkbench" : false,
+  "script" : "items/chest_tutorial_01"
+}

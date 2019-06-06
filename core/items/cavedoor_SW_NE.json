@@ -1,0 +1,12 @@
+{
+  "name" : "Cave door",
+  "description" : "A large metal retracting door.",
+  "class" : "Door",
+  "closedIcon" : {
+    "sprite" : "doors/gate-rusty-se"
+  },
+  "openIcon" : {
+    "sprite" : "doors/gate-rusty-se-open"
+  },
+  "isTransparent" : false
+}

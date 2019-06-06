@@ -1,0 +1,13 @@
+{
+  "name" : "Moss Agate",
+  "description" : "A good example of a moss agate stone, worth a bit of coin.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_GemWhiteCircle",
+    "color" : "#ffffffff"
+  },
+  "value" : 2000,
+  "weight" : 10,
+  "isIngredient" : true,
+  "isQuest" : false
+}

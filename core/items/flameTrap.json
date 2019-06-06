@@ -1,0 +1,25 @@
+{
+  "name" : "Flame Trap",
+  "description" : "A flame trap to ignite foes.  Targets also catch on fire for several rounds.  The amount and duration of the damage is dependant on the quality of the trap.",
+  "script" : "items/flameTrap",
+  "class" : "Trap",
+  "icon" : {
+    "sprite" : "items/T_fire",
+    "color" : "#ffffffff"
+  },
+  "value" : 10000,
+  "weight" : 2000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "Place Trap",
+  "useAP" : 8000,
+  "defaultQuality" : "Good",
+  "damageType" : "Fire",
+  "minDamage" : 10,
+  "maxDamage" : 20,
+  "findDifficulty" : 70,
+  "placeDifficulty" : 75,
+  "disarmDifficulty" : 80,
+  "recoverDifficulty" : 90,
+  "reflexDifficulty" : 90
+}

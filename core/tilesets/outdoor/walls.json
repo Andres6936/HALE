@@ -1,0 +1,15 @@
+{
+  "source" : "walls",
+  "images" : {
+    "wall-stone-n" : [ 0, 0, 100, 140 ],
+    "wall-stone-n-ne" : [ 100, 0, 100, 140 ],
+    "wall-stone-nw-n" : [ 200, 0, 100, 140 ],
+    "wall-stone-nw-n-ne" : [ 300, 0, 100, 140 ],
+    "wall-stone-ne" : [ 400, 0, 100, 140 ],
+    "wall-stone-nw" : [ 0, 140, 100, 140 ],
+    "building01" : [ 100, 140, 100, 140 ],
+    "building02" : [ 200, 140, 100, 140 ],
+    "building03" : [ 300, 140, 100, 140 ],
+    "building04" : [ 400, 140, 100, 140 ]
+  }
+}

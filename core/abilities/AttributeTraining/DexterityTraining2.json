@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('BaseDex', 'Stackable', 1); parent.applyEffect(effect); }",
+  "name" : "Dexterity Training II",
+  "type" : "General",
+  "icon" : {
+    "sprite" : "icons/trainDexterity2"
+  },
+  "description" : "You gain an additional permanent +1 bonus to Dexterity.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "DexterityTraining1"
+    ],
+    "stats" : [
+      {
+        "type" : "CreatureLevel",
+        "value" : 5
+      }
+    ]
+  }
+}

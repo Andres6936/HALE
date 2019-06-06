@@ -1,0 +1,27 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "worldMapLocation" : "Ancient Tomb",
+  "from" : {
+    "area" : "Ancient Tomb",
+    "x" : 22,
+    "y" : 38,
+    "partyPositions" : [
+      [ 3, -2 ], [ 2, -2 ], [ 2, -1 ], [ 1, -2 ]
+    ]
+  },
+  "to" : {
+    "worldMap" : true
+  }
+}

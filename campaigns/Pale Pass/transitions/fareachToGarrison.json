@@ -1,0 +1,32 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "worldMapLocation" : "Fareach",
+  "from" : {
+    "area" : "Fareach",
+    "x" : 20,
+    "y" : 17,
+    "partyPositions" : [
+      [ 0, -1 ], [ 1, -1 ], [ -1, -1 ], [ 0, 0 ]
+    ]
+  },
+  "to" : {
+    "area" : "Fareach Garrison",
+    "x" : 8,
+    "y" : 2,
+    "partyPositions" : [
+      [ -2, 1 ], [ -1, 0 ], [ -1, -1 ], [ 0, 0 ]
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addArmorProficiency('Shield'); parent.applyEffect(effect); }",
+  "name" : "Proficiency, Shields",
+  "type" : "Armor Proficiencies",
+  "icon" : {
+    "sprite" : "icons/proficiencyShields"
+  },
+  "description" : "You are able to use basic shields.",
+  "isActivateable" : false
+}

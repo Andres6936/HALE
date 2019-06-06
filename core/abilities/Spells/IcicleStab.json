@@ -1,0 +1,37 @@
+{
+  "externalScript" : "spells/icicleStab",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 2,
+  "name" : "Icicle Stab",
+  "type" : "Evocation",
+  "icon" : {
+    "sprite" : "icons/icicleStab"
+  },
+  "description" : "Water vapor in the air is condensed into rock hard, razor sharp icicles.  These are then telekinetically launched, damaging all creatures in a line up to 8 hexes away for 1 to 10 plus 1 per caster level Piercing damage.  This spell is not affected by spell resistance.",
+  "isActivateable" : true,
+  "quickbarGroup" : "Evocation",
+  "isFixed" : true,
+  "cooldown" : 9,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 20,
+    "priority" : 3,
+    "actionType" : "Damage",
+    "groupType" : "Multiple",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Freeze"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 4
+      }
+    ]
+  }
+}

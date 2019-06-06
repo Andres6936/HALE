@@ -1,0 +1,14 @@
+{
+  "name" : {
+    "noun" : "Search",
+    "presentTenseVerb" : "Search",
+    "pastTenseVerb" : "Searched"
+  },
+  "icon" : {
+    "sprite" : "icons/search"
+  },
+  "isUsableUntrained" : true,
+  "suffersArmorPenalty" : false,
+  "keyAttribute" : "Int",
+  "isCraft" : false
+}

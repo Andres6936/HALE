@@ -1,0 +1,42 @@
+{
+  "externalScript" : "spells/summon",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 2,
+  "name" : "Summon",
+  "type" : "Conjuration",
+  "icon" : {
+    "sprite" : "icons/summon"
+  },
+  "description" : "A single animal appears at the targeted location and acts immediately after the caster ends their turn.  The animal is friendly, following the caster and attacking hostile creatures for 3 rounds plus 1 round per four caster levels or until reduced to 0 or fewer hit points.  The caster has no direct control over the summoned creature.  Summoned creatures have a creature level equal to your caster level minus 4.  More creatures become available as your caster level increases:<ul style=\"margin-top: 1em;\"><li>4. Wolf</li><li>6. Tiger</li><li>8. Bear</li><li>10. Giant Spider</li><li>12. Yeti</li></ul>",
+  "upgrades" : [
+    { "ability" : "SummonElemental",
+      "description" : "With Summon Elemental, you gain additional choices for summoned creatures.  You can now summon powerful elemental spirits of Fire, Water, Air, and Earth."},
+    { "ability" : "ImprovedSummon",
+      "description" : "With Improved Summon, all summoned creatures now have a creature level equal to your caster level.",
+      "override" : true }
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Conjuration",
+  "isFixed" : true,
+  "cooldown" : 9,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 20,
+    "priority" : 9,
+    "actionType" : "Summon",
+    "groupType" : "Single",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 4
+      }
+    ]
+  }
+}

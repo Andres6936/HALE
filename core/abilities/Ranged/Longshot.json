@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('RangePenalty', 'Stackable', 40); parent.applyEffect(effect); }",
+  "name" : "Longshot",
+  "type" : "General",
+  "icon" : {
+    "sprite" : "icons/longshot"
+  },
+  "description" : "The range penalty you suffer from all ranged weapons when attacking is decreased by 40%.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "PreciseShot"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 10
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{ "factions" : [
+	{ "id" : "Player" },
+	
+	{ "id" : "Neutral" },
+	
+	{ "id" : "Merchants" },
+	
+	{ "id" : "Object" },
+	
+	{ "id" : "Hostile",
+	    "relationships" : [
+			{   "id" : "Player",
+				"relationship": "Hostile"
+			},
+			{   "id" : "Neutral",
+				"relationship" : "Hostile"
+			}
+	    ]
+	}
+] };

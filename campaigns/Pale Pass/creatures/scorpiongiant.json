@@ -1,0 +1,50 @@
+{
+  "name" : "Giant Scorpion",
+  "gender" : "Male",
+  "race" : "SmallAnimal",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/scorpion",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 12,
+    "dexterity" : 15,
+    "constitution" : 12,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Monster" : 3
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedLargeThreatens",
+        "quality" : "Superb"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    200, 500
+  ],
+  "loot" : [
+    {
+      "id" : "LootLevel1",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

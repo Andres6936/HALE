@@ -1,0 +1,52 @@
+{
+  "name" : "Enhance Defense",
+  "description" : "Enchants an item with a bonus to defense.  The amount of the bonus is dependant on your Enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 15,
+  "ingredients" : {
+    "bar_silver" : 2,
+    "gem06" : 1
+  },
+  "result" : {
+    "postfix" : " of Defense",
+    "ingredientItemTypes" : [ "Armor", "Ring", "Amulet" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_armor"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 5,
+		"valueModifier" : 150,
+        "enchantment" : "entity.addBonus('ArmorClass', 'Deflection',  2);"
+      }, {
+        "skillRankRequirement" : 20,
+		"valueModifier" : 170,
+        "enchantment" : "entity.addBonus('ArmorClass', 'Deflection',  4);"
+      }, {
+        "skillRankRequirement" : 40,
+		"valueModifier" : 180,
+        "enchantment" : "entity.addBonus('ArmorClass', 'Deflection',  6);"
+      }, {
+        "skillRankRequirement" : 60,
+		"valueModifier" : 190,
+        "enchantment" : "entity.addBonus('ArmorClass', 'Deflection',  8);"
+      }, {
+        "skillRankRequirement" : 80,
+		"valueModifier" : 200,
+        "enchantment" : "entity.addBonus('ArmorClass', 'Deflection',  10);"
+      }, {
+        "skillRankRequirement" : 100,
+		"valueModifier" : 210,
+        "enchantment" : "entity.addBonus('ArmorClass', 'Deflection',  12);"
+      }, {
+        "skillRankRequirement" : 120,
+		"valueModifier" : 220,
+        "enchantment" : "entity.addBonus('ArmorClass', 'Deflection',  14);"
+      }, {
+        "skillRankRequirement" : 140,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addBonus('ArmorClass', 'Deflection',  16);"
+      }
+    ]
+  }
+}

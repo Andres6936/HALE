@@ -1,0 +1,42 @@
+{
+  "externalScript" : "spells/hardenArmor",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 2,
+  "name" : "Harden Armor",
+  "type" : "Alteration",
+  "icon" : {
+    "sprite" : "icons/hardenArmor"
+  },
+  "description" : "The armor worn by the targeted creature magically hardens, giving the wearer 4 points plus one per 6 caster levels of Physical Damage Reduction.  However, the wearer also suffers an additional 10 points of Armor Penalty due to the decreased mobility.  The effect lasts for 3 rounds plus one round per four caster levels.",
+  "upgrades" : [
+    { "ability" : "ResistWeapons",
+      "description" : "With Resist Weapons, the targeted armor also gains 20% plus 1% caster level Damage Immunity to one of the three physical damage types: Slashing, Piercing, or Blunt."}
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Alteration",
+  "isFixed" : true,
+  "cooldown" : 8,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 20,
+    "priority" : 9,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "ImproveWeapon"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 4
+      }
+    ]
+  }
+}

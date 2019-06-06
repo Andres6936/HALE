@@ -1,0 +1,26 @@
+{
+  "name" : "Lightning Storm",
+  "type" : "Evocation",
+  "icon" : {
+    "sprite" : "icons/lightningStorm"
+  },
+  "description" : "Lightning Storm upgrades your Storm spell.  Each round, every creature within the effect of a Storm spell has a 33% chance to be struck with a bolt of lightning, doing 1 to 10 plus one per caster level damage.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40,
+    "actionType" : "Damage",
+    "groupType" : "Multiple",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Storm", "LightningBolt"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

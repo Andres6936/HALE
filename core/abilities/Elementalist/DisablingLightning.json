@@ -1,0 +1,17 @@
+{
+  "name" : "Disabling Lightning",
+  "type" : "Elementalist Abilities",
+  "icon" : {
+    "sprite" : "icons/disablingLightning"
+  },
+  "description" : "Your Shock / Lightning Bolt spell now temporarily cripples opponents for 3 rounds.  Affected targets suffer a 10 plus one per caster level penalty to Spell Failure and Attack.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [
+      "LightningMage"
+    ]
+  }
+}

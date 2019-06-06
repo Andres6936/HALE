@@ -1,0 +1,42 @@
+{
+  "name" : "Potion of Damage Reduction",
+  "description" : "Creates a reduction against physical damage potion.  The amount of damage reduction is dependant upon your alchemy skill.",
+  "skill" : "Alchemy",
+  "skillRankRequirement" : 45,
+  "ingredients" : {
+    "empty_bottle" : 1,
+    "water_jug" : 1,
+    "crystal_blue" : 2
+  },
+  "result" : {
+    "id" : "potionDamageReduction",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 25
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 45
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 65
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 85
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 105
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 125
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 140
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 160
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "externalScript" : "spells/shield",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 1,
+  "name" : "Shield",
+  "type" : "Conjuration",
+  "icon" : {
+    "sprite" : "icons/shield"
+  },
+  "description" : "A magical shield of pure force appears in front of the caster, providing a bonus to Defense of 15 + 1 per caster level.  The shield lasts for 3 rounds + 1 round per 3 caster levels.",
+  "upgrades" : [
+    { "ability" : "WarShield",
+      "description" : "With War Shield, your Shield spell now provides an additional 4 points of Defense bonus per War Wizard level."},
+    { "ability" : "ElementalShield",
+      "description" : "With Elemental Shield, your Shield spell now is empowered with either Fire, Cold, Electricity, or Acid.  You gain Damage Reduction of 5 plus one per two caster levels against the selected damage type.  In addition, any creature hitting you with a melee attack suffers 1 to 6 plus one per four caster levels damage of the same type."}
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Conjuration",
+  "isFixed" : true,
+  "cooldown" : 8,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 10,
+    "priority" : 7,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 1
+      }
+    ]
+  }
+}

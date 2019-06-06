@@ -1,0 +1,32 @@
+{
+  "name" : "Longsword",
+  "description" : "A very effective one handed weapon, longswords due a respectible amount of slashing damage.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Sword002",
+    "color" : "#ffffffff"
+  },
+  "value" : 25000,
+  "weight" : 2000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-sword03",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "OneHanded",
+  "baseWeapon" : "Longsword",
+  "threatensAoOs" : true,
+  "damageType" : "Slashing",
+  "minDamage" : 2,
+  "maxDamage" : 6,
+  "criticalThreat" : 91,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

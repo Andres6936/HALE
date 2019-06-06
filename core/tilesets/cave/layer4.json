@@ -1,0 +1,13 @@
+{
+  "source" : "layer4",
+  "images" : {
+    "wall-rough-concave-l" : [ 0, 0, 108, 144 ],
+    "wall-rough-concave-r" : [ 108, 0, 108, 144 ],
+    "wall-rough-concave-tl" : [ 216, 0, 108, 144 ],
+    "wall-rough-concave-tr" : [ 324, 0, 108, 144 ],
+    "wall-rough-convex-bl" : [ 0, 144, 108, 144 ],
+    "wall-rough-convex-br" : [ 108, 144, 108, 144 ],
+    "wall-rough-convex-l" : [ 216, 144, 108, 144 ],
+    "wall-rough-convex-r" : [ 324, 144, 108, 144 ]
+  }
+}

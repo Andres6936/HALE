@@ -1,0 +1,26 @@
+{
+  "name" : "Elemental Shield",
+  "type" : "Conjuration",
+  "icon" : {
+    "sprite" : "icons/elementalShield"
+  },
+  "description" : "Elemental Shield upgrades your Shield spell, empowering it with your selection of Fire, Cold, Electricity, or Acid.  The caster gains Damage Reduction of 5 plus one per two caster levels against the selected damage type.  In addition, any creature hitting the caster with a melee attack suffers 1 to 6 plus one per four caster levels damage of the same type.  The effect lasts for 3 round plus one round per 3 caster levels.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 40,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Shield"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

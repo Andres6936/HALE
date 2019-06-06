@@ -1,0 +1,13 @@
+{
+  "name" : "Apple",
+  "description" : "An apple.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Apple",
+    "color" : "#ffffffff"
+  },
+  "value" : 100,
+  "weight" : 500,
+  "isIngredient" : false,
+  "isQuest" : false
+}

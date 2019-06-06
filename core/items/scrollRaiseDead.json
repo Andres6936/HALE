@@ -1,0 +1,24 @@
+{
+  "name" : "Scroll of Raise Dead",
+  "description" : "Reading this scroll aloud will allow the user to raise a single fallen party member back to life.  The creature will have only 1 hit point upon being raised, but can heal naturally after that point.  The target creature must be adjacent to the user of this scroll.",
+  "script" : "items/scrollRaiseDead",
+  "class" : "Item",
+  "icon" : {
+	"composed" : [
+	  {
+	    "sprite" : "items/I_Scroll01",
+		"color" : "#ffeac1c1"
+	  },
+	  {
+	    "sprite" : "items/enchant_death",
+		"color" : "#ffffffff"
+	  }
+	]
+  },
+  "value" : 60000,
+  "weight" : 50,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "Read",
+  "useAP" : 8000,
+}

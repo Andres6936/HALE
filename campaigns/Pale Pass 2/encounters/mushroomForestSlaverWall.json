@@ -1,0 +1,11 @@
+{
+  "radius" : 0,
+  "faction" : "Object",
+  "creatures" : [
+    {
+      "id" : "mushroomForestSlaverWall",
+      "x" : 0,
+      "y" : 0
+    }
+  ]
+}

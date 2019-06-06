@@ -1,0 +1,17 @@
+{
+  "name" : "Hurricane Claw",
+  "type" : "Storm Hand Abilities",
+  "icon" : {
+    "sprite" : "icons/hurricaneClaw"
+  },
+  "description" : "A balanced form for offense and defense, Hurricane Claw improves the Critical Threat Range of your attack by your Storm Hand level plus Wisdom bonus and Critical Multiplier by 1.  You gain resistance of 5 plus your Wisdom modifier against Acid, Cold, and Fire damage.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [
+      "StormStance"
+    ]
+  }
+}

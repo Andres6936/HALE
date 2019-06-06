@@ -1,0 +1,42 @@
+{
+  "name" : "Healing Potion",
+  "description" : "Creates a healing potion.  The amount of damage healed by the potion depends on your Alchemy skill.",
+  "skill" : "Alchemy",
+  "skillRankRequirement" : 5,
+  "ingredients" : {
+    "empty_bottle" : 1,
+    "herb_medicinal" : 2,
+    "water_jug" : 1
+  },
+  "result" : {
+    "id" : "potionHealing",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 5
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 25
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 45
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 65
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 85
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 105
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 125
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 145
+      }
+    ]
+  }
+}

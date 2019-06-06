@@ -1,0 +1,14 @@
+{
+  "name" : "Grimbok Head",
+  "description" : "The severed head of the fearsom beast, the Grimbok.  This serves as proof that you have slayed the creature.",
+  "script" : "items/grimbokHead",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Bag",
+    "color" : "#ffffffff"
+  },
+  "value" : 0,
+  "weight" : 1000,
+  "isIngredient" : false,
+  "isQuest" : true
+}

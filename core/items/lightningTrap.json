@@ -1,0 +1,25 @@
+{
+  "name" : "Lightning Trap",
+  "description" : "A trap to electrocute foes.  The amount of the damage is dependant on the quality of the trap.",
+  "script" : "items/trap",
+  "class" : "Trap",
+  "icon" : {
+    "sprite" : "items/T_lightning",
+    "color" : "#ffffffff"
+  },
+  "value" : 10000,
+  "weight" : 2000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "useText" : "Place Trap",
+  "useAP" : 8000,
+  "defaultQuality" : "Good",
+  "damageType" : "Electrical",
+  "minDamage" : 4,
+  "maxDamage" : 28,
+  "findDifficulty" : 75,
+  "placeDifficulty" : 70,
+  "disarmDifficulty" : 75,
+  "recoverDifficulty" : 85,
+  "reflexDifficulty" : 100
+}

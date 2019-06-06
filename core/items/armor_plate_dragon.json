@@ -1,0 +1,22 @@
+{
+  "name" : "Dragon Armor",
+  "description" : "Armor consisting of the scales of a red dragon, providing excellent protection and mobility as compared to ordinary steel plate.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/A_Armor05",
+    "color" : "#ffffffff"
+  },
+  "value" : 400000,
+  "weight" : 12000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Armor",
+  "subIcon" : {
+    "sprite" : "subIcons/armor-01",
+    "color" : "#ffff6a2d"
+  },
+  "armorType" : "Heavy",
+  "armorClass" : 42,
+  "armorPenalty" : 15,
+  "movementPenalty" : 10
+}

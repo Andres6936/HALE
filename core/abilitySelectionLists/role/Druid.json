@@ -1,0 +1,9 @@
+{
+  "name" : "Druid",
+  "subLists" : {
+    "DruidSpells" : {
+      "x" : 0.0,
+      "y" : 0.5
+    }
+  }
+}

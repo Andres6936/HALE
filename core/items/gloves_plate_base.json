@@ -1,0 +1,23 @@
+{
+  "name" : "Plate Gloves",
+  "description" : "Gloves made of carefully crafted steel plates, these provide excellent protection for the wearer's hands.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/Ac_Gloves06",
+    "color" : "#ffffffff"
+  },
+  "value" : 16000,
+  "weight" : 800,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Gloves",
+  "subIcon" : {
+    "sprite" : "subIcons/gloves-01",
+    "color" : "#ffffffff"
+  },
+  "armorType" : "Heavy",
+  "armorClass" : 4,
+  "armorPenalty" : 4,
+  "movementPenalty" : 3
+}

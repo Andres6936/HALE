@@ -1,0 +1,17 @@
+{
+  "name" : "Warrior",
+  "subLists" : {
+    "MonkAbilities" : {
+	  "x" : 0.0,
+	  "y" : 0.5
+	},
+    "Melee" : {
+      "x" : 0.0,
+      "y" : 5.0
+    },
+	"DualWielding" : {
+      "x" : 3.5,
+      "y" : 5.0
+    }
+  }
+}

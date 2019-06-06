@@ -1,0 +1,23 @@
+{
+  "name" : "Plate Armor",
+  "description" : "Armor consisting of large steel plates, providing excellent protection but at the expense of some mobility.",
+  "class" : "Armor",
+  "icon" : {
+    "sprite" : "items/A_Armor08",
+    "color" : "#ffffffff"
+  },
+  "value" : 200000,
+  "weight" : 15000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Armor",
+  "subIcon" : {
+    "sprite" : "subIcons/armor-01",
+    "color" : "#ffdae7c8"
+  },
+  "armorType" : "Heavy",
+  "armorClass" : 25,
+  "armorPenalty" : 25,
+  "movementPenalty" : 20
+}

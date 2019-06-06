@@ -1,0 +1,34 @@
+{
+  "respawnTime" : 24,
+  "radius" : 2,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 4,
+  "maxRandomCreatures" : 5,
+  "creatures" : [
+    {
+      "id" : "mushroomMan",
+      "x" : -2,
+      "y" : -1
+    }, {
+      "id" : "mushroomMan",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "mushroomMan",
+      "x" : -1,
+      "y" : -2
+    }, {
+      "id" : "mushroomMan",
+      "x" : 0,
+      "y" : -1
+    }, {
+      "id" : "mushroomMan",
+      "x" : 0,
+      "y" : -2
+    }, {
+      "id" : "mushroomMan",
+      "x" : 0,
+      "y" : 0
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "Mace",
+  "description" : "A long rod typically made of wood with a heavy metal ball attached to one end, doing crushing damage.  This weapon is suitable for use in the off hand.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Mace009",
+    "color" : "#ffffffff"
+  },
+  "value" : 12000,
+  "weight" : 2200,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-mace02",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "Light",
+  "baseWeapon" : "Mace",
+  "threatensAoOs" : true,
+  "damageType" : "Blunt",
+  "minDamage" : 1,
+  "maxDamage" : 5,
+  "criticalThreat" : 93,
+  "criticalMultiplier" : 2,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

@@ -1,0 +1,23 @@
+{ "class" : "Weapon",
+  "name" : "Fist",
+
+  "enchantments" : [
+    "entity.addPenalty('Initiative', -200);"
+  ],
+
+  "type" : "Weapon",
+  "weaponType" : "Melee",
+  "handed" : "Light",
+  "defaultQuality" : "Good",
+  "baseWeapon" : "Unarmed",
+  "threatensAoOs" : true,
+  "minRange" : 1,
+  "maxRange" : 1,
+  "damageType" : "Blunt",
+  "minDamage" : 1,
+  "maxDamage" : 2,
+  "criticalThreat" : 100,
+  "criticalMultiplier" : 1,
+  "attackCost" : 2800
+}
+  

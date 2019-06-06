@@ -1,0 +1,32 @@
+{
+  "name" : "Battleaxe",
+  "description" : "A large, sturdy axe suitable for use as a one handed weapon.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Axe007",
+    "color" : "#ffffffff"
+  },
+  "value" : 20000,
+  "weight" : 2400,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-axe02",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "OneHanded",
+  "baseWeapon" : "Battleaxe",
+  "threatensAoOs" : true,
+  "damageType" : "Slashing",
+  "minDamage" : 2,
+  "maxDamage" : 6,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 3,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

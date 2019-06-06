@@ -1,0 +1,34 @@
+{
+  "name" : "Battleaxe of Beheading",
+  "description" : "This wicked weapon has more frequent and deadly critical hits than an ordinary axe.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Axe008",
+    "color" : "#ffffffff"
+  },
+  "value" : 250000,
+  "weight" : 2400,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-axe02",
+    "color" : "#ffedb7a0"
+  },
+  "enchantments" : [
+    "entity.addBonus('WeaponCriticalChance', 3);", "entity.addBonus('WeaponCriticalMultiplier', 1); entity.addBonus('WeaponAttack', 30);"
+  ],
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "OneHanded",
+  "baseWeapon" : "Battleaxe",
+  "threatensAoOs" : true,
+  "damageType" : "Slashing",
+  "minDamage" : 3,
+  "maxDamage" : 11,
+  "criticalThreat" : 96,
+  "criticalMultiplier" : 3,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

@@ -1,0 +1,87 @@
+{
+  "name" : "King Wraith",
+  "gender" : "Male",
+  "race" : "Ghost",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/ghost01",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 17,
+    "dexterity" : 25,
+    "constitution" : 10,
+    "intelligence" : 6,
+    "wisdom" : 19,
+    "charisma" : 7
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "Enfeeble",
+      "levelObtained" : 1
+    }, {
+      "id" : "Curse",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassParalyze",
+      "levelObtained" : 1
+    }, {
+      "id" : "Sleep",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCurse",
+      "levelObtained" : 1
+    }, {
+      "id" : "Paralyze",
+      "levelObtained" : 1
+    }, {
+      "id" : "Slow",
+      "levelObtained" : 1
+    }, {
+      "id" : "Breach",
+      "levelObtained" : 1
+    }, {
+      "id" : "Blindness",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor30",
+      "levelObtained" : 1
+    }, {
+      "id" : "SpellResistance50",
+      "levelObtained" : 1
+    }, {
+      "id" : "PhysicalImmunity75",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 20,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedWraith",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    12000, 24000
+  ],
+  "loot" : [
+    {
+      "id" : "DropWraithKing",
+      "probability" : {
+        "value" : 100,
+        "mode" : "PerItem"
+      }
+    }
+  ]
+}

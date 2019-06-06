@@ -1,0 +1,43 @@
+{
+  "radius" : 2,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "masterArmyLeader",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "hellHound",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "hellHound",
+      "x" : 1,
+      "y" : 0
+    }, {
+      "id" : "demonEye",
+      "x" : 1,
+      "y" : -2
+    }, {
+      "id" : "demonRed",
+      "x" : 0,
+      "y" : -2
+    }, {
+      "id" : "demonGreen",
+      "x" : 2,
+      "y" : -1
+    }, {
+      "id" : "masterWarrior01",
+      "x" : -2,
+      "y" : 1
+    }, {
+      "id" : "masterWarrior02",
+      "x" : -1,
+      "y" : 1
+    }, {
+      "id" : "masterWarrior03",
+      "x" : 0,
+      "y" : 2
+    }
+  ]
+}

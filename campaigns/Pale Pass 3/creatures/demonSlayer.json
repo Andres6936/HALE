@@ -1,0 +1,71 @@
+{
+  "name" : "Slayer Demon",
+  "gender" : "Male",
+  "race" : "Demon",
+  "initiativeTickerHeight" : 105,
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "sprite" : "creatures/demon02",
+    "color" : "#ffffffff"
+  },
+  "attributes" : {
+    "strength" : 16,
+    "dexterity" : 15,
+    "constitution" : 19,
+    "intelligence" : 10,
+    "wisdom" : 10,
+    "charisma" : 10
+  },
+  "skills" : {
+    "Search" : 80
+  },
+  "abilities" : [
+    {
+      "id" : "DualStrike",
+      "levelObtained" : 1
+    }, {
+      "id" : "Flurry",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWieldingMastery",
+      "levelObtained" : 1
+    }, {
+      "id" : "ExpertDualWielding",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWielding",
+      "levelObtained" : 1
+    }, {
+      "id" : "DualWieldingDefense",
+      "levelObtained" : 1
+    }, {
+      "id" : "NaturalArmor30",
+      "levelObtained" : 1
+    }, {
+      "id" : "SpellResistance30",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Warrior" : 20,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "unarmedClaw",
+        "quality" : "Good"
+      },
+      "OffHand" : {
+        "id" : "unarmedClaw",
+        "quality" : "Good"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    20000, 32000
+  ]
+}

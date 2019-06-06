@@ -1,0 +1,52 @@
+{
+  "name" : "Enhance Charisma",
+  "description" : "Adds a charisma enchantment to an item.  The amount of the bonus depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 35,
+  "ingredients" : {
+    "bar_silver" : 1,
+    "gem10" : 1,
+  },
+  "result" : {
+    "postfix" : " of Charisma",
+    "ingredientItemTypes" : [ "Cloak", "Armor" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_charisma"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 35,
+		"valueModifier" : 170,
+        "enchantment" : "entity.addBonus('Cha',  1);"
+      }, {
+        "skillRankRequirement" : 55,
+		"valueModifier" : 200,
+        "enchantment" : "entity.addBonus('Cha',  2);"
+      }, {
+        "skillRankRequirement" : 75,
+		"valueModifier" : 215,
+        "enchantment" : "entity.addBonus('Cha',  3);"
+      }, {
+        "skillRankRequirement" : 95,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addBonus('Cha',  4);"
+      }, {
+        "skillRankRequirement" : 115,
+		"valueModifier" : 245,
+        "enchantment" : "entity.addBonus('Cha',  5);"
+      }, {
+        "skillRankRequirement" : 135,
+		"valueModifier" : 260,
+        "enchantment" : "entity.addBonus('Cha',  6);"
+      }, {
+        "skillRankRequirement" : 155,
+		"valueModifier" : 275,
+        "enchantment" : "entity.addBonus('Cha',  7);"
+      }, {
+        "skillRankRequirement" : 175,
+		"valueModifier" : 290,
+        "enchantment" : "entity.addBonus('Cha',  8);"
+      }
+    ]
+  }
+}

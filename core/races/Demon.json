@@ -1,0 +1,8 @@
+{ "name" : "Demon",
+  "baseMovementCost" : 1000,
+  "defaultWeapon" : "unarmedMediumThreatens",
+  
+  "racialTypes" : [
+    "Demon"
+  ]
+}

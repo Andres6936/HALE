@@ -1,0 +1,124 @@
+{
+  "name" : "Chapter 1",
+  "startArea" : "The Road to Fareach",
+  "worldMapBackground" : "worldMap",
+  "partySize" : {
+    "min" : 2,
+    "max" : 4
+  },
+  "startingLevel" : {
+    "min" : 1,
+    "max" : 4
+  },
+  "timeConversions" : {
+    "roundsPerMinute" : 10,
+    "minutesPerHour" : 60,
+    "hoursPerDay" : 24,
+    "daysPerMonth" : 30
+  },
+  "locations" : [
+    {
+      "id" : "Fareach",
+      "startingTransition" : "fareachToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/elven"
+      },
+      "iconPosition" : {
+        "x" : 170,
+        "y" : 40
+      },
+      "travelTimes" : {
+        "Sonorin Desert" : 48,
+        "Black River Crossing" : 24,
+        "Southern Road" : 24,
+        "The Willow Inn" : 4,
+        "Sonorin Desert South" : 52
+      }
+    }, {
+      "id" : "The Willow Inn",
+      "startingTransition" : "WillowInnRoadToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/human"
+      },
+      "iconPosition" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "travelTimes" : {
+        "Sonorin Desert" : 52,
+        "Black River Crossing" : 28,
+        "Southern Road" : 28,
+        "Fareach" : 4,
+        "Sonorin Desert South" : 56
+      }
+    }, {
+      "id" : "Black River Crossing",
+      "startingTransition" : "BlackRiverCrossingToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/bridge-ne"
+      },
+      "iconPosition" : {
+        "x" : 360,
+        "y" : 70
+      },
+      "travelTimes" : {
+        "Sonorin Desert" : 48,
+        "Southern Road" : 24,
+        "The Willow Inn" : 28,
+        "Fareach" : 24,
+        "Sonorin Desert South" : 52
+      }
+    }, {
+      "id" : "Southern Road",
+      "startingTransition" : "SouthernRoadToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/stones1"
+      },
+      "iconPosition" : {
+        "x" : 310,
+        "y" : 170
+      },
+      "travelTimes" : {
+        "Black River Crossing" : 24,
+        "Sonorin Desert" : 24,
+        "The Willow Inn" : 28,
+        "Fareach" : 24,
+        "Sonorin Desert South" : 28
+      }
+    }, {
+      "id" : "Sonorin Desert",
+      "startingTransition" : "SonorinDesertToWorldMap",
+      "icon" : {
+        "sprite" : "worldmap/cactus"
+      },
+      "iconPosition" : {
+        "x" : 260,
+        "y" : 285
+      },
+      "travelTimes" : {
+        "Black River Crossing" : 48,
+        "Southern Road" : 24,
+        "The Willow Inn" : 52,
+        "Fareach" : 48,
+        "Sonorin Desert South" : 4
+      }
+    }, {
+      "id" : "Sonorin Desert South",
+      "startingTransition" : "SonorinDesertToWorldMap2",
+      "icon" : {
+        "sprite" : "worldmap/cactus2"
+      },
+      "iconPosition" : {
+        "x" : 260,
+        "y" : 380
+      },
+      "travelTimes" : {
+        "Black River Crossing" : 52,
+        "Sonorin Desert" : 4,
+        "Southern Road" : 28,
+        "The Willow Inn" : 56,
+        "Fareach" : 52
+      }
+    }
+  ]
+}

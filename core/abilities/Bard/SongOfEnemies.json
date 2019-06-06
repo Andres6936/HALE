@@ -1,0 +1,20 @@
+{
+  "name" : "Song of Enemies",
+  "type" : "Bard Abilities",
+  "icon" : {
+    "sprite" : "icons/songOfEnemies"
+  },
+  "description" : "The Song of Enemies upgrades all of your Bardsongs.  All hostiles within 8 hexes of the Bard gain a penalty to Attack of 5 plus one per point of Charisma above 10 when you sing any bardsong.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "CurseSong"
+    ],
+    "roles" : [
+      {
+        "id" : "Bard",
+        "level" : 5
+      }
+    ]
+  }
+}

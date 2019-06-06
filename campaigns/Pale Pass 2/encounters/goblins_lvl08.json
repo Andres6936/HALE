@@ -1,0 +1,38 @@
+{
+  "respawnTime" : 24,
+  "radius" : 2,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 4,
+  "maxRandomCreatures" : 5,
+  "creatures" : [
+    {
+      "id" : "goblin_archer",
+      "x" : 0,
+      "y" : -1
+    }, {
+      "id" : "goblin_warrior",
+      "x" : 1,
+      "y" : -1
+    }, {
+      "id" : "goblin_shaman",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "goblin_berserker",
+      "x" : -2,
+      "y" : 0
+    }, {
+      "id" : "goblin_berserker",
+      "x" : 1,
+      "y" : 1
+    }, {
+      "id" : "goblin_warrior",
+      "x" : -1,
+      "y" : 0
+    }, {
+      "id" : "goblin_archer",
+      "x" : -1,
+      "y" : -1
+    }
+  ]
+}

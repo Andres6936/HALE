@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('DualWieldArmorClass', 'Stackable', 10); parent.applyEffect(effect); }",
+  "name" : "Dual Wielding Defense",
+  "type" : "Dual Wielding",
+  "icon" : {
+    "sprite" : "icons/dualWieldingDefense"
+  },
+  "description" : "You have trained in the use of your off hand weapon as a shield.  You gain a +10 bonus to Defense while dual wielding.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "DualWielding"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 15
+      }
+    ]
+  }
+}

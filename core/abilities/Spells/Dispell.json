@@ -1,0 +1,41 @@
+{
+  "externalScript" : "spells/dispell",
+  "isSpell" : true,
+  "hasVerbalComponent" : true,
+  "hasSomaticComponent" : true,
+  "spellResistanceApplies" : false,
+  "spellLevel" : 2,
+  "name" : "Dispell",
+  "type" : "Restoration",
+  "icon" : {
+    "sprite" : "icons/dispell"
+  },
+  "description" : "Dispell is an effective general use spell which can remove a wide variety of negative status effects from a single touched target.  For each spell effect on the target which is affected by spell resistance, dispell makes a check against the effect's spell level.  If the check succeeds, the effect is removed.  Dispell can remove up to two effects in this manner.  The order in which effects are tested is random.",
+  "upgrades" : [
+      { "ability" : "GreaterDispell",
+        "description" : "With Greater Dispell, your Dispell attempts become more difficult to resist, and you can remove up to five effects per dispell attempt.",
+        "override" : true
+      }
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "Restoration",
+  "isFixed" : true,
+  "cooldown" : 9,
+  "actionPointCost" : 6000,
+  "ai" : {
+    "power" : 20,
+    "priority" : 4,
+    "actionType" : "Tactical",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 4
+      }
+    ]
+  }
+}

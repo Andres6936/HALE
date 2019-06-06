@@ -1,0 +1,26 @@
+{
+  "name" : "Improved Shield Bash",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/improvedShieldBash"
+  },
+  "description" : "Your shield bash is much improved.  You gain a +10 bonus to attack on your shield bash attempt, and if successful the physical resistance check is more difficult.  Finally, your shield bash now stuns opponents for 3 rounds instead of 2.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30,
+    "actionType" : "Debuff",
+    "groupType" : "Single",
+    "rangeType" : "Short"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "ShieldBash"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 20
+      }
+    ]
+  }
+}

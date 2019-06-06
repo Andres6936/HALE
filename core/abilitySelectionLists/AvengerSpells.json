@@ -1,0 +1,144 @@
+{
+  "name" : "Avenger",
+  "abilities" : {
+    "Deafen" : {
+      "x" : 0.5,
+      "y" : 1.0
+    },
+    "Blindness" : {
+      "x" : 0.0,
+      "y" : 2.0
+    },
+    "Silence" : {
+      "x" : 1.0,
+      "y" : 3.0
+    },
+    "Breach" : {
+      "x" : 2.0,
+      "y" : 2.0
+    },
+    "Rupture" : {
+      "x" : 2.0,
+      "y" : 3.0
+    },
+    "Slow" : {
+      "x" : 3.0,
+      "y" : 0.0
+    },
+    "Sleep" : {
+      "x" : 3.0,
+      "y" : 1.0
+    },
+    "Paralyze" : {
+      "x" : 3.0,
+      "y" : 2.0
+    },
+    "MassParalyze" : {
+      "x" : 3.0,
+      "y" : 4.0
+    },
+    "Curse" : {
+      "x" : 4.5,
+      "y" : 0.0
+    },
+    "Enfeeble" : {
+      "x" : 4.0,
+      "y" : 1.0
+    },
+    "MassCurse" : {
+      "x" : 5.0,
+      "y" : 3.0
+    },
+    "Drain" : {
+      "x" : 4.0,
+      "y" : 3.0
+    },
+    "AntiMagic" : {
+      "x" : 6.0,
+      "y" : 2.0
+    },
+    "Vulnerability" : {
+      "x" : 7.0,
+      "y" : 3.0
+    },
+    "PhysicalVulnerability" : {
+      "x" : 7.0,
+      "y" : 4.0
+    }
+  },
+  "connectors" : [
+    {
+      "type" : "TwoDown",
+      "x" : 0.5,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 1.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 2.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 1.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 2.0
+    }, {
+      "type" : "Through",
+      "x" : 3.0,
+      "y" : 3.0
+    }, {
+      "type" : "OneDown",
+      "x" : 3.0,
+      "y" : 3.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 4.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 4.0,
+      "y" : 2.0
+    }, {
+      "type" : "TwoDown",
+      "x" : 4.5,
+      "y" : 0.0
+    }, {
+      "type" : "OneDown",
+      "x" : 5.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 5.0,
+      "y" : 1.0
+    }, {
+      "type" : "Through",
+      "x" : 5.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 5.0,
+      "y" : 2.0
+    }, {
+      "type" : "OneDown",
+      "x" : 7.0,
+      "y" : 3.0
+    }
+  ]
+}

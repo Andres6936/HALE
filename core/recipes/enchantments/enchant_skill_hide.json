@@ -1,0 +1,53 @@
+{
+  "name" : "Enhance Hide Skill",
+  "description" : "Adds a hide skill enchantment to an item.  The amount of the bonus depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 35,
+  "ingredients" : {
+    "gem10" : 1,
+    "coal" : 1,
+    "paper" : 2
+  },
+  "result" : {
+    "postfix" : " of Hide",
+    "ingredientItemTypes" : [ "Cloak", "Armor", "Boots" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_hide"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 15,
+		"valueModifier" : 140,
+        "enchantment" : "entity.addSkillBonus('Hide',  5);"
+      }, {
+        "skillRankRequirement" : 35,
+		"valueModifier" : 160,
+        "enchantment" : "entity.addSkillBonus('Hide',  10);"
+      }, {
+        "skillRankRequirement" : 55,
+		"valueModifier" : 180,
+        "enchantment" : "entity.addSkillBonus('Hide',  15);"
+      }, {
+        "skillRankRequirement" : 75,
+		"valueModifier" : 195,
+        "enchantment" : "entity.addSkillBonus('Hide',  20);"
+      }, {
+        "skillRankRequirement" : 95,
+		"valueModifier" : 210,
+        "enchantment" : "entity.addSkillBonus('Hide',  25);"
+      }, {
+        "skillRankRequirement" : 115,
+		"valueModifier" : 220,
+        "enchantment" : "entity.addSkillBonus('Hide',  30);"
+      }, {
+        "skillRankRequirement" : 135,
+		"valueModifier" : 230,
+        "enchantment" : "entity.addSkillBonus('Hide',  35);"
+      }, {
+        "skillRankRequirement" : 155,
+		"valueModifier" : 240,
+        "enchantment" : "entity.addSkillBonus('Hide',  40);"
+      }
+    ]
+  }
+}

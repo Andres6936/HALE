@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBonus('BaseCon', 'Stackable', 1); parent.applyEffect(effect); }",
+  "name" : "Constitution Training III",
+  "type" : "General",
+  "icon" : {
+    "sprite" : "icons/trainConstitution3"
+  },
+  "description" : "You gain an additional permanent +1 bonus to Constitution.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "ConstitutionTraining2"
+    ],
+    "stats" : [
+      {
+        "type" : "CreatureLevel",
+        "value" : 10
+      }
+    ]
+  }
+}

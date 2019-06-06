@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addBaseWeaponBonus('Mace', 'Damage', 15); effect.getBonuses().addBaseWeaponBonus('Morningstar', 'Damage', 15); effect.getBonuses().addBaseWeaponBonus('Flail', 'Damage', 15); parent.applyEffect(effect); }",
+  "name" : "Advanced Training, Maces",
+  "type" : "Weapon Training",
+  "icon" : {
+    "sprite" : "icons/advTrainMaces"
+  },
+  "description" : "You gain an additional +15 to damage with maces, morningstars, and flails.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "TrainingBlunt"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 24
+      }
+    ]
+  }
+}

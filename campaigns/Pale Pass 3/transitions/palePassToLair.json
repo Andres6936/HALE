@@ -1,0 +1,31 @@
+{
+  "icon" : {
+    "frameDuration" : 100,
+    "frames" : [
+      { "sprite" : "animations/transition0" },
+	  { "sprite" : "animations/transition1" },
+	  { "sprite" : "animations/transition2" },
+	  { "sprite" : "animations/transition3" },
+	  { "sprite" : "animations/transition4" },
+	  { "sprite" : "animations/transition5" }
+    ]
+  },
+  "isInitiallyActivated" : true,
+  "isTwoWay" : true,
+  "from" : {
+    "area" : "Pale Pass",
+    "x" : 22,
+    "y" : 1,
+    "partyPositions" : [
+      [ 0, 2 ], [ -1, 1 ], [ 0, 1 ], [ 0, 0 ]
+    ]
+  },
+  "to" : {
+    "area" : "Lair of the Master",
+    "x" : 9,
+    "y" : 48,
+    "partyPositions" : [
+      [ 1, -2 ], [ 1, -1 ], [ 0, -1 ], [ 0, 0 ]
+    ]
+  }
+}

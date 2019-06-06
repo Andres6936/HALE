@@ -1,0 +1,103 @@
+{
+  "enchantmentChance" : 12,
+  "enchantmentSkillModifier" : 15,
+  "items" : [
+    {
+      "id" : "battleaxe",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "club",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "crossbow",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "dagger",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "flail",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "greataxe",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "greatsword",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "handaxe",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "javelin",
+      "quality" : "Decent",
+      "quantity" : 40
+    }, {
+      "id" : "lighthammer",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "longbow",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "longspear",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "longsword",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "mace",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "maul",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "morningstar",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "quarterstaff",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "shortbow",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "shortSword",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "shortspear",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "sling",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "warhammer",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "bastardSword",
+      "quality" : "Decent",
+      "quantity" : 1
+    }, {
+      "id" : "waraxe",
+      "quality" : "Decent",
+      "quantity" : 1
+    }
+  ]
+}

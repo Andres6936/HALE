@@ -1,0 +1,30 @@
+{
+  "textAreaWidth" : 700,
+  "textAreaHeight" : 130,
+
+  "callbackScript" : "triggers/sonorinCanyonBoss",
+  "callbackFunction" : "fightConcluded",
+  
+  "frames" : [
+    {
+	  "background" : "blackRiver4",
+	  "textFile" : "sonorinCanyon1.html"
+    },
+	{
+	  "background" : "blackRiver2",
+	  "textFile" : "sonorinCanyon2.html"
+    },
+	{
+	  "background" : "sonorinCanyon3",
+	  "textFile" : "sonorinCanyon3.html"
+    },
+	{
+	  "background" : "sonorinCanyon4",
+	  "textFile" : "sonorinCanyon4.html"
+    },
+	{
+	  "background" : "sonorinCanyon5",
+	  "textFile" : "sonorinCanyon5.html"
+    }
+  ]
+}

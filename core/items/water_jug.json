@@ -1,0 +1,13 @@
+{
+  "name" : "Jug of Water",
+  "description" : "A large jug of clean water than can be used for a variety of purposes.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/P_White01",
+    "color" : "#ffffffff"
+  },
+  "value" : 100,
+  "weight" : 1000,
+  "isIngredient" : true,
+  "isQuest" : false
+}

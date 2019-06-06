@@ -1,0 +1,39 @@
+{
+  "Resolution" : [
+    1280, 800
+  ],
+  "ConfigVersion" : 1,
+  "Fullscreen" : false,
+  "Scale2X" : false,
+  "ShowFPS" : false,
+  "CapFPS" : true,
+  "CombatAutoScroll" : true,
+  "TooltipDelay" : 400,
+  "CombatDelay" : 150,
+  "ScriptConsoleEnabled" : true,
+  "DebugMode" : true,
+  "WarningMode" : true,
+  "CheckForUpdatesInterval" : 86400000,
+  "Keybindings" : {
+    "CancelMovement" : "X",
+    "EndTurn" : "SPACE",
+    "Quicksave" : "F5",
+    "ShowMenu" : "ESCAPE",
+	"ToggleMessagesWindow" : "L",
+    "ToggleCharacterWindow" : "C",
+    "ToggleInventoryWindow" : "I",
+    "ToggleLogWindow" : "Q",
+    "ToggleMiniMap" : "M",
+    "ToggleMovementMode" : "O",
+    "ToggleScriptConsole" : "GRAVE",
+    "UseQuickbarSlot0" : "1",
+    "UseQuickbarSlot1" : "2",
+    "UseQuickbarSlot2" : "3",
+    "UseQuickbarSlot3" : "4",
+    "UseQuickbarSlot4" : "5",
+	"UseQuickbarSlot5" : "6",
+	"UseQuickbarSlot6" : "7",
+	"UseQuickbarSlot7" : "8",
+	"UseQuickbarSlot8" : "9"
+  }
+}

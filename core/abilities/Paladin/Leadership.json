@@ -1,0 +1,28 @@
+{
+  "externalScript" : "abilities/leadership",
+  "name" : "Leadership",
+  "type" : "Paladin Abilities",
+  "icon" : {
+    "sprite" : "icons/leadership"
+  },
+  "description" : "When this ability is active, the Paladin inspires the best in all allies within 4 hexes.  Affected allies gain bonuses of 10 points plus one per Paladin level plus 2 per point of Charisma above 10 to Attack, Spell Failure and Concealment Ignoring.  The Paladin suffers a 20 point Action Penalty due to spending time helping their comrades.",
+  "upgrades" : [
+      { "ability" : "PositiveEnergy",
+        "description" : "With Positive Energy, the Paladin's Leadership aura becomes charged with positive energy.  Every round, all allies within the aura are healed for a number of points equal to the Paladin's Charisma score minus 10 times two.  In addition, affected allies become especially effective against undead, gaining bonuses of 10 points plus one per Paladin level plus 2 per point of Charisma above 10 to Attack against Undead and twice that bonus in damage against Undead."}
+  ],
+  "canActivateOutsideCombat" : true,
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "isMode" : true,
+  "isCancelable" : true,
+  "cooldown" : 0,
+  "actionPointCost" : 4000,
+  "ai" : {
+    "power" : 30,
+    "priority" : 10,
+    "actionType" : "Buff",
+    "groupType" : "Multiple",
+    "rangeType" : "Short"
+  }
+}

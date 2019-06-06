@@ -1,0 +1,18 @@
+{
+	"textAreaWidth" : 700,
+    "textAreaHeight" : 150,
+
+	"callbackScript" : "quests/theTombKey",
+	"callbackFunction" : "spawnTrap",
+	
+    "frames": [ {
+		"background" : "intro3",
+		"textFile" : "ancientTomb1.html"
+	}, {
+		"background" : "ancientTomb2",
+		"textFile" : "ancientTomb2.html",
+	}, {
+		"background" : "ancientTomb3",
+		"textFile" : "ancientTomb3.html"
+	} ]
+}

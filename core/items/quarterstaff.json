@@ -1,0 +1,32 @@
+{
+  "name" : "Quarterstaff",
+  "description" : "A heavy wooden stick 5 or 6 feet long, which is used in two hands to inflict blunt damage on an opponent.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Staff01",
+    "color" : "#ffffffff"
+  },
+  "value" : 3000,
+  "weight" : 4000,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-quarterstaff01",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "TwoHanded",
+  "baseWeapon" : "Quarterstaff",
+  "threatensAoOs" : true,
+  "damageType" : "Blunt",
+  "minDamage" : 2,
+  "maxDamage" : 10,
+  "criticalThreat" : 93,
+  "criticalMultiplier" : 2,
+  "attackCost" : 4200,
+  "rangePenalty" : 0
+}

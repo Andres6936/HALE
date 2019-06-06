@@ -1,0 +1,128 @@
+{
+  "name" : "Skeleton Divine",
+  "gender" : "Male",
+  "race" : "Skeleton",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/skeleton02",
+        "color" : "#ffd3f0f4"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 14,
+    "dexterity" : 12,
+    "constitution" : 15,
+    "intelligence" : 10,
+    "wisdom" : 18,
+    "charisma" : 14
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "ProficiencyTowerShields",
+      "levelObtained" : 1
+    }, {
+      "id" : "PositiveEnergy",
+      "levelObtained" : 1
+    }, {
+      "id" : "Leadership",
+      "levelObtained" : 1
+    }, {
+      "id" : "Enfeeble",
+      "levelObtained" : 1
+    }, {
+      "id" : "Curse",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCurse",
+      "levelObtained" : 1
+    }, {
+      "id" : "Haste",
+      "levelObtained" : 1
+    }, {
+      "id" : "ShieldCombat",
+      "levelObtained" : 1
+    }, {
+      "id" : "ShieldDefense",
+      "levelObtained" : 1
+    }, {
+      "id" : "DamageReduction5",
+      "levelObtained" : 1
+    }, {
+      "id" : "PhysicalVulnerability",
+      "levelObtained" : 1
+    }, {
+      "id" : "Vulnerability",
+      "levelObtained" : 1
+    }, {
+      "id" : "Cure",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassRegeneration",
+      "levelObtained" : 1
+    }, {
+      "id" : "Regeneration",
+      "levelObtained" : 1
+    }, {
+      "id" : "MassCure",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Priest" : 15,
+    "baseRoleID" : "Priest"
+  },
+  "inventory" : {
+    "equipped" : {
+      "MainHand" : {
+        "id" : "mace",
+        "quality" : "Fine"
+      },
+      "OffHand" : {
+        "id" : "shield_tower_base",
+        "quality" : "Fine"
+      },
+      "Armor" : {
+        "id" : "armor_plate_base",
+        "quality" : "Fine"
+      },
+      "Gloves" : {
+        "id" : "gloves_mail_base",
+        "quality" : "Fine"
+      },
+      "Boots" : {
+        "id" : "boots_mail_base",
+        "quality" : "Fine"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "reward" : [
+    10000, 20000
+  ],
+  "loot" : [
+    {
+      "id" : "LootCraft",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }, {
+      "id" : "LootGems",
+      "probability" : {
+        "value" : 10,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

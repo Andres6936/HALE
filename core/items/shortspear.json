@@ -1,0 +1,32 @@
+{
+  "name" : "Short Spear",
+  "description" : "A spear with a shaft 4 or 5 feet in length, used as a one handed weapon.",
+  "class" : "Weapon",
+  "icon" : {
+    "sprite" : "items/W_Spear003",
+    "color" : "#ffffffff"
+  },
+  "value" : 10000,
+  "weight" : 2500,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "defaultQuality" : "Good",
+  "type" : "Weapon",
+  "subIcon" : {
+    "sprite" : "subIcons/weapon-spear02",
+    "color" : "#ffffffff"
+  },
+  "weaponType" : "Melee",
+  "minRange" : 1,
+  "maxRange" : 1,
+  "handed" : "OneHanded",
+  "baseWeapon" : "Short Spear",
+  "threatensAoOs" : true,
+  "damageType" : "Piercing",
+  "minDamage" : 1,
+  "maxDamage" : 6,
+  "criticalThreat" : 93,
+  "criticalMultiplier" : 3,
+  "attackCost" : 2800,
+  "rangePenalty" : 0
+}

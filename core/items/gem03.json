@@ -1,0 +1,13 @@
+{
+  "name" : "Hematite",
+  "description" : "A good example of a hematite stone, worth a bit of coin.",
+  "class" : "Item",
+  "icon" : {
+    "sprite" : "items/I_Rock01",
+    "color" : "#ffffffff"
+  },
+  "value" : 2500,
+  "weight" : 10,
+  "isIngredient" : true,
+  "isQuest" : false
+}

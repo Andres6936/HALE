@@ -1,0 +1,21 @@
+{
+  "inlineScript" : "function onApply(game, parent) { var effect = parent.createEffect(); effect.getBonuses().addAttackBonusVsRacialType('Animal', 20); effect.getBonuses().addArmorClassBonusVsRacialType('Animal', 20); effect.getBonuses().addDamageBonusVsRacialType('Animal', 40); effect.getBonuses().addAttackBonusVsRacialType('Beast', 20); effect.getBonuses().addArmorClassBonusVsRacialType('Beast', 20); effect.getBonuses().addDamageBonusVsRacialType('Beast', 40); parent.applyEffect(effect); }",
+  "name" : "Beast Slayer",
+  "type" : "Ranger Abilities",
+  "icon" : {
+    "sprite" : "icons/beastSlayer"
+  },
+  "description" : "You become even better in fighting against beasts.  You gain a total of a +20 bonus to Attack, +20 bonus to Defense, and a +40 bonus to Damage when in combat with beast or animal enemy racial types.  This includes many common enemies such as Orcs and Goblins.",
+  "isActivateable" : false,
+  "prereqs" : {
+    "abilities" : [
+      "BeastFighter"
+    ],
+    "roles" : [
+      {
+        "id" : "Ranger",
+        "level" : 5
+      }
+    ]
+  }
+}

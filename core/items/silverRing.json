@@ -1,0 +1,14 @@
+{
+  "name" : "Silver Ring",
+  "description" : "A valuable ring made out of solid silver.",
+  "class" : "EquippableItem",
+  "icon" : {
+    "sprite" : "items/Ac_Ring01",
+    "color" : "#ffffffff"
+  },
+  "value" : 1000,
+  "weight" : 50,
+  "isIngredient" : false,
+  "isQuest" : false,
+  "type" : "Ring"
+}

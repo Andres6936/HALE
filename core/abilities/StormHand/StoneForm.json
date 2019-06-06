@@ -1,0 +1,17 @@
+{
+  "name" : "Stone Form",
+  "type" : "Storm Hand Abilities",
+  "icon" : {
+    "sprite" : "icons/stoneForm"
+  },
+  "description" : "A very powerful defensive stance, Stone Form grants you Physical Damage Reduction equal to your Storm Hand level plus Wisdom bonus.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30
+  },
+  "prereqs" : {
+    "abilities" : [
+      "StormStance"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "externalScript" : "abilities/piercingShot",
+  "name" : "Piercing Shot",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/piercingShot"
+  },
+  "description" : "You fire a single shot from your ranged weapon with such force that it penetrates all targets it hits, continuing in a straight line path for 10 hexes or until it hits a solid obstruction.  You must roll to hit each target in the path of the projectile.",
+  "isActivateable" : true,
+  "quickbarGroup" : "OtherAbility",
+  "isFixed" : true,
+  "cooldown" : 6,
+  "actionPointCost" : "Same as an attack",
+  "ai" : {
+    "power" : 30,
+    "priority" : 3,
+    "actionType" : "Damage",
+    "groupType" : "Multiple",
+    "rangeType" : "Long"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "RapidShot"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 30
+      }
+    ]
+  }
+}

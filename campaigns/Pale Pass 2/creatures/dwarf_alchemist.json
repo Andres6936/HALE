@@ -1,0 +1,59 @@
+{
+  "name" : "Deep Dwarf Alchemist",
+  "gender" : "Male",
+  "race" : "Dwarf",
+  "portrait" : "Dwarf/fighter-dark",
+  "conversation" : "conversations/dwarf_alchemist",
+  "script" : "ai/aiStandard",
+  "icon" : {
+    "skinColor" : "#ff5a4739",
+    "clothingColor" : "#ffb3b86b",
+    "subIcons" : [
+      {
+        "type" : "Hair",
+        "sprite" : "subIcons/hair014",
+        "color" : "#ff5c87a2"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 10,
+    "dexterity" : 9,
+    "constitution" : 12,
+    "intelligence" : 11,
+    "wisdom" : 9,
+    "charisma" : 9
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    {
+      "id" : "NaturalArmor10",
+      "levelObtained" : 1
+    }
+  ],
+  "roles" : {
+    "Commoner" : 8
+  },
+  "inventory" : {
+    "equipped" : {
+      "Armor" : {
+        "id" : "armor_clothes"
+      }
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true,
+  "loot" : [
+    {
+      "id" : "LootLevel5",
+      "probability" : {
+        "value" : 50,
+        "mode" : "PerList"
+      }
+    }
+  ]
+}

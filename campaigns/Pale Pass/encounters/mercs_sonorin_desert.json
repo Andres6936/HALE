@@ -1,0 +1,23 @@
+{
+  "radius" : 2,
+  "faction" : "Neutral",
+  "creatures" : [
+    {
+      "id" : "merc_lvl06_leader",
+      "x" : 0,
+      "y" : 1
+    }, {
+      "id" : "merc_lvl06_mage",
+      "x" : 0,
+      "y" : -1
+    }, {
+      "id" : "merc_lvl06",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "merc_lvl06",
+      "x" : 1,
+      "y" : -1
+    }
+  ]
+}

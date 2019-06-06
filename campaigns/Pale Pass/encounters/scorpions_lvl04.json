@@ -1,0 +1,50 @@
+{
+  "respawnTime" : 24,
+  "radius" : 4,
+  "faction" : "Hostile",
+  "minRandomCreatures" : 5,
+  "maxRandomCreatures" : 7,
+  "creatures" : [
+    {
+      "id" : "scorpiongiant",
+      "x" : -1,
+      "y" : -1
+    }, {
+      "id" : "scorpiongiant",
+      "x" : 1,
+      "y" : -1
+    }, {
+      "id" : "scorpiongiant",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "id" : "scorpiongiant",
+      "x" : 0,
+      "y" : -1
+    }, {
+      "id" : "scorpiongiant",
+      "x" : 1,
+      "y" : 0
+    }, {
+      "id" : "scorpiongiant",
+      "x" : -1,
+      "y" : 0
+    }, {
+      "id" : "scorpiongiant",
+      "x" : 0,
+      "y" : 1
+    }, {
+      "id" : "scorpiongiant",
+      "x" : -1,
+      "y" : 1
+    }, {
+      "id" : "scorpiongiant",
+      "x" : 0,
+      "y" : 2
+    }, {
+      "id" : "scorpiongiant",
+      "x" : 1,
+      "y" : 1
+    }
+  ]
+}

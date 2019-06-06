@@ -1,0 +1,24 @@
+{
+  "name" : "Priest",
+  "usesSpeechSkill" : true,
+  "confirmOnExit" : false,
+  "respawnHours" : 24,
+  "buyValuePercentage" : 65,
+  "sellValuePercentage" : 135,
+  "items" : [
+    {
+      "id" : "PotionsSuperb",
+      "probability" : {
+        "value" : 30,
+        "mode" : "PerItem"
+      }
+    },
+	{
+	  "id" : "LootMagicSuperb",
+	  "probability" : {
+	    "value" : 50,
+		"mode" : "PerItem"
+	  }
+	}
+  ]
+}

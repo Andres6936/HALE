@@ -1,0 +1,22 @@
+{
+  "textAreaWidth" : 700,
+  "textAreaHeight" : 130,
+
+  "callbackScript" : "items/theGate",
+  "callbackFunction" : "campaignConclusion",
+  
+  "frames" : [
+    {
+	  "background" : "intro3",
+	  "textFile" : "theGate1.html"
+    },
+	{
+	  "background" : "intro2",
+	  "textFile" : "theGate2.html"
+    },
+	{
+	  "background" : "theGate3",
+	  "textFile" : "theGate3.html"
+    }
+  ]
+}

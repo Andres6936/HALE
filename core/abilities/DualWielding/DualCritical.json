@@ -1,0 +1,26 @@
+{
+  "name" : "Dual Critical",
+  "type" : "Offensive",
+  "icon" : {
+    "sprite" : "icons/dualCritical"
+  },
+  "description" : "Now, when you use your Dual Strike ability, you are almost guaranteed a critical hit, with a +90 bonus to Critical Chance.  When you do land a critical hit, you also gain a +1 bonus to your Critical Multiplier.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30,
+    "actionType" : "Damage",
+    "groupType" : "Single",
+    "rangeType" : "Touch"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "DualStrike"
+    ],
+    "stats" : [
+      {
+        "type" : "LevelAttackBonus",
+        "value" : 50
+      }
+    ]
+  }
+}

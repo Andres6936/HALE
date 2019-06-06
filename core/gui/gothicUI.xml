@@ -1,0 +1,379 @@
+<themes>
+    <images file="gothicUI.png" format="RGBA">
+		<area name="white" xywh="248,1,1,1"/>
+	
+		<!-- Images used in static UI elements -->
+	
+		<area name="-statBar" xywh="368,68,98,12"/>
+		<area name="-statBarBorder" xywh="368,80,100,16"/>
+		
+		<area name="-xpBarBorder" xywh="320,206,176,21"/>
+		<area name="-xpBar" xywh="320,229,176,17"/>
+		<area name="-xpBarEmpty" xywh="320,248,176,17"/>
+		
+		<alias name="-apBar" ref="-statBar" tint="#f0f"/>
+		<alias name="-apBarBorder" ref="-statBarBorder"/>
+		<alias name="-hpBar" ref="-statBar" tint="#f00"/>
+		<alias name="-hpBarBorder" ref="-statBarBorder"/>
+	
+		<area name="mapicon" xywh="288,0,32,32" center="true"/>
+		<area name="inventoryicon" xywh="320,0,32,32" center="true"/>
+		<area name="logicon" xywh="352,0,32,32" center="true"/>
+		<area name="charactericon" xywh="384,0,32,32" center="true"/>
+		<area name="messagesicon" xywh="416,0,32,32" center="true"/>
+		<area name="menuicon" xywh="288,32,32,32" center="true"/>
+		<area name="partymovementicon" xywh="320,32,32,32" center="true"/>
+		<area name="singlemovementicon" xywh="352,32,32,32" center="true"/>
+		<area name="stopicon" xywh="384,32,32,32" center="true"/>
+		
+		<area name="minimapempty" xywh="288,65,12,12"/>
+		<area name="minimapcreature" xywh="300,65,12,12"/>
+		<area name="minimapbox" xywh="312,65,12,12"/>
+		<area name="minimapx" xywh="324,65,12,12"/>
+		
+		<alias name="minimapimpass" ref="minimapempty" tint="#888"/>
+		<alias name="minimapfriendly" ref="minimapcreature" tint="#00f"/>
+		<alias name="minimapneutral" ref="minimapcreature" tint="#ff0"/>
+		<alias name="minimaphostile" ref="minimapcreature" tint="#800"/>
+		<alias name="minimapcontainer" ref="minimapbox" tint="#0f0"/>
+		<alias name="minimapdoor" ref="minimapempty" tint="#0ff"/>
+		<alias name="minimaptrap" ref="minimapx" tint="#800"/>
+		<alias name="minimaptransition" ref="minimapempty" tint="#f0f"/>
+		
+		<area name="mainhandicon" xywh="97,193,34,34" center="true"/>
+		<area name="offhandicon" xywh="131,193,34,34" center="true"/>
+		<area name="armoricon" xywh="165,193,34,34" center="true"/>
+		<area name="glovesicon" xywh="199,193,34,34" center="true"/>
+		<area name="helmeticon" xywh="233,193,34,34" center="true"/>
+		<area name="belticon" xywh="97,227,34,34" center="true"/>
+		<area name="amuleticon" xywh="131,227,34,34" center="true"/>
+		<area name="ringicon" xywh="165,227,34,34" center="true"/>
+		<area name="quivericon" xywh="199,227,34,34" center="true"/>
+		<area name="cloakicon" xywh="233,227,34,34" center="true"/>
+		<area name="bootsicon" xywh="267,227,34,34" center="true"/>
+		
+		<area name="hex-filled" xywh="132,267,72,72" center="true"/>
+		<area name="hex-white" xywh="204,267,72,72" center="true"/>
+		
+		<area name="hex-anim1" xywh="132,339,72,72" center="true"/>
+		<area name="hex-anim2" xywh="204,339,72,72" center="true"/>
+		<area name="hex-anim3" xywh="276,339,72,72" center="true"/>
+		<area name="hex-anim4" xywh="276,267,72,72" center="true"/>
+		
+		<alias name="hex-green" ref="hex-white" tint="#0f0"/>
+		<alias name="hex-red" ref="hex-white" tint="#f00"/>
+		<alias name="hex-blue" ref="hex-white" tint="#0ff"/>
+		<alias name="hex-grey" ref="hex-white" tint="#8fff"/>
+		
+		<alias name="hex-filled-black" ref="hex-filled" tint="#f000"/>
+		<alias name="hex-filled-grey" ref="hex-filled" tint="#9000"/>
+		
+		<animation name="hex-anim-white" timeSource="active">
+			<frame ref="hex-anim1" duration="100"/>
+			<frame ref="hex-anim2" duration="100"/>
+			<frame ref="hex-anim3" duration="100"/>
+			<frame ref="hex-anim4" duration="100"/>
+		</animation>
+		
+		<area name="connector-down-two" xywh="366,100,72,12" center="true"/>
+		<area name="connector-up-two" xywh="438,100,72,12" center="true"/>
+		<area name="connector-down-one" xywh="366,112,12,12" center="true"/>
+		<area name="connector-up-one" xywh="366,124,12,12" center="true"/>
+		<area name="connector-through" xywh="498,52,12,48" center="true"/>
+		<area name="connector-down-three" xywh="366,140,132,12" center="true"/>
+		<area name="connector-up-three" xywh="366,152,132,12" center="true"/>
+		<area name="connector-down-four" xywh="318,174,192,12" center="true"/>
+		<area name="connector-up-four" xywh="318,186,192,12" center="true"/>
+		<alias name="connector.background" ref="white" tint="#f888" border="0,0,0,0"/>
+		
+		<!-- Image area definitions used for widgets -->
+		
+		<alias name="black" ref="white" tint="#000"/>
+		
+		<area name="textarea.ul-bullet" center="true" sizeOverwriteH="20" inset="3,0,-3,0" xywh="237,1,9,9"/>
+		<area name="editfieldcursor" xywh="233,1,1,1"/>
+	
+		<area name="fixedmediumbutton-normal" xywh="208,32,76,17"/>
+		<area name="fixedmediumbutton-active" xywh="208,50,76,17"/>
+		<area name="fixedmediumbutton-hover" xywh="208,68,76,17"/>
+		
+		<area name="endturnbutton-normal" xywh="208,86,154,27"/>
+		<area name="endturnbutton-hover" xywh="208,114,154,27"/>
+		<area name="endturnbutton-active" xywh="208,142,154,27"/>
+	
+		<area name="uparrow" xywh="208,13,8,8"/>
+		<area name="downarrow" xywh="208,22,8,8"/>
+		<area name="rightarrow" xywh="217,13,8,8"/>
+		<area name="leftarrow" xywh="217,22,8,8"/>
+	
+		<area name="radiobutton-normal" xywh="207,15,12,12"/>
+		<area name="radiobutton-armed" xywh="220,15,12,12"/>
+		<area name="radiobutton-tick" xywh="235,16,4,4"/>
+		
+		<area name="checkbutton-tick" xywh="223,0,7,7"/>
+	
+		<area name="gradient-gothic" xywh="0,312,128,3"/>
+		<area name="redfill" xywh="0,316,10,3"/>
+	
+		<area name="closex" xywh="207,0,11,11" center="true"/>
+	
+	    <area name="windowbackground-gothic" border="30,18,30,18" xywh="0,0,192,192" splitx="L64,R64" splity="T64,B64"/>
+		
+		<area name="redbutton-normal" xywh="192,0,15,15" border="3" splitx="L5,R5" splity="T5,B5"/>
+		<area name="redbutton-hover" xywh="192,15,15,15" border="3" splitx="L5,R5" splity="T5,B5"/>
+		<area name="redbutton-armed" xywh="192,30,15,15" border="3" splitx="L5,R5" splity="T5,B5"/>
+		
+		<area name="mediumbackground-gothic" border="9" xywh="0,192,72,72" splitx="L24,R24" splity="T24,B24"/>
+		
+		<area name="smallbackground-gothic" border="3" xywh="0,264,27,27" splitx="L9,R9" splity="T9,B9"/>
+		
+		<area name="tinybackground-gothic" border="2" xywh="0,291,12,12" splitx="L4,R4" splity="T4,B4"/>
+		<area name="tinybackground-transparent" border="2" xywh="12,291,12,12" splitx="L4,R4" splity="T4,B4"/>
+		<area name="tinybackground-red" border="2" xywh="24,291,12,12" splitx="L4,R4" splity="T4,B4"/>
+		
+		<area name="textbackground-gothic" border="3" xywh="0,303,9,9" splitx="L3,R3" splity="T3,B3"/>
+		<area name="textbackground-transparent" border="3" xywh="9,303,9,9" splitx="L3,R3" splity="T3,B3"/>
+		
+		<area name="roundedbuttonbackground-gothic-normal" border="3" xywh="72,192,24,24" splitx="L8,R8" splity="T8,B8"/>
+		<area name="roundedbuttonbackground-gothic-hover" border="3" xywh="72,216,24,24" splitx="L8,R8" splity="T8,B8"/>
+		
+		<area name="buttonbackground-gothic-normal" border="2" xywh="192,51,15,15" splitx="L5,R5" splity="T5,B5"/>
+		<area name="buttonbackground-gothic-hover" border="2" xywh="192,66,15,15" splitx="L5,R5" splity="T5,B5"/>
+		<area name="buttonbackground-gothic-selected" border="2" xywh="192,81,15,15" splitx="L5,R5" splity="T5,B5"/>
+		
+		<!-- Widget background and overlay definitions, using the above images -->
+		
+		<select name="redbutton.background" border="3">
+			<alias ref="redbutton-normal" if="disabled" tint="#5fff"/>
+            <alias ref="redbutton-armed" if="armed"/>
+            <alias ref="redbutton-hover" if="hover"/>
+            <alias ref="redbutton-normal"/>
+        </select>
+		
+		<select name="redbutton.overlay">
+			<alias ref="closex" if="disabled" tint="#5fff"/>
+			<alias ref="closex" if="armed" tint="#888"/>
+			<alias ref="closex" if="hover" tint="#888"/>
+			<alias ref="closex"/>
+		</select>
+		
+		<select name="roundedbutton.background" border="2">
+		    <alias ref="roundedbuttonbackground-gothic-normal" if="disabled" tint="#5fff"/>
+		    <alias ref="roundedbuttonbackground-gothic-normal" if="armed" tint="#888"/>
+			<alias ref="roundedbuttonbackground-gothic-hover" if="hover"/>
+			<alias ref="roundedbuttonbackground-gothic-normal"/>
+		</select>
+		
+		<select name="button.background" border="3">
+		    <alias ref="buttonbackground-gothic-normal" if="disabled" tint="#5fff"/>
+            <alias ref="buttonbackground-gothic-normal" if="armed" tint="#888"/>
+			<alias ref="buttonbackground-gothic-hover" if="hover"/>
+            <alias ref="buttonbackground-gothic-normal"/>
+		</select>
+		
+		<select name="togglebutton.background" border="5,3">
+            <alias ref="buttonbackground-gothic-selected" if="disabled + selected" tint="#5fff"/>
+            <alias ref="buttonbackground-gothic-normal" if="disabled" tint="#5fff"/>
+            <alias ref="buttonbackground-gothic-normal" if="armed" tint="#888"/>
+            <alias ref="buttonbackground-gothic-selected" if="selected"/>
+			<alias ref="buttonbackground-gothic-hover" if="hover"/>
+            <alias ref="buttonbackground-gothic-normal"/>
+        </select>
+		
+		<select name="itemlistviewercontent.background">
+			<alias ref="white" if="draghover" tint="#444"/>
+			<alias ref="none"/>
+		</select>
+		
+		<select name="mainpanebutton.background" border="3">
+		    <alias ref="roundedbuttonbackground-gothic-normal" if="armed" tint="#888"/>
+			<alias ref="roundedbuttonbackground-gothic-hover" if="hover"/>
+			<animation if="notification" timeSource="notification">
+				<frame ref="roundedbuttonbackground-gothic-hover" tint="#844" duration="400"/>
+				<frame ref="roundedbuttonbackground-gothic-hover" tint="#f88" duration="400"/>
+			</animation>
+			<alias ref="roundedbuttonbackground-gothic-normal"/>
+		</select>
+		
+		<select name="valueadjuster.display.background">
+            <alias ref="buttonbackground-gothic-normal" if="disabled" tint="#8fff"/>
+            <alias ref="buttonbackground-gothic-normal" if="armed | pressed"/>
+			<alias ref="buttonbackground-gothic-hover" if="hover"/>
+            <alias ref="buttonbackground-gothic-normal"/>
+        </select>
+		
+		<alias name="scrollbar.thumb.background" ref="valueadjuster.display.background"/>
+		
+		<select name="portraitviewer.overlay">
+			<alias ref="tinybackground-red" if="selected"/>
+			<alias ref="tinybackground-transparent"/>
+		</select>
+		
+		<select name="portraitviewer.background">
+			<alias ref="tinybackground-gothic" if="armed" tint="#666"/>
+			<alias ref="tinybackground-gothic" if="hover" tint="#333"/>
+			<alias ref="tinybackground-gothic" if="draghover" tint="#333"/>
+			<alias ref="tinybackground-gothic"/>
+		</select>
+		
+		<select name="abilityselectorbutton.background">
+			<alias ref="buttonbackground-gothic-normal" if="alreadyOwned"/>
+            <alias ref="buttonbackground-gothic-normal" if="prereqsNotMet" tint="#5fff"/>
+            <alias ref="buttonbackground-gothic-normal" if="armed" tint="#888"/>
+			<alias ref="buttonbackground-gothic-hover" if="hover"/>
+            <alias ref="buttonbackground-gothic-normal" tint="#0f0"/>
+		</select>
+		
+		<select name="itemiconviewer.background" border="2">
+			<alias ref="roundedbuttonbackground-gothic-normal" if="armed" tint="#888"/>
+			<alias ref="roundedbuttonbackground-gothic-hover" if="hover + profNotMet" tint="#f44"/>
+			<alias ref="roundedbuttonbackground-gothic-hover" if="hover"/>
+			<alias ref="roundedbuttonbackground-gothic-hover" if="draghover"/>
+			<alias ref="roundedbuttonbackground-gothic-normal" if="profNotMet" tint="#f44"/>
+			<alias ref="roundedbuttonbackground-gothic-normal" if="unaffordable" tint="#ccc"/>
+			<alias ref="roundedbuttonbackground-gothic-normal"/>
+		</select>
+
+		<composed name="checkbutton.background" border="4,3">
+			<select>
+				<alias ref="buttonbackground-gothic-normal" if="armed" tint="#888"/>
+				<alias ref="buttonbackground-gothic-hover" if="hover"/>
+				<alias ref="buttonbackground-gothic-normal"/>
+			</select>
+			<grid weightsX="0,1" weightsY="1" inset="2,4,0,0">
+				<select center="true">
+					<composed if="selected + armed">
+						<alias ref="textbackground-gothic" if="armed" tint="#888"/>
+						<alias ref="checkbutton-tick"/>
+					</composed>
+					<composed if="selected">
+						<alias ref="textbackground-gothic"/>
+						<alias ref="checkbutton-tick"/>
+					</composed>
+					<alias ref="textbackground-gothic" if="armed" tint="#888"/>
+					<alias ref="textbackground-gothic"/>
+				</select>
+				<alias ref="none"/>
+			</grid>
+		</composed>
+		
+		<alias name="scrollbar.background" ref="tinybackground-gothic"/>
+		
+		<alias name="centereduparrow" ref="uparrow" center="true"/>
+		<alias name="centereddownarrow" ref="downarrow" center="true"/>
+		<alias name="centeredrightarrow" ref="rightarrow" center="true"/>
+		<alias name="centeredleftarrow" ref="leftarrow" center="true"/>
+		
+		<select name="endturnbutton.background" border="3">
+			<alias ref="endturnbutton-normal" if="disabled" tint="#8fff"/>
+			<animation if="notification + armed" timeSource="notification">
+				<frame ref="endturnbutton-active" tint="#f88" duration="500"/>
+				<frame ref="endturnbutton-active" tint="#fff" duration="500"/>
+			</animation>
+			<animation if="notification + hover" timeSource="notification">
+				<frame ref="endturnbutton-hover" tint="#f88" duration="500"/>
+				<frame ref="endturnbutton-hover" tint="#fff" duration="500"/>
+			</animation>
+			<animation if="notification" timeSource="notification">
+				<frame ref="endturnbutton-normal" tint="#f00" duration="500"/>
+				<frame ref="endturnbutton-normal" tint="#fff" duration="500"/>
+			</animation>
+            <alias ref="endturnbutton-active" if="armed"/>
+			<alias ref="endturnbutton-hover" if="hover"/>
+            <alias ref="endturnbutton-normal"/>
+		</select>
+		
+		<select name="editfield.background">
+            <alias ref="textbackground-gothic" if="readonly" tint="#888"/>
+            <alias ref="textbackground-gothic"/>
+        </select>
+        
+        <animation name="editfield.cursor" timeSource="keyboardFocus">
+            <frame ref="editfieldcursor" duration="500"/>
+            <frame ref="none" duration="500"/>
+        </animation>
+        <alias name="editfield.selection" ref="white" tint="#faaa"/>
+		
+		<select name="vscrollbar.upbutton.background">
+            <composed if="armed">
+                <alias ref="buttonbackground-gothic-normal" tint="#888"/>
+                <alias ref="centereduparrow" inset="1,1,-1,-1"/>
+            </composed>
+			<composed if="hover">
+				<alias ref="buttonbackground-gothic-hover"/>
+				<alias ref="centereduparrow"/>
+			</composed>
+            <composed>
+                <alias ref="buttonbackground-gothic-normal"/>
+                <alias ref="centereduparrow"/>
+            </composed>
+        </select>
+        <select name="vscrollbar.downbutton.background">
+            <composed if="armed">
+                <alias ref="buttonbackground-gothic-normal" tint="#888"/>
+                <alias ref="centereddownarrow" inset="1,1,-1,-1"/>
+            </composed>
+			<composed if="hover">
+				<alias ref="buttonbackground-gothic-hover"/>
+				<alias ref="centereddownarrow"/>
+			</composed>
+            <composed>
+                <alias ref="buttonbackground-gothic-normal"/>
+                <alias ref="centereddownarrow"/>
+            </composed>
+        </select>
+
+        <select name="hscrollbar.leftbutton.background">
+            <composed if="armed">
+                <alias ref="buttonbackground-gothic-normal" tint="#888"/>
+                <alias ref="centeredleftarrow" inset="1,1,-1,-1"/>
+            </composed>
+			<composed if="hover">
+				<alias ref="buttonbackground-gothic-hover"/>
+				<alias ref="centeredleftarrow"/>
+			</composed>
+            <composed>
+                <alias ref="buttonbackground-gothic-normal"/>
+                <alias ref="centeredleftarrow"/>
+            </composed>
+        </select>
+        <select name="hscrollbar.rightbutton.background">
+            <composed if="armed">
+                <alias ref="buttonbackground-gothic-normal" tint="#888"/>
+                <alias ref="centeredrightarrow" inset="1,1,-1,-1"/>
+            </composed>
+			<composed if="hover">
+				<alias ref="buttonbackground-gothic-hover"/>
+				<alias ref="centeredrightarrow"/>
+			</composed>
+            <composed>
+                <alias ref="buttonbackground-gothic-normal"/>
+                <alias ref="centeredrightarrow"/>
+            </composed>
+        </select>
+		
+		<select name="combobox.button.background" inset="2,0,2,2">
+            <composed if="armed">
+                <alias ref="buttonbackground-gothic-normal" tint="#888"/>
+                <alias ref="centereddownarrow" inset="1,1,-1,-1"/>
+            </composed>
+			<composed if="hover">
+				<alias ref="buttonbackground-gothic-hover"/>
+				<alias ref="centereddownarrow"/>
+			</composed>
+            <composed>
+                <alias ref="buttonbackground-gothic-normal"/>
+                <alias ref="centereddownarrow"/>
+            </composed>
+        </select>
+		
+		<select name="listbox.display.background">
+			<alias ref="textbackground-gothic" if="hover" tint="#888"/>
+            <alias ref="textbackground-gothic"/>
+		</select>
+		
+		<alias name="minimapviewport" ref="textbackground-transparent" tint="#f00"/>
+		
+		<alias name="colorselector.cursor" ref="white"/>
+	</images>
+</themes>

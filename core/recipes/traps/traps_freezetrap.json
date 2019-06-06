@@ -1,0 +1,43 @@
+{
+  "name" : "Freeze Trap",
+  "description" : "Creates a freeze trap.  The quality of the trap is dependant on your Traps skill.",
+  "skill" : "Traps",
+  "skillRankRequirement" : 50,
+  "ingredients" : {
+    "wire" : 2,
+    "pressure_plate" : 1,
+    "gem05" : 2,
+    "spike" : 5
+  },
+  "result" : {
+    "id" : "freezeTrap",
+    "quantity" : 1,
+    "levels" : [
+      {
+        "quality" : "Mediocre",
+        "skillRankRequirement" : 35
+      }, {
+        "quality" : "Decent",
+        "skillRankRequirement" : 60
+      }, {
+        "quality" : "Good",
+        "skillRankRequirement" : 80
+      }, {
+        "quality" : "Fine",
+        "skillRankRequirement" : 100
+      }, {
+        "quality" : "Superb",
+        "skillRankRequirement" : 120
+      }, {
+        "quality" : "Exceptional",
+        "skillRankRequirement" : 135
+      }, {
+        "quality" : "Phenomenal",
+        "skillRankRequirement" : 155
+      }, {
+        "quality" : "Masterwork",
+        "skillRankRequirement" : 175
+      }
+    ]
+  }
+}

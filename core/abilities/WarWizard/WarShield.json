@@ -1,0 +1,26 @@
+{
+  "name" : "War Shield",
+  "type" : "War Wizard Abilities",
+  "icon" : {
+    "sprite" : "icons/warShield"
+  },
+  "description" : "Your Shield ability now provides an Defense bonus of 15 plus 1 per caster level plus 4 per War Wizard level.",
+  "isActivateable" : false,
+  "ai" : {
+    "power" : 30,
+    "actionType" : "Buff",
+    "groupType" : "Single",
+    "rangeType" : "Personal"
+  },
+  "prereqs" : {
+    "abilities" : [
+      "Shield"
+    ],
+    "stats" : [
+      {
+        "type" : "CasterLevel",
+        "value" : 7
+      }
+    ]
+  }
+}

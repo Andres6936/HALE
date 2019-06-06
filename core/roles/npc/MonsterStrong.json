@@ -1,0 +1,12 @@
+{
+  "name" : "Monster",
+  "isPlayer" : false,
+  "isBase" : true,
+  "stats" : {
+    "hpPerLevel" : 6,
+    "hpAtLevelOne" : 18,
+    "damageBonusPerLevel" : 5,
+    "attackBonusPerLevel" : 5,
+    "skillPointsPerLevel" : 0
+  }
+}

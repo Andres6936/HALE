@@ -1,0 +1,45 @@
+{
+  "name" : "General",
+  "gender" : "Male",
+  "race" : "HumanOnlyHandSubIcons",
+  "portrait" : "Human/halberdier",
+  "conversation" : "conversations/aravilArmyGeneral",
+  "icon" : {
+    "skinColor" : "#ffffffff",
+    "clothingColor" : "#ffffffff",
+    "subIcons" : [
+      {
+        "type" : "BaseBackground",
+        "sprite" : "creatures/human22",
+        "color" : "#ffffffff"
+      }
+    ]
+  },
+  "attributes" : {
+    "strength" : 14,
+    "dexterity" : 11,
+    "constitution" : 15,
+    "intelligence" : 14,
+    "wisdom" : 12,
+    "charisma" : 13
+  },
+  "skills" : {
+
+  },
+  "abilities" : [
+    
+  ],
+  "roles" : {
+    "Warrior" : 18,
+    "baseRoleID" : "Warrior"
+  },
+  "inventory" : {
+    "equipped" : {
+
+    },
+    "unequipped" : [
+      
+    ]
+  },
+  "isImmortal" : true
+}

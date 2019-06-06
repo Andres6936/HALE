@@ -1,0 +1,52 @@
+{
+  "name" : "Enhance Initiative",
+  "description" : "Adds an initiative bonus to an item.  The amount of the bonus depends on your enchanting skill.",
+  "skill" : "Enchanting",
+  "skillRankRequirement" : 15,
+  "ingredients" : {
+    "foxtail" : 1,
+    "feather" : 1
+  },
+  "result" : {
+    "postfix" : " of Initiative",
+    "ingredientItemTypes" : [ "Gloves", "Boots", "Cloak" ],
+	"overlayIcon" : {
+	  "sprite" : "items/enchant_initiative"
+	},
+    "levels" : [
+      {
+        "skillRankRequirement" : 15,
+		"valueModifier" : 150,
+        "enchantment" : "entity.addBonus('Initiative',  4);"
+      }, {
+        "skillRankRequirement" : 35,
+		"valueModifier" : 180,
+        "enchantment" : "entity.addBonus('Initiative',  8);"
+      }, {
+        "skillRankRequirement" : 55,
+		"valueModifier" : 195,
+        "enchantment" : "entity.addBonus('Initiative',  12);"
+      }, {
+        "skillRankRequirement" : 75,
+		"valueModifier" : 210,
+        "enchantment" : "entity.addBonus('Initiative',  16);"
+      }, {
+        "skillRankRequirement" : 95,
+		"valueModifier" : 225,
+        "enchantment" : "entity.addBonus('Initiative',  20);"
+      }, {
+        "skillRankRequirement" : 115,
+		"valueModifier" : 240,
+        "enchantment" : "entity.addBonus('Initiative',  24);"
+      }, {
+        "skillRankRequirement" : 135,
+		"valueModifier" : 255,
+        "enchantment" : "entity.addBonus('Initiative',  28);"
+      }, {
+        "skillRankRequirement" : 155,
+		"valueModifier" : 270,
+        "enchantment" : "entity.addBonus('Initiative',  32);"
+      }
+    ]
+  }
+}
