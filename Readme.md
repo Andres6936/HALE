@@ -19,6 +19,10 @@ the ground up.
 
 ![WinterTileset](docs/screenshots/WinterTileset.jpeg)
 
+#### See Wiki
+
+[Wiki][Wiki-Home]
+
 #### Project Original
 
 Link to page: [Sourceforge][Sourceforge-Home]
@@ -29,3 +33,4 @@ This game is distributed under the terms of the GPL.
 See License.md for details.
 
 [Sourceforge-Home]: https://sourceforge.net/p/hale/wiki/Home/
+[Wiki-Home]: https://github.com/Andres6936/HALE/wiki/Quickstart-Guide
