@@ -269,7 +269,8 @@ public class Game
     {
         Unix,
         Windows,
-        Mac;
+        Mac,
+    	Win7;
     }
 
     /**
@@ -343,7 +344,12 @@ public class Game
         // determine system type
         String osString = System.getProperty( "os.name" ).toLowerCase( );
 
-        if ( osString.contains( "win" ) ) { osType = OSType.Windows; }
+        if ( osString.contains( "win" ) ) {
+        	if (osString.contains( "7" ) )
+        		osType = OSType.Win7;
+        	else
+        		osType = OSType.Windows; 
+        	}
         else if ( osString.contains( "mac" ) ) { osType = OSType.Mac; }
         else { osType = OSType.Unix; }
 
@@ -494,6 +500,17 @@ public class Game
     {
         switch ( osType )
         {
+	        case Win7:
+	            String baseDir7 = System.getProperty( "user.home" ) + "\\Documents\\My Games\\hale\\";
+	
+	            Game.configBaseDirectory = baseDir7 + "\\config\\";
+	            Game.charactersBaseDirectory = baseDir7 + "\\characters\\";
+	            Game.partiesBaseDirectory = baseDir7 + "\\parties\\";
+	            Game.saveBaseDirectory = baseDir7 + "\\saves\\";
+	            Game.logBaseDirectory = baseDir7 + "\\log\\";
+	
+	            createTimerAccuracyThread( );
+	            break;
             case Windows:
                 String baseDir = System.getProperty( "user.home" ) + "\\My Documents\\My Games\\hale\\";
 
