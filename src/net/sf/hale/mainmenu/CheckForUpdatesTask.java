@@ -66,7 +66,7 @@ public class CheckForUpdatesTask extends Thread
             {
                 mainMenu.enableUpdate( );
 
-                new File( Game.getConfigBaseDirectory( ) + "updateAvailable.txt" ).createNewFile( );
+                new File( Game.plataform.getConfigDirectory( ) + "updateAvailable.txt" ).createNewFile( );
             }
 
         }

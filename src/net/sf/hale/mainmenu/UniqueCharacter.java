@@ -193,7 +193,7 @@ public class UniqueCharacter implements Iterable< PC >
 
         if ( index == - 1 ) return;
 
-        String fileName = Game.getCharactersBaseDirectory( ) + pc.getTemplate( ).getID( ) +
+        String fileName = Game.plataform.getCharactersDirectory( ) + pc.getTemplate( ).getID( ) +
                 ResourceType.JSON.getExtension( );
 
         new File( fileName ).delete( );

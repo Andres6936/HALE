@@ -296,7 +296,7 @@ public class CharacterBuilder extends GameSubWindow
     public static String savePC( PC pc )
     {
         // check if the characters directory exists
-        File dir = new File( Game.getCharactersBaseDirectory( ) );
+        File dir = new File( Game.plataform.getCharactersDirectory( ) );
         if ( ! dir.exists( ) )
         {
             dir.mkdirs( );
@@ -307,7 +307,7 @@ public class CharacterBuilder extends GameSubWindow
         String id = pc.getTemplate( ).getName( ) + "-" + format.format( Calendar.getInstance( ).getTime( ) );
 
         // build the JSON representation
-        File file = new File( Game.getCharactersBaseDirectory( ) + id + ResourceType.JSON.getExtension( ) );
+        File file = new File( Game.plataform.getCharactersDirectory( ) + id + ResourceType.JSON.getExtension( ) );
 
         JSONOrderedObject dataOut = new JSONOrderedObject( );
         dataOut.put( "name", pc.getTemplate( ).getName( ) );

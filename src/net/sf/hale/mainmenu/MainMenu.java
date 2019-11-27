@@ -260,7 +260,7 @@ public class MainMenu extends DesktopArea implements LoadGamePopup.Callback
         {
             versionLabel = new Label( "Version: " + version );
 
-            File updateAvailable = new File( Game.getConfigBaseDirectory( ) + "updateAvailable.txt" );
+            File updateAvailable = new File( Game.plataform.getConfigDirectory( ) + "updateAvailable.txt" );
             if ( updateAvailable.isFile( ) )
             {
                 updateButton.setVisible( true );
@@ -587,7 +587,7 @@ public class MainMenu extends DesktopArea implements LoadGamePopup.Callback
 
     public static void writeLastOpenCampaign( String id )
     {
-        File f = new File( Game.getConfigBaseDirectory( ) + "lastOpenCampaign.txt" );
+        File f = new File( Game.plataform.getConfigDirectory( ) + "lastOpenCampaign.txt" );
 
         try
         {
@@ -656,7 +656,7 @@ public class MainMenu extends DesktopArea implements LoadGamePopup.Callback
     {
         try
         {
-            return FileUtil.readFileAsString( Game.getConfigBaseDirectory( ) + "lastOpenCampaign.txt" );
+            return FileUtil.readFileAsString( Game.plataform.getConfigDirectory( ) + "lastOpenCampaign.txt" );
         }
         catch ( Exception e )
         {

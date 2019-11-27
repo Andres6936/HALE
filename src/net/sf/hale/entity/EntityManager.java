@@ -135,9 +135,9 @@ public class EntityManager
             {
                 parser = new SimpleJSONParser( new File( "characters/" + fileName ) );
             }
-            else if ( new File( Game.getCharactersBaseDirectory( ) + fileName ).isFile( ) )
+            else if ( new File( Game.plataform.getCharactersDirectory( ) + fileName ).isFile( ) )
             {
-                parser = new SimpleJSONParser( new File( Game.getCharactersBaseDirectory( ) + fileName ) );
+                parser = new SimpleJSONParser( new File( Game.plataform.getCharactersDirectory( ) + fileName ) );
             }
             else
             {

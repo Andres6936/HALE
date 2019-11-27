@@ -31,6 +31,9 @@ import javax.swing.SwingUtilities;
 import net.sf.hale.Config;
 import net.sf.hale.Game;
 import net.sf.hale.loading.AsyncTextureLoader;
+import net.sf.hale.plataform.LinuxOS;
+import net.sf.hale.plataform.MacOS;
+import net.sf.hale.plataform.WindowsOS;
 import net.sf.hale.resource.ResourceManager;
 import net.sf.hale.rules.Dice;
 import net.sf.hale.rules.Ruleset;
@@ -54,19 +57,27 @@ public class SwingEditor extends JFrame implements ComponentListener
 
     public static void main( String[] args )
     {
-        // determine system type
-        String osString = System.getProperty( "os.name" ).toLowerCase( );
+        // Determine System Operative
+        String systemOperative = System.getProperty( "os.name" ).toLowerCase( );
 
-        Game.OSType osType;
-        if ( osString.contains( "win" ) ) { osType = Game.OSType.Windows; }
-        else if ( osString.contains( "mac" ) ) { osType = Game.OSType.Mac; }
-        else { osType = Game.OSType.Unix; }
+        if ( systemOperative.contains( "win" ) )
+        {
+            Game.plataform = new WindowsOS();
+        }
+        else if ( systemOperative.contains( "mac" ) )
+        {
+            Game.plataform = new MacOS();
+        }
+        else if (systemOperative.contains( "linux" ))
+        {
+            Game.plataform = new LinuxOS();
+        }
 
-        Game.initializeOSSpecific( osType );
+        Game.plataform.createDiretoriesIfNotExist();
 
         // create the basic objects used by the campaign editor
         Game.textureLoader = new AsyncTextureLoader( );
-        Game.config = new Config( Game.getConfigBaseDirectory( ) + "config.json" );
+        Game.config = new Config( Game.plataform.getConfigDirectory( ) + "config.json" );
         Game.scriptEngineManager = new JSEngineManager( );
         Game.dice = new Dice( );
 

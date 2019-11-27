@@ -88,7 +88,7 @@ public class OptionsPopup extends PopupWindow
     {
         JSONOrderedObject data = new JSONOrderedObject( );
 
-        File fout = new File( Game.getConfigBaseDirectory( ) + "config.json" );
+        File fout = new File( Game.plataform.getConfigDirectory( ) + "config.json" );
         PrintWriter out = new PrintWriter( fout );
 
         Integer[] resOut = new Integer[ 2 ];
@@ -373,11 +373,11 @@ public class OptionsPopup extends PopupWindow
                     fullscreen == Game.config.getFullscreen( ) && scale2x == Game.config.scale2x( ) )
             {
 
-                Game.config = new Config( Game.getConfigBaseDirectory( ) + "config.json" );
+                Game.config = new Config( Game.plataform.getConfigDirectory( ) + "config.json" );
             }
             else
             {
-                Game.config = new Config( Game.getConfigBaseDirectory( ) + "config.json" );
+                Game.config = new Config( Game.plataform.getConfigDirectory( ) + "config.json" );
                 mainMenu.restartMenu( );
             }
         }

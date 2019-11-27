@@ -153,13 +153,13 @@ public class Logger
     {
         try
         {
-            File dir = new File( Game.getLogBaseDirectory( ) );
+            File dir = new File( Game.plataform.getLogDirectory() );
             if ( ! dir.exists( ) || ! dir.isDirectory( ) )
             {
                 dir.mkdir( );
             }
 
-            File fout = new File( Game.getLogBaseDirectory( ) + name + ".log" );
+            File fout = new File( Game.plataform.getLogDirectory() + name + ".log" );
 
             BufferedWriter out = new BufferedWriter( new FileWriter( fout, true ) );
             PrintWriter pout = new PrintWriter( out );

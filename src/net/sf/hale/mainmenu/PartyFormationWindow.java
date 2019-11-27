@@ -313,7 +313,7 @@ public class PartyFormationWindow extends Widget
 
         List< PC > pcs = new ArrayList< PC >( );
         pcs.addAll( getPCsInDirectory( "characters/" ) );
-        pcs.addAll( getPCsInDirectory( Game.getCharactersBaseDirectory( ) ) );
+        pcs.addAll( getPCsInDirectory( Game.plataform.getCharactersDirectory( ) ) );
 
         List< UniqueCharacter > characters = new ArrayList< UniqueCharacter >( );
 

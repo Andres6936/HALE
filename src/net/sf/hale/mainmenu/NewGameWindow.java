@@ -273,7 +273,7 @@ public class NewGameWindow extends Widget
             // parties from the Game.getPartiesBaseDirectory() can
             int lastNotDeletableIndex = savedParties.size( ) - 1;
 
-            savedParties.addAll( getPartiesInDirectory( Game.getPartiesBaseDirectory( ) ) );
+            savedParties.addAll( getPartiesInDirectory( Game.plataform.getPartiesDirectory() ) );
 
             int index = 0;
             for ( SavedParty savedParty : savedParties )

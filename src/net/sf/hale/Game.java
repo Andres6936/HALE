@@ -19,18 +19,8 @@
 
 package net.sf.hale;
 
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.lang.management.ManagementFactory;
-import java.nio.ByteBuffer;
-import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.imageio.ImageIO;
-
+import de.matthiasmann.twl.renderer.lwjgl.LWJGLRenderer;
+import de.matthiasmann.twl.theme.ThemeManager;
 import net.sf.hale.defaultability.MouseActionList;
 import net.sf.hale.entity.Entity;
 import net.sf.hale.entity.EntityManager;
@@ -44,6 +34,10 @@ import net.sf.hale.mainmenu.ErrorPopup;
 import net.sf.hale.mainmenu.MainMenu;
 import net.sf.hale.mainmenu.MainMenuAction;
 import net.sf.hale.particle.ParticleManager;
+import net.sf.hale.plataform.LinuxOS;
+import net.sf.hale.plataform.MacOS;
+import net.sf.hale.plataform.Plataform;
+import net.sf.hale.plataform.WindowsOS;
 import net.sf.hale.resource.ResourceManager;
 import net.sf.hale.resource.SpriteManager;
 import net.sf.hale.rules.Campaign;
@@ -54,12 +48,19 @@ import net.sf.hale.util.Logger;
 import net.sf.hale.util.SaveGameUtil;
 import net.sf.hale.view.AreaViewer;
 import net.sf.hale.view.MainViewer;
-
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
 
-import de.matthiasmann.twl.renderer.lwjgl.LWJGLRenderer;
-import de.matthiasmann.twl.theme.ThemeManager;
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.lang.management.ManagementFactory;
+import java.nio.ByteBuffer;
+import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * The class containing the main method and an assortment of global variables
@@ -223,6 +224,11 @@ public class Game
 
     public static AsyncTextureLoader textureLoader;
 
+    /**
+     * System Operative when run the application
+     */
+    public static Plataform plataform;
+
     private static boolean turnMode = false;
 
     /**
@@ -279,56 +285,6 @@ public class Game
 
     public static OSType osType;
 
-    private static String configBaseDirectory;
-    private static String charactersBaseDirectory;
-    private static String partiesBaseDirectory;
-    private static String saveBaseDirectory;
-    private static String logBaseDirectory;
-
-    /**
-     * Returns the directory containing config and similar files
-     *
-     * @return the config directory
-     */
-
-    public static String getConfigBaseDirectory( ) { return configBaseDirectory; }
-
-    /**
-     * Returns the directory used to read and write character data.  Default
-     * characters and parties are also stored in a separate directory "characters/" (relative
-     * to the hale executable)
-     *
-     * @return the characters directory
-     */
-
-    public static String getCharactersBaseDirectory( ) { return charactersBaseDirectory; }
-
-    /**
-     * Returns the directory used to read and write party data. Default
-     * characters and parties are also stored in a separate directory "characters/" (relative
-     * to the hale executable)
-     *
-     * @return the parties directory
-     */
-
-    public static String getPartiesBaseDirectory( ) { return partiesBaseDirectory; }
-
-    /**
-     * Returns the directory used to read and write save games
-     *
-     * @return the save directory
-     */
-
-    public static String getSaveBaseDirectory( ) { return saveBaseDirectory; }
-
-    /**
-     * Returns the directory used to write log files
-     *
-     * @return the log directory
-     */
-
-    public static String getLogBaseDirectory( ) { return logBaseDirectory; }
-
     /**
      * The global main method.  Handles initializing the global variables,
      * determining available display modes, creating the display, and parsing any arguments
@@ -338,22 +294,25 @@ public class Game
      *
      * @param args any arguments passed to the program are ignored
      */
-
     public static void main( String[] args )
     {
-        // determine system type
-        String osString = System.getProperty( "os.name" ).toLowerCase( );
+        // Determine System Operative
+        String systemOperative = System.getProperty( "os.name" ).toLowerCase( );
 
-        if ( osString.contains( "win" ) ) {
-        	if (osString.contains( "7" ) )
-        		osType = OSType.Win7;
-        	else
-        		osType = OSType.Windows; 
-        	}
-        else if ( osString.contains( "mac" ) ) { osType = OSType.Mac; }
-        else { osType = OSType.Unix; }
+        if ( systemOperative.contains( "win" ) )
+        {
+            plataform = new WindowsOS();
+        }
+        else if ( systemOperative.contains( "mac" ) )
+        {
+            plataform = new MacOS();
+        }
+        else if (systemOperative.contains( "linux" ))
+        {
+            plataform = new LinuxOS();
+        }
 
-        initializeOSSpecific( osType );
+        plataform.createDiretoriesIfNotExist();
 
         // initialize inventory slots - equippable item types
         EquippableItemTemplate.initializeTypesMap( );
@@ -362,7 +321,7 @@ public class Game
         ResourceManager.registerCorePackage( );
 
         Game.numberFormat = NumberFormat.getInstance( );
-        Game.config = new Config( Game.getConfigBaseDirectory( ) + "config.json" );
+        Game.config = new Config( Game.plataform.getConfigDirectory( ) + "config.json" );
         Game.dice = new Dice( );
 
         Game.scriptEngineManager = new JSEngineManager( );
@@ -490,97 +449,6 @@ public class Game
         Display.setIcon( list );
     }
 
-    /**
-     * Initializes Operating System specific state
-     *
-     * @param osType
-     */
-
-    public static void initializeOSSpecific( OSType osType )
-    {
-        switch ( osType )
-        {
-	        case Win7:
-	            String baseDir7 = System.getProperty( "user.home" ) + "\\Documents\\My Games\\hale\\";
-	
-	            Game.configBaseDirectory = baseDir7 + "\\config\\";
-	            Game.charactersBaseDirectory = baseDir7 + "\\characters\\";
-	            Game.partiesBaseDirectory = baseDir7 + "\\parties\\";
-	            Game.saveBaseDirectory = baseDir7 + "\\saves\\";
-	            Game.logBaseDirectory = baseDir7 + "\\log\\";
-	
-	            createTimerAccuracyThread( );
-	            break;
-            case Windows:
-                String baseDir = System.getProperty( "user.home" ) + "\\My Documents\\My Games\\hale\\";
-
-                Game.configBaseDirectory = baseDir + "\\config\\";
-                Game.charactersBaseDirectory = baseDir + "\\characters\\";
-                Game.partiesBaseDirectory = baseDir + "\\parties\\";
-                Game.saveBaseDirectory = baseDir + "\\saves\\";
-                Game.logBaseDirectory = baseDir + "\\log\\";
-
-                createTimerAccuracyThread( );
-                break;
-            default:
-                // Linux and MacOS
-
-                // use XDG compliant data and configuration directories
-                String xdgDataHome = System.getenv( "XDG_DATA_HOME" );
-                String xdgConfigHome = System.getenv( "XDG_CONFIG_HOME" );
-
-                if ( xdgDataHome == null || xdgDataHome.length( ) == 0 )
-                {
-                    // fallback to XDG default
-                    xdgDataHome = System.getProperty( "user.home" ) + "/.local/share";
-                }
-
-                if ( xdgConfigHome == null || xdgConfigHome.length( ) == 0 )
-                {
-                    // fallback to XDG default
-                    xdgConfigHome = System.getProperty( "user.home" ) + "/.config";
-                }
-
-                xdgDataHome = xdgDataHome + "/hale/";
-                xdgConfigHome = xdgConfigHome + "/hale/";
-
-                Game.configBaseDirectory = xdgConfigHome;
-                Game.charactersBaseDirectory = xdgDataHome + "characters/";
-                Game.partiesBaseDirectory = xdgDataHome + "parties/";
-                Game.saveBaseDirectory = xdgDataHome + "saves/";
-                Game.logBaseDirectory = xdgDataHome + "log/";
-
-                break;
-        }
-
-        new File( Game.configBaseDirectory ).mkdirs( );
-        new File( Game.charactersBaseDirectory ).mkdirs( );
-        new File( Game.partiesBaseDirectory ).mkdirs( );
-        new File( Game.saveBaseDirectory ).mkdirs( );
-        new File( Game.logBaseDirectory ).mkdirs( );
-    }
-
-    private static void createTimerAccuracyThread( )
-    {
-        // if we are in Windows OS, start a thread and make it sleep
-        // this will ensure reasonable timer accuracy from the OS
-        Thread timerAccuracyThread = new Thread( new Runnable( )
-        {
-            public void run( )
-            {
-                try
-                {
-                    Thread.sleep( Long.MAX_VALUE );
-                }
-                catch ( Exception e )
-                {
-                    Logger.appendToErrorLog( "Timer accuracy thread error", e );
-                }
-            }
-        } );
-        timerAccuracyThread.setDaemon( true );
-        timerAccuracyThread.start( );
-    }
 
     private static void destroyDisplay( )
     {

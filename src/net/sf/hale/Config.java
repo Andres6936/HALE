@@ -399,7 +399,7 @@ public class Config
     {
         try
         {
-            FileUtil.writeStringToFile( new File( Game.getConfigBaseDirectory( ) + "lastUpdateTime.txt" ), Long.toString( time ) );
+            FileUtil.writeStringToFile( new File( Game.plataform.getConfigDirectory( ) + "lastUpdateTime.txt" ), Long.toString( time ) );
         }
         catch ( IOException e )
         {
@@ -416,13 +416,13 @@ public class Config
 
     public static long getLastCheckForUpdatesTime( )
     {
-        File file = new File( Game.getConfigBaseDirectory( ) + "lastUpdateTime.txt" );
+        File file = new File( Game.plataform.getConfigDirectory( ) + "lastUpdateTime.txt" );
         if ( file.canRead( ) )
         {
             String time = null;
             try
             {
-                time = FileUtil.readFileAsString( Game.getConfigBaseDirectory( ) + "lastUpdateTime.txt" );
+                time = FileUtil.readFileAsString( Game.plataform.getConfigDirectory( ) + "lastUpdateTime.txt" );
             }
             catch ( IOException e )
             {

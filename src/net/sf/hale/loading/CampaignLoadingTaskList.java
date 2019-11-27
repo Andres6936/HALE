@@ -110,7 +110,7 @@ public class CampaignLoadingTaskList extends LoadingTaskList
     {
         Game.curCampaign = null;
 
-        File f = new File( Game.getConfigBaseDirectory( ) + "lastOpenCampaign.txt" );
+        File f = new File( Game.plataform.getConfigDirectory( ) + "lastOpenCampaign.txt" );
         f.delete( );
     }
 

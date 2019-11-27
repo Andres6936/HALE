@@ -134,7 +134,7 @@ public class SaveGameUtil
     {
         List< String > saves = new ArrayList< String >( );
 
-        File dir = new File( Game.getSaveBaseDirectory( ) );
+        File dir = new File( Game.plataform.getSaveDirectory() );
 
         File[] files = dir.listFiles( );
         if ( files == null ) return saves;
@@ -179,7 +179,7 @@ public class SaveGameUtil
 
     public static File getNextQuickSaveFile( )
     {
-        File[] files = new File( Game.getSaveBaseDirectory( ) ).listFiles( );
+        File[] files = new File( Game.plataform.getSaveDirectory() ).listFiles( );
 
         if ( files == null ) return getSaveFile( "quicksave1" );
 
@@ -226,13 +226,13 @@ public class SaveGameUtil
 
     public static File getSaveFile( String name )
     {
-        File dir = new File( Game.getSaveBaseDirectory( ) );
+        File dir = new File( Game.plataform.getSaveDirectory() );
         if ( ! dir.exists( ) || ! dir.isDirectory( ) )
         {
             dir.mkdirs( );
         }
 
-        return new File( Game.getSaveBaseDirectory( ) + Game.curCampaign.getID( ) + "-" +
+        return new File( Game.plataform.getSaveDirectory() + Game.curCampaign.getID( ) + "-" +
                                  name + ResourceType.SaveGame.getExtension( ) );
     }
 

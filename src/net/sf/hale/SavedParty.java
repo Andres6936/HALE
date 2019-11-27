@@ -104,7 +104,7 @@ public class SavedParty
         // get unique ID String
         SimpleDateFormat format = new SimpleDateFormat( "yyyy-MM-dd-HHmmss" );
         this.id = name + "-" + format.format( Calendar.getInstance( ).getTime( ) );
-        this.resourceLocation = Game.getPartiesBaseDirectory( ) + this.id + ResourceType.JSON.getExtension( );
+        this.resourceLocation = Game.plataform.getPartiesDirectory() + this.id + ResourceType.JSON.getExtension( );
     }
 
     /**
