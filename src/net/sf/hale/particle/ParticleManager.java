@@ -60,15 +60,15 @@ public class ParticleManager
 
     public ParticleManager( )
     {
-        this.baseGenerators = new HashMap< String, ParticleGenerator >( );
-        this.baseAnimations = new HashMap< String, Animation >( );
+        this.baseGenerators = new HashMap<>();
+        this.baseAnimations = new HashMap<>();
 
-        this.activeBelowAnimations = new LinkedList< Animated >( );
-        this.activeAboveAnimations = new LinkedList< Animated >( );
+        this.activeBelowAnimations = new LinkedList<>();
+        this.activeAboveAnimations = new LinkedList<>();
 
-        this.animationsToAdd = new LinkedList< Animated >( );
+        this.animationsToAdd = new LinkedList<>();
 
-        this.entityOffsetAnimations = new LinkedList< EntityOffsetAnimation >( );
+        this.entityOffsetAnimations = new LinkedList<>();
 
         lastTime = System.currentTimeMillis( );
     }
@@ -209,14 +209,7 @@ public class ParticleManager
     {
         float durationSeconds = ( curTime - lastTime ) / 1000.0f;
 
-        Iterator< EntityOffsetAnimation > entIter = entityOffsetAnimations.iterator( );
-        while ( entIter.hasNext( ) )
-        {
-            if ( entIter.next( ).elapseTime( durationSeconds ) )
-            {
-                entIter.remove( );
-            }
-        }
+        entityOffsetAnimations.removeIf(entityOffsetAnimation -> entityOffsetAnimation.elapseTime(durationSeconds));
 
         Iterator< Animated > animIter = activeAboveAnimations.iterator( );
         while ( animIter.hasNext( ) )

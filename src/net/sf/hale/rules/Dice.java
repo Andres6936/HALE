@@ -31,7 +31,7 @@ import net.sf.hale.Game;
 
 public class Dice
 {
-    private Random generator;
+    private final Random generator;
 
     /**
      * initializes a new dice object using the seed from the config, if applicable
@@ -51,7 +51,7 @@ public class Dice
      * Initializes a new dice object using the specified seed, ignoring any seed from the
      * config
      *
-     * @param seed
+     * @param seed Seed of configuration
      */
 
     public Dice( long seed )

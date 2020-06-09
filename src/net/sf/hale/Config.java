@@ -23,13 +23,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import org.lwjgl.LWJGLException;
 import org.lwjgl.opengl.Display;
@@ -240,7 +234,7 @@ public class Config
     /**
      * Returns the integer keyboard code associated with the given action
      *
-     * @param actionName
+     * @param actionName Name of action
      * @return the integer key code, or -1 if no key is associated with the action
      */
 
@@ -248,10 +242,7 @@ public class Config
     {
         Integer key = keyBindingActions.get( actionName );
 
-        if ( key == null )
-        { return - 1; }
-        else
-        { return key.intValue( ); }
+        return Objects.requireNonNullElse(key, -1);
     }
 
     /**
@@ -263,14 +254,7 @@ public class Config
 
     public List< String > getKeyActionNames( )
     {
-        List< String > names = new ArrayList< String >( );
-
-        for ( String key : keyBindingActions.keySet( ) )
-        {
-            names.add( key );
-        }
-
-        return names;
+        return new ArrayList<>(keyBindingActions.keySet());
     }
 
     /**
@@ -279,11 +263,11 @@ public class Config
      * @param fileName the name of the file to read the config from
      */
 
-    public Config( String fileName )
+    public Config( final String fileName )
     {
         versionID = FileUtil.getHalfMD5Sum( new File( "hale.jar" ) );
 
-        File configFile = new File( fileName );
+        final File configFile = new File( fileName );
 
         // create the config file if it does not already exist or is old
         if ( ! checkConfigFile( configFile ) )
@@ -323,10 +307,10 @@ public class Config
         else
         {
             randSeedSet = false;
-            randSeed = 0l;
+            randSeed = 0L;
         }
 
-        keyBindingActions = new HashMap< String, Integer >( );
+        keyBindingActions = new HashMap<>();
 
         SimpleJSONObject bindingsObject = parser.getObject( "Keybindings" );
         for ( String bindingName : bindingsObject.keySet( ) )
@@ -354,12 +338,12 @@ public class Config
      * Checks whether the current config file is ok to be used.  If it is not ok, then
      * the default config should be copied over
      *
-     * @param configFile
+     * @param configFile File of configuration
      * @return true if the file is ok, false if the default file should be copied over (either the
      * config doesn't exist or it is out of date)
      */
 
-    private boolean checkConfigFile( File configFile )
+    private boolean checkConfigFile( final File configFile )
     {
         if ( ! configFile.isFile( ) ) return false;
 
@@ -443,7 +427,7 @@ public class Config
 
         }
 
-        return 0l;
+        return 0L;
     }
 
     /**
@@ -498,21 +482,20 @@ public class Config
         }
 
         // sort the list of usable modes by Display Resolution
-        Collections.sort( goodModes, new Comparator< DisplayMode >( )
-        {
-            @Override
-            public int compare( DisplayMode m1, DisplayMode m2 )
-            {
-                if ( m1.getWidth( ) > m2.getWidth( ) ) { return 1; }
-                else if ( m1.getWidth( ) < m2.getWidth( ) ) { return - 1; }
-                else
-                {
-                    if ( m1.getHeight( ) > m2.getHeight( ) ) { return 1; }
-                    else { return - 1; }
+        goodModes.sort((m1, m2) -> {
+            if (m1.getWidth() > m2.getWidth()) {
+                return 1;
+            } else
+                if (m1.getWidth() < m2.getWidth()) {
+                    return -1;
+                } else {
+                    if (m1.getHeight() > m2.getHeight()) {
+                        return 1;
+                    } else {
+                        return 0;
+                    }
                 }
-            }
-
-        } );
+        });
 
         return goodModes;
     }
@@ -547,13 +530,12 @@ public class Config
      * This method then sets up the OpenGL context for 2D drawing, and sets up TWL using
      * the theme file at gui/simple.xml.
      *
-     * @return the displayMode that was created
      */
 
-    public static DisplayMode createGameDisplay( )
+    public static void createGameDisplay( )
     {
-        return createDisplay( Game.config.scale2x( ), Game.config.getResolutionX( ) * Game.config.getScaleFactor( ),
-                              Game.config.getResolutionY( ) * Game.config.getScaleFactor( ) );
+        createDisplay(Game.config.scale2x(), Game.config.getResolutionX() * Game.config.getScaleFactor(),
+                Game.config.getResolutionY() * Game.config.getScaleFactor());
     }
 
     /**
@@ -567,12 +549,11 @@ public class Config
      * @param scale2x whether the display is scaled by 2x
      * @param resX    the horizontal resolution of the Display to create
      * @param resY    the vertical resolution of the Display to create
-     * @return the displayMode that was set
      */
 
-    private static DisplayMode createDisplay( boolean scale2x, int resX, int resY )
+    private static void createDisplay(boolean scale2x, int resX, int resY )
     {
-        DisplayMode mode = null;
+        DisplayMode mode;
 
         try
         {
@@ -628,6 +609,7 @@ public class Config
 
         try
         {
+            assert theme != null;
             Game.themeManager = ThemeManager.createThemeManager( theme, Game.renderer );
         }
         catch ( IOException e )
@@ -635,6 +617,5 @@ public class Config
             Logger.appendToErrorLog( "Error creating theme manager", e );
         }
 
-        return mode;
     }
 }

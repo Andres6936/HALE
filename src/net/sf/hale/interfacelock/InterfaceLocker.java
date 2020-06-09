@@ -42,7 +42,7 @@ import net.sf.hale.entity.Path;
 
 public class InterfaceLocker
 {
-    private MovementHandler movementHandler;
+    private final MovementHandler movementHandler;
 
     private boolean interfaceLocked;
     private final TreeSet< InterfaceLock > locks;
@@ -55,8 +55,8 @@ public class InterfaceLocker
 
     public InterfaceLocker( )
     {
-        locks = new TreeSet< InterfaceLock >( );
-        queuedLocks = new LinkedList< InterfaceLock >( );
+        locks = new TreeSet<>();
+        queuedLocks = new LinkedList<>();
         interfaceLocked = false;
 
         movementHandler = new MovementHandler( );

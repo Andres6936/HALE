@@ -66,7 +66,7 @@ public class EquippableItemTemplate extends ItemTemplate
      * @author Jared
      */
 
-    public static enum Type
+    public enum Type
     {
         Weapon,
         Armor,
@@ -81,13 +81,13 @@ public class EquippableItemTemplate extends ItemTemplate
         Shield;
     }
 
-    public static final Map< Type, Inventory.Slot[] > validSlotsForType = new EnumMap< Type, Inventory.Slot[] >( Type.class );
+    public static final Map< Type, Inventory.Slot[] > validSlotsForType = new EnumMap<>(Type.class);
 
     /**
      * Initializes the map of inventory slots to equippable item types
      */
 
-    public static final void initializeTypesMap( )
+    public static void initializeTypesMap( )
     {
         putInTypeMap( Type.Weapon, Inventory.Slot.MainHand, Inventory.Slot.OffHand );
         putInTypeMap( Type.Armor, Inventory.Slot.Armor );
@@ -102,7 +102,7 @@ public class EquippableItemTemplate extends ItemTemplate
         putInTypeMap( Type.Shield, Inventory.Slot.OffHand );
     }
 
-    private static final void putInTypeMap( Type type, Inventory.Slot... slots )
+    private static void putInTypeMap(Type type, Inventory.Slot... slots )
     {
         validSlotsForType.put( type, slots );
     }

@@ -34,7 +34,7 @@ import net.sf.hale.util.Point;
 
 public class GameTimer
 {
-    private List< TemporarySightArea > sightAreas;
+    private final List< TemporarySightArea > sightAreas;
 
     private long lastRoundTime;
 
@@ -44,7 +44,7 @@ public class GameTimer
 
     public GameTimer( )
     {
-        sightAreas = new ArrayList< TemporarySightArea >( );
+        sightAreas = new ArrayList<>();
     }
 
     /**
@@ -58,12 +58,12 @@ public class GameTimer
 
     public void addTemporarySightArea( Point position, int radius, int duration )
     {
-        TemporarySightArea area = new TemporarySightArea( );
+        TemporarySightArea area = new TemporarySightArea();
 
         int width = Game.curCampaign.curArea.getWidth( );
         int height = Game.curCampaign.curArea.getHeight( );
 
-        area.points = new ArrayList< Point >( );
+        area.points = new ArrayList<>();
 
         if ( position.x >= 0 && position.y >= 0 && position.x < width && position.y < height )
         { area.points.add( position ); }
@@ -139,13 +139,9 @@ public class GameTimer
 
     public void getTemporaryVisibilityAreas( boolean[][] vis )
     {
-        for ( int i = 0; i < sightAreas.size( ); i++ )
-        {
-            TemporarySightArea area = sightAreas.get( i );
-
-            for ( Point point : area.points )
-            {
-                vis[ point.x ][ point.y ] = true;
+        for (TemporarySightArea area : sightAreas) {
+            for (Point point : area.points) {
+                vis[point.x][point.y] = true;
             }
         }
     }
@@ -159,7 +155,7 @@ public class GameTimer
         lastRoundTime = System.currentTimeMillis( );
     }
 
-    private class TemporarySightArea
+    private static class TemporarySightArea
     {
         private List< Point > points;
         private int roundsRemaining;

@@ -24,15 +24,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 import java.util.zip.ZipFile;
 
 import net.sf.hale.Game;
@@ -221,10 +213,10 @@ public class ResourceManager
 
     public static void registerCorePackage( )
     {
-        String directoryPath = "core";
-        String zipPath = directoryPath + ResourceType.Zip.getExtension( );
+        final String directoryPath = "core";
+        final String zipPath = directoryPath + ResourceType.Zip.getExtension( );
 
-        File directoryFile = new File( directoryPath );
+        final File directoryFile = new File( directoryPath );
         if ( directoryFile.exists( ) && directoryFile.isDirectory( ) )
         {
             removePackageOfType( PackageType.CoreDirectory );
@@ -243,14 +235,10 @@ public class ResourceManager
 
     private static void removePackageOfType( PackageType type )
     {
-        Iterator< ResourcePackage > iter = packages.iterator( );
-        while ( iter.hasNext( ) )
-        {
-            if ( iter.next( ).getType( ) == type ) iter.remove( );
-        }
+        packages.removeIf(resourcePackage -> resourcePackage.getType() == type);
     }
 
-    private static void registerPackage( File file, PackageType type )
+    private static void registerPackage( final File file, final PackageType type )
     {
         if ( file.isDirectory( ) )
         {
@@ -283,7 +271,7 @@ public class ResourceManager
 
     public static Set< String > getResourcesInDirectory( String directory )
     {
-        Set< String > resources = new LinkedHashSet< String >( );
+        Set< String > resources = new LinkedHashSet<>();
 
         for ( ResourcePackage resourcePackage : packages )
         {
@@ -306,7 +294,7 @@ public class ResourceManager
 
     public static Set< String > getCoreResourcesInDirectory( String directory )
     {
-        Set< String > resources = new LinkedHashSet< String >( );
+        Set< String > resources = new LinkedHashSet<>();
 
         for ( ResourcePackage resourcePackage : packages )
         {
@@ -331,11 +319,11 @@ public class ResourceManager
      * Returns true if one or more resource packages contain a resource with the specified
      * resource path, false otherwise
      *
-     * @param path
+     * @param path Resource path
      * @return whether a resource with the specified path exists
      */
 
-    public static boolean hasResource( String path )
+    public static boolean hasResource( final String path )
     {
         for ( ResourcePackage resourcePackage : packages )
         {
@@ -356,9 +344,9 @@ public class ResourceManager
      * @return a scanner for the contents of the resource
      */
 
-    public static Scanner getScanner( String path )
+    public static Scanner getScanner( final String path )
     {
-        return new Scanner( getStream( path ) );
+        return new Scanner(Objects.requireNonNull(getStream(path)));
     }
 
     /**
@@ -370,9 +358,9 @@ public class ResourceManager
      * @return a scanner for the contents of the resource
      */
 
-    public static Scanner getScanner( String resource, ResourceType type )
+    public static Scanner getScanner( final String resource, final ResourceType type )
     {
-        return new Scanner( getStream( resource + type.getExtension( ) ) );
+        return new Scanner(Objects.requireNonNull(getStream(resource + type.getExtension())));
     }
 
     /**
@@ -417,9 +405,9 @@ public class ResourceManager
      * @return a Reader for the contents of the resource
      */
 
-    public static Reader getReader( String path )
+    public static Reader getReader( final String path )
     {
-        return new InputStreamReader( getStream( path ) );
+        return new InputStreamReader(Objects.requireNonNull(getStream(path)));
     }
 
     /**

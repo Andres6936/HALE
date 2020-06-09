@@ -663,8 +663,7 @@ public class ScriptInterface implements HasScriptState
 
     public AbilityActivateCallback createButtonCallback( AbilitySlot slot, String function )
     {
-        AbilityActivateCallback callback = new AbilityActivateCallback( slot, function );
-        return callback;
+        return new AbilityActivateCallback( slot, function );
     }
 
     public void addMenuButton( String label, AbilityActivateCallback callback )
@@ -716,9 +715,8 @@ public class ScriptInterface implements HasScriptState
     {
         try
         {
-            HTMLPopup popup = new HTMLPopup( resource );
 
-            return popup;
+            return new HTMLPopup( resource );
         }
         catch ( Exception e )
         {
@@ -760,9 +758,8 @@ public class ScriptInterface implements HasScriptState
         {
             Thread.sleep( Game.config.getCombatDelay( ) * multiple );
         }
-        catch ( InterruptedException e )
+        catch ( InterruptedException ignored)
         {
-            return;
         }
     }
 
@@ -772,9 +769,8 @@ public class ScriptInterface implements HasScriptState
         {
             Thread.sleep( millis );
         }
-        catch ( InterruptedException e )
+        catch ( InterruptedException ignored)
         {
-            return;
         }
     }
 
@@ -841,7 +837,6 @@ public class ScriptInterface implements HasScriptState
         }
         catch ( InterruptedException e )
         {
-            return;
         }
     }
 
@@ -860,7 +855,6 @@ public class ScriptInterface implements HasScriptState
         }
         catch ( InterruptedException e )
         {
-            return;
         }
     }
 
@@ -1017,9 +1011,8 @@ public class ScriptInterface implements HasScriptState
 
     public CampaignConclusionPopup showCampaignConclusionPopup( )
     {
-        CampaignConclusionPopup popup = new CampaignConclusionPopup( Game.mainViewer );
 
-        return popup;
+        return new CampaignConclusionPopup( Game.mainViewer );
     }
 
     public NPC getNPC( String entityID )

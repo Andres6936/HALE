@@ -75,7 +75,7 @@ public class SimpleJSONParser
      * Creates a JSONParser parsing the specified input stream
      *
      * @param id    the ID used for informational purposes if an error occurs
-     * @param input
+     * @param input InputStream
      */
 
     public SimpleJSONParser( String id, InputStream input )
@@ -125,7 +125,6 @@ public class SimpleJSONParser
         catch ( ParseException e )
         {
             Logger.appendToErrorLog( "JSON Parsing error in " + id, e );
-            return;
         }
         catch ( IOException e )
         {

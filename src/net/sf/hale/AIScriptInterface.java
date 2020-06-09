@@ -482,16 +482,8 @@ public class AIScriptInterface
 
         List< Creature > creatures = AreaUtil.getVisibleCreatures( parent, rel );
 
-        Iterator< Creature > iter = creatures.iterator( );
-        while ( iter.hasNext( ) )
-        {
-            Creature c = iter.next( );
-            if ( AreaUtil.distance( c.getLocation( ).getX( ), c.getLocation( ).getY( ),
-                                    parent.getLocation( ).getX( ), parent.getLocation( ).getY( ) ) * 5 > range )
-            {
-                iter.remove( );
-            }
-        }
+        creatures.removeIf(c -> AreaUtil.distance(c.getLocation().getX(), c.getLocation().getY(),
+                parent.getLocation().getX(), parent.getLocation().getY()) * 5 > range);
 
         return creatures;
     }
@@ -560,27 +552,19 @@ public class AIScriptInterface
             creatures = AreaUtil.getVisibleCreatures( parent, rel );
         }
 
-        Iterator< Creature > iter = creatures.iterator( );
-        while ( iter.hasNext( ) )
-        {
-            Creature c = iter.next( );
-            if ( c.isDead( ) || c.isDying( ) || c.stats.isHidden( ) )
-            {
-                iter.remove( );
-            }
-        }
+        creatures.removeIf(c -> c.isDead() || c.isDying() || c.stats.isHidden());
 
         return creatures;
     }
 
     public void sortCreatureListClosestFirst( Creature parent, List< Creature > creatures )
     {
-        Collections.sort( creatures, new CreatureSorter( parent ) );
+        creatures.sort(new CreatureSorter(parent));
     }
 
-    private class CreatureSorter implements Comparator< Creature >
+    private static class CreatureSorter implements Comparator< Creature >
     {
-        private Creature parent;
+        private final Creature parent;
 
         private CreatureSorter( Creature parent )
         {

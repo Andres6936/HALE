@@ -43,7 +43,7 @@ public class JSEngineManager
     public JSEngineManager( )
     {
         this.manager = new ScriptEngineManager( );
-        this.engines = new ArrayList< JSEngine >( );
+        this.engines = new ArrayList<>();
     }
 
     /**

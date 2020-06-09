@@ -41,7 +41,7 @@ import org.lwjgl.opengl.GL11;
 
 public class AsyncTextureLoader
 {
-    private List< TextureSpriteLoadList > loadLists;
+    private final List< TextureSpriteLoadList > loadLists;
 
     /**
      * Creates an empty AsyncTextureLoader
@@ -49,7 +49,7 @@ public class AsyncTextureLoader
 
     public AsyncTextureLoader( )
     {
-        loadLists = new ArrayList< TextureSpriteLoadList >( );
+        loadLists = new ArrayList<>();
     }
 
     /**
@@ -96,7 +96,7 @@ public class AsyncTextureLoader
 
     public void loadTexture( ByteBuffer pixels, int width, int height, List< Sprite > sprites )
     {
-        TextureSpriteLoadList list = new TextureSpriteLoadList( pixels, width, height, sprites );
+        TextureSpriteLoadList list = new TextureSpriteLoadList(pixels, width, height, sprites);
 
         synchronized ( loadLists )
         {
@@ -104,13 +104,13 @@ public class AsyncTextureLoader
         }
     }
 
-    private class TextureSpriteLoadList
+    private static class TextureSpriteLoadList
     {
-        private ByteBuffer pixels;
-        private int width;
-        private int height;
+        private final ByteBuffer pixels;
+        private final int width;
+        private final int height;
 
-        private List< Sprite > sprites;
+        private final List< Sprite > sprites;
 
         private TextureSpriteLoadList( ByteBuffer pixels, int width, int height, List< Sprite > sprites )
         {
