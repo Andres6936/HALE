@@ -34,11 +34,11 @@ public class MainMenuAction
 {
     private Runnable preActionCallback;
 
-    private Action action;
+    private final Action action;
     private String loadGameFile;
 
     // an error popup message that should be shown when this action is taken
-    private List< String > errorPopupMessages;
+    private final List<String> errorPopupMessages;
 
     /**
      * The type of action that should be taken by the main game loop
@@ -84,7 +84,7 @@ public class MainMenuAction
 
     public MainMenuAction( Action action )
     {
-        this.errorPopupMessages = new ArrayList< String >( );
+        this.errorPopupMessages = new ArrayList<>();
         this.action = action;
 
         if ( action == Action.LoadGame )
