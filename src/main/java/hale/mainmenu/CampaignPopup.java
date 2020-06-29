@@ -284,19 +284,20 @@ public class CampaignPopup extends PopupWindow
     {
         List<CampaignDescriptor> campaigns = new ArrayList<CampaignDescriptor>();
 
-        File campaignDir = new File("campaigns");
+        File campaignDir = ResourceManager.getFileFromResource("campaigns");
         String[] fileList = campaignDir.list();
 
         try {
             // first, add all extracted directories
             for (String fileName : fileList) {
-                File f = new File("campaigns/" + fileName);
+
+                File f = ResourceManager.getFileFromResource("campaigns/" + fileName);
 
                 if (!f.isDirectory() || f.getName().startsWith(".")) continue;
 
                 // get the id, name, and description for the campaign
-                SimpleJSONParser parser = new SimpleJSONParser(new File(f.getPath() + "/campaign" +
-                        ResourceType.JSON.getExtension()));
+                SimpleJSONParser parser = new SimpleJSONParser(ResourceManager.getFileFromResource(
+                        f.getPath() + "/campaign" + ResourceType.JSON.getExtension()));
 
                 String id = fileName;
                 String description = FileUtil.readFileAsString(f.getPath() + "/description" +

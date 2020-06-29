@@ -45,6 +45,8 @@ import hale.util.Logger;
 
 public class ResourceManager
 {
+    // Fields
+
     private static final Map<String, String> cachedFiles = new HashMap<>();
 
     private static final List<ResourcePackage> packages = new ArrayList<>(2);
@@ -52,6 +54,20 @@ public class ResourceManager
     public static List<ResourcePackage> getPackages()
     {
         return packages;
+    }
+
+    // Methods
+
+    /**
+     * With the new structure based in gradle and maven project the load of resources
+     * should be from the directory resources that it localizate in root src.main
+     *
+     * @param resource Path of resource to load
+     * @return File that reference to resource
+     */
+    public static File getFileFromResource(String resource)
+    {
+        return new File(Objects.requireNonNull(ResourceManager.class.getClassLoader().getResource(resource)).getFile());
     }
 
     /**
@@ -224,18 +240,6 @@ public class ResourceManager
     private static void removePackageOfType(PackageType type)
     {
         packages.removeIf(resourcePackage -> resourcePackage.getType() == type);
-    }
-
-    /**
-     * With the new structure based in gradle and maven project the load of resources
-     * should be from the directory resources that it localizate in root src.main
-     *
-     * @param resource Path of resource to load
-     * @return File that reference to resource
-     */
-    private static File getFileFromResource(String resource)
-    {
-        return new File(Objects.requireNonNull(ResourceManager.class.getClassLoader().getResource(resource)).getFile());
     }
 
     private static void registerPackage(final File file, final PackageType type)
