@@ -206,7 +206,9 @@ public class ResourceManager
         final String directoryPath = "core";
         final String zipPath = directoryPath + ResourceType.Zip.getExtension();
 
-        final File directoryFile = new File(directoryPath);
+        var str = Objects.requireNonNull(ResourceManager.class.getClassLoader().getResource(directoryPath)).getFile();
+
+        final File directoryFile = new File(str);
         if (directoryFile.exists() && directoryFile.isDirectory()) {
             removePackageOfType(PackageType.CoreDirectory);
             registerPackage(directoryFile, PackageType.CoreDirectory);
