@@ -25,6 +25,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+import hale.resource.ResourceManager;
 import hale.resource.ResourceType;
 import hale.util.SimpleJSONArray;
 import hale.util.SimpleJSONArrayEntry;
@@ -321,7 +322,7 @@ public class CampaignGroupSelector extends ToggleButton implements Runnable
 
         private CampaignGroup(String id, Map<String, CampaignDescriptor> campaigns)
         {
-            SimpleJSONParser parser = new SimpleJSONParser(new File("campaigns/" + id + ResourceType.JSON.getExtension()));
+            SimpleJSONParser parser = new SimpleJSONParser(ResourceManager.getFileFromResource("campaigns/" + id + ResourceType.JSON.getExtension()));
 
             this.name = parser.get("name", id);
 
