@@ -17,9 +17,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.particle;
+package hale.particle;
 
-import main.java.hale.loading.Saveable;
+import hale.loading.Saveable;
 
 public interface Animated extends Saveable
 {

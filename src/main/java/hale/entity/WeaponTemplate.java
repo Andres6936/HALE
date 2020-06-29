@@ -17,13 +17,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
-import main.java.hale.Game;
-import main.java.hale.icon.SimpleIcon;
-import main.java.hale.rules.BaseWeapon;
-import main.java.hale.rules.DamageType;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.icon.SimpleIcon;
+import hale.rules.BaseWeapon;
+import hale.rules.DamageType;
+import hale.util.SimpleJSONObject;
 
 /**
  * A template for a weapon, either ranged, thrown, or melee

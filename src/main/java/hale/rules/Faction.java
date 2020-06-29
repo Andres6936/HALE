@@ -17,16 +17,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import main.java.hale.Game;
-import main.java.hale.entity.Entity;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.Saveable;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.entity.Entity;
+import hale.loading.JSONOrderedObject;
+import hale.loading.Saveable;
+import hale.util.SimpleJSONObject;
 
 /**
  * A faction is a group of creatures that work together in game.  Factions are either Friendly,

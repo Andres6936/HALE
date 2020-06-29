@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.mainmenu;
+package hale.mainmenu;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -31,13 +31,13 @@ import java.util.Set;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-import main.java.hale.Game;
-import main.java.hale.mainmenu.CampaignGroupSelector.CampaignDescriptor;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.util.FileUtil;
-import main.java.hale.util.Logger;
-import main.java.hale.util.SimpleJSONParser;
+import hale.Game;
+import hale.mainmenu.CampaignGroupSelector.CampaignDescriptor;
+import hale.resource.ResourceManager;
+import hale.resource.ResourceType;
+import hale.util.FileUtil;
+import hale.util.Logger;
+import hale.util.SimpleJSONParser;
 
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.DialogLayout;

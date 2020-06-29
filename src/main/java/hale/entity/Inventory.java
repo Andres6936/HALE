@@ -17,33 +17,33 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import de.matthiasmann.twl.Button;
-import main.java.hale.Game;
-import main.java.hale.ability.Effect;
-import main.java.hale.ability.ScriptFunctionType;
-import main.java.hale.bonus.Bonus;
-import main.java.hale.icon.SubIcon;
-import main.java.hale.icon.SubIcon.Type;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.LoadGameException;
-import main.java.hale.loading.ReferenceHandler;
-import main.java.hale.loading.Saveable;
-import main.java.hale.rules.ArmorType;
-import main.java.hale.rules.BaseWeapon;
-import main.java.hale.rules.Currency;
-import main.java.hale.rules.Quality;
-import main.java.hale.rules.Merchant;
-import main.java.hale.rules.Weight;
-import main.java.hale.util.Logger;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
-import main.java.hale.widgets.MultipleItemPopup;
-import main.java.hale.widgets.RightClickMenu;
+import hale.Game;
+import hale.ability.Effect;
+import hale.ability.ScriptFunctionType;
+import hale.bonus.Bonus;
+import hale.icon.SubIcon;
+import hale.icon.SubIcon.Type;
+import hale.loading.JSONOrderedObject;
+import hale.loading.LoadGameException;
+import hale.loading.ReferenceHandler;
+import hale.loading.Saveable;
+import hale.rules.ArmorType;
+import hale.rules.BaseWeapon;
+import hale.rules.Currency;
+import hale.rules.Quality;
+import hale.rules.Merchant;
+import hale.rules.Weight;
+import hale.util.Logger;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
+import hale.widgets.MultipleItemPopup;
+import hale.widgets.RightClickMenu;
 
 /**
  * A class for storing the list of items currently held by a given creature

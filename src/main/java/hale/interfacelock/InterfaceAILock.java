@@ -17,11 +17,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.interfacelock;
+package hale.interfacelock;
 
-import main.java.hale.Game;
-import main.java.hale.ability.AsyncScriptable;
-import main.java.hale.entity.Creature;
+import hale.Game;
+import hale.ability.AsyncScriptable;
+import hale.entity.Creature;
 
 /**
  * An interface lock that will remain active until a specified AsyncScriptable

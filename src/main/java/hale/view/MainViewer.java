@@ -17,36 +17,36 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import main.java.hale.AreaListener;
-import main.java.hale.Game;
-import main.java.hale.Keybindings;
-import main.java.hale.defaultability.MouseActionList;
-import main.java.hale.entity.Entity;
-import main.java.hale.loading.LoadingTaskList;
-import main.java.hale.loading.LoadingWaitPopup;
-import main.java.hale.mainmenu.ConfirmQuitPopup;
-import main.java.hale.mainmenu.MainMenuAction;
-import main.java.hale.quickbar.QuickbarViewer;
-import main.java.hale.resource.SpriteManager;
-import main.java.hale.rules.Merchant;
-import main.java.hale.rules.QuestEntry;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Logger;
-import main.java.hale.util.Point;
-import main.java.hale.widgets.EntityMouseover;
-import main.java.hale.widgets.FixedFadeAway;
-import main.java.hale.widgets.InitiativeTicker;
-import main.java.hale.widgets.MainPane;
-import main.java.hale.widgets.OverHeadFadeAway;
-import main.java.hale.widgets.PortraitArea;
-import main.java.hale.widgets.RightClickMenu;
-import main.java.hale.widgets.TextAreaNoInput;
+import hale.AreaListener;
+import hale.Game;
+import hale.Keybindings;
+import hale.defaultability.MouseActionList;
+import hale.entity.Entity;
+import hale.loading.LoadingTaskList;
+import hale.loading.LoadingWaitPopup;
+import hale.mainmenu.ConfirmQuitPopup;
+import hale.mainmenu.MainMenuAction;
+import hale.quickbar.QuickbarViewer;
+import hale.resource.SpriteManager;
+import hale.rules.Merchant;
+import hale.rules.QuestEntry;
+import hale.util.AreaUtil;
+import hale.util.Logger;
+import hale.util.Point;
+import hale.widgets.EntityMouseover;
+import hale.widgets.FixedFadeAway;
+import hale.widgets.InitiativeTicker;
+import hale.widgets.MainPane;
+import hale.widgets.OverHeadFadeAway;
+import hale.widgets.PortraitArea;
+import hale.widgets.RightClickMenu;
+import hale.widgets.TextAreaNoInput;
 
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.GL11;

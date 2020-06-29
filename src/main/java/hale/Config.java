@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale;
+package hale;
 
 import java.io.File;
 import java.io.IOException;
@@ -32,13 +32,13 @@ import org.lwjgl.opengl.DisplayMode;
 import de.matthiasmann.twl.Event;
 import de.matthiasmann.twl.theme.ThemeManager;
 
-import main.java.hale.resource.URLResourceStreamHandler;
-import main.java.hale.util.FileUtil;
-import main.java.hale.util.Logger;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
-import main.java.hale.util.SimpleJSONParser;
+import hale.resource.URLResourceStreamHandler;
+import hale.util.FileUtil;
+import hale.util.Logger;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
+import hale.util.SimpleJSONParser;
 
 /**
  * The class containing global configuration variables, such as screen resolution

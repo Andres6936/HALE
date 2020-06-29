@@ -17,13 +17,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.tileset;
+package hale.tileset;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
 
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
+import hale.util.AreaUtil;
+import hale.util.Point;
 
 /**
  * A grid with specified elevation for each tile of a given area

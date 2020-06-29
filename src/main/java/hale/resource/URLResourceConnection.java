@@ -1,4 +1,4 @@
-package main.java.hale.resource;
+package hale.resource;
 
 import java.io.IOException;
 import java.io.InputStream;

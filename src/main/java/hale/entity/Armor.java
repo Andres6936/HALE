@@ -17,13 +17,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
-import main.java.hale.area.Area;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.LoadGameException;
-import main.java.hale.loading.ReferenceHandler;
-import main.java.hale.util.SimpleJSONObject;
+import hale.area.Area;
+import hale.loading.JSONOrderedObject;
+import hale.loading.LoadGameException;
+import hale.loading.ReferenceHandler;
+import hale.util.SimpleJSONObject;
 
 /**
  * An item that can be equipped as armor, gloves, boots, a helmet, or a shield

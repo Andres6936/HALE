@@ -17,13 +17,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.icon;
+package hale.icon;
 
-import main.java.hale.resource.Sprite;
-import main.java.hale.resource.SpriteManager;
-import main.java.hale.rules.Race;
-import main.java.hale.rules.Ruleset;
-import main.java.hale.util.Point;
+import hale.resource.Sprite;
+import hale.resource.SpriteManager;
+import hale.rules.Race;
+import hale.rules.Ruleset;
+import hale.util.Point;
 
 import org.lwjgl.opengl.GL11;
 

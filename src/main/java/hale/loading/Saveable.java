@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.loading;
+package hale.loading;
 
 /**
  * An interface that is implemented by classes that can be saved to disk

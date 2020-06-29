@@ -17,13 +17,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
-import main.java.hale.Game;
-import main.java.hale.icon.Icon;
-import main.java.hale.rules.Race;
-import main.java.hale.rules.Ruleset;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.icon.Icon;
+import hale.rules.Race;
+import hale.rules.Ruleset;
+import hale.util.SimpleJSONObject;
 
 /**
  * The class containing the immutable parts of a creature

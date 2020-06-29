@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.quickbar;
+package hale.quickbar;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -25,10 +25,10 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 
-import main.java.hale.ability.Ability;
-import main.java.hale.icon.Icon;
-import main.java.hale.icon.IconFactory;
-import main.java.hale.util.SimpleJSONObject;
+import hale.ability.Ability;
+import hale.icon.Icon;
+import hale.icon.IconFactory;
+import hale.util.SimpleJSONObject;
 
 /**
  * a set of activateable abilities listed together under a common grouping in the quickbar

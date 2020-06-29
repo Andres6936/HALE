@@ -17,12 +17,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.mainmenu;
+package hale.mainmenu;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.util.SaveGameUtil;
+import hale.util.SaveGameUtil;
 
 import de.matthiasmann.twl.EditField;
 import de.matthiasmann.twl.Event;

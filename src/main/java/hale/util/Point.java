@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.util;
+package hale.util;
 
 /**
  * A mutable point class containing x and y coordinates.  This is useful in numerically

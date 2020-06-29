@@ -1,4 +1,4 @@
-package main.java.hale.view;
+package hale.view;
 
 import de.matthiasmann.twl.ScrollPane;
 import de.matthiasmann.twl.TextArea;

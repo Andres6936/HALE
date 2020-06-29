@@ -17,23 +17,23 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale;
+package hale;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.NPC;
-import main.java.hale.entity.PC;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.ReferenceHandler;
-import main.java.hale.loading.Saveable;
-import main.java.hale.util.Logger;
-import main.java.hale.util.SaveGameUtil;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
+import hale.entity.Creature;
+import hale.entity.NPC;
+import hale.entity.PC;
+import hale.loading.JSONOrderedObject;
+import hale.loading.ReferenceHandler;
+import hale.loading.Saveable;
+import hale.util.Logger;
+import hale.util.SaveGameUtil;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
 
 public class Party implements Iterable<PC>, Saveable
 {

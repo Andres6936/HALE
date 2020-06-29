@@ -17,32 +17,32 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.entity.AmmoTemplate;
-import main.java.hale.entity.Armor;
-import main.java.hale.entity.Container;
-import main.java.hale.entity.EntityManager;
-import main.java.hale.entity.EquippableItem;
-import main.java.hale.entity.EquippableItemTemplate;
-import main.java.hale.entity.Inventory;
-import main.java.hale.entity.Item;
-import main.java.hale.entity.ItemList;
-import main.java.hale.entity.ItemTemplate;
-import main.java.hale.entity.PC;
-import main.java.hale.entity.TrapTemplate;
-import main.java.hale.entity.Weapon;
-import main.java.hale.entity.WeaponTemplate;
-import main.java.hale.rules.Currency;
-import main.java.hale.rules.Merchant;
-import main.java.hale.widgets.ItemIconHover;
-import main.java.hale.widgets.ItemIconViewer;
-import main.java.hale.widgets.RightClickMenu;
+import hale.Game;
+import hale.entity.AmmoTemplate;
+import hale.entity.Armor;
+import hale.entity.Container;
+import hale.entity.EntityManager;
+import hale.entity.EquippableItem;
+import hale.entity.EquippableItemTemplate;
+import hale.entity.Inventory;
+import hale.entity.Item;
+import hale.entity.ItemList;
+import hale.entity.ItemTemplate;
+import hale.entity.PC;
+import hale.entity.TrapTemplate;
+import hale.entity.Weapon;
+import hale.entity.WeaponTemplate;
+import hale.rules.Currency;
+import hale.rules.Merchant;
+import hale.widgets.ItemIconHover;
+import hale.widgets.ItemIconViewer;
+import hale.widgets.RightClickMenu;
 
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.ScrollPane;

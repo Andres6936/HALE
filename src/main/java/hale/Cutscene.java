@@ -17,17 +17,17 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale;
+package hale;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
-import main.java.hale.util.SimpleJSONParser;
+import hale.resource.ResourceManager;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
+import hale.util.SimpleJSONParser;
 
 /**
  * A cutscene consists of one or more frames, with each frame containing a background image

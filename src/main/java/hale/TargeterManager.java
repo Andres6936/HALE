@@ -17,12 +17,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale;
+package hale;
 
 import java.util.LinkedList;
 
-import main.java.hale.ability.AbilitySlot;
-import main.java.hale.ability.Targeter;
+import hale.ability.AbilitySlot;
+import hale.ability.Targeter;
 
 /**
  * Class for controlling the currently active Targeter and maintaining the

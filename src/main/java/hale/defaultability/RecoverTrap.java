@@ -17,15 +17,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.defaultability;
+package hale.defaultability;
 
 import de.matthiasmann.twl.Color;
-import main.java.hale.Game;
-import main.java.hale.bonus.Bonus;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Location;
-import main.java.hale.entity.PC;
-import main.java.hale.entity.Trap;
+import hale.Game;
+import hale.bonus.Bonus;
+import hale.entity.Creature;
+import hale.entity.Location;
+import hale.entity.PC;
+import hale.entity.Trap;
 
 /**
  * A default ability for recovering a trap from the area.  If the parent is not adjacent to

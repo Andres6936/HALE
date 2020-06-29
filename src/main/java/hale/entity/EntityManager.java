@@ -17,20 +17,20 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
 import java.io.File;
 import java.lang.reflect.Constructor;
 import java.util.HashMap;
 import java.util.Map;
 
-import main.java.hale.Game;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.rules.Quality;
-import main.java.hale.util.Logger;
-import main.java.hale.util.SimpleJSONObject;
-import main.java.hale.util.SimpleJSONParser;
+import hale.Game;
+import hale.resource.ResourceManager;
+import hale.resource.ResourceType;
+import hale.rules.Quality;
+import hale.util.Logger;
+import hale.util.SimpleJSONObject;
+import hale.util.SimpleJSONParser;
 
 /**
  * Class for storing all available EntityTemplates

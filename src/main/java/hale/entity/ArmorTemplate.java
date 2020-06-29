@@ -17,11 +17,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
-import main.java.hale.Game;
-import main.java.hale.rules.ArmorType;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.rules.ArmorType;
+import hale.util.SimpleJSONObject;
 
 /**
  * The immutable part of a piece or armor, gloves, boots, helmet, or shield

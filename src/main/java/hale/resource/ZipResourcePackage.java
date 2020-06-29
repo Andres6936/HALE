@@ -1,11 +1,11 @@
-package main.java.hale.resource;
+package hale.resource;
 
 import java.io.InputStream;
 import java.util.Enumeration;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-import main.java.hale.util.Logger;
+import hale.util.Logger;
 
 /**
  * A ResourcePackage where all resources are contained in a single ZIP file.

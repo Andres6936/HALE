@@ -17,15 +17,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
 import java.text.ParseException;
 import java.util.Iterator;
 
-import main.java.hale.Game;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
 
 /**
  * The class containing the immutable parts of a non-player character creature

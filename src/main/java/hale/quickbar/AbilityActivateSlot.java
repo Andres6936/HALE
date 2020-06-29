@@ -17,22 +17,22 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.quickbar;
+package hale.quickbar;
 
 import java.util.Iterator;
 import java.util.List;
 
 import de.matthiasmann.twl.Button;
-import main.java.hale.Game;
-import main.java.hale.ability.Ability;
-import main.java.hale.ability.AbilityActivateCallback;
-import main.java.hale.ability.AbilityExamineCallback;
-import main.java.hale.ability.AbilitySlot;
-import main.java.hale.ability.ScriptFunctionType;
-import main.java.hale.entity.PC;
-import main.java.hale.icon.Icon;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.widgets.RightClickMenu;
+import hale.Game;
+import hale.ability.Ability;
+import hale.ability.AbilityActivateCallback;
+import hale.ability.AbilityExamineCallback;
+import hale.ability.AbilitySlot;
+import hale.ability.ScriptFunctionType;
+import hale.entity.PC;
+import hale.icon.Icon;
+import hale.loading.JSONOrderedObject;
+import hale.widgets.RightClickMenu;
 
 
 /**

@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.swingeditor;
+package hale.swingeditor;
 
 import java.awt.BorderLayout;
 import java.awt.Canvas;
@@ -28,16 +28,16 @@ import javax.swing.JFrame;
 import javax.swing.JPopupMenu;
 import javax.swing.SwingUtilities;
 
-import main.java.hale.Config;
-import main.java.hale.Game;
-import main.java.hale.loading.AsyncTextureLoader;
-import main.java.hale.plataform.LinuxOS;
-import main.java.hale.plataform.MacOS;
-import main.java.hale.plataform.WindowsOS;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.rules.Dice;
-import main.java.hale.rules.Ruleset;
-import main.java.hale.util.JSEngineManager;
+import hale.Config;
+import hale.Game;
+import hale.loading.AsyncTextureLoader;
+import hale.plataform.LinuxOS;
+import hale.plataform.MacOS;
+import hale.plataform.WindowsOS;
+import hale.resource.ResourceManager;
+import hale.rules.Dice;
+import hale.rules.Ruleset;
+import hale.util.JSEngineManager;
 
 /**
  * A campaign editor using swing widgets rather than TWL

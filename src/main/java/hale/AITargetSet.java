@@ -1,13 +1,13 @@
-package main.java.hale;
+package hale;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Path;
-import main.java.hale.util.AreaUtil;
+import hale.entity.Creature;
+import hale.entity.Path;
+import hale.util.AreaUtil;
 
 /**
  * A class for holding a set of possible targets for the AI to attack.

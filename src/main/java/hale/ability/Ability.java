@@ -17,23 +17,23 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.ability;
+package hale.ability;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import de.matthiasmann.twl.Color;
 
-import main.java.hale.Game;
-import main.java.hale.entity.Creature;
-import main.java.hale.icon.Icon;
-import main.java.hale.icon.IconFactory;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.rules.PrereqList;
-import main.java.hale.util.Logger;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
-import main.java.hale.util.SimpleJSONParser;
+import hale.Game;
+import hale.entity.Creature;
+import hale.icon.Icon;
+import hale.icon.IconFactory;
+import hale.resource.ResourceManager;
+import hale.rules.PrereqList;
+import hale.util.Logger;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
+import hale.util.SimpleJSONParser;
 
 /**
  * An Ability is a special power that a particular Creature possesses.  Abilities can

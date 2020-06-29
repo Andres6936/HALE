@@ -17,11 +17,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
 import java.util.Random;
 
-import main.java.hale.Game;
+import hale.Game;
 
 /**
  * Class for handling all random number generation

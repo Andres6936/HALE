@@ -17,14 +17,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.Comparator;
 
-import main.java.hale.widgets.TextAreaNoInput;
+import hale.widgets.TextAreaNoInput;
 
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.DialogLayout;

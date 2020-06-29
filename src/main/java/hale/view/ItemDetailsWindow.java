@@ -17,28 +17,28 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.ability.Effect;
-import main.java.hale.bonus.Bonus;
-import main.java.hale.entity.Ammo;
-import main.java.hale.entity.Enchantment;
-import main.java.hale.entity.Entity;
-import main.java.hale.entity.EntityListener;
-import main.java.hale.entity.Item;
-import main.java.hale.entity.Armor;
-import main.java.hale.entity.EquippableItem;
-import main.java.hale.entity.Weapon;
-import main.java.hale.icon.IconFactory;
-import main.java.hale.rules.BaseWeapon;
-import main.java.hale.rules.Currency;
-import main.java.hale.rules.Recipe;
-import main.java.hale.rules.Skill;
-import main.java.hale.rules.Weight;
-import main.java.hale.widgets.IconViewer;
+import hale.Game;
+import hale.ability.Effect;
+import hale.bonus.Bonus;
+import hale.entity.Ammo;
+import hale.entity.Enchantment;
+import hale.entity.Entity;
+import hale.entity.EntityListener;
+import hale.entity.Item;
+import hale.entity.Armor;
+import hale.entity.EquippableItem;
+import hale.entity.Weapon;
+import hale.icon.IconFactory;
+import hale.rules.BaseWeapon;
+import hale.rules.Currency;
+import hale.rules.Recipe;
+import hale.rules.Skill;
+import hale.rules.Weight;
+import hale.widgets.IconViewer;
 
 import de.matthiasmann.twl.DialogLayout;
 import de.matthiasmann.twl.DialogLayout.Group;

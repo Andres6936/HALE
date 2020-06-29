@@ -17,27 +17,27 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.widgets;
+package hale.widgets;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import main.java.hale.Game;
-import main.java.hale.ability.Effect;
-import main.java.hale.bonus.Stat;
-import main.java.hale.characterbuilder.Buildable;
-import main.java.hale.characterbuilder.CharacterBuilder;
-import main.java.hale.defaultability.Select;
-import main.java.hale.entity.Container;
-import main.java.hale.entity.Inventory;
-import main.java.hale.entity.PC;
-import main.java.hale.icon.Icon;
-import main.java.hale.rules.Merchant;
-import main.java.hale.rules.XP;
-import main.java.hale.view.DragAndDropHandler;
-import main.java.hale.view.DragTarget;
-import main.java.hale.view.DropTarget;
-import main.java.hale.view.ItemListViewer;
+import hale.Game;
+import hale.ability.Effect;
+import hale.bonus.Stat;
+import hale.characterbuilder.Buildable;
+import hale.characterbuilder.CharacterBuilder;
+import hale.defaultability.Select;
+import hale.entity.Container;
+import hale.entity.Inventory;
+import hale.entity.PC;
+import hale.icon.Icon;
+import hale.rules.Merchant;
+import hale.rules.XP;
+import hale.view.DragAndDropHandler;
+import hale.view.DragTarget;
+import hale.view.DropTarget;
+import hale.view.ItemListViewer;
 
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.Event;

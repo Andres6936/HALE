@@ -17,37 +17,37 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale;
+package hale;
 
 import de.matthiasmann.twl.renderer.lwjgl.LWJGLRenderer;
 import de.matthiasmann.twl.theme.ThemeManager;
-import main.java.hale.defaultability.MouseActionList;
-import main.java.hale.entity.Entity;
-import main.java.hale.entity.EntityManager;
-import main.java.hale.entity.EquippableItemTemplate;
-import main.java.hale.interfacelock.InterfaceLocker;
-import main.java.hale.loading.AsyncTextureLoader;
-import main.java.hale.loading.LoadGameLoadingTaskList;
-import main.java.hale.loading.LoadingTaskList;
-import main.java.hale.loading.LoadingWaitPopup;
-import main.java.hale.mainmenu.ErrorPopup;
-import main.java.hale.mainmenu.MainMenu;
-import main.java.hale.mainmenu.MainMenuAction;
-import main.java.hale.particle.ParticleManager;
-import main.java.hale.plataform.LinuxOS;
-import main.java.hale.plataform.MacOS;
-import main.java.hale.plataform.Plataform;
-import main.java.hale.plataform.WindowsOS;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.SpriteManager;
-import main.java.hale.rules.Campaign;
-import main.java.hale.rules.Dice;
-import main.java.hale.rules.Ruleset;
-import main.java.hale.util.JSEngineManager;
-import main.java.hale.util.Logger;
-import main.java.hale.util.SaveGameUtil;
-import main.java.hale.view.AreaViewer;
-import main.java.hale.view.MainViewer;
+import hale.defaultability.MouseActionList;
+import hale.entity.Entity;
+import hale.entity.EntityManager;
+import hale.entity.EquippableItemTemplate;
+import hale.interfacelock.InterfaceLocker;
+import hale.loading.AsyncTextureLoader;
+import hale.loading.LoadGameLoadingTaskList;
+import hale.loading.LoadingTaskList;
+import hale.loading.LoadingWaitPopup;
+import hale.mainmenu.ErrorPopup;
+import hale.mainmenu.MainMenu;
+import hale.mainmenu.MainMenuAction;
+import hale.particle.ParticleManager;
+import hale.plataform.LinuxOS;
+import hale.plataform.MacOS;
+import hale.plataform.Plataform;
+import hale.plataform.WindowsOS;
+import hale.resource.ResourceManager;
+import hale.resource.SpriteManager;
+import hale.rules.Campaign;
+import hale.rules.Dice;
+import hale.rules.Ruleset;
+import hale.util.JSEngineManager;
+import hale.util.Logger;
+import hale.util.SaveGameUtil;
+import hale.view.AreaViewer;
+import hale.view.MainViewer;
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
 

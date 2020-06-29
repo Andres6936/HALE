@@ -17,12 +17,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.quickbar;
+package hale.quickbar;
 
-import main.java.hale.Game;
-import main.java.hale.entity.PC;
-import main.java.hale.icon.Icon;
-import main.java.hale.loading.Saveable;
+import hale.Game;
+import hale.entity.PC;
+import hale.icon.Icon;
+import hale.loading.Saveable;
 
 /**
  * A QuickbarSlot is a single slot within the Quickbar.  A slot can hold one usable

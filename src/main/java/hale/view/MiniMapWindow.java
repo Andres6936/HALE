@@ -17,16 +17,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
-import main.java.hale.Game;
-import main.java.hale.area.Area;
-import main.java.hale.area.Transition;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Entity;
-import main.java.hale.entity.Location;
-import main.java.hale.entity.Trap;
-import main.java.hale.util.Point;
+import hale.Game;
+import hale.area.Area;
+import hale.area.Transition;
+import hale.entity.Creature;
+import hale.entity.Entity;
+import hale.entity.Location;
+import hale.entity.Trap;
+import hale.util.Point;
 
 import org.lwjgl.opengl.GL11;
 

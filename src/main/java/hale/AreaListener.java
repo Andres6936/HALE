@@ -17,24 +17,24 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale;
+package hale;
 
-import main.java.hale.ability.ScriptFunctionType;
-import main.java.hale.ability.Targeter;
-import main.java.hale.area.Area;
-import main.java.hale.defaultability.DefaultAbility;
-import main.java.hale.defaultability.MouseActionList;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Item;
-import main.java.hale.entity.ItemList;
-import main.java.hale.entity.Location;
-import main.java.hale.entity.NPC;
-import main.java.hale.entity.Entity;
-import main.java.hale.entity.PC;
-import main.java.hale.interfacelock.InterfaceCombatLock;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
-import main.java.hale.view.AreaViewer;
+import hale.ability.ScriptFunctionType;
+import hale.ability.Targeter;
+import hale.area.Area;
+import hale.defaultability.DefaultAbility;
+import hale.defaultability.MouseActionList;
+import hale.entity.Creature;
+import hale.entity.Item;
+import hale.entity.ItemList;
+import hale.entity.Location;
+import hale.entity.NPC;
+import hale.entity.Entity;
+import hale.entity.PC;
+import hale.interfacelock.InterfaceCombatLock;
+import hale.util.AreaUtil;
+import hale.util.Point;
+import hale.view.AreaViewer;
 
 import de.matthiasmann.twl.Event;
 import de.matthiasmann.twl.ThemeInfo;

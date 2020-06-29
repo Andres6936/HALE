@@ -1,4 +1,4 @@
-package main.java.hale.widgets;
+package hale.widgets;
 
 import de.matthiasmann.twl.GUI;
 import de.matthiasmann.twl.TextWidget;

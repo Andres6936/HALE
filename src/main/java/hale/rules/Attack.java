@@ -17,21 +17,21 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.area.AreaEntityList;
-import main.java.hale.bonus.Bonus;
-import main.java.hale.bonus.Stat;
-import main.java.hale.entity.Ammo;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Inventory;
-import main.java.hale.entity.Weapon;
-import main.java.hale.entity.WeaponTemplate;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
+import hale.Game;
+import hale.area.AreaEntityList;
+import hale.bonus.Bonus;
+import hale.bonus.Stat;
+import hale.entity.Ammo;
+import hale.entity.Creature;
+import hale.entity.Inventory;
+import hale.entity.Weapon;
+import hale.entity.WeaponTemplate;
+import hale.util.AreaUtil;
+import hale.util.Point;
 
 /*
  * An attack should be used as follows.  Call the constructor as normal.

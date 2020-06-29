@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.defaultability;
+package hale.defaultability;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -26,12 +26,12 @@ import java.util.Map;
 
 import de.matthiasmann.twl.Button;
 
-import main.java.hale.Game;
-import main.java.hale.entity.Location;
-import main.java.hale.entity.PC;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.util.SimpleJSONParser;
-import main.java.hale.widgets.RightClickMenu;
+import hale.Game;
+import hale.entity.Location;
+import hale.entity.PC;
+import hale.resource.ResourceType;
+import hale.util.SimpleJSONParser;
+import hale.widgets.RightClickMenu;
 
 /**
  * A list that maps various mouse hover states to cursor images

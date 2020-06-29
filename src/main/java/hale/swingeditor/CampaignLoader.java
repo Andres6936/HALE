@@ -17,16 +17,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.swingeditor;
+package hale.swingeditor;
 
 import javax.swing.ProgressMonitor;
 import javax.swing.SwingWorker;
 
-import main.java.hale.Game;
-import main.java.hale.entity.EntityManager;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.SpriteManager;
-import main.java.hale.rules.Campaign;
+import hale.Game;
+import hale.entity.EntityManager;
+import hale.resource.ResourceManager;
+import hale.resource.SpriteManager;
+import hale.rules.Campaign;
 
 /**
  * A class for loading a campaign asynchronously

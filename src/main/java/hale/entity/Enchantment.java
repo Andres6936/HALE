@@ -17,14 +17,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
 import javax.script.ScriptException;
 
-import main.java.hale.Game;
-import main.java.hale.bonus.BonusList;
-import main.java.hale.util.JSEngine;
-import main.java.hale.util.Logger;
+import hale.Game;
+import hale.bonus.BonusList;
+import hale.util.JSEngine;
+import hale.util.Logger;
 
 /**
  * Enchantments are short, one line scripts that give simple bonuses to items

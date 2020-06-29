@@ -17,17 +17,17 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.icon.SimpleIcon;
-import main.java.hale.rules.BaseWeapon;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.icon.SimpleIcon;
+import hale.rules.BaseWeapon;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
 
 /**
  * The immutable part of the definition for ammo for a ranged weapon

@@ -17,12 +17,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.ability;
+package hale.ability;
 
 import de.matthiasmann.twl.Widget;
-import main.java.hale.Game;
-import main.java.hale.entity.Creature;
-import main.java.hale.view.AbilityDetailsWindow;
+import hale.Game;
+import hale.entity.Creature;
+import hale.view.AbilityDetailsWindow;
 
 /**
  * The callback that is run whenever the "View Details" button is clicked

@@ -17,17 +17,17 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import main.java.hale.icon.Icon;
-import main.java.hale.icon.IconFactory;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.Saveable;
-import main.java.hale.util.SimpleJSONObject;
+import hale.icon.Icon;
+import hale.icon.IconFactory;
+import hale.loading.JSONOrderedObject;
+import hale.loading.Saveable;
+import hale.util.SimpleJSONObject;
 
 /**
  * A class representing a location on the world map that the party can travel to.

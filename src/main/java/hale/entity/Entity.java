@@ -17,29 +17,29 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.HasScriptState;
-import main.java.hale.ScriptState;
-import main.java.hale.ability.Aura;
-import main.java.hale.ability.Effect;
-import main.java.hale.ability.EffectTarget;
-import main.java.hale.ability.EntityEffectSet;
-import main.java.hale.ability.ScriptFunctionType;
-import main.java.hale.area.Area;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.LoadGameException;
-import main.java.hale.loading.ReferenceHandler;
-import main.java.hale.loading.Saveable;
-import main.java.hale.rules.Faction;
-import main.java.hale.util.Point;
-import main.java.hale.util.SaveGameUtil;
-import main.java.hale.util.SimpleJSONObject;
-import main.java.hale.view.ConversationPopup;
+import hale.Game;
+import hale.HasScriptState;
+import hale.ScriptState;
+import hale.ability.Aura;
+import hale.ability.Effect;
+import hale.ability.EffectTarget;
+import hale.ability.EntityEffectSet;
+import hale.ability.ScriptFunctionType;
+import hale.area.Area;
+import hale.loading.JSONOrderedObject;
+import hale.loading.LoadGameException;
+import hale.loading.ReferenceHandler;
+import hale.loading.Saveable;
+import hale.rules.Faction;
+import hale.util.Point;
+import hale.util.SaveGameUtil;
+import hale.util.SimpleJSONObject;
+import hale.view.ConversationPopup;
 
 /**
  * The abstract base class for all items and creatures in the world.  The Comparable interface is

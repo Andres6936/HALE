@@ -17,12 +17,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.interfacelock;
+package hale.interfacelock;
 
-import main.java.hale.Game;
-import main.java.hale.entity.Entity;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
+import hale.Game;
+import hale.entity.Entity;
+import hale.util.AreaUtil;
+import hale.util.Point;
 
 /**
  * An EntityOffsetAnimation that moves a Creature half way to an adjacent

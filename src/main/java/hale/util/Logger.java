@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.util;
+package hale.util;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -25,7 +25,7 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.Calendar;
 
-import main.java.hale.Game;
+import hale.Game;
 
 /**
  * Class containing methods for sending output to the log files

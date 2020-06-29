@@ -17,11 +17,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
-import main.java.hale.Game;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.PC;
+import hale.Game;
+import hale.entity.Creature;
+import hale.entity.PC;
 
 /**
  * Class for handling the experience point table

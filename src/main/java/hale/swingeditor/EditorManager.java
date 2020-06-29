@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.swingeditor;
+package hale.swingeditor;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;
@@ -32,15 +32,15 @@ import java.util.Set;
 
 import javax.imageio.ImageIO;
 
-import main.java.hale.Game;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.EquippableItemTemplate;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.Sprite;
-import main.java.hale.resource.SpriteManager;
-import main.java.hale.rules.Race;
-import main.java.hale.rules.Ruleset;
-import main.java.hale.util.Logger;
+import hale.Game;
+import hale.entity.Creature;
+import hale.entity.EquippableItemTemplate;
+import hale.resource.ResourceManager;
+import hale.resource.Sprite;
+import hale.resource.SpriteManager;
+import hale.rules.Race;
+import hale.rules.Ruleset;
+import hale.util.Logger;
 
 /**
  * A class for managing all of the separate editors currently in existance

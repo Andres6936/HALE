@@ -17,20 +17,20 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.interfacelock;
+package hale.interfacelock;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import main.java.hale.CombatRunner;
-import main.java.hale.Game;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Location;
-import main.java.hale.entity.Path;
-import main.java.hale.rules.Faction;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
+import hale.CombatRunner;
+import hale.Game;
+import hale.entity.Creature;
+import hale.entity.Location;
+import hale.entity.Path;
+import hale.rules.Faction;
+import hale.util.AreaUtil;
+import hale.util.Point;
 
 /**
  * Class for moving entities around inside the current Area

@@ -17,13 +17,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
-import main.java.hale.ability.Scriptable;
-import main.java.hale.icon.Icon;
-import main.java.hale.icon.IconFactory;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.util.SimpleJSONObject;
+import hale.ability.Scriptable;
+import hale.icon.Icon;
+import hale.icon.IconFactory;
+import hale.resource.ResourceManager;
+import hale.util.SimpleJSONObject;
 
 /**
  * The class containing immutable parts of an entity.  This is used to create

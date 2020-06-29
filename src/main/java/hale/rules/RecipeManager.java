@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -27,11 +27,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import main.java.hale.entity.EquippableItemTemplate;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.util.Logger;
-import main.java.hale.util.SimpleJSONParser;
+import hale.entity.EquippableItemTemplate;
+import hale.resource.ResourceManager;
+import hale.resource.ResourceType;
+import hale.util.Logger;
+import hale.util.SimpleJSONParser;
 
 /**
  * Class for managing the set of recipes available in a given campaign

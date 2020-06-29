@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.swingeditor;
+package hale.swingeditor;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,9 +28,9 @@ import javax.swing.JPanel;
 import javax.swing.ListModel;
 import javax.swing.event.ListDataListener;
 
-import main.java.hale.resource.PackageType;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.ResourceType;
+import hale.resource.PackageType;
+import hale.resource.ResourceManager;
+import hale.resource.ResourceType;
 
 /**
  * A model of any generic type of asset

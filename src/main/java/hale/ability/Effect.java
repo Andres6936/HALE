@@ -17,30 +17,30 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.ability;
+package hale.ability;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
 import de.matthiasmann.twl.Color;
-import main.java.hale.Game;
-import main.java.hale.HasScriptState;
-import main.java.hale.bonus.Bonus;
-import main.java.hale.bonus.BonusList;
-import main.java.hale.icon.Icon;
-import main.java.hale.icon.IconFactory;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.LoadGameException;
-import main.java.hale.loading.ReferenceHandler;
-import main.java.hale.loading.Saveable;
-import main.java.hale.particle.Animated;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.ScriptState;
-import main.java.hale.util.SaveGameUtil;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.HasScriptState;
+import hale.bonus.Bonus;
+import hale.bonus.BonusList;
+import hale.icon.Icon;
+import hale.icon.IconFactory;
+import hale.loading.JSONOrderedObject;
+import hale.loading.LoadGameException;
+import hale.loading.ReferenceHandler;
+import hale.loading.Saveable;
+import hale.particle.Animated;
+import hale.resource.ResourceManager;
+import hale.ScriptState;
+import hale.util.SaveGameUtil;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
 
 /**
  * An Effect is a container for applying bonuses and penalties to a Creature.

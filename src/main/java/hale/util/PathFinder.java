@@ -17,18 +17,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.util;
+package hale.util;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.area.Area;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Entity;
-import main.java.hale.entity.Path;
-import main.java.hale.entity.Trap;
+import hale.Game;
+import hale.area.Area;
+import hale.entity.Creature;
+import hale.entity.Entity;
+import hale.entity.Path;
+import hale.entity.Trap;
 
 /**
  * Utility functions for path finding between 2 points or between a point and a list of

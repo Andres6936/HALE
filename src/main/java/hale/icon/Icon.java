@@ -17,10 +17,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.icon;
+package hale.icon;
 
 import de.matthiasmann.twl.Color;
-import main.java.hale.loading.JSONOrderedObject;
+import hale.loading.JSONOrderedObject;
 
 /**
  * An Icon is the object used to render an Entity.  It can consist of a

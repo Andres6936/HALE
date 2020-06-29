@@ -1,6 +1,6 @@
-package main.java.hale.area;
+package hale.area;
 
-import main.java.hale.rules.Dice;
+import hale.rules.Dice;
 
 public interface Generator
 {

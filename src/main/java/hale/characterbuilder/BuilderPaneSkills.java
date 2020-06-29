@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.characterbuilder;
+package hale.characterbuilder;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -26,11 +26,11 @@ import java.util.List;
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.ScrollPane;
 
-import main.java.hale.Game;
-import main.java.hale.entity.PC;
-import main.java.hale.rules.Skill;
-import main.java.hale.rules.SkillSet;
-import main.java.hale.util.Logger;
+import hale.Game;
+import hale.entity.PC;
+import hale.rules.Skill;
+import hale.rules.SkillSet;
+import hale.util.Logger;
 
 /**
  * The BuilderPane for editing a character's skills

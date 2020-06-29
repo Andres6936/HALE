@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.loading;
+package hale.loading;
 
 /**
  * An exception indicating that an error occurred in the process of loading a saved game file

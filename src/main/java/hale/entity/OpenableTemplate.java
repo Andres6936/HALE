@@ -17,11 +17,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
-import main.java.hale.icon.Icon;
-import main.java.hale.icon.IconFactory;
-import main.java.hale.util.SimpleJSONObject;
+import hale.icon.Icon;
+import hale.icon.IconFactory;
+import hale.util.SimpleJSONObject;
 
 /**
  * A template for any openable object that can be locked, such as doors

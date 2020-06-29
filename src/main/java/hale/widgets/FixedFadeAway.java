@@ -1,7 +1,7 @@
-package main.java.hale.widgets;
+package hale.widgets;
 
 import de.matthiasmann.twl.Color;
-import main.java.hale.util.Point;
+import hale.util.Point;
 
 public class FixedFadeAway extends OverHeadFadeAway
 {

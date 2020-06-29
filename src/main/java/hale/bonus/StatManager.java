@@ -17,24 +17,24 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.bonus;
+package hale.bonus;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import main.java.hale.Game;
-import main.java.hale.ability.Effect;
-import main.java.hale.entity.Armor;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.EquippableItem;
-import main.java.hale.entity.EquippableItemTemplate;
-import main.java.hale.entity.Inventory;
-import main.java.hale.entity.Weapon;
-import main.java.hale.rules.Damage;
-import main.java.hale.rules.DamageType;
-import main.java.hale.rules.Role;
+import hale.Game;
+import hale.ability.Effect;
+import hale.entity.Armor;
+import hale.entity.Creature;
+import hale.entity.EquippableItem;
+import hale.entity.EquippableItemTemplate;
+import hale.entity.Inventory;
+import hale.entity.Weapon;
+import hale.rules.Damage;
+import hale.rules.DamageType;
+import hale.rules.Role;
 
 public class StatManager
 {

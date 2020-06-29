@@ -17,12 +17,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.interfacelock;
+package hale.interfacelock;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.entity.Creature;
+import hale.entity.Creature;
 
 /**
  * An {@link InterfaceLock} that calls zero, one, or more callbacks upon

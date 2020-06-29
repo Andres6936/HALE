@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.loading;
+package hale.loading;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,11 +25,11 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.zip.GZIPInputStream;
 
-import main.java.hale.Game;
-import main.java.hale.entity.EntityManager;
-import main.java.hale.util.Logger;
-import main.java.hale.util.SaveFileHeader;
-import main.java.hale.util.SimpleJSONParser;
+import hale.Game;
+import hale.entity.EntityManager;
+import hale.util.Logger;
+import hale.util.SaveFileHeader;
+import hale.util.SimpleJSONParser;
 
 /**
  * A LoadingTaskList that performs the actions neccesary to load a saved game

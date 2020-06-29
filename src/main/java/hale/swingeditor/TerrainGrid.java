@@ -1,23 +1,23 @@
-package main.java.hale.swingeditor;
+package hale.swingeditor;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.area.Area;
-import main.java.hale.tileset.Border;
-import main.java.hale.tileset.BorderList;
-import main.java.hale.tileset.BorderTile;
-import main.java.hale.tileset.ElevationList;
-import main.java.hale.tileset.FeatureType;
-import main.java.hale.tileset.TerrainTile;
-import main.java.hale.tileset.TerrainType;
-import main.java.hale.tileset.Tile;
-import main.java.hale.tileset.TileLayerList;
-import main.java.hale.tileset.Tileset;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
-import main.java.hale.util.PointImmutable;
+import hale.Game;
+import hale.area.Area;
+import hale.tileset.Border;
+import hale.tileset.BorderList;
+import hale.tileset.BorderTile;
+import hale.tileset.ElevationList;
+import hale.tileset.FeatureType;
+import hale.tileset.TerrainTile;
+import hale.tileset.TerrainType;
+import hale.tileset.Tile;
+import hale.tileset.TileLayerList;
+import hale.tileset.Tileset;
+import hale.util.AreaUtil;
+import hale.util.Point;
+import hale.util.PointImmutable;
 
 /**
  * for editing the tiles that make up an area. terrain type is defined for each tile and then border

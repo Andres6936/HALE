@@ -17,23 +17,23 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale;
+package hale;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
-import main.java.hale.bonus.Stat;
-import main.java.hale.defaultability.Move;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Encounter;
-import main.java.hale.entity.Location;
-import main.java.hale.entity.Path;
-import main.java.hale.interfacelock.MovementHandler;
-import main.java.hale.rules.Faction;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
+import hale.bonus.Stat;
+import hale.defaultability.Move;
+import hale.entity.Creature;
+import hale.entity.Encounter;
+import hale.entity.Location;
+import hale.entity.Path;
+import hale.interfacelock.MovementHandler;
+import hale.rules.Faction;
+import hale.util.AreaUtil;
+import hale.util.Point;
 
 /**
  * Class containing static methods that are useful for many of the JavaScript scripts,

@@ -17,13 +17,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
 import de.matthiasmann.twl.Event;
 import de.matthiasmann.twl.Widget;
 import de.matthiasmann.twl.renderer.AnimationState.StateKey;
-import main.java.hale.Game;
-import main.java.hale.widgets.IconViewer;
+import hale.Game;
+import hale.widgets.IconViewer;
 
 /**
  * This class is used by widgets that want to have drag and drop functionality

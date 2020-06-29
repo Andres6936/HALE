@@ -17,11 +17,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.icon;
+package hale.icon;
 
 import de.matthiasmann.twl.Color;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.util.SimpleJSONObject;
+import hale.loading.JSONOrderedObject;
+import hale.util.SimpleJSONObject;
 
 /**
  * Class for creating the right type of Icon based on JSON data

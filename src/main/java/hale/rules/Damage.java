@@ -17,14 +17,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.DifficultyManager;
-import main.java.hale.Game;
-import main.java.hale.entity.Creature;
+import hale.DifficultyManager;
+import hale.Game;
+import hale.entity.Creature;
 
 /**
  * This class represents an amount of damage (of one or more types)

@@ -17,14 +17,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.defaultability;
+package hale.defaultability;
 
-import main.java.hale.Game;
-import main.java.hale.area.Transition;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Location;
-import main.java.hale.entity.PC;
-import main.java.hale.interfacelock.InterfaceCallbackLock;
+import hale.Game;
+import hale.area.Transition;
+import hale.entity.Creature;
+import hale.entity.Location;
+import hale.entity.PC;
+import hale.interfacelock.InterfaceCallbackLock;
 
 /**
  * Default ability for activating an area transition and traveling to a new area.  If the

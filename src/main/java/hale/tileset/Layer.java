@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.tileset;
+package hale.tileset;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -26,9 +26,9 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-import main.java.hale.resource.ResourceType;
-import main.java.hale.resource.Sprite;
-import main.java.hale.resource.SpriteManager;
+import hale.resource.ResourceType;
+import hale.resource.Sprite;
+import hale.resource.SpriteManager;
 
 /**
  * A Layer is a set of tiles that can all be drawn at the same time.  When drawing

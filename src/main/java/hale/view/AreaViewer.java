@@ -17,22 +17,22 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
-import main.java.hale.AreaListener;
-import main.java.hale.Game;
-import main.java.hale.ability.Targeter;
-import main.java.hale.area.Area;
-import main.java.hale.area.Transition;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.PC;
-import main.java.hale.entity.Entity;
-import main.java.hale.interfacelock.InterfaceLock;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
-import main.java.hale.widgets.EntityMouseover;
-import main.java.hale.widgets.OverHeadFadeAway;
-import main.java.hale.tileset.AreaTileGrid;
+import hale.AreaListener;
+import hale.Game;
+import hale.ability.Targeter;
+import hale.area.Area;
+import hale.area.Transition;
+import hale.entity.Creature;
+import hale.entity.PC;
+import hale.entity.Entity;
+import hale.interfacelock.InterfaceLock;
+import hale.util.AreaUtil;
+import hale.util.Point;
+import hale.widgets.EntityMouseover;
+import hale.widgets.OverHeadFadeAway;
+import hale.tileset.AreaTileGrid;
 
 import org.lwjgl.opengl.GL11;
 

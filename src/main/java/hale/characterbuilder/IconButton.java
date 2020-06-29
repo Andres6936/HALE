@@ -17,13 +17,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.characterbuilder;
+package hale.characterbuilder;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.icon.Icon;
+import hale.Game;
+import hale.icon.Icon;
 import de.matthiasmann.twl.AnimationState;
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.Event;

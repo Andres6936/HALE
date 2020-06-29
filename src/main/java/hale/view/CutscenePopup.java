@@ -17,18 +17,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
 import org.lwjgl.opengl.GL11;
 
-import main.java.hale.Cutscene;
-import main.java.hale.Game;
-import main.java.hale.ability.DelayedScriptCallback;
-import main.java.hale.ability.Scriptable;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.Sprite;
-import main.java.hale.resource.SpriteManager;
-import main.java.hale.util.Point;
+import hale.Cutscene;
+import hale.Game;
+import hale.ability.DelayedScriptCallback;
+import hale.ability.Scriptable;
+import hale.resource.ResourceManager;
+import hale.resource.Sprite;
+import hale.resource.SpriteManager;
+import hale.util.Point;
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.Event;
 import de.matthiasmann.twl.GUI;

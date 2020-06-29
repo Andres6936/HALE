@@ -17,28 +17,28 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.entity.CreatedItem;
-import main.java.hale.entity.CreatedItemModel;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.EntityManager;
-import main.java.hale.entity.EquippableItem;
-import main.java.hale.entity.EquippableItemTemplate;
-import main.java.hale.entity.Inventory;
-import main.java.hale.entity.Item;
-import main.java.hale.icon.Icon;
-import main.java.hale.icon.IconFactory;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
-import main.java.hale.util.SimpleJSONParser;
+import hale.Game;
+import hale.entity.CreatedItem;
+import hale.entity.CreatedItemModel;
+import hale.entity.Creature;
+import hale.entity.EntityManager;
+import hale.entity.EquippableItem;
+import hale.entity.EquippableItemTemplate;
+import hale.entity.Inventory;
+import hale.entity.Item;
+import hale.icon.Icon;
+import hale.icon.IconFactory;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
+import hale.util.SimpleJSONParser;
 
 /**
  * A recipe consists of a list of ingredients and a result.  When a player character with suitable

@@ -17,24 +17,24 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
-import main.java.hale.Game;
-import main.java.hale.ability.Effect;
-import main.java.hale.bonus.Bonus;
-import main.java.hale.bonus.Stat;
-import main.java.hale.entity.Ammo;
-import main.java.hale.entity.Armor;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.EquippableItem;
-import main.java.hale.entity.Inventory;
-import main.java.hale.entity.PC;
-import main.java.hale.entity.Weapon;
-import main.java.hale.rules.DamageType;
-import main.java.hale.rules.Role;
-import main.java.hale.rules.XP;
-import main.java.hale.widgets.BasePortraitViewer;
-import main.java.hale.widgets.StatFillBar;
+import hale.Game;
+import hale.ability.Effect;
+import hale.bonus.Bonus;
+import hale.bonus.Stat;
+import hale.entity.Ammo;
+import hale.entity.Armor;
+import hale.entity.Creature;
+import hale.entity.EquippableItem;
+import hale.entity.Inventory;
+import hale.entity.PC;
+import hale.entity.Weapon;
+import hale.rules.DamageType;
+import hale.rules.Role;
+import hale.rules.XP;
+import hale.widgets.BasePortraitViewer;
+import hale.widgets.StatFillBar;
 import de.matthiasmann.twl.ScrollPane;
 import de.matthiasmann.twl.TextArea;
 import de.matthiasmann.twl.ThemeInfo;

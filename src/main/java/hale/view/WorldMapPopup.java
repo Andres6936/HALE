@@ -1,11 +1,11 @@
-package main.java.hale.view;
+package hale.view;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.area.Transition;
-import main.java.hale.rules.WorldMapLocation;
+import hale.Game;
+import hale.area.Transition;
+import hale.rules.WorldMapLocation;
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.PopupWindow;
 import de.matthiasmann.twl.Widget;

@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.area;
+package hale.area;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -27,39 +27,39 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import main.java.hale.Game;
-import main.java.hale.ability.AreaEffectList;
-import main.java.hale.ability.Aura;
-import main.java.hale.ability.Effect;
-import main.java.hale.ability.EffectTarget;
-import main.java.hale.bonus.Bonus;
-import main.java.hale.entity.Container;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Door;
-import main.java.hale.entity.Encounter;
-import main.java.hale.entity.Entity;
-import main.java.hale.entity.EntityManager;
-import main.java.hale.entity.Item;
-import main.java.hale.entity.Location;
-import main.java.hale.entity.Openable;
-import main.java.hale.entity.PC;
-import main.java.hale.entity.Trap;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.LoadGameException;
-import main.java.hale.loading.ReferenceHandler;
-import main.java.hale.loading.Saveable;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.tileset.AreaElevationGrid;
-import main.java.hale.tileset.AreaTileGrid;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Logger;
-import main.java.hale.util.Point;
-import main.java.hale.util.PointImmutable;
-import main.java.hale.util.SaveGameUtil;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
-import main.java.hale.util.SimpleJSONParser;
+import hale.Game;
+import hale.ability.AreaEffectList;
+import hale.ability.Aura;
+import hale.ability.Effect;
+import hale.ability.EffectTarget;
+import hale.bonus.Bonus;
+import hale.entity.Container;
+import hale.entity.Creature;
+import hale.entity.Door;
+import hale.entity.Encounter;
+import hale.entity.Entity;
+import hale.entity.EntityManager;
+import hale.entity.Item;
+import hale.entity.Location;
+import hale.entity.Openable;
+import hale.entity.PC;
+import hale.entity.Trap;
+import hale.loading.JSONOrderedObject;
+import hale.loading.LoadGameException;
+import hale.loading.ReferenceHandler;
+import hale.loading.Saveable;
+import hale.resource.ResourceType;
+import hale.tileset.AreaElevationGrid;
+import hale.tileset.AreaTileGrid;
+import hale.util.AreaUtil;
+import hale.util.Logger;
+import hale.util.Point;
+import hale.util.PointImmutable;
+import hale.util.SaveGameUtil;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
+import hale.util.SimpleJSONParser;
 
 public class Area implements EffectTarget, Saveable
 {

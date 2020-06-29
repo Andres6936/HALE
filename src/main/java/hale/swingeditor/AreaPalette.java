@@ -1,4 +1,4 @@
-package main.java.hale.swingeditor;
+package hale.swingeditor;
 
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -23,19 +23,19 @@ import javax.swing.SwingConstants;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import main.java.hale.Game;
-import main.java.hale.area.Area;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.resource.Sprite;
-import main.java.hale.resource.SpriteManager;
-import main.java.hale.tileset.FeatureType;
-import main.java.hale.tileset.Layer;
-import main.java.hale.tileset.TerrainTile;
-import main.java.hale.tileset.TerrainType;
-import main.java.hale.tileset.Tile;
-import main.java.hale.tileset.Tileset;
-import main.java.hale.util.PointImmutable;
+import hale.Game;
+import hale.area.Area;
+import hale.resource.ResourceManager;
+import hale.resource.ResourceType;
+import hale.resource.Sprite;
+import hale.resource.SpriteManager;
+import hale.tileset.FeatureType;
+import hale.tileset.Layer;
+import hale.tileset.TerrainTile;
+import hale.tileset.TerrainType;
+import hale.tileset.Tile;
+import hale.tileset.Tileset;
+import hale.util.PointImmutable;
 
 /**
  * Class for selecting different types of objects such as terrain which

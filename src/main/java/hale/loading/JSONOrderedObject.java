@@ -1,4 +1,4 @@
-package main.java.hale.loading;
+package hale.loading;
 
 import java.util.LinkedHashMap;
 

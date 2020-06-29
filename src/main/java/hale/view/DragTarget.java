@@ -17,15 +17,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
-import main.java.hale.ability.Ability;
-import main.java.hale.entity.Container;
-import main.java.hale.entity.Inventory;
-import main.java.hale.entity.Item;
-import main.java.hale.entity.PC;
-import main.java.hale.icon.Icon;
-import main.java.hale.rules.Merchant;
+import hale.ability.Ability;
+import hale.entity.Container;
+import hale.entity.Inventory;
+import hale.entity.Item;
+import hale.entity.PC;
+import hale.icon.Icon;
+import hale.rules.Merchant;
 
 /**
  * An interface for any widget that should be able to be dragged to another widget

@@ -1,4 +1,4 @@
-package main.java.hale;
+package hale;
 
 import java.io.IOException;
 import java.net.URL;

@@ -17,14 +17,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale;
+package hale;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.Saveable;
-import main.java.hale.util.SimpleJSONObject;
+import hale.loading.JSONOrderedObject;
+import hale.loading.Saveable;
+import hale.util.SimpleJSONObject;
 
 /**
  * Class for storing data in a script via key - value pairs

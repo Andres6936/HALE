@@ -17,13 +17,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale;
+package hale;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
+import hale.util.AreaUtil;
+import hale.util.Point;
 
 /**
  * Class for keeping track of time elapsed while not in combat mode,

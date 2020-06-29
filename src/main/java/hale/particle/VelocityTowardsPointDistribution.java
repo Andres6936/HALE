@@ -17,12 +17,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.particle;
+package hale.particle;
 
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
-import main.java.hale.util.SimpleJSONObject;
+import hale.loading.JSONOrderedObject;
+import hale.util.AreaUtil;
+import hale.util.Point;
+import hale.util.SimpleJSONObject;
 
 /**
  * A Two valued distribution for setting the velocity of a particle to go towards

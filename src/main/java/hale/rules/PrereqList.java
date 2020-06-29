@@ -17,20 +17,20 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import main.java.hale.Game;
-import main.java.hale.ability.Ability;
-import main.java.hale.bonus.Stat;
-import main.java.hale.entity.Creature;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.ability.Ability;
+import hale.bonus.Stat;
+import hale.entity.Creature;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
 
 /**
  * A List of Prerequisites that a Creature must meet prior to being able to

@@ -1,4 +1,4 @@
-package main.java.hale.swingeditor;
+package hale.swingeditor;
 
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -20,12 +20,12 @@ import javax.swing.SpinnerNumberModel;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
-import main.java.hale.Game;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.SaveWriter;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.util.Logger;
+import hale.Game;
+import hale.loading.JSONOrderedObject;
+import hale.loading.SaveWriter;
+import hale.resource.ResourceManager;
+import hale.resource.ResourceType;
+import hale.util.Logger;
 
 /**
  * A widget for creating a new area within a campaign

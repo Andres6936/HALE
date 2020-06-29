@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.swingeditor;
+package hale.swingeditor;
 
 import java.awt.Canvas;
 
@@ -28,12 +28,12 @@ import org.lwjgl.input.Mouse;
 import org.lwjgl.opengl.GL11;
 
 import de.matthiasmann.twl.AnimationState;
-import main.java.hale.area.Area;
-import main.java.hale.resource.SpriteManager;
-import main.java.hale.tileset.AreaTileGrid;
-import main.java.hale.tileset.Tile;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
+import hale.area.Area;
+import hale.resource.SpriteManager;
+import hale.tileset.AreaTileGrid;
+import hale.tileset.Tile;
+import hale.util.AreaUtil;
+import hale.util.Point;
 
 /**
  * A class for viewing an area in the swing editor

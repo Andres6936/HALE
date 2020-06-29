@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -28,39 +28,39 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import main.java.hale.Game;
-import main.java.hale.Party;
-import main.java.hale.ScriptState;
-import main.java.hale.ability.AbilitySlot;
-import main.java.hale.ability.ScriptFunctionType;
-import main.java.hale.area.Area;
-import main.java.hale.area.Transition;
-import main.java.hale.entity.CreatedItem;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Encounter;
-import main.java.hale.entity.EncounterTemplate;
-import main.java.hale.entity.EntityManager;
-import main.java.hale.entity.EquippableItemTemplate;
-import main.java.hale.entity.Location;
-import main.java.hale.entity.PC;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.LoadGameException;
-import main.java.hale.loading.ReferenceHandler;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.resource.Sprite;
-import main.java.hale.resource.SpriteManager;
-import main.java.hale.tileset.Tileset;
-import main.java.hale.util.FileUtil;
-import main.java.hale.util.Logger;
-import main.java.hale.util.Point;
-import main.java.hale.util.PointImmutable;
-import main.java.hale.util.SaveGameUtil;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
-import main.java.hale.util.SimpleJSONParser;
-import main.java.hale.view.WorldMapPopup;
+import hale.Game;
+import hale.Party;
+import hale.ScriptState;
+import hale.ability.AbilitySlot;
+import hale.ability.ScriptFunctionType;
+import hale.area.Area;
+import hale.area.Transition;
+import hale.entity.CreatedItem;
+import hale.entity.Creature;
+import hale.entity.Encounter;
+import hale.entity.EncounterTemplate;
+import hale.entity.EntityManager;
+import hale.entity.EquippableItemTemplate;
+import hale.entity.Location;
+import hale.entity.PC;
+import hale.loading.JSONOrderedObject;
+import hale.loading.LoadGameException;
+import hale.loading.ReferenceHandler;
+import hale.resource.ResourceManager;
+import hale.resource.ResourceType;
+import hale.resource.Sprite;
+import hale.resource.SpriteManager;
+import hale.tileset.Tileset;
+import hale.util.FileUtil;
+import hale.util.Logger;
+import hale.util.Point;
+import hale.util.PointImmutable;
+import hale.util.SaveGameUtil;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
+import hale.util.SimpleJSONParser;
+import hale.view.WorldMapPopup;
 
 public class Campaign
 {

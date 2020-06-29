@@ -17,39 +17,39 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale;
+package hale;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import main.java.hale.ability.AsyncScriptable;
-import main.java.hale.ability.ListTargeter;
-import main.java.hale.ability.ScriptFunctionType;
-import main.java.hale.ability.Scriptable;
-import main.java.hale.ability.Targeter;
-import main.java.hale.bonus.Bonus;
-import main.java.hale.entity.Ammo;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.PC;
-import main.java.hale.entity.Encounter;
-import main.java.hale.entity.Entity;
-import main.java.hale.entity.Inventory;
-import main.java.hale.entity.Weapon;
-import main.java.hale.icon.SimpleIcon;
-import main.java.hale.interfacelock.EntityAttackAnimation;
-import main.java.hale.interfacelock.InterfaceAILock;
-import main.java.hale.interfacelock.InterfaceCombatLock;
-import main.java.hale.interfacelock.InterfaceLock;
-import main.java.hale.interfacelock.InterfaceTargeterLock;
-import main.java.hale.interfacelock.MovementHandler;
-import main.java.hale.mainmenu.InGameMenu;
-import main.java.hale.particle.Animation;
-import main.java.hale.rules.Attack;
-import main.java.hale.rules.Faction;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Logger;
-import main.java.hale.util.Point;
+import hale.ability.AsyncScriptable;
+import hale.ability.ListTargeter;
+import hale.ability.ScriptFunctionType;
+import hale.ability.Scriptable;
+import hale.ability.Targeter;
+import hale.bonus.Bonus;
+import hale.entity.Ammo;
+import hale.entity.Creature;
+import hale.entity.PC;
+import hale.entity.Encounter;
+import hale.entity.Entity;
+import hale.entity.Inventory;
+import hale.entity.Weapon;
+import hale.icon.SimpleIcon;
+import hale.interfacelock.EntityAttackAnimation;
+import hale.interfacelock.InterfaceAILock;
+import hale.interfacelock.InterfaceCombatLock;
+import hale.interfacelock.InterfaceLock;
+import hale.interfacelock.InterfaceTargeterLock;
+import hale.interfacelock.MovementHandler;
+import hale.mainmenu.InGameMenu;
+import hale.particle.Animation;
+import hale.rules.Attack;
+import hale.rules.Faction;
+import hale.util.AreaUtil;
+import hale.util.Logger;
+import hale.util.Point;
 
 /**
  * Class for handling the order and progression of combat, including calling AI scripts for

@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.tileset;
+package hale.tileset;
 
 import java.util.Collections;
 import java.util.LinkedHashMap;
@@ -25,11 +25,11 @@ import java.util.Map;
 import java.util.Set;
 
 import de.matthiasmann.twl.AnimationState;
-import main.java.hale.Game;
-import main.java.hale.area.Area;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
+import hale.Game;
+import hale.area.Area;
+import hale.loading.JSONOrderedObject;
+import hale.util.AreaUtil;
+import hale.util.Point;
 
 /**
  * A grid of tiles for a given area.  Handles the drawing of the Area

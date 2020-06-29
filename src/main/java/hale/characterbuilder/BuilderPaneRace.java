@@ -17,14 +17,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.characterbuilder;
+package hale.characterbuilder;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.icon.IconFactory;
-import main.java.hale.rules.Race;
-import main.java.hale.rules.RacialType;
+import hale.icon.IconFactory;
+import hale.rules.Race;
+import hale.rules.RacialType;
 
 /**
  * The BuilderPane for selecting a character's Race.

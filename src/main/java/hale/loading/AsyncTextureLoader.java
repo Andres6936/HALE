@@ -17,14 +17,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.loading;
+package hale.loading;
 
 import java.nio.ByteBuffer;
 import java.nio.IntBuffer;
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.resource.Sprite;
+import hale.resource.Sprite;
 
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL11;

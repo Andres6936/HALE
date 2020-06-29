@@ -17,17 +17,17 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.tileset;
+package hale.tileset;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.StringParser;
-import main.java.hale.util.Logger;
-import main.java.hale.util.Point;
+import hale.util.AreaUtil;
+import hale.util.StringParser;
+import hale.util.Logger;
+import hale.util.Point;
 
 /**
  * A list of directions.  Starting at one tile in an area, the directions can

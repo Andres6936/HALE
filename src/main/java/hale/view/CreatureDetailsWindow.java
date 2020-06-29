@@ -1,4 +1,4 @@
-package main.java.hale.view;
+package hale.view;
 
 import de.matthiasmann.twl.DialogLayout;
 import de.matthiasmann.twl.GUI;
@@ -8,15 +8,15 @@ import de.matthiasmann.twl.TextArea;
 import de.matthiasmann.twl.DialogLayout.Group;
 import de.matthiasmann.twl.Widget;
 import de.matthiasmann.twl.textarea.HTMLTextAreaModel;
-import main.java.hale.Game;
-import main.java.hale.ability.Effect;
-import main.java.hale.bonus.Stat;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Entity;
-import main.java.hale.entity.EntityListener;
-import main.java.hale.entity.Inventory;
-import main.java.hale.entity.Item;
-import main.java.hale.rules.Role;
+import hale.Game;
+import hale.ability.Effect;
+import hale.bonus.Stat;
+import hale.entity.Creature;
+import hale.entity.Entity;
+import hale.entity.EntityListener;
+import hale.entity.Inventory;
+import hale.entity.Item;
+import hale.rules.Role;
 
 /**
  * A widget for displaying basic information about a creature in

@@ -17,18 +17,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
 import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.Saveable;
-import main.java.hale.util.Logger;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
+import hale.loading.JSONOrderedObject;
+import hale.loading.Saveable;
+import hale.util.Logger;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
 
 public class QuestEntryList implements Saveable
 {

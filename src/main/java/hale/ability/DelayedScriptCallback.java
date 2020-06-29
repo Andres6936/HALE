@@ -17,12 +17,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.ability;
+package hale.ability;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.util.Logger;
+import hale.util.Logger;
 
 /**
  * A script callback that starts a new thread with a timer; running a

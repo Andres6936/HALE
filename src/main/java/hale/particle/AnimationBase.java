@@ -1,10 +1,10 @@
-package main.java.hale.particle;
+package hale.particle;
 
 import de.matthiasmann.twl.Color;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.Saveable;
-import main.java.hale.util.Point;
-import main.java.hale.util.SimpleJSONObject;
+import hale.loading.JSONOrderedObject;
+import hale.loading.Saveable;
+import hale.util.Point;
+import hale.util.SimpleJSONObject;
 
 public abstract class AnimationBase implements Saveable
 {

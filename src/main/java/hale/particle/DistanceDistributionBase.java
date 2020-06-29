@@ -1,8 +1,8 @@
-package main.java.hale.particle;
+package hale.particle;
 
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.util.Point;
-import main.java.hale.util.SimpleJSONObject;
+import hale.loading.JSONOrderedObject;
+import hale.util.Point;
+import hale.util.SimpleJSONObject;
 
 /*
  * Hale is highly moddable tactical RPG.

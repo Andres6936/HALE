@@ -17,11 +17,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.widgets;
+package hale.widgets;
 
-import main.java.hale.Game;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
+import hale.Game;
+import hale.util.AreaUtil;
+import hale.util.Point;
 
 import de.matthiasmann.twl.Color;
 import de.matthiasmann.twl.Label;

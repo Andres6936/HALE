@@ -17,16 +17,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.loading;
+package hale.loading;
 
 import java.io.File;
 
-import main.java.hale.Game;
-import main.java.hale.entity.EntityManager;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.resource.SpriteManager;
-import main.java.hale.rules.Ruleset;
+import hale.Game;
+import hale.entity.EntityManager;
+import hale.resource.ResourceManager;
+import hale.resource.ResourceType;
+import hale.resource.SpriteManager;
+import hale.rules.Ruleset;
 
 /**
  * A loading task list that performs the initial actions neccesary to load the campaign

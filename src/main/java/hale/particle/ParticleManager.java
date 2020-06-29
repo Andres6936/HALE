@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.particle;
+package hale.particle;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -28,12 +28,12 @@ import java.util.Set;
 
 import javax.script.ScriptException;
 
-import main.java.hale.Game;
-import main.java.hale.interfacelock.EntityOffsetAnimation;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.util.JSEngine;
-import main.java.hale.util.Logger;
+import hale.Game;
+import hale.interfacelock.EntityOffsetAnimation;
+import hale.resource.ResourceManager;
+import hale.resource.ResourceType;
+import hale.util.JSEngine;
+import hale.util.Logger;
 
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL14;

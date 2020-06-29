@@ -17,18 +17,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.quickbar;
+package hale.quickbar;
 
 import de.matthiasmann.twl.Button;
-import main.java.hale.Game;
-import main.java.hale.entity.ItemList;
-import main.java.hale.entity.ItemList.Entry;
-import main.java.hale.entity.PC;
-import main.java.hale.entity.Item;
-import main.java.hale.icon.Icon;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.rules.Quality;
-import main.java.hale.widgets.RightClickMenu;
+import hale.Game;
+import hale.entity.ItemList;
+import hale.entity.ItemList.Entry;
+import hale.entity.PC;
+import hale.entity.Item;
+import hale.icon.Icon;
+import hale.loading.JSONOrderedObject;
+import hale.rules.Quality;
+import hale.widgets.RightClickMenu;
 
 /**
  * A quickbar slot for holding a usable item.  When activated, the specified

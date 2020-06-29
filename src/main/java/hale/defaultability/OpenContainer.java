@@ -17,13 +17,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.defaultability;
+package hale.defaultability;
 
 import de.matthiasmann.twl.Color;
-import main.java.hale.Game;
-import main.java.hale.entity.Container;
-import main.java.hale.entity.Location;
-import main.java.hale.entity.PC;
+import hale.Game;
+import hale.entity.Container;
+import hale.entity.Location;
+import hale.entity.PC;
 
 /**
  * A default ability for opening a container.  Can also move towards a container

@@ -17,16 +17,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
 import java.util.ArrayList;
 
-import main.java.hale.Game;
-import main.java.hale.ability.ScriptFunctionType;
-import main.java.hale.ability.Scriptable;
-import main.java.hale.entity.Entity;
-import main.java.hale.entity.Creature;
-import main.java.hale.widgets.BasePortraitViewer;
+import hale.Game;
+import hale.ability.ScriptFunctionType;
+import hale.ability.Scriptable;
+import hale.entity.Entity;
+import hale.entity.Creature;
+import hale.widgets.BasePortraitViewer;
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.Event;
 import de.matthiasmann.twl.Label;

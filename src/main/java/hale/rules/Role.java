@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -27,18 +27,18 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import main.java.hale.Game;
-import main.java.hale.ability.Ability;
-import main.java.hale.ability.AbilitySelectionList;
-import main.java.hale.bonus.Stat;
-import main.java.hale.entity.Creature;
-import main.java.hale.icon.Icon;
-import main.java.hale.icon.IconFactory;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.ability.Ability;
+import hale.ability.AbilitySelectionList;
+import hale.bonus.Stat;
+import hale.entity.Creature;
+import hale.icon.Icon;
+import hale.icon.IconFactory;
+import hale.resource.ResourceManager;
+import hale.resource.ResourceType;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
 
 /**
  * A class representing the character archetype or class of a creature.  This defines

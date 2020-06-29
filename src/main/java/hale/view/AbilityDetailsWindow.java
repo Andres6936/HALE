@@ -17,16 +17,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
 import de.matthiasmann.twl.DialogLayout;
 import de.matthiasmann.twl.Label;
 import de.matthiasmann.twl.ScrollPane;
 import de.matthiasmann.twl.TextArea;
 import de.matthiasmann.twl.textarea.HTMLTextAreaModel;
-import main.java.hale.ability.Ability;
-import main.java.hale.entity.Creature;
-import main.java.hale.widgets.IconViewer;
+import hale.ability.Ability;
+import hale.entity.Creature;
+import hale.widgets.IconViewer;
 
 /**
  * A widget for displaying all of the details about an Ability in a single window.

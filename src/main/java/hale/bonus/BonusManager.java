@@ -17,15 +17,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.bonus;
+package hale.bonus;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import main.java.hale.Game;
-import main.java.hale.entity.Creature;
-import main.java.hale.rules.Damage;
-import main.java.hale.rules.DamageType;
+import hale.Game;
+import hale.entity.Creature;
+import hale.rules.Damage;
+import hale.rules.DamageType;
 
 public class BonusManager
 {

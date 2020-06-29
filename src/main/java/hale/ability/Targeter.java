@@ -17,21 +17,21 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.ability;
+package hale.ability;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import de.matthiasmann.twl.AnimationState;
 
-import main.java.hale.Game;
-import main.java.hale.defaultability.MouseActionList;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Entity;
-import main.java.hale.entity.Location;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
-import main.java.hale.util.Logger;
+import hale.Game;
+import hale.defaultability.MouseActionList;
+import hale.entity.Creature;
+import hale.entity.Entity;
+import hale.entity.Location;
+import hale.util.AreaUtil;
+import hale.util.Point;
+import hale.util.Logger;
 
 /**
  * For those Abilities which need a target or targets, this class supports a range

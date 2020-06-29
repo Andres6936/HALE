@@ -1,11 +1,11 @@
-package main.java.hale.resource;
+package hale.resource;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-import main.java.hale.util.FileUtil;
-import main.java.hale.util.Logger;
+import hale.util.FileUtil;
+import hale.util.Logger;
 
 /**
  * A ResourcePackage where all resources are contained in a folder hierarchy

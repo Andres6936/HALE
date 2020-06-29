@@ -17,18 +17,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.util;
+package hale.util;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.area.Area;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.PC;
-import main.java.hale.entity.Path;
-import main.java.hale.rules.Faction;
+import hale.Game;
+import hale.area.Area;
+import hale.entity.Creature;
+import hale.entity.PC;
+import hale.entity.Path;
+import hale.rules.Faction;
 
 /**
  * A class with utility helper functions for an Area, especially

@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.tileset;
+package hale.tileset;
 
 /**
  * The list of all possible directions that can be taken on a hex grid

@@ -1,6 +1,6 @@
-package main.java.hale.plataform;
+package hale.plataform;
 
-import main.java.hale.util.Logger;
+import hale.util.Logger;
 
 public final class WindowsOS implements Plataform
 {

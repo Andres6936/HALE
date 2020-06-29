@@ -17,16 +17,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.quickbar;
+package hale.quickbar;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import main.java.hale.Game;
-import main.java.hale.ability.Ability;
-import main.java.hale.entity.PC;
+import hale.Game;
+import hale.ability.Ability;
+import hale.entity.PC;
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.ThemeInfo;
 import de.matthiasmann.twl.Widget;

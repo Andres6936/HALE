@@ -17,18 +17,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.icon.ComposedIcon;
-import main.java.hale.icon.Icon;
-import main.java.hale.icon.IconFactory;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.Saveable;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
+import hale.icon.ComposedIcon;
+import hale.icon.Icon;
+import hale.icon.IconFactory;
+import hale.loading.JSONOrderedObject;
+import hale.loading.Saveable;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
 
 /**
  * A mutable model for a created item.  This model is modified by a class, and then a new,

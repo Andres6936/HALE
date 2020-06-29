@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.swingeditor;
+package hale.swingeditor;
 
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
@@ -34,14 +34,14 @@ import javax.swing.JMenuItem;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
 
-import main.java.hale.Game;
-import main.java.hale.area.Area;
-import main.java.hale.loading.SaveWriter;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.resource.SpriteManager;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.FileUtil;
-import main.java.hale.util.Logger;
+import hale.Game;
+import hale.area.Area;
+import hale.loading.SaveWriter;
+import hale.resource.ResourceType;
+import hale.resource.SpriteManager;
+import hale.util.AreaUtil;
+import hale.util.FileUtil;
+import hale.util.Logger;
 
 /**
  * The menu bar for the swing campaign Editor

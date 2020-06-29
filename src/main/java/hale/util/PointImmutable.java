@@ -17,9 +17,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.util;
+package hale.util;
 
-import main.java.hale.area.Area;
+import hale.area.Area;
 
 /**
  * An immutable version of the Point class, with efficient implementations of hashing, etc

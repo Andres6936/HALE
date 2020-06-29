@@ -17,20 +17,20 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import main.java.hale.Game;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.EquippableItem;
-import main.java.hale.entity.Inventory;
-import main.java.hale.entity.PC;
-import main.java.hale.rules.Merchant;
-import main.java.hale.rules.Weight;
-import main.java.hale.widgets.ItemIconViewer;
-import main.java.hale.widgets.RightClickMenu;
+import hale.Game;
+import hale.entity.Creature;
+import hale.entity.EquippableItem;
+import hale.entity.Inventory;
+import hale.entity.PC;
+import hale.rules.Merchant;
+import hale.rules.Weight;
+import hale.widgets.ItemIconViewer;
+import hale.widgets.RightClickMenu;
 
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.GUI;

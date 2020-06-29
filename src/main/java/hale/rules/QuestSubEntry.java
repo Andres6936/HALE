@@ -17,12 +17,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.Saveable;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.util.SimpleJSONObject;
+import hale.loading.JSONOrderedObject;
+import hale.loading.Saveable;
+import hale.resource.ResourceManager;
+import hale.util.SimpleJSONObject;
 
 /**
  * A QuestSubEntry is a leaf in the QuestEntry & QuestSubEntry tree.

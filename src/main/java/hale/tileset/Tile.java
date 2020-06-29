@@ -17,11 +17,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.tileset;
+package hale.tileset;
 
-import main.java.hale.Game;
-import main.java.hale.resource.Sprite;
-import main.java.hale.resource.SpriteManager;
+import hale.Game;
+import hale.resource.Sprite;
+import hale.resource.SpriteManager;
 
 /**
  * A single tile, drawn in layers as part of an area in the main game view

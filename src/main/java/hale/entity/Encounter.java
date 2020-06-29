@@ -17,25 +17,25 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import main.java.hale.Game;
-import main.java.hale.area.Area;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.ReferenceHandler;
-import main.java.hale.rules.Currency;
-import main.java.hale.rules.Faction;
-import main.java.hale.rules.XP;
-import main.java.hale.util.Logger;
-import main.java.hale.util.PointImmutable;
-import main.java.hale.util.SaveGameUtil;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.area.Area;
+import hale.loading.JSONOrderedObject;
+import hale.loading.ReferenceHandler;
+import hale.rules.Currency;
+import hale.rules.Faction;
+import hale.rules.XP;
+import hale.util.Logger;
+import hale.util.PointImmutable;
+import hale.util.SaveGameUtil;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
 
 /**
  * A specific instance of an EncounterTemplate

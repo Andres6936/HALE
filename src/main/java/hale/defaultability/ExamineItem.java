@@ -18,14 +18,14 @@
  */
 
 
-package main.java.hale.defaultability;
+package hale.defaultability;
 
-import main.java.hale.Game;
-import main.java.hale.entity.Item;
-import main.java.hale.entity.Location;
-import main.java.hale.entity.PC;
-import main.java.hale.entity.Trap;
-import main.java.hale.view.ItemDetailsWindow;
+import hale.Game;
+import hale.entity.Item;
+import hale.entity.Location;
+import hale.entity.PC;
+import hale.entity.Trap;
+import hale.view.ItemDetailsWindow;
 
 /**
  * Default Ability for examining an item in the area.

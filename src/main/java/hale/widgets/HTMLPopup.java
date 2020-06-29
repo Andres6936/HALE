@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.widgets;
+package hale.widgets;
 
 import java.io.File;
 import java.io.IOException;
@@ -31,11 +31,11 @@ import de.matthiasmann.twl.TextArea;
 import de.matthiasmann.twl.Widget;
 import de.matthiasmann.twl.textarea.HTMLTextAreaModel;
 import de.matthiasmann.twl.textarea.TextAreaModel;
-import main.java.hale.Game;
-import main.java.hale.ability.DelayedScriptCallback;
-import main.java.hale.ability.Scriptable;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.util.FileUtil;
+import hale.Game;
+import hale.ability.DelayedScriptCallback;
+import hale.ability.Scriptable;
+import hale.resource.ResourceManager;
+import hale.util.FileUtil;
 
 /**
  * A popup window containing a text field showing some HTML,

@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.characterbuilder;
+package hale.characterbuilder;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -26,20 +26,20 @@ import java.util.List;
 
 import de.matthiasmann.twl.Color;
 
-import main.java.hale.Game;
-import main.java.hale.ability.Ability;
-import main.java.hale.entity.EntityManager;
-import main.java.hale.entity.EquippableItem;
-import main.java.hale.entity.Item;
-import main.java.hale.entity.PC;
-import main.java.hale.entity.PCTemplate;
-import main.java.hale.icon.ComposedCreatureIcon;
-import main.java.hale.icon.SubIcon;
-import main.java.hale.rules.Race;
-import main.java.hale.rules.Role;
-import main.java.hale.rules.Ruleset;
-import main.java.hale.rules.Skill;
-import main.java.hale.rules.SkillSet;
+import hale.Game;
+import hale.ability.Ability;
+import hale.entity.EntityManager;
+import hale.entity.EquippableItem;
+import hale.entity.Item;
+import hale.entity.PC;
+import hale.entity.PCTemplate;
+import hale.icon.ComposedCreatureIcon;
+import hale.icon.SubIcon;
+import hale.rules.Race;
+import hale.rules.Role;
+import hale.rules.Ruleset;
+import hale.rules.Skill;
+import hale.rules.SkillSet;
 
 /**
  * A class for containing a Creature and managing the valid selections

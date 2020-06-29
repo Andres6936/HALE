@@ -1,4 +1,4 @@
-package main.java.hale.ability;
+package hale.ability;
 
 import java.util.List;
 
@@ -6,11 +6,11 @@ import org.lwjgl.opengl.GL11;
 
 import de.matthiasmann.twl.AnimationState;
 
-import main.java.hale.Game;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Location;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
+import hale.Game;
+import hale.entity.Creature;
+import hale.entity.Location;
+import hale.util.AreaUtil;
+import hale.util.Point;
 
 /**
  * A targeter that affects all grid points within a cone of a specified

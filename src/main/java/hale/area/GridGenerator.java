@@ -1,14 +1,14 @@
-package main.java.hale.area;
+package hale.area;
 
-import main.java.hale.Game;
-import main.java.hale.rules.Dice;
-import main.java.hale.tileset.Border;
-import main.java.hale.tileset.BorderTile;
-import main.java.hale.tileset.ElevationList;
-import main.java.hale.tileset.Tileset;
-import main.java.hale.util.Point;
-import main.java.hale.util.PointImmutable;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.rules.Dice;
+import hale.tileset.Border;
+import hale.tileset.BorderTile;
+import hale.tileset.ElevationList;
+import hale.tileset.Tileset;
+import hale.util.Point;
+import hale.util.PointImmutable;
+import hale.util.SimpleJSONObject;
 
 /**
  * breaks the area down into a random grid and builds a maze

@@ -1,4 +1,4 @@
-package main.java.hale.ability;
+package hale.ability;
 
 /**
  * Wrapper class for {@link Scriptable}.

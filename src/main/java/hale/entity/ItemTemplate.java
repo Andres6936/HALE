@@ -17,12 +17,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
-import main.java.hale.Game;
-import main.java.hale.ability.ScriptFunctionType;
-import main.java.hale.rules.Quality;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.ability.ScriptFunctionType;
+import hale.rules.Quality;
+import hale.util.SimpleJSONObject;
 
 /**
  * The class containing the immutable parts of an Item

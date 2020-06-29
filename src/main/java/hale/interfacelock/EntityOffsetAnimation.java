@@ -17,9 +17,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.interfacelock;
+package hale.interfacelock;
 
-import main.java.hale.util.Point;
+import hale.util.Point;
 
 /**
  * An animation that offsets an entity for a short time, to show movement

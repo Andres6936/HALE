@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale;
+package hale;
 
 import java.io.File;
 import java.io.PrintWriter;
@@ -27,13 +27,13 @@ import java.util.Calendar;
 import java.util.Collections;
 import java.util.List;
 
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.SaveWriter;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONParser;
-import main.java.hale.util.Logger;
+import hale.loading.JSONOrderedObject;
+import hale.loading.SaveWriter;
+import hale.resource.ResourceType;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONParser;
+import hale.util.Logger;
 
 /**
  * A representation of a party that has been saved to a file on disk, for use in

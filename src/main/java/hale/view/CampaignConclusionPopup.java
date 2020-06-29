@@ -17,23 +17,23 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.SavedParty;
-import main.java.hale.characterbuilder.CharacterBuilder;
-import main.java.hale.entity.CreatedItem;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.EntityManager;
-import main.java.hale.entity.PC;
-import main.java.hale.mainmenu.CharacterSelector;
-import main.java.hale.mainmenu.ConfirmQuitPopup;
-import main.java.hale.mainmenu.MainMenu;
-import main.java.hale.mainmenu.MainMenuAction;
+import hale.Game;
+import hale.SavedParty;
+import hale.characterbuilder.CharacterBuilder;
+import hale.entity.CreatedItem;
+import hale.entity.Creature;
+import hale.entity.EntityManager;
+import hale.entity.PC;
+import hale.mainmenu.CharacterSelector;
+import hale.mainmenu.ConfirmQuitPopup;
+import hale.mainmenu.MainMenu;
+import hale.mainmenu.MainMenuAction;
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.PopupWindow;
 import de.matthiasmann.twl.ScrollPane;

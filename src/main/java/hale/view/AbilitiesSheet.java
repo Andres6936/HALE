@@ -17,18 +17,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.ability.AbilitySelectionList;
-import main.java.hale.ability.CreatureAbilitySet;
-import main.java.hale.characterbuilder.AbilitySelectionListPane;
-import main.java.hale.characterbuilder.AbilitySelectorButton;
-import main.java.hale.entity.PC;
-import main.java.hale.rules.Role;
+import hale.Game;
+import hale.ability.AbilitySelectionList;
+import hale.ability.CreatureAbilitySet;
+import hale.characterbuilder.AbilitySelectionListPane;
+import hale.characterbuilder.AbilitySelectorButton;
+import hale.entity.PC;
+import hale.rules.Role;
 import de.matthiasmann.twl.ScrollPane;
 import de.matthiasmann.twl.ThemeInfo;
 import de.matthiasmann.twl.Widget;

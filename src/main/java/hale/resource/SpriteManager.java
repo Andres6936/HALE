@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.resource;
+package hale.resource;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -34,12 +34,12 @@ import java.util.Set;
 
 import javax.imageio.ImageIO;
 
-import main.java.hale.Game;
-import main.java.hale.util.Logger;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
-import main.java.hale.util.SimpleJSONParser;
+import hale.Game;
+import hale.util.Logger;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
+import hale.util.SimpleJSONParser;
 
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL11;

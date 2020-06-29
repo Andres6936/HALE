@@ -17,11 +17,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.ability;
+package hale.ability;
 
 import java.util.ArrayList;
 
-import main.java.hale.Game;
+import hale.Game;
 
 /**
  * This class is created and added as a callback to menu buttons used to activate an Ability or call

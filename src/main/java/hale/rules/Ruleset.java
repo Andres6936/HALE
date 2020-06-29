@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -27,19 +27,19 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import main.java.hale.Cutscene;
-import main.java.hale.DifficultyManager;
-import main.java.hale.ability.Ability;
-import main.java.hale.ability.AbilitySelectionList;
-import main.java.hale.entity.SavedItemList;
-import main.java.hale.quickbar.QuickbarGroup;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.util.Logger;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
-import main.java.hale.util.SimpleJSONParser;
+import hale.Cutscene;
+import hale.DifficultyManager;
+import hale.ability.Ability;
+import hale.ability.AbilitySelectionList;
+import hale.entity.SavedItemList;
+import hale.quickbar.QuickbarGroup;
+import hale.resource.ResourceManager;
+import hale.resource.ResourceType;
+import hale.util.Logger;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
+import hale.util.SimpleJSONParser;
 
 /**
  * The Ruleset stores data relating to the rules of the campaign.  The includes

@@ -17,16 +17,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
-import main.java.hale.ability.Effect;
-import main.java.hale.area.Area;
-import main.java.hale.bonus.BonusList;
-import main.java.hale.bonus.BonusManager;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.LoadGameException;
-import main.java.hale.loading.ReferenceHandler;
-import main.java.hale.util.SimpleJSONObject;
+import hale.ability.Effect;
+import hale.area.Area;
+import hale.bonus.BonusList;
+import hale.bonus.BonusManager;
+import hale.loading.JSONOrderedObject;
+import hale.loading.LoadGameException;
+import hale.loading.ReferenceHandler;
+import hale.util.SimpleJSONObject;
 
 /**
  * An item that can be equipped in one of the inventory's slots

@@ -1,8 +1,8 @@
-package main.java.hale.widgets;
+package hale.widgets;
 
 import org.lwjgl.opengl.GL11;
 
-import main.java.hale.icon.Icon;
+import hale.icon.Icon;
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.Event;
 import de.matthiasmann.twl.GUI;

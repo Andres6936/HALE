@@ -17,10 +17,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.particle;
+package hale.particle;
 
-import main.java.hale.loading.Saveable;
-import main.java.hale.util.SimpleJSONObject;
+import hale.loading.Saveable;
+import hale.util.SimpleJSONObject;
 
 /**
  * A DistributionBase allows a Distribution to have its generated values be based

@@ -17,9 +17,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.tileset;
+package hale.tileset;
 
-import main.java.hale.util.SimpleJSONObject;
+import hale.util.SimpleJSONObject;
 
 /**
  * A tile with a specified tile ID and relative position

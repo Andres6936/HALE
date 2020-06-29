@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.mainmenu;
+package hale.mainmenu;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -25,11 +25,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import main.java.hale.resource.ResourceType;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONParser;
-import main.java.hale.widgets.TextAreaNoInput;
+import hale.resource.ResourceType;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONParser;
+import hale.widgets.TextAreaNoInput;
 import de.matthiasmann.twl.TextArea;
 import de.matthiasmann.twl.ToggleButton;
 import de.matthiasmann.twl.Widget;

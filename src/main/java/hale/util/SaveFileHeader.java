@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.util;
+package hale.util;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -28,9 +28,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintStream;
 
-import main.java.hale.Game;
-import main.java.hale.entity.Creature;
-import main.java.hale.rules.Campaign;
+import hale.Game;
+import hale.entity.Creature;
+import hale.rules.Campaign;
 
 /**
  * The header data that is written at the beginning of save files to allow

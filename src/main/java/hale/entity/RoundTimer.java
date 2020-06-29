@@ -17,12 +17,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
-import main.java.hale.Game;
-import main.java.hale.ability.Ability;
-import main.java.hale.bonus.Bonus;
-import main.java.hale.bonus.Stat;
+import hale.Game;
+import hale.ability.Ability;
+import hale.bonus.Bonus;
+import hale.bonus.Stat;
 
 /**
  * A class for keeping track of the number of Action Points (AP).  Note that the

@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.characterbuilder;
+package hale.characterbuilder;
 
 import java.io.File;
 import java.io.PrintWriter;
@@ -31,19 +31,19 @@ import de.matthiasmann.twl.DialogLayout.Group;
 import de.matthiasmann.twl.Event;
 import de.matthiasmann.twl.GUI;
 import de.matthiasmann.twl.ToggleButton;
-import main.java.hale.Game;
-import main.java.hale.ability.CreatureAbilitySet;
-import main.java.hale.bonus.Stat;
-import main.java.hale.entity.CreatedItem;
-import main.java.hale.entity.EquippableItem;
-import main.java.hale.entity.Inventory;
-import main.java.hale.entity.ItemList;
-import main.java.hale.entity.PC;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.SaveWriter;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.util.Logger;
-import main.java.hale.view.GameSubWindow;
+import hale.Game;
+import hale.ability.CreatureAbilitySet;
+import hale.bonus.Stat;
+import hale.entity.CreatedItem;
+import hale.entity.EquippableItem;
+import hale.entity.Inventory;
+import hale.entity.ItemList;
+import hale.entity.PC;
+import hale.loading.JSONOrderedObject;
+import hale.loading.SaveWriter;
+import hale.resource.ResourceType;
+import hale.util.Logger;
+import hale.view.GameSubWindow;
 
 /**
  * The character builder is the set of screens with functions to create

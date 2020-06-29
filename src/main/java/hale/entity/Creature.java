@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -25,36 +25,36 @@ import java.util.List;
 
 import de.matthiasmann.twl.Color;
 
-import main.java.hale.Game;
-import main.java.hale.ability.AbilitySlot;
-import main.java.hale.ability.CreatureAbilitySet;
-import main.java.hale.ability.Effect;
-import main.java.hale.ability.ScriptFunctionType;
-import main.java.hale.area.Area;
-import main.java.hale.bonus.Stat;
-import main.java.hale.bonus.StatManager;
-import main.java.hale.icon.ComposedCreatureIcon;
-import main.java.hale.icon.Icon;
-import main.java.hale.icon.IconFactory;
-import main.java.hale.icon.IconRenderer;
-import main.java.hale.icon.SimpleIcon;
-import main.java.hale.icon.SubIcon;
-import main.java.hale.icon.SubIconRenderer;
-import main.java.hale.interfacelock.EntityOffsetAnimation;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.LoadGameException;
-import main.java.hale.loading.ReferenceHandler;
-import main.java.hale.rules.Attack;
-import main.java.hale.rules.Damage;
-import main.java.hale.rules.RoleSet;
-import main.java.hale.rules.SkillSet;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Logger;
-import main.java.hale.util.Point;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
-import main.java.hale.util.SimpleJSONParser;
+import hale.Game;
+import hale.ability.AbilitySlot;
+import hale.ability.CreatureAbilitySet;
+import hale.ability.Effect;
+import hale.ability.ScriptFunctionType;
+import hale.area.Area;
+import hale.bonus.Stat;
+import hale.bonus.StatManager;
+import hale.icon.ComposedCreatureIcon;
+import hale.icon.Icon;
+import hale.icon.IconFactory;
+import hale.icon.IconRenderer;
+import hale.icon.SimpleIcon;
+import hale.icon.SubIcon;
+import hale.icon.SubIconRenderer;
+import hale.interfacelock.EntityOffsetAnimation;
+import hale.loading.JSONOrderedObject;
+import hale.loading.LoadGameException;
+import hale.loading.ReferenceHandler;
+import hale.rules.Attack;
+import hale.rules.Damage;
+import hale.rules.RoleSet;
+import hale.rules.SkillSet;
+import hale.util.AreaUtil;
+import hale.util.Logger;
+import hale.util.Point;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
+import hale.util.SimpleJSONParser;
 
 /**
  * A creature is an entity that moves and interacts with the world around.

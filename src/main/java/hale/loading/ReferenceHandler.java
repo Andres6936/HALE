@@ -17,18 +17,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.loading;
+package hale.loading;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import main.java.hale.ability.AbilitySlot;
-import main.java.hale.ability.Effect;
-import main.java.hale.area.Area;
-import main.java.hale.entity.Entity;
-import main.java.hale.util.Logger;
+import hale.ability.AbilitySlot;
+import hale.ability.Effect;
+import hale.area.Area;
+import hale.entity.Entity;
+import hale.util.Logger;
 
 /**
  * A class for adding references that appear in saved game files and then later

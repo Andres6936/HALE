@@ -17,13 +17,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.swingeditor;
+package hale.swingeditor;
 
 import java.awt.Canvas;
 
-import main.java.hale.Game;
-import main.java.hale.tileset.Tileset;
-import main.java.hale.util.Logger;
+import hale.Game;
+import hale.tileset.Tileset;
+import hale.util.Logger;
 
 import org.lwjgl.LWJGLException;
 import org.lwjgl.opengl.Display;

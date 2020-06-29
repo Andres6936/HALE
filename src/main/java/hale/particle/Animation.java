@@ -17,20 +17,20 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.particle;
+package hale.particle;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.icon.Icon;
-import main.java.hale.icon.SimpleIcon;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.LoadGameException;
-import main.java.hale.resource.Sprite;
-import main.java.hale.resource.SpriteManager;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
+import hale.icon.Icon;
+import hale.icon.SimpleIcon;
+import hale.loading.JSONOrderedObject;
+import hale.loading.LoadGameException;
+import hale.resource.Sprite;
+import hale.resource.SpriteManager;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
 
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL14;

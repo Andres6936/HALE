@@ -17,18 +17,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.mainmenu;
+package hale.mainmenu;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.entity.PC;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.rules.Race;
-import main.java.hale.rules.Ruleset;
+import hale.Game;
+import hale.entity.PC;
+import hale.resource.ResourceType;
+import hale.rules.Race;
+import hale.rules.Ruleset;
 
 /**
  * A unique character is a construct used in listing out and selecting a

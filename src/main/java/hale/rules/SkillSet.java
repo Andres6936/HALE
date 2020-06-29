@@ -17,20 +17,20 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
-import main.java.hale.Game;
-import main.java.hale.bonus.Stat;
-import main.java.hale.entity.Creature;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.Saveable;
-import main.java.hale.util.Logger;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.bonus.Stat;
+import hale.entity.Creature;
+import hale.loading.JSONOrderedObject;
+import hale.loading.Saveable;
+import hale.util.Logger;
+import hale.util.SimpleJSONObject;
 
 
 /**

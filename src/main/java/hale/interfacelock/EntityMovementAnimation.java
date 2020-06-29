@@ -17,10 +17,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.interfacelock;
+package hale.interfacelock;
 
-import main.java.hale.Game;
-import main.java.hale.entity.Entity;
+import hale.Game;
+import hale.entity.Entity;
 
 /**
  * An EntityOffsetAnimation that moves an entity from one tile to an

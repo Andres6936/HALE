@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.ability;
+package hale.ability;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -27,21 +27,21 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import main.java.hale.area.Area;
-import main.java.hale.area.AreaEntityList;
-import main.java.hale.bonus.Bonus;
-import main.java.hale.bonus.BonusStackTypeList;
-import main.java.hale.entity.Creature;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.LoadGameException;
-import main.java.hale.loading.ReferenceHandler;
-import main.java.hale.loading.Saveable;
-import main.java.hale.util.Logger;
-import main.java.hale.util.Point;
-import main.java.hale.util.SaveGameUtil;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
+import hale.area.Area;
+import hale.area.AreaEntityList;
+import hale.bonus.Bonus;
+import hale.bonus.BonusStackTypeList;
+import hale.entity.Creature;
+import hale.loading.JSONOrderedObject;
+import hale.loading.LoadGameException;
+import hale.loading.ReferenceHandler;
+import hale.loading.Saveable;
+import hale.util.Logger;
+import hale.util.Point;
+import hale.util.SaveGameUtil;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
 
 /**
  * Contains the set of all effects that have been applied to a given {@link main.java.hale.area.Area}.

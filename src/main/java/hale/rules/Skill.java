@@ -17,17 +17,17 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
-import main.java.hale.Game;
-import main.java.hale.bonus.Stat;
-import main.java.hale.entity.Creature;
-import main.java.hale.icon.Icon;
-import main.java.hale.icon.IconFactory;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.util.SimpleJSONObject;
-import main.java.hale.util.SimpleJSONParser;
+import hale.Game;
+import hale.bonus.Stat;
+import hale.entity.Creature;
+import hale.icon.Icon;
+import hale.icon.IconFactory;
+import hale.resource.ResourceManager;
+import hale.resource.ResourceType;
+import hale.util.SimpleJSONObject;
+import hale.util.SimpleJSONParser;
 
 /**
  * A skill represents a specific type of action that creatures can take, generally

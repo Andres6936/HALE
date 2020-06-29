@@ -1,12 +1,12 @@
-package main.java.hale.area;
+package hale.area;
 
-import main.java.hale.Game;
-import main.java.hale.rules.Dice;
-import main.java.hale.tileset.TerrainTile;
-import main.java.hale.tileset.TerrainType;
-import main.java.hale.tileset.Tileset;
-import main.java.hale.util.PointImmutable;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.rules.Dice;
+import hale.tileset.TerrainTile;
+import hale.tileset.TerrainType;
+import hale.tileset.Tileset;
+import hale.util.PointImmutable;
+import hale.util.SimpleJSONObject;
 
 /**
  * For handling of procedural generation of terrain within an area

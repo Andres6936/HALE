@@ -17,11 +17,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
-import main.java.hale.Game;
-import main.java.hale.rules.DamageType;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.rules.DamageType;
+import hale.util.SimpleJSONObject;
 
 /**
  * The class containing the immutable parts of a Trap

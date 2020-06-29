@@ -17,13 +17,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
 import java.util.Iterator;
 import java.util.List;
 
-import main.java.hale.area.Area;
-import main.java.hale.util.Point;
+import hale.area.Area;
+import hale.util.Point;
 
 /**
  * A Path is a list of coordinates for a given area, going from one location

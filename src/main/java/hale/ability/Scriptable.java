@@ -17,18 +17,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.ability;
+package hale.ability;
 
 import java.util.HashSet;
 import java.util.Set;
 
 import javax.script.ScriptException;
 
-import main.java.hale.Game;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.Saveable;
-import main.java.hale.util.JSEngine;
-import main.java.hale.util.Logger;
+import hale.Game;
+import hale.loading.JSONOrderedObject;
+import hale.loading.Saveable;
+import hale.util.JSEngine;
+import hale.util.Logger;
 
 /**
  * The base class for any class wanting to have an associated script and

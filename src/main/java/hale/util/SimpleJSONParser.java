@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.util;
+package hale.util;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -31,8 +31,8 @@ import java.util.Set;
 import net.minidev.json.JSONObject;
 import net.minidev.json.parser.JSONParser;
 import net.minidev.json.parser.ParseException;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.resource.ResourceType;
+import hale.resource.ResourceManager;
+import hale.resource.ResourceType;
 
 /**
  * A wrapper class for the JSONParser and associated classes that allows

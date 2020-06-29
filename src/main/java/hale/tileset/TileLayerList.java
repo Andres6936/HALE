@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.tileset;
+package hale.tileset;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -30,13 +30,13 @@ import java.util.Set;
 
 import org.lwjgl.opengl.GL11;
 
-import main.java.hale.area.Area;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Door;
-import main.java.hale.entity.Entity;
-import main.java.hale.entity.Trap;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.util.Point;
+import hale.area.Area;
+import hale.entity.Creature;
+import hale.entity.Door;
+import hale.entity.Entity;
+import hale.entity.Trap;
+import hale.loading.JSONOrderedObject;
+import hale.util.Point;
 
 /**
  * A List of tiles at a given layer within a tileset in an area.

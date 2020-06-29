@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -25,10 +25,10 @@ import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
 
-import main.java.hale.icon.SimpleIcon;
-import main.java.hale.icon.SubIcon;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
+import hale.icon.SimpleIcon;
+import hale.icon.SubIcon;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
 
 /**
  * A template for any item that can be equipped into an inventory slot, such as weapons,

@@ -17,17 +17,17 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale;
+package hale;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import de.matthiasmann.twl.Color;
 
-import main.java.hale.ability.ScriptFunctionType;
-import main.java.hale.bonus.Bonus;
-import main.java.hale.entity.Creature;
-import main.java.hale.rules.Attack;
+import hale.ability.ScriptFunctionType;
+import hale.bonus.Bonus;
+import hale.entity.Creature;
+import hale.rules.Attack;
 
 /**
  * A class that performs an attack after a specified delay

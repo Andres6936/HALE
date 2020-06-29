@@ -17,25 +17,25 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.area;
+package hale.area;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.ability.ScriptFunctionType;
-import main.java.hale.ability.Scriptable;
-import main.java.hale.entity.Entity;
-import main.java.hale.entity.Location;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.Saveable;
-import main.java.hale.resource.ResourceManager;
-import main.java.hale.util.PointImmutable;
-import main.java.hale.util.SimpleJSONArray;
-import main.java.hale.util.SimpleJSONArrayEntry;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.ability.ScriptFunctionType;
+import hale.ability.Scriptable;
+import hale.entity.Entity;
+import hale.entity.Location;
+import hale.loading.JSONOrderedObject;
+import hale.loading.Saveable;
+import hale.resource.ResourceManager;
+import hale.util.PointImmutable;
+import hale.util.SimpleJSONArray;
+import hale.util.SimpleJSONArrayEntry;
+import hale.util.SimpleJSONObject;
 
 /**
  * A trigger consists of a script and usually a set of points within an area.  Different

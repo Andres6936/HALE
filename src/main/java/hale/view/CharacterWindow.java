@@ -17,14 +17,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.view;
+package hale.view;
 
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.TabbedPane;
 import de.matthiasmann.twl.Widget;
-import main.java.hale.entity.Entity;
-import main.java.hale.entity.EntityListener;
-import main.java.hale.entity.PC;
+import hale.entity.Entity;
+import hale.entity.EntityListener;
+import hale.entity.PC;
 
 /**
  * The window showing the detailed statistics about a Character.  Includes tabs for an

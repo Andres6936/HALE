@@ -1,4 +1,4 @@
-package main.java.hale.plataform;
+package hale.plataform;
 
 public final class LinuxOS implements Plataform
 {

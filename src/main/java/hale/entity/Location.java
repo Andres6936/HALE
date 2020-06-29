@@ -17,20 +17,20 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.entity;
+package hale.entity;
 
 import java.util.Collection;
 import java.util.List;
 
-import main.java.hale.ability.Effect;
-import main.java.hale.area.Area;
-import main.java.hale.area.Transition;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.Saveable;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Point;
-import main.java.hale.util.PointImmutable;
-import main.java.hale.util.SimpleJSONObject;
+import hale.ability.Effect;
+import hale.area.Area;
+import hale.area.Transition;
+import hale.loading.JSONOrderedObject;
+import hale.loading.Saveable;
+import hale.util.AreaUtil;
+import hale.util.Point;
+import hale.util.PointImmutable;
+import hale.util.SimpleJSONObject;
 
 /**
  * The unique location of a given entity.  This includes the area and coordinates,

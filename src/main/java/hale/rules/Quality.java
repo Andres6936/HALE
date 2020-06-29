@@ -17,9 +17,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
-import main.java.hale.util.SimpleJSONObject;
+import hale.util.SimpleJSONObject;
 
 /**
  * A specific quality level, with associated modifiers for items.  Each

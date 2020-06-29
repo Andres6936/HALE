@@ -17,19 +17,19 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
-import main.java.hale.Game;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.EntityManager;
-import main.java.hale.entity.Item;
-import main.java.hale.entity.ItemList;
-import main.java.hale.entity.LootList;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.Saveable;
-import main.java.hale.resource.ResourceType;
-import main.java.hale.util.SimpleJSONObject;
-import main.java.hale.util.SimpleJSONParser;
+import hale.Game;
+import hale.entity.Creature;
+import hale.entity.EntityManager;
+import hale.entity.Item;
+import hale.entity.ItemList;
+import hale.entity.LootList;
+import hale.loading.JSONOrderedObject;
+import hale.loading.Saveable;
+import hale.resource.ResourceType;
+import hale.util.SimpleJSONObject;
+import hale.util.SimpleJSONParser;
 
 public class Merchant implements Saveable
 {

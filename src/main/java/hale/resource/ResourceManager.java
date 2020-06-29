@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.resource;
+package hale.resource;
 
 import java.io.File;
 import java.io.IOException;
@@ -27,9 +27,9 @@ import java.io.Reader;
 import java.util.*;
 import java.util.zip.ZipFile;
 
-import main.java.hale.Game;
-import main.java.hale.util.FileUtil;
-import main.java.hale.util.Logger;
+import hale.Game;
+import hale.util.FileUtil;
+import hale.util.Logger;
 
 /**
  * The resource manager.  Keeps track of all system resources at a low level.

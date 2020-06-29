@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale;
+package hale;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -25,11 +25,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import main.java.hale.mainmenu.InGameMenu;
-import main.java.hale.quickbar.Quickbar;
-import main.java.hale.util.Logger;
-import main.java.hale.util.SaveGameUtil;
-import main.java.hale.interfacelock.MovementHandler;
+import hale.mainmenu.InGameMenu;
+import hale.quickbar.Quickbar;
+import hale.util.Logger;
+import hale.util.SaveGameUtil;
+import hale.interfacelock.MovementHandler;
 import de.matthiasmann.twl.Color;
 import de.matthiasmann.twl.Widget;
 

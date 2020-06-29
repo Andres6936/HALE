@@ -17,11 +17,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.rules;
+package hale.rules;
 
 import java.text.NumberFormat;
 
-import main.java.hale.Game;
+import hale.Game;
 
 public class Date
 {

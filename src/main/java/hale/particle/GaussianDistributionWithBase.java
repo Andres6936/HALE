@@ -17,13 +17,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.particle;
+package hale.particle;
 
-import main.java.hale.Game;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.LoadGameException;
-import main.java.hale.util.SaveGameUtil;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.loading.JSONOrderedObject;
+import hale.loading.LoadGameException;
+import hale.util.SaveGameUtil;
+import hale.util.SimpleJSONObject;
 
 public class GaussianDistributionWithBase implements DistributionOneValue
 {

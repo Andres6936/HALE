@@ -17,14 +17,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.quickbar;
+package hale.quickbar;
 
-import main.java.hale.Game;
-import main.java.hale.Keybindings;
-import main.java.hale.icon.Icon;
-import main.java.hale.icon.IconFactory;
-import main.java.hale.view.DragTarget;
-import main.java.hale.view.DropTarget;
+import hale.Game;
+import hale.Keybindings;
+import hale.icon.Icon;
+import hale.icon.IconFactory;
+import hale.view.DragTarget;
+import hale.view.DropTarget;
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.Color;
 import de.matthiasmann.twl.Event;

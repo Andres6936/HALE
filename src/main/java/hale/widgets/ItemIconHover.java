@@ -17,20 +17,20 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.widgets;
+package hale.widgets;
 
 import java.util.List;
 
-import main.java.hale.Game;
-import main.java.hale.bonus.Bonus;
-import main.java.hale.bonus.BonusList;
-import main.java.hale.entity.Armor;
-import main.java.hale.entity.Enchantment;
-import main.java.hale.entity.EquippableItem;
-import main.java.hale.entity.Item;
-import main.java.hale.entity.Weapon;
-import main.java.hale.rules.Currency;
-import main.java.hale.rules.Weight;
+import hale.Game;
+import hale.bonus.Bonus;
+import hale.bonus.BonusList;
+import hale.entity.Armor;
+import hale.entity.Enchantment;
+import hale.entity.EquippableItem;
+import hale.entity.Item;
+import hale.entity.Weapon;
+import hale.rules.Currency;
+import hale.rules.Weight;
 import de.matthiasmann.twl.Event;
 import de.matthiasmann.twl.TextArea;
 import de.matthiasmann.twl.Widget;

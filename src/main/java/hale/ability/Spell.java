@@ -17,16 +17,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.ability;
+package hale.ability;
 
 import java.util.List;
 
 import de.matthiasmann.twl.Color;
 
-import main.java.hale.Game;
-import main.java.hale.bonus.Bonus;
-import main.java.hale.entity.Creature;
-import main.java.hale.util.SimpleJSONObject;
+import hale.Game;
+import hale.bonus.Bonus;
+import hale.entity.Creature;
+import hale.util.SimpleJSONObject;
 
 /**
  * A Spell is a special type of Ability with some additional information such

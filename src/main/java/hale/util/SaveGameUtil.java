@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.util;
+package hale.util;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -31,11 +31,11 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.zip.GZIPOutputStream;
 
-import main.java.hale.Game;
-import main.java.hale.loading.JSONOrderedObject;
-import main.java.hale.loading.LoadGameException;
-import main.java.hale.loading.SaveWriter;
-import main.java.hale.resource.ResourceType;
+import hale.Game;
+import hale.loading.JSONOrderedObject;
+import hale.loading.LoadGameException;
+import hale.loading.SaveWriter;
+import hale.resource.ResourceType;
 
 /**
  * A static class providing methods for working with save game files

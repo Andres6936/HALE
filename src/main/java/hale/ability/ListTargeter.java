@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.ability;
+package hale.ability;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,11 +25,11 @@ import java.util.List;
 import de.matthiasmann.twl.AnimationState;
 import de.matthiasmann.twl.Button;
 
-import main.java.hale.Game;
-import main.java.hale.defaultability.MouseActionList;
-import main.java.hale.entity.Creature;
-import main.java.hale.util.Point;
-import main.java.hale.widgets.RightClickMenu;
+import hale.Game;
+import hale.defaultability.MouseActionList;
+import hale.entity.Creature;
+import hale.util.Point;
+import hale.widgets.RightClickMenu;
 
 /**
  * A Targeter that allows the selection of one or more points from

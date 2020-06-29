@@ -17,22 +17,22 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.defaultability;
+package hale.defaultability;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
 import de.matthiasmann.twl.Color;
-import main.java.hale.Game;
-import main.java.hale.entity.Creature;
-import main.java.hale.entity.Location;
-import main.java.hale.entity.PC;
-import main.java.hale.entity.Path;
-import main.java.hale.interfacelock.MovementHandler;
-import main.java.hale.util.AreaUtil;
-import main.java.hale.util.Logger;
-import main.java.hale.util.Point;
+import hale.Game;
+import hale.entity.Creature;
+import hale.entity.Location;
+import hale.entity.PC;
+import hale.entity.Path;
+import hale.interfacelock.MovementHandler;
+import hale.util.AreaUtil;
+import hale.util.Logger;
+import hale.util.Point;
 
 /**
  * A DefaultAbility for moving a Creature to a specified location.

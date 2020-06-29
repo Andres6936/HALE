@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.mainmenu;
+package hale.mainmenu;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -25,19 +25,19 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.hale.Config;
-import main.java.hale.Game;
-import main.java.hale.loading.CampaignLoadingTaskList;
-import main.java.hale.loading.LoadingTaskList;
-import main.java.hale.loading.LoadingWaitPopup;
-import main.java.hale.resource.Sprite;
-import main.java.hale.resource.SpriteManager;
-import main.java.hale.rules.Campaign;
-import main.java.hale.util.FileUtil;
-import main.java.hale.util.Logger;
-import main.java.hale.util.Point;
-import main.java.hale.util.SaveGameUtil;
-import main.java.hale.widgets.HTMLPopup;
+import hale.Config;
+import hale.Game;
+import hale.loading.CampaignLoadingTaskList;
+import hale.loading.LoadingTaskList;
+import hale.loading.LoadingWaitPopup;
+import hale.resource.Sprite;
+import hale.resource.SpriteManager;
+import hale.rules.Campaign;
+import hale.util.FileUtil;
+import hale.util.Logger;
+import hale.util.Point;
+import hale.util.SaveGameUtil;
+import hale.widgets.HTMLPopup;
 
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.GL11;

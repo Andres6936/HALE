@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package main.java.hale.ability;
+package hale.ability;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -27,13 +27,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import main.java.hale.Game;
-import main.java.hale.ability.Ability.ActionType;
-import main.java.hale.ability.Ability.GroupType;
-import main.java.hale.ability.Ability.RangeType;
-import main.java.hale.util.Logger;
-import main.java.hale.widgets.RightClickMenu;
-import main.java.hale.widgets.RightClickMenuLevel;
+import hale.Game;
+import hale.ability.Ability.ActionType;
+import hale.ability.Ability.GroupType;
+import hale.ability.Ability.RangeType;
+import hale.util.Logger;
+import hale.widgets.RightClickMenu;
+import hale.widgets.RightClickMenuLevel;
 
 /**
  * A class for efficient storage of the set of activateable ability slots
