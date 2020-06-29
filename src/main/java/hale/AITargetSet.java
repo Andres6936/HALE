@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+import hale.*;
 import hale.entity.Creature;
 import hale.entity.Path;
 import hale.util.AreaUtil;

@@ -85,6 +85,7 @@ import hale.view.CampaignConclusionPopup;
 import hale.view.ConversationPopup;
 import hale.view.CutscenePopup;
 import hale.widgets.HTMLPopup;
+import hale.HasScriptState;
 
 import de.matthiasmann.twl.Button;
 import de.matthiasmann.twl.Color;

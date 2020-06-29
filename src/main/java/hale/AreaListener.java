@@ -35,6 +35,7 @@ import hale.interfacelock.InterfaceCombatLock;
 import hale.util.AreaUtil;
 import hale.util.Point;
 import hale.view.AreaViewer;
+import hale.*;
 
 import de.matthiasmann.twl.Event;
 import de.matthiasmann.twl.ThemeInfo;

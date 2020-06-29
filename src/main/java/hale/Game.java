@@ -48,6 +48,7 @@ import hale.util.Logger;
 import hale.util.SaveGameUtil;
 import hale.view.AreaViewer;
 import hale.view.MainViewer;
+import hale.*;
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
 

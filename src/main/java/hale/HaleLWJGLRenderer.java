@@ -3,6 +3,8 @@ package hale;
 import java.io.IOException;
 import java.net.URL;
 
+import hale.*;
+
 import org.lwjgl.LWJGLException;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL14;

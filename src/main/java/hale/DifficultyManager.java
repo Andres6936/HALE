@@ -24,6 +24,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
+import hale.*;
 import hale.resource.ResourceType;
 import hale.util.SimpleJSONArrayEntry;
 import hale.util.SimpleJSONObject;

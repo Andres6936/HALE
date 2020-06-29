@@ -21,6 +21,7 @@ package hale;
 
 import java.util.LinkedList;
 
+import hale.*;
 import hale.ability.AbilitySlot;
 import hale.ability.Targeter;
 

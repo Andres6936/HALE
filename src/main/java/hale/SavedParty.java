@@ -27,6 +27,7 @@ import java.util.Calendar;
 import java.util.Collections;
 import java.util.List;
 
+import hale.*;
 import hale.loading.JSONOrderedObject;
 import hale.loading.SaveWriter;
 import hale.resource.ResourceType;

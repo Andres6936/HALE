@@ -75,64 +75,64 @@ public class MouseActionList
         /**
          * attack the hovered Entity
          */
-        Attack(new main.java.hale.defaultability.Attack()),
+        Attack(new hale.defaultability.Attack()),
 
         /**
          * attempt to recover the Trap being hovered
          */
-        RecoverTrap(new main.java.hale.defaultability.RecoverTrap()),
+        RecoverTrap(new hale.defaultability.RecoverTrap()),
 
         /**
          * attempt to disarm the Trap being hovered
          */
-        DisarmTrap(new main.java.hale.defaultability.DisarmTrap()),
+        DisarmTrap(new hale.defaultability.DisarmTrap()),
 
         /**
          * attempt to pick the hovered locked Openable
          */
-        PickLock(new main.java.hale.defaultability.PickLock()),
+        PickLock(new hale.defaultability.PickLock()),
 
         /**
          * open the hovered Container
          */
-        Container(new main.java.hale.defaultability.OpenContainer()),
+        Container(new hale.defaultability.OpenContainer()),
 
         /**
          * open the hovered Door
          */
-        Door(new main.java.hale.defaultability.OpenDoor()),
+        Door(new hale.defaultability.OpenDoor()),
 
         /**
          * select the Entity being hovered
          */
-        Select(new main.java.hale.defaultability.Select()),
+        Select(new hale.defaultability.Select()),
 
         /**
          * talk to the hovered Entity
          */
-        Talk(new main.java.hale.defaultability.Talk()),
+        Talk(new hale.defaultability.Talk()),
 
         /**
          * activate the hovered AreaTransition
          */
-        Travel(new main.java.hale.defaultability.Travel()),
+        Travel(new hale.defaultability.Travel()),
 
         /**
          * move the selected Entity to the hovered position
          */
-        Move(new main.java.hale.defaultability.Move()),
+        Move(new hale.defaultability.Move()),
 
         /**
          * show details for a specified creature.  This action is never a default left click action, it can
          * only be accessed via a right click
          */
-        ExamineCreature(new main.java.hale.defaultability.ExamineCreature()),
+        ExamineCreature(new hale.defaultability.ExamineCreature()),
 
         /**
          * show details for a specified item.  This action is never a default left click action, it can only
          * be accessed via a right click
          */
-        ExamineItem(new main.java.hale.defaultability.ExamineItem());
+        ExamineItem(new hale.defaultability.ExamineItem());
 
         private final DefaultAbility ability;
 

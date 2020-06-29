@@ -24,6 +24,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
+import hale.*;
 import hale.entity.Creature;
 import hale.entity.NPC;
 import hale.entity.PC;

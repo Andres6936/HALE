@@ -22,6 +22,7 @@ package hale;
 import java.util.HashMap;
 import java.util.Map;
 
+import hale.*;
 import hale.loading.JSONOrderedObject;
 import hale.loading.Saveable;
 import hale.util.SimpleJSONObject;

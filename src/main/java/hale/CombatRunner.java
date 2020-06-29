@@ -23,6 +23,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import hale.*;
 import hale.ability.AsyncScriptable;
 import hale.ability.ListTargeter;
 import hale.ability.ScriptFunctionType;

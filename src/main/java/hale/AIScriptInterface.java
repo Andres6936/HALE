@@ -24,6 +24,7 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
+import hale.*;
 import hale.bonus.Stat;
 import hale.defaultability.Move;
 import hale.entity.Creature;

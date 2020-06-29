@@ -24,6 +24,7 @@ import java.util.List;
 
 import de.matthiasmann.twl.Color;
 
+import hale.*;
 import hale.ability.ScriptFunctionType;
 import hale.bonus.Bonus;
 import hale.entity.Creature;
