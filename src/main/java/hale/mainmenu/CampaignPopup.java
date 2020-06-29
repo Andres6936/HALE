@@ -230,8 +230,8 @@ public class CampaignPopup extends PopupWindow
 
         // find all of the file defined groups in the campaigns/ directory
         try {
-            for (String fileName : new File("campaigns").list()) {
-                File f = new File("campaigns/" + fileName);
+            for (String fileName : ResourceManager.getFileFromResource("campaigns").list()) {
+                File f = ResourceManager.getFileFromResource("campaigns/" + fileName);
 
                 if (!f.isFile() || !f.getName().endsWith(ResourceType.JSON.getExtension())) continue;
 
@@ -297,7 +297,7 @@ public class CampaignPopup extends PopupWindow
 
                 // get the id, name, and description for the campaign
                 SimpleJSONParser parser = new SimpleJSONParser(ResourceManager.getFileFromResource(
-                        f.getPath() + "/campaign" + ResourceType.JSON.getExtension()));
+                        "campaigns/" + fileName + "/campaign" + ResourceType.JSON.getExtension()));
 
                 String id = fileName;
                 String description = FileUtil.readFileAsString(f.getPath() + "/description" +
