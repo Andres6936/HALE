@@ -26,6 +26,10 @@ repositories {
     // Here is where to look for the modules declared as dependencies.
     // https://bintray.com/bintray/jcenter
     jcenter()
+
+    flatDir {
+        dirs 'lib'
+    }
 }
 
 dependencies {
@@ -37,6 +41,13 @@ dependencies {
     // dependency, usually in the form '<group>:<module>:<version>'.
 
     // Configuration & Module coordinate:
+
+    // The follow dependencies are get from the directory lib
+    // If it define flatDir not is needed indicate the directory
+    implementation name: 'json-smart-1.0.9'
+    implementation name: 'lwjgl'
+    implementation name: 'TWL'
+    implementation name: 'xpp3-1.1.4c'
 
     testImplementation 'junit:junit:4.12'
 }
