@@ -1,0 +1,67 @@
+/*
+ * Hale is highly moddable tactical RPG.
+ * Copyright (C) 2012 Jared Stephen
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
+
+package main.java.hale.entity;
+
+import main.java.hale.util.SimpleJSONObject;
+
+/**
+ * The template for a Door
+ *
+ * @author Jared
+ */
+
+public class DoorTemplate extends OpenableTemplate
+{
+
+    private final boolean isTransparent;
+
+    /**
+     * Creates a new DoorTemplate
+     *
+     * @param id   the Entity ID for the Door
+     * @param data the JSON data to parse
+     */
+
+    public DoorTemplate(String id, SimpleJSONObject data)
+    {
+        super(id, data);
+
+        isTransparent = data.get("isTransparent", false);
+    }
+
+    @Override
+    public Door createInstance()
+    {
+        return new Door(this);
+    }
+
+    /**
+     * Returns true if creatures can see through this door when it is closed, false otherwise.
+     * Creatures can always see through open doors
+     *
+     * @return whether creatures can see through this door when closed
+     */
+
+    public boolean isTransparent()
+    {
+        return isTransparent;
+    }
+
+}
