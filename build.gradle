@@ -1,0 +1,62 @@
+// The Gradle start scripts are licensed under the Apache 2.0 Software License.
+
+plugins {
+    // The Java plugin adds Java compilation along with testing and bundling
+    // capabilities to a project.
+    id 'java'
+    // The Application plugin facilitates creating an executable JVM
+    // application.
+    id 'application'
+}
+
+// The vast majority of Java projects rely on libraries, so managing a
+// project’s dependencies is an important part of building a Java project.
+
+// Specifying the dependencies for your Java project requires just three
+// pieces of information:
+
+// - Which dependency you need, such as a name and version.
+// - What it’s needed for, e.g. compilation or running.
+// - Where to look for it
+
+// The first two are specified in a dependencies {} block and
+// the third in a repositories {} block.
+
+repositories {
+    // Here is where to look for the modules declared as dependencies.
+    // https://bintray.com/bintray/jcenter
+    jcenter()
+}
+
+dependencies {
+    // Configuration (ex: implementation or testImplementation) - a named
+    // collection of dependencies, grouped together for a specific goal
+    // such as compiling or running a module.
+
+    // Module coordinate (ex: junit:junit:4.12) — the ID of the
+    // dependency, usually in the form '<group>:<module>:<version>'.
+
+    // Configuration & Module coordinate:
+
+    testImplementation 'junit:junit:4.12'
+}
+
+application {
+    // Configure the application main class.
+    mainClassName = 'hale.Game'
+}
+
+// Executes a Java application in a child process.
+// ...
+// Type: JavaExec -> Starts a JVM with the given classpath and
+// application class (with the method main).
+// ...
+// Overwrite the task run.
+task run(type: JavaExec, overwrite: true) {
+
+    // Configure the application classpath.
+    classpath = sourceSets.main.runtimeClasspath
+
+    // Configure the application main class.
+    main = 'hale.Game'
+}
