@@ -126,8 +126,8 @@ public class EntityManager
             String fileName = entityID + ResourceType.JSON.getExtension();
 
             // look for a file in the pregen characters directory and then the user characters directory
-            if (new File("characters/" + fileName).isFile()) {
-                parser = new SimpleJSONParser(new File("characters/" + fileName));
+            if (ResourceManager.getFileFromResource("characters/" + fileName).isFile()) {
+                parser = new SimpleJSONParser(ResourceManager.getFileFromResource("characters/" + fileName));
             } else
                 if (new File(Game.plataform.getCharactersDirectory() + fileName).isFile()) {
                     parser = new SimpleJSONParser(new File(Game.plataform.getCharactersDirectory() + fileName));
