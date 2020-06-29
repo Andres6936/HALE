@@ -53,6 +53,7 @@ application {
 // ...
 // Overwrite the task run.
 task run(type: JavaExec, overwrite: true) {
+    systemProperties['java.library.path'] = 'lib/native/linux/'
 
     // Configure the application classpath.
     classpath = sourceSets.main.runtimeClasspath
