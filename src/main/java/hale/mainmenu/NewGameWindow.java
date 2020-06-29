@@ -29,6 +29,7 @@ import hale.Game;
 import hale.SavedParty;
 import hale.entity.EntityManager;
 import hale.entity.PC;
+import hale.resource.ResourceManager;
 import hale.resource.ResourceType;
 import hale.widgets.TextAreaNoInput;
 import de.matthiasmann.twl.Button;
@@ -321,10 +322,14 @@ public class NewGameWindow extends Widget
     {
         List<SavedParty> partyList = new ArrayList<SavedParty>();
 
-        File directoryFile = new File(directory);
+        // The load of resources can be from the directory resources or from the files
+        // of configuration save in the directory of user
+        //  The absolute path start with "/"
+        File directoryFile = directory.startsWith("/") ?
+                new File(directory) : ResourceManager.getFileFromResource(directory);
 
         for (String idPath : directoryFile.list()) {
-            File partyFile = new File(directory + "/" + idPath);
+            File partyFile = ResourceManager.getFileFromResource(directory + "/" + idPath);
             if (!partyFile.isFile()) continue;
 
             String partyID = idPath.substring(0, idPath.length() - 5);

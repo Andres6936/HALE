@@ -30,6 +30,7 @@ import java.util.List;
 import hale.*;
 import hale.loading.JSONOrderedObject;
 import hale.loading.SaveWriter;
+import hale.resource.ResourceManager;
 import hale.resource.ResourceType;
 import hale.util.SimpleJSONArray;
 import hale.util.SimpleJSONArrayEntry;
@@ -64,7 +65,7 @@ public class SavedParty
 
     public SavedParty(String resourceLocation, String id)
     {
-        SimpleJSONParser parser = new SimpleJSONParser(new File(resourceLocation));
+        SimpleJSONParser parser = new SimpleJSONParser(ResourceManager.getFileFromResource(resourceLocation));
 
         this.resourceLocation = resourceLocation;
         this.id = id;
