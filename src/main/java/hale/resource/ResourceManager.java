@@ -45,9 +45,9 @@ import hale.util.Logger;
 
 public class ResourceManager
 {
-    private static Map<String, String> cachedFiles = new HashMap<String, String>();
+    private static final Map<String, String> cachedFiles = new HashMap<>();
 
-    private static List<ResourcePackage> packages = new ArrayList<ResourcePackage>(2);
+    private static final List<ResourcePackage> packages = new ArrayList<>(2);
 
     public static List<ResourcePackage> getPackages()
     {
@@ -117,7 +117,7 @@ public class ResourceManager
 
     public static String getResourceDirectory(String resource)
     {
-        String dir = new File(resource).getParent();
+        String dir = getFileFromResource(resource).getParent();
 
         return dir.replace('\\', '/');
     }
@@ -177,7 +177,7 @@ public class ResourceManager
         String directoryPath = "campaigns/" + Game.curCampaign.getID();
         String zipPath = directoryPath + ResourceType.Zip.getExtension();
 
-        File directoryFile = new File(directoryPath);
+        File directoryFile = getFileFromResource(directoryPath);
         if (directoryFile.exists() && directoryFile.isDirectory()) {
             removePackageOfType(PackageType.Campaign);
             registerPackage(directoryFile, PackageType.Campaign);
@@ -206,9 +206,7 @@ public class ResourceManager
         final String directoryPath = "core";
         final String zipPath = directoryPath + ResourceType.Zip.getExtension();
 
-        var str = Objects.requireNonNull(ResourceManager.class.getClassLoader().getResource(directoryPath)).getFile();
-
-        final File directoryFile = new File(str);
+        final File directoryFile = getFileFromResource(directoryPath);
         if (directoryFile.exists() && directoryFile.isDirectory()) {
             removePackageOfType(PackageType.CoreDirectory);
             registerPackage(directoryFile, PackageType.CoreDirectory);
@@ -226,6 +224,18 @@ public class ResourceManager
     private static void removePackageOfType(PackageType type)
     {
         packages.removeIf(resourcePackage -> resourcePackage.getType() == type);
+    }
+
+    /**
+     * With the new structure based in gradle and maven project the load of resources
+     * should be from the directory resources that it localizate in root src.main
+     *
+     * @param resource Path of resource to load
+     * @return File that reference to resource
+     */
+    private static File getFileFromResource(String resource)
+    {
+        return new File(Objects.requireNonNull(ResourceManager.class.getClassLoader().getResource(resource)).getFile());
     }
 
     private static void registerPackage(final File file, final PackageType type)
