@@ -5,6 +5,12 @@ Included is a lengthy and varied campaign with many quests, items and monsters,
 visiting a variety of locales. The entire system is built to be moddable from
 the ground up.
 
+### Newsletter
+
+<p aling="center">
+    <img src="./docs/images/Advertence.svg" alt="Advertence" />
+</p>
+
 #### Screenshots
 
 ![UserInterface](docs/screenshots/UserInterface.jpeg)
