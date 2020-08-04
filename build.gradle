@@ -63,8 +63,21 @@ application {
 // application class (with the method main).
 // ...
 // Overwrite the task run.
+import org.gradle.internal.os.OperatingSystem;
+
 task run(type: JavaExec, overwrite: true) {
-    systemProperties['java.library.path'] = 'lib/native/linux/'
+    // Load the libraries for Linux
+    if (OperatingSystem.current().isLinux()) {
+        systemProperties['java.library.path'] = 'lib/native/linux/'
+    }
+    // Load the libraries for Windows
+    else if (OperatingSystem.current().isWindows()) {
+        systemProperties['java.library.path'] = 'lib/native/windows/'
+    }
+    // Load the libraries for MacOS
+    else if (OperatingSystem.current().isMacOsX()) {
+        systemProperties['java.library.path'] = 'lib/native/macosx/'
+    }
 
     // Configure the application classpath.
     classpath = sourceSets.main.runtimeClasspath
