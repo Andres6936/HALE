@@ -29,6 +29,19 @@ the ground up.
 
 [Wiki][Wiki-Home]
 
+#### Compiling from Source
+
+###### Requerimients
+
+- Gradle 6.1
+
+###### Commands
+
+To run Gradle from the command line you must first have installed Gradle correctly. 
+When installed correctly you can run Gradle using this command line:
+
+    gradle run
+
 #### Project Original
 
 Link to page: [Sourceforge][Sourceforge-Home]
